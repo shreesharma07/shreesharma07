@@ -37,5 +37,5 @@ Shree Kumar Sharma 😎
 
 <h4 align="center">
 <a href="https://bit.ly/3eOXjRZ" target='_blank'> <img style="cursor: pointer; width:10%;height:10%;" src="https://bit.ly/3LDk87p"></a>
-<a href="https://bit.ly/3faWBi7" target='_blank'> <img style="cursor: pointer; width:10%;height:10%;" src="https://bit.ly/3S5PgPj"></a>
+<a href="https://bit.ly/3faWBi7" target='_blank'> <img style="cursor: pointer; width:10%;height:10%;" src="https://bit.ly/3f2dgUW"></a>
 </h4>
