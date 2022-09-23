@@ -1,10 +1,10 @@
-<h1 align="center"> Shree Kumar Sharma 😎
-<img style="ursor: grab; width:50%;height:50%;" src="https://image.oneprep.com/content/Shree-Kumar-Sharma-Memoji(Removed-Bg).png">
-</h1>
-
-
 <h2 align="center">🍀 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿 𝗯𝘆 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻 𝗮𝗻𝗱 𝗮 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 𝗕𝘆 𝗣𝗮𝘀𝘀𝗶𝗼𝗻 😊</h2>
 
+<h1 align="center"> 
+<img style="cursor: grab; width:30%;height:30%;" src="https://image.oneprep.com/content/Shree-Kumar-Sharma-Memoji(Removed-Bg).png">
+
+Shree Kumar Sharma 😎
+</h1>
 
 ## 𝗔𝗯𝗼𝘂𝘁 𝗠𝗲
 
@@ -39,4 +39,3 @@
 <a href="https://bit.ly/3eOXjRZ"> <img style="cursor: pointer; width:10%;height:10%;" src="https://bit.ly/3LDk87p"></a>
 <a href="https://bit.ly/3faWBi7"> <img style="cursor: pointer; width:10%;height:10%;" src="https://bit.ly/3S5PgPj"></a>
 </h4>
-
