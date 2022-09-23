@@ -36,5 +36,5 @@ Shree Kumar Sharma 😎
 𝗖𝗼𝗻𝗻𝗲𝗰𝘁 𝘄𝗶𝘁𝗵 𝗺𝗲 𝗼𝗻 𝗟𝗶𝗻𝗸𝗲𝗱𝗜𝗻 𝘁𝗼 𝗸𝗻𝗼𝘄 𝗺𝗼𝗿𝗲 𝗮𝗯𝗼𝘂𝘁 𝗺𝘆 𝘀𝗸𝗶𝗹𝗹𝘀, 𝗮𝗻𝗱 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲. 𝗔𝗻𝗱 𝗰𝗼𝗻𝘁𝗮𝗰𝘁 𝗺𝗲 𝗳𝗼𝗿 𝗰𝗼𝗹𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗶𝗼𝗻𝘀 𝗮𝗻𝗱 𝘄𝗼𝗿𝗸.
 
 <h4 align="center">
-<a href="https://bit.ly/3eOXjRZ" target='_blank'> <img style="cursor: pointer; width:16%;height:16%;" src="[https://bit.ly/3LDk87p](https://bit.ly/3DMU6wE)"></a>
+<a href="https://bit.ly/3eOXjRZ" target='_blank'> <img style="cursor: pointer; width:16%;height:16%;" src="https://bit.ly/3DMU6wE"></a>
 </h4>
