@@ -8,7 +8,7 @@ Shree Kumar Sharma 😎
 
 ## 𝗔𝗯𝗼𝘂𝘁 𝗠𝗲
 
-<p>I'm a <b><font color='#6600ff'>Software Development Engineer</font></b> with a demonstrated history of working in the <b><font color='#737373'>Information Technology and Services Industry</font></b>. Skilled in RESTful API Development using <b>Nodejs</b> and <b>Express</b>. I have good exposure to <b>AWS</b> Cloud including <b>Lambda Functions</b>, <b>Microservices</b>, <b>Secret Manager</b> and <b>Cloudwatch</b>, etc. And my experience also includes the development of services along with the <b>SQL</b> databases like <b>MySQL</b>, <b>AWS RDS</b>, and <b>NoSQL</b> databases like <b>Apache Cassandra</b> and <b>MongoDB</b>. I also have hands-on experience with <b>Version Control Tools</b> like <b>Git</b> and <b>BitBucket</b>.
+<p>I'm a <b><font color='purple'>Software Development Engineer</font></b> with a demonstrated history of working in the <b><font color='grey'>Information Technology and Services Industry</font></b>. Skilled in RESTful API Development using <b>Nodejs</b> and <b>Express</b>. I have good exposure to <b>AWS</b> Cloud including <b>Lambda Functions</b>, <b>Microservices</b>, <b>Secret Manager</b> and <b>Cloudwatch</b>, etc. And my experience also includes the development of services along with the <b>SQL</b> databases like <b>MySQL</b>, <b>AWS RDS</b>, and <b>NoSQL</b> databases like <b>Apache Cassandra</b> and <b>MongoDB</b>. I also have hands-on experience with <b>Version Control Tools</b> like <b>Git</b> and <b>BitBucket</b>.
 
 ---
 
