@@ -17,7 +17,7 @@
 <img style="cursor: grab; width:100%;height:100%;" src="https://bit.ly/3sf7CSU">
 </h1>
 
-<h2 style="text-align: center">𝗔𝗯𝗼𝘂𝘁 𝗠𝗲</h2>
+<h2 align="center">𝗔𝗯𝗼𝘂𝘁 𝗠𝗲</h2>
 <p>I'm a <b><font color='#1a75ff'>Software Development Engineer</font></b> with a demonstrated history of working in the <b><font color='#4d4d4d'>Information Technology and Services Industry</font></b>. Skilled in RESTful API Development using <b>Nodejs</b> and <b>Express</b>. I have good exposure to <b>AWS</b> Cloud including <b>Lambda Functions</b>, <b>Microservices</b>, <b>Secret Manager</b> and <b>Cloudwatch</b>, etc. And my experience also includes the development of services along with the <b>SQL</b> databases like <b>MySQL</b>, <b>AWS RDS</b>, and <b>NoSQL</b> databases like <b>Apache Cassandra</b> and <b>MongoDB</b>. I also have hands-on experience with <b>Version Control Tools</b> like <b>Git</b> and <b>BitBucket</b>.
 
 ---
@@ -30,8 +30,10 @@
 
 ---
 
-<h2 style="text-align: center">𝗦𝗸𝗶𝗹𝗹𝘀 𝗮𝗻𝗱 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲𝘀</h2>
+<h2 align="center">𝗦𝗸𝗶𝗹𝗹𝘀 𝗮𝗻𝗱 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲𝘀</h2>
+
 <div style="align-items:center; padding:0px 0px 15px 0px;" class="skills">
+
 <img style=" height:35px" src="https://img.shields.io/badge/Git-grey?logo=Git&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/Javascript-grey?logo=JavaScript&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/Nodejs-grey?logo=Node.js&labelColor=000000&style=bold.svg">
@@ -42,11 +44,12 @@
 <img style=" height:35px" src="https://img.shields.io/badge/Postman-grey?logo=Postman&labelColor=000000&style=bold.svg">
 <!-- <img style=" height:35px" src="https://img.shields.io/badge/Postman-grey?logo=Postman&labelColor=000000&style=bold.svg"[]> -->
 <img style=" height:35px" src="https://img.shields.io/badge/Bitbucket-grey?logo=Bitbucket&labelColor=000000&style=bold.svg">
+
 </div>
 
 ---
 
-<h2  align="center">𝗜𝗻𝘁𝗲𝗿𝗲𝘀𝘁𝘀</h2>
+<h2 align="center">𝗜𝗻𝘁𝗲𝗿𝗲𝘀𝘁𝘀</h2>
 
 <div style="align-items:center;">
 
