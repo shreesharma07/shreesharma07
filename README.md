@@ -3,7 +3,7 @@
 [![Followers](https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=bold)](https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=bold)
 [![Profile Stars](https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan)](https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan)
 
-<style>
+<!-- <style>
     .skills img{
         display: inline-block;
         padding: 5px;
@@ -11,8 +11,7 @@
         /* width: 10%; */
         /* align-items:center; */
     }
-
-</style>
+</style> -->
 
 <h1 align="center"> 
 <img style="cursor: grab; width:100%;height:100%;" src="https://bit.ly/3sf7CSU">
