@@ -77,7 +77,7 @@
 
 <h3 align="center">
 
-[![Skill Icon](https://skillicons.dev/icons?i=js,nodejs,html,css,express,git,cpp,c,mongodb)](https://skillicons.dev/icons?i=js,nodejs,html,css,express,git,cpp,c,mongodb)
+[![Skill Icon](https://skillicons.dev/icons?i=js,nodejs,html,css,express,git,mongodb,jenkins,figma,mysql,vscode,jquery,heroku,github,aws)](https://skillicons.dev/icons?i=js,nodejs,html,css,express,git,mongodb,jenkins,figma,mysql,vscode,jquery,heroku,github,aws)
 
 </h3>
 
