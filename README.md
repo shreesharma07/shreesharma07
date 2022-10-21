@@ -23,9 +23,9 @@
 ---
 
 
-<div style="display:flex; align-items:center; padding:0px 0px 15px 0px;">
-    <img style="cursor: grab; width:50%;height:50%;" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
-    <img style="cursor: grab; width:50%;height:50%; padding-left:10px;" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics"> 
+<div style="display:inline-block; align-items:center; padding:0px 0px 15px 0px;">
+    <img style="cursor: grab; width:48%; height:auto%;" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
+    <img style="cursor: grab; width:48%; height:auto%; padding-left:10px;" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics"> 
 </div>
 
 ---
