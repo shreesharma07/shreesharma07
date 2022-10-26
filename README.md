@@ -1,17 +1,7 @@
-[![Software Development Engineer](https://img.shields.io/badge/Shree-Kumar_Sharma-grey?logo=Scribd&labelColor=6600ff&style=bold.svg)](https://img.shields.io/badge/Shree-Kumar_Sharma-grey?logo=Scribd&labelColor=6600ff&style=bold.svg)
+[![Software Development Engineer](https://img.shields.io/badge/Shree-Kumar_Sharma-grey?labelColor=6600ff&style=bold.svg)](https://img.shields.io/badge/Shree-Kumar_Sharma-grey?labelColor=6600ff&style=bold.svg)
 [![Profile Views](https://komarev.com/ghpvc/?username=shreesharma07&color=green&label=Profile%20Views&style=bold)](https://komarev.com/ghpvc/?username=shreesharma07&color=green&label=Profile%20Views&style=bold)
 [![Followers](https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=bold)](https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=bold)
 [![Profile Stars](https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan)](https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan)
-
-<!-- <style>
-    .skills img{
-        display: inline-block;
-        padding: 5px;
-        justify-content:center;
-        /* width: 10%; */
-        /* align-items:center; */
-    }
-</style> -->
 
 <h1 align="center"> 
 <img style="cursor: grab; width:100%;height:100%;" src="https://bit.ly/3sf7CSU">
@@ -22,10 +12,10 @@
 
 ---
 
-
-<div style="display:inline-block; align-items:center; padding:0px 0px 15px 0px;">
-    <img style="cursor: grab; width:48%; height:auto%;" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
-    <img style="cursor: grab; width:48%; height:auto%; padding-left:10px;" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics"> 
+<div style="display:inline-block; padding:0px 0px 15px 0px; text-align:center; position:relative;">
+    <img style="cursor: pointer; width:48%; height:auto%;" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
+    <img style="cursor: pointer; width:48%; height:auto%; padding-left:10px;" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics"> 
+    <!-- <img style="cursor: pointer; width:45%; height:auto; padding-left:10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&langs_count=5&theme=dark&show_icons=true&border=none" alt="Most Languages Used"> -->
 </div>
 
 ---
@@ -34,16 +24,21 @@
 
 <div style="align-items:center; padding:0px 0px 15px 0px;" class="skills">
 
-<img style=" height:35px" src="https://img.shields.io/badge/Git-grey?logo=Git&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/Javascript-grey?logo=JavaScript&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/Nodejs-grey?logo=Node.js&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/Express-grey?logo=Express&labelColor=000000&style=bold.svg">
+<img style=" height:35px" src="https://img.shields.io/badge/HTML5-grey?logo=HTML5&labelColor=000000&style=bold.svg">
+<img style=" height:35px" src="https://img.shields.io/badge/CSS3-grey?logo=CSS3&labelColor=000000&style=bold.svg">
+<img style=" height:35px" src="https://img.shields.io/badge/Express-grey?logo=Express&labelColor=000000&style=bold.svg">
+<img style=" height:35px" src="https://img.shields.io/badge/Git-grey?logo=Git&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/MySQL-grey?logo=MySQL&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/MongoDB-grey?logo=MongoDB&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/JSON-grey?logo=JSON&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/Postman-grey?logo=Postman&labelColor=000000&style=bold.svg">
-<!-- <img style=" height:35px" src="https://img.shields.io/badge/Postman-grey?logo=Postman&labelColor=000000&style=bold.svg"[]> -->
 <img style=" height:35px" src="https://img.shields.io/badge/Bitbucket-grey?logo=Bitbucket&labelColor=000000&style=bold.svg">
+<img style=" height:35px" src="https://img.shields.io/badge/Github-grey?logo=Github&labelColor=000000&style=bold.svg">
+<img style=" height:35px" src="https://img.shields.io/badge/AWS%20Cloud-grey?logo=AmazonAWS&labelColor=000000&style=bold.svg">
+<!-- <img style=" height:35px" src="https://img.shields.io/badge/Jenkins-grey?logo=Jenkins&labelColor=000000&style=bold.svg"> -->
 
 </div>
 
@@ -65,18 +60,10 @@
 ---
 
 <div style="align-items:center; padding:0px 0px 15px 0px; align-items:center;">
-<h3 align="center">𝗖𝗼𝗻𝗻𝗲𝗰𝘁 𝘄𝗶𝘁𝗵 𝗺𝗲 𝗼𝗻 <a href="https://bit.ly/3eOXjRZ" target="_blank" style="color: #405DE6">𝗟𝗶𝗻𝗸𝗲𝗱𝗜𝗻</a> and <a href="https://bit.ly/3gvGBI0" target='_blank' style="color: #E1306C">𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺</a> 𝘁𝗼 𝗸𝗻𝗼𝘄 𝗺𝗼𝗿𝗲 𝗮𝗯𝗼𝘂𝘁 𝗺𝘆 𝘀𝗸𝗶𝗹𝗹𝘀 𝗮𝗻𝗱 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲. 𝗔𝗻𝗱 𝗰𝗼𝗻𝘁𝗮𝗰𝘁 𝗺𝗲 𝗳𝗼𝗿 𝗰𝗼𝗹𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗶𝗼𝗻𝘀 𝗮𝗻𝗱 𝘄𝗼𝗿𝗸.</h3>
-</div>
-<div style="height:auto; width:27%; margin:auto;">
-<!-- <a href="https://bit.ly/3eOXjRZ" target='_blank'> <img style="height:40%; width:27%; cursor: pointer;" src="https://bit.ly/3C3ggJL"></a> -->
-<!-- <a href="https://bit.ly/3gvGBI0" target='_blank'> <img style="height:40%; width:27%; cursor: pointer;" src="https://pngimg.com/uploads/instagram/instagram_PNG10.png"></a> -->
+<h3 align="center">𝗖𝗼𝗻𝗻𝗲𝗰𝘁 𝘄𝗶𝘁𝗵 𝗺𝗲 𝗼𝗻 <a href="https://bit.ly/3eOXjRZ" target="_blank" style="color: #405DE6">𝗟𝗶𝗻𝗸𝗲𝗱𝗜𝗻 <img style="height:15px; width:15px; cursor: pointer;" src="https://bit.ly/3C3ggJL"> </a> and <a href="https://bit.ly/3gvGBI0" target='_blank' style="color: #E1306C"> 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 <img style="height:15px; width:15px; cursor: pointer;" src="https://pngimg.com/uploads/instagram/instagram_PNG10.png" > </a> 𝘁𝗼 𝗸𝗻𝗼𝘄 𝗺𝗼𝗿𝗲 𝗮𝗯𝗼𝘂𝘁 𝗺𝘆 𝘀𝗸𝗶𝗹𝗹𝘀 𝗮𝗻𝗱 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲. 𝗔𝗻𝗱 𝗰𝗼𝗻𝘁𝗮𝗰𝘁 𝗺𝗲 𝗳𝗼𝗿 𝗰𝗼𝗹𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗶𝗼𝗻𝘀 𝗮𝗻𝗱 𝘄𝗼𝗿𝗸.</h3>
 </div>
 
-<!-- <div style="height:auto; width:50%; margin:auto;">
-<img style="height:100%; width:100%; display:inline-block;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&langs_count=5&theme=dark&show_icons=true&border=none" alt="Most Languages Used">
-</div> -->
-
-<!-- --- -->
+---
 
 <h3 align="center">
 
@@ -85,4 +72,3 @@
 </h3>
 
 ---
-
