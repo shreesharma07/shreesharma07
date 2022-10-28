@@ -60,7 +60,7 @@
 ---
 
 <div style="align-items:center; padding:0px 0px 15px 0px; align-items:center;">
-<h3 align="center">𝐓𝐨 𝐤𝐧𝐨𝐰 𝐦𝐨𝐫𝐞 𝐚𝐛𝐨𝐮𝐭 𝐦𝐲 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐚𝐧𝐝 𝐬𝐤𝐢𝐥𝐥𝐬 𝐨𝐫 𝐟𝐨𝐫 𝐚𝐧𝐲 𝐜𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐨𝐧 𝐢𝐧𝐪𝐮𝐢𝐫𝐲 𝐨𝐫 𝐰𝐨𝐫𝐤, 𝐭𝐡𝐞𝐧 𝐩𝐥𝐞𝐚𝐬𝐞 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 𝐰𝐢𝐭𝐡 𝐦𝐞 𝐨𝐧 <a href="https://bit.ly/3eOXjRZ" target="_blank" style="color:#405DE6;">𝐋𝐢𝐧𝐤𝐞𝐝𝐈𝐧 </a><img style="height:15px; width:15px; cursor: pointer;" src="https://bit.ly/3C3ggJL"> 𝐚𝐧𝐝 <a href="https://bit.ly/3gvGBI0" target="_blank" style="color:#E1306C;"> 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 </a><img style="height:15px; width:15px; cursor: pointer;" src="https://pngimg.com/uploads/instagram/instagram_PNG10.png" >.<br><br>𝐈𝐟 𝐲𝐨𝐮 𝐚𝐝𝐦𝐢𝐫𝐞 𝐦𝐲 𝐝𝐞𝐝𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐡𝐚𝐫𝐝 𝐰𝐨𝐫𝐤, 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐛𝐮𝐲 𝐦𝐞 𝐚 𝐜𝐨𝐟𝐟𝐞𝐞.<br>𝐓𝐡𝐚𝐧k 𝐘𝐨𝐮 😊
+<h3 align="center">𝐓𝐨 𝐤𝐧𝐨𝐰 𝐦𝐨𝐫𝐞 𝐚𝐛𝐨𝐮𝐭 𝐦𝐲 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐚𝐧𝐝 𝐬𝐤𝐢𝐥𝐥𝐬 𝐨𝐫 𝐟𝐨𝐫 𝐚𝐧𝐲 𝐜𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐨𝐧 𝐢𝐧𝐪𝐮𝐢𝐫𝐲 𝐨𝐫 𝐰𝐨𝐫𝐤, 𝐭𝐡𝐞𝐧 𝐩𝐥𝐞𝐚𝐬𝐞 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 𝐰𝐢𝐭𝐡 𝐦𝐞 𝐨𝐧 <a href="https://bit.ly/3eOXjRZ" target="_blank"> <font style="color:#3f3f3f;">𝐋𝐢𝐧𝐤𝐞𝐝𝐈𝐧 </font><img style="height:15px; width:15px; cursor: pointer;" src="https://bit.ly/3C3ggJL"></a> 𝐚𝐧𝐝 <a href="https://bit.ly/3gvGBI0" target="_blank"> <font style="color:#3f3f3f;">𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 </font><img style="height:15px; width:15px; cursor: pointer;" src="https://pngimg.com/uploads/instagram/instagram_PNG10.png"></a>.<br><br>𝐈𝐟 𝐲𝐨𝐮 𝐚𝐝𝐦𝐢𝐫𝐞 𝐦𝐲 𝐝𝐞𝐝𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐡𝐚𝐫𝐝 𝐰𝐨𝐫𝐤, 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐛𝐮𝐲 𝐦𝐞 𝐚 𝐜𝐨𝐟𝐟𝐞𝐞.<br>𝐓𝐡𝐚𝐧k 𝐘𝐨𝐮 😊
 </h3>
 
 <div align="center">
