@@ -1,3 +1,4 @@
+
 [![Software Development Engineer](https://img.shields.io/badge/Shree-Kumar_Sharma-grey?labelColor=6600ff&style=bold.svg)](https://img.shields.io/badge/Shree-Kumar_Sharma-grey?labelColor=6600ff&style=bold.svg)
 [![Profile Views](https://komarev.com/ghpvc/?username=shreesharma07&color=green&label=Profile%20Views&style=bold)](https://komarev.com/ghpvc/?username=shreesharma07&color=green&label=Profile%20Views&style=bold)
 [![Followers](https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=bold)](https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=bold)
@@ -59,20 +60,26 @@
 
 ---
 
-<div style="align-items:center; padding:0px 0px 15px 0px; align-items:center;">
-<h3 align="center">𝐓𝐨 𝐤𝐧𝐨𝐰 𝐦𝐨𝐫𝐞 𝐚𝐛𝐨𝐮𝐭 𝐦𝐲 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐚𝐧𝐝 𝐬𝐤𝐢𝐥𝐥𝐬 𝐨𝐫 𝐟𝐨𝐫 𝐚𝐧𝐲 𝐜𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐨𝐧 𝐢𝐧𝐪𝐮𝐢𝐫𝐲 𝐨𝐫 𝐰𝐨𝐫𝐤, 𝐭𝐡𝐞𝐧 𝐩𝐥𝐞𝐚𝐬𝐞 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 𝐰𝐢𝐭𝐡 𝐦𝐞 𝐨𝐧 <a href="https://bit.ly/3eOXjRZ" target="_blank"> <font style="color:#3f3f3f;">𝐋𝐢𝐧𝐤𝐞𝐝𝐈𝐧 </font><img style="height:15px; width:15px; cursor: pointer;" src="https://bit.ly/3C3ggJL"></a> 𝐚𝐧𝐝 <a href="https://bit.ly/3gvGBI0" target="_blank"> <font style="color:#3f3f3f;">𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 </font><img style="height:15px; width:15px; cursor: pointer;" src="https://pngimg.com/uploads/instagram/instagram_PNG10.png"></a>.<br><br>𝐈𝐟 𝐲𝐨𝐮 𝐚𝐝𝐦𝐢𝐫𝐞 𝐦𝐲 𝐝𝐞𝐝𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐡𝐚𝐫𝐝 𝐰𝐨𝐫𝐤, 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐛𝐮𝐲 𝐦𝐞 𝐚 𝐜𝐨𝐟𝐟𝐞𝐞.<br>𝐓𝐡𝐚𝐧k 𝐘𝐨𝐮 😊
-</h3>
-
-<div align="center">
- <a href="https://buymeacoffee.com/shreesharma07" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-</div>
-
-</div>
-
----
-
 <h3 align="center">
 
 [![Skill Icon](https://skillicons.dev/icons?i=js,nodejs,html,css,express,git,mongodb,jenkins,figma,mysql,vscode,jquery,heroku,github,aws)](https://skillicons.dev/icons?i=js,nodejs,html,css,express,git,mongodb,jenkins,figma,mysql,vscode,jquery,heroku,github,aws)
 
 </h3>
+
+---
+
+<div style="align-items:center; padding:0px 0px 15px 0px; align-items:center; margin:auto;">
+<h3 align="center">𝐓𝐨 𝐤𝐧𝐨𝐰 𝐦𝐨𝐫𝐞 𝐚𝐛𝐨𝐮𝐭 𝐦𝐲 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐚𝐧𝐝 𝐬𝐤𝐢𝐥𝐥𝐬 𝐨𝐫 𝐟𝐨𝐫 𝐚𝐧𝐲 𝐜𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐨𝐧 𝐢𝐧𝐪𝐮𝐢𝐫𝐲 𝐨𝐫 𝐰𝐨𝐫𝐤, 𝐭𝐡𝐞𝐧 𝐩𝐥𝐞𝐚𝐬𝐞 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 𝐰𝐢𝐭𝐡 𝐦𝐞 𝐨𝐧 𝐋𝐢𝐧𝐤𝐞𝐝𝐈𝐧 𝐚𝐧𝐝 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦.<br><br>
+<a href="https://bit.ly/3eOXjRZ" target="_blank"><img style="height:60px; width:60px; cursor: pointer; margin-top:15px;" src="https://bit.ly/3C3ggJL"></a>
+<a href="https://bit.ly/3gvGBI0" target="_blank"><img style="height:60px; width:60px; cursor: pointer; margin-top:15px;" src="https://pngimg.com/uploads/instagram/instagram_PNG10.png"></a>
+</h3>
+
+---
+
+<div align="center">
+<br>𝐈𝐟 𝐲𝐨𝐮 𝐚𝐝𝐦𝐢𝐫𝐞 𝐦𝐲 𝐝𝐞𝐝𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐡𝐚𝐫𝐝 𝐰𝐨𝐫𝐤, 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐛𝐮𝐲 𝐦𝐞 𝐚 𝐜𝐨𝐟𝐟𝐞𝐞.<br><br>
+ <a href="https://buymeacoffee.com/shreesharma07" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important; cursor: pointer; margin-top:15px;" ></a>
+</div>
+
+</div>
+
