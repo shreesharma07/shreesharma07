@@ -26,7 +26,7 @@
 <div style="align-items:center; padding:0px 0px 15px 0px;" class="skills">
 
 <img style=" height:35px" src="https://img.shields.io/badge/Javascript-grey?logo=JavaScript&labelColor=000000&style=bold.svg">
-<img style=" height:35px" src="https://img.shields.io/badge/Nodejs-grey?logo=Node.js&labelColor=000000&style=bold.svg">
+<img style=" height:35px" src="https://img.shields.io/badge/Nodejs-grey?logo=node.js&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/Express-grey?logo=Express&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/HTML5-grey?logo=HTML5&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/CSS3-grey?logo=CSS3&labelColor=000000&style=bold.svg">
