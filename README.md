@@ -8,7 +8,7 @@
 <img style="cursor: grab; width:100%;height:100%;" src="https://bit.ly/3sf7CSU">
 </h1>
 
-<h2 align="center">𝗔𝗯𝗼𝘂𝘁 𝗠𝗲</h2>
+<h2 align="center" style"text-align: justify; text-justify: inter-word;">𝗔𝗯𝗼𝘂𝘁 𝗠𝗲</h2>
 <p>I'm a <b><font color='#1a75ff'>Software Development Engineer</font></b> with a demonstrated history of working in the <b><font color='#4d4d4d'>Information Technology and Services Industry</font></b>. Skilled in RESTful API Development using <b>Nodejs</b> and <b>Express</b>. I have good exposure to <b>AWS</b> Cloud including <b>Lambda Functions</b>, <b>Microservices</b>, <b>Secret Manager</b> and <b>Cloudwatch</b>, etc. And my experience also includes the development of services along with the <b>SQL</b> databases like <b>MySQL</b>, <b>AWS RDS</b>, and <b>NoSQL</b> databases like <b>Apache Cassandra</b> and <b>MongoDB</b>. I also have hands-on experience with <b>Version Control Tools</b> like <b>Git</b> and <b>BitBucket</b>.
 
 ---
@@ -76,7 +76,7 @@
 ---
 
 <p style="margin-top:5%;">𝐅𝐨𝐮𝐧𝐝𝐞𝐫 𝐚𝐧𝐝 𝐂𝐄𝐎 𝐨𝐟 𝐁𝐢𝐭𝐟𝐨𝐱 𝐈𝐧𝐜.</p>
-<a href="https://github.com/Bitfox-Inc" target="_blank"><img style="height:60px; width:60px; cursor: pointer; margin-top:15px;" src="https://github.com/shreesharma07/shreesharma07/blob/master/Images/bitfox-logo-removebg-preview.png"></a>
+<a href="https://github.com/Bitfox-Inc" target="_blank"><img style="height:120px; width:120px; cursor: pointer; margin-top:15px;" src="https://github.com/shreesharma07/shreesharma07/blob/master/Images/bitfox-logo-removebg-preview.png"></a>
 </h3>
 
 ---
