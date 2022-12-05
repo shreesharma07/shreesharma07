@@ -4,7 +4,7 @@
 [![Followers](https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=bold)](https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=bold)
 [![Profile Stars](https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan)](https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan)
 
-<h1 align="center"> 
+<h1 align="center">
 <img style="cursor: grab; width:100%;height:100%;" src="https://bit.ly/3sf7CSU">
 </h1>
 
@@ -14,9 +14,15 @@
 ---
 
 <div style="display:inline-block; padding:0px 0px 15px 0px; text-align:center; position:relative;">
-    <img style="cursor: pointer; width:48%; height:auto%;" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
-    <img style="cursor: pointer; width:48%; height:auto%; padding-left:10px;" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics"> 
-    <!-- <img style="cursor: pointer; width:45%; height:auto; padding-left:10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&langs_count=5&theme=dark&show_icons=true&border=none" alt="Most Languages Used"> -->
+    <img style="cursor: pointer; width:49%; height:auto%;" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
+    <img style="cursor: pointer; width:49%; height:auto%; padding-left:10px;" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics">
+    <img style="cursor: pointer; width:45%; height:auto;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&langs_count=5&theme=dark&show_icons=true&border=none" alt="Most Languages Used">
+</div>
+
+---
+
+<div style="display:inline-block; padding:0px 0px 15px 0px; text-align:center; position:relative;">
+
 </div>
 
 ---
@@ -25,6 +31,7 @@
 
 <div style="align-items:center; padding:0px 0px 15px 0px;" class="skills">
 
+<img style=" height:35px" src="https://img.shields.io/badge/Typescript-grey?logo=Typescript&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/Javascript-grey?logo=JavaScript&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/Nodejs-grey?logo=node.js&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/Express-grey?logo=Express&labelColor=000000&style=bold.svg">
@@ -34,13 +41,13 @@
 <img style=" height:35px" src="https://img.shields.io/badge/Git-grey?logo=Git&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/MySQL-grey?logo=MySQL&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/MongoDB-grey?logo=MongoDB&labelColor=000000&style=bold.svg">
+<img style=" height:35px" src="https://img.shields.io/badge/Prisma-grey?logo=Prisma&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/JSON-grey?logo=JSON&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/Postman-grey?logo=Postman&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/Bitbucket-grey?logo=Bitbucket&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/Github-grey?logo=Github&labelColor=000000&style=bold.svg">
 <img style=" height:35px" src="https://img.shields.io/badge/AWS%20Cloud-grey?logo=AmazonAWS&labelColor=000000&style=bold.svg">
-<!-- <img style=" height:35px" src="https://img.shields.io/badge/Jenkins-grey?logo=Jenkins&labelColor=000000&style=bold.svg"> -->
-
+<img style=" height:35px" src="https://img.shields.io/badge/Figma-grey?logo=Figma&labelColor=000000&style=bold.svg">
 </div>
 
 ---
@@ -87,4 +94,3 @@
 </div>
 
 </div>
-
