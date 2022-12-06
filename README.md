@@ -79,7 +79,7 @@
 
 <div style="align-items:center; padding:0px 0px 15px 0px; align-items:center; margin:auto;">
 <h3 align="center">𝐓𝐨 𝐤𝐧𝐨𝐰 𝐦𝐨𝐫𝐞 𝐚𝐛𝐨𝐮𝐭 𝐦𝐲 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐚𝐧𝐝 𝐬𝐤𝐢𝐥𝐥𝐬 𝐨𝐫 𝐟𝐨𝐫 𝐚𝐧𝐲 𝐜𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐨𝐧 𝐢𝐧𝐪𝐮𝐢𝐫𝐲 𝐨𝐫 𝐰𝐨𝐫𝐤, 𝐭𝐡𝐞𝐧 𝐩𝐥𝐞𝐚𝐬𝐞 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 𝐰𝐢𝐭𝐡 𝐦𝐞 𝐨𝐧 𝐋𝐢𝐧𝐤𝐞𝐝𝐈𝐧 𝐚𝐧𝐝 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦.<br><br>
-<a href="https://bit.ly/3eOXjRZ" target="_blank"><img style="height:60px; width:60px; cursor: pointer; margin-top:15px;" src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/Social_Media-Icons/linkedin.png"></a>
+<a href="https://bit.ly/3eOXjRZ" target="_blank"><img style="height:60px; width:60px; cursor: pointer; margin-top:15px;" src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/Social_Media-Icons/linkedin-color-logo.png"></a>
 <a href="https://bit.ly/3gvGBI0" target="_blank"><img style="height:60px; width:60px; cursor: pointer; margin-top:15px;" src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/Social_Media-Icons/instagram.png"></a><br>
 
 ---
