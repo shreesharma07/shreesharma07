@@ -4,9 +4,14 @@
 [![Followers](https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=bold)](https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=bold)
 [![Profile Stars](https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan)](https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan)
 
-<h1 align="center">
+<!-- Previos Icon -->
+<!-- <h1 align="center">
 <img style="cursor: grab; width:100%;height:100%;" src="https://bit.ly/3sf7CSU">
-</h1>
+</h1> -->
+
+<div style="style="display:inline-block; padding:0px 0px 15px 0px;" align="center">
+    <img src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/software-developer-web.png" style="cursor: grab; width:48%; height:auto; align-item: center;" >
+</div>
 
 <h2 align="center" style"text-align: justify; text-justify: inter-word;">𝗔𝗯𝗼𝘂𝘁 𝗠𝗲</h2>
 <p>I'm a <b><font color='#1a75ff'>Software Development Engineer</font></b> with a demonstrated history of working in the <b><font color='#4d4d4d'>Information Technology and Services Industry</font></b>. Skilled in RESTful API Development using <b>Nodejs</b> and <b>Express</b>. I have good exposure to <b>AWS</b> Cloud including <b>Lambda Functions</b>, <b>Microservices</b>, <b>Secret Manager</b> and <b>Cloudwatch</b>, etc. And my experience also includes the development of services along with the <b>SQL</b> databases like <b>MySQL</b>, <b>AWS RDS</b>, and <b>NoSQL</b> databases like <b>Apache Cassandra</b> and <b>MongoDB</b>. I also have hands-on experience with <b>Version Control Tools</b> like <b>Git</b> and <b>BitBucket</b>.
@@ -16,13 +21,9 @@
 <div style="display:inline-block; padding:0px 0px 15px 0px; text-align:center; position:relative;">
     <img style="cursor: pointer; width:49%; height:auto%;" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
     <img style="cursor: pointer; width:49%; height:auto%; padding-left:10px;" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics">
-    <img style="cursor: pointer; width:45%; height:auto;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&langs_count=5&theme=dark&show_icons=true&border=none" alt="Most Languages Used">
-</div>
-
----
-
-<div style="display:inline-block; padding:0px 0px 15px 0px; text-align:center; position:relative;">
-
+    <div style="margin:auto;" align="center">
+        <img style="cursor: pointer; width:45%; height:27%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&langs_count=5&theme=dark&show_icons=true&border=none" alt="Most Languages Used">
+    </div>
 </div>
 
 ---
