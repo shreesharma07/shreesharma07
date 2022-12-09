@@ -170,8 +170,8 @@ body {
 }
 
 #myBtn {
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     display: none;
     position: fixed;
     bottom: 20px;
@@ -180,18 +180,33 @@ body {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: none;
-    /* background-color: rgba(255, 255, 255, 0.459); */
+    /* background-color: none; */
+    background-color: rgba(255, 255, 255, 0);
     /* color: white; */
+    /* float: */
     cursor: pointer;
-    padding: 15px;
+    /* padding: 15px; */
     border-radius: 50px;
-    background-image: url("../Icons/icons8-upward-arrow.gif");
+    background-image: url("../Icons/scroll-up.png");
+    filter: grayscale(1);
+    /* image-orientation: ; */
+    /* border-image: fill; */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position-x: center;
+    background-position-y: center;
+    /* background-position: 0%; */
+    box-shadow: 0 2px 9px rgba(0, 0, 0, .3);
 }
 
-/* #myBtn:hover {
-    background-color: #555;
-} */
+#myBtn:hover {
+    background-color: rgba(255, 255, 255, 0.651);
+    scale: 1;
+    filter: grayscale(0);
+    transition: all ease-out 0.5s;
+    transform: scale(1.2);
+}
 
 .bitfox-logo {
     position: relative;
@@ -253,8 +268,13 @@ body {
     text-shadow: 1.5px 1px rgba(107, 107, 107, 0.3);
 }
 
-#skills-icons:hover {
+#skills-icons>a>img {
     cursor: pointer;
     justify-content: center;
     padding: auto;
+    transition: 15s all ease-in-out;
+}
+
+#skills-icons>a>img:hover {
+    transform: scale(1.5);
 }
