@@ -7,10 +7,15 @@
     --linkedin-color: #1a75ff;
 }
 
+html {
+    scroll-behavior: smooth;
+    transition: ease-in 300ms;
+}
+
 body {
     height: 100vh;
     /* width: 100vh; */
-    overflow:visible;
+    overflow: visible;
     font-weight: 400;
     font-size: 20px;
     font-family: 'Open Sans';
@@ -19,6 +24,9 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    /* scroll-behavior: smooth; */
+    /* animation-duration: 300ms; */
+
     /* background-repeat: no-repeat; */
     /* background-position: center center; */
     /* background-blend-mode: exclusion; */
@@ -33,6 +41,7 @@ body {
     display: inline-block;
     justify-content: space-around;
     margin: 8px 5px 5px 5px;
+    text-shadow: 1.5px 1px rgba(107, 107, 107, 0.3);
 }
 
 /* .wave-hand:hover {
@@ -71,7 +80,7 @@ body {
     top: auto;
     bottom: auto;
     color: none;
-    background-image: url("Images/shree-kumar-sharma-cover.png");
+    background-image: url("./Images/shree-kumar-sharma-cover.png");
     visibility: visible;
     cursor: pointer;
 
@@ -161,25 +170,28 @@ body {
 }
 
 #myBtn {
+    height: 70px;
+    width: 70px;
     display: none;
     position: fixed;
-    /* bottom: 20px;
-    right: 30px; */
-    /* z-index: 99; */
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: rgba(255, 255, 255, 0.459);
-    color: white;
+    background-color: none;
+    /* background-color: rgba(255, 255, 255, 0.459); */
+    /* color: white; */
     cursor: pointer;
     padding: 15px;
-    border-radius: 4px;
-    background-image: url("../Icons/slide-up.png");
+    border-radius: 50px;
+    background-image: url("../Icons/icons8-upward-arrow.gif");
 }
 
-#myBtn:hover {
+/* #myBtn:hover {
     background-color: #555;
-}
+} */
 
 .bitfox-logo {
     position: relative;
@@ -231,12 +243,18 @@ body {
     border-radius: 4px;
 }
 
-.bitfox-text {
+.title-text {
     margin: none;
     padding: none;
     font-family: 'Corinthia';
-    font-size: 50px;
-    margin-top: 6%;
-    padding-left: 20%;
+    font-size: 3em;
+    margin-top: 7%;
+    padding-left: 18%;
     text-shadow: 1.5px 1px rgba(107, 107, 107, 0.3);
+}
+
+#skills-icons:hover {
+    cursor: pointer;
+    justify-content: center;
+    padding: auto;
 }
