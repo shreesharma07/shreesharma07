@@ -8,11 +8,11 @@
     <link href="https://fonts.googleapis.com/css?family=Open%20Sans" rel="stylesheet" />
     <title class="emoji-icons">Shree Kumar Sharma : Portfolio Website</title>
     <link rel="icon" href="Images/shreesharma07-logo-circle.png" type="image/x-icon">
-    <link rel="stylesheet" href="/Style/style.css">
+    <link rel="stylesheet" href="./Style/style.css">
     <!-- <link rel="stylesheet" href="/Style/dark-mode.css"> -->
-    <link rel="stylesheet" href="/Style/blade-effect.css">
-    <link rel="stylesheet" href="/Style/glow.css">
-    <link rel="stylesheet" href="/Style/text-animation.css">
+    <link rel="stylesheet" href="./Style/blade-effect.css">
+    <link rel="stylesheet" href="./Style/glow.css">
+    <link rel="stylesheet" href="./Style/text-animation.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <style>
         /* .text-slider-items {
@@ -22,7 +22,15 @@
 </head>
 
 <body>
-    <!-- <div class="navigation-bar" style="width: auto; height:90px; background-color:rgba(240, 240, 240, 0.505); padding:2px 2px 2px 2px;">
+    <div class="navigation-bar">
+
+        <!-- Bitfox Logo -->
+        <a href="https://github.com/Bitfox-Inc" target="_blank">
+            <img class="bitfox-logo" src="./Images/bitfox-logo-removebg-preview.png">
+
+        </a>
+
+        <!-- Github Profile Stats Navigation Bar -->
         <p class="profile-stats" align="center">
             <img src="https://img.shields.io/badge/Shree-Kumar_Sharma-grey?labelColor=6600ff&style=bold.svg"
                 alt="Software Development Engineer">
@@ -30,19 +38,30 @@
                 alt="Profile Views">
             <img src="https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=bold"
                 alt="Followers">
-            <img src="https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan" alt="Profile Stars">
+            <img src="https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan"
+                alt="Profile Stars">
         </p>
-    </div> -->
 
+        <!-- Name  -->
+        <p class="bitfox-text">Shree Kumar Sharma</p>
+
+    </div>
+
+    <button onclick=topFunction(); id="myBtn" title="Go to top">Top</button>
 
     <!-- <img style="cursor: grab; width:40px; height:40px" src="Images/shree-kumar-sharma-cover.png"> -->
     <!-- Previos Icon Old Cover Link : https://bit.ly/3sf7CSU -->
     <h1 align="center" class="top-title-cover">
     </h1>
-    <div style="display:inline-block;" align="center" id="software-dev-png">
-        <img src="Images/software-developer-web.png" style=" width:48%; height:auto;">
+
+    <!-- Title Image Cover -->
+    <div style="display:inline-block; border-radius: 25%; box-sizing: border-box;" align="center" id="software-dev-png">
+        <!-- class="glow-on-hover" -->
+        <img src="./Images/software-developer-web.png" style="width: 42%; height:42%;">
     </div>
-    <hr />
+    <!-- <hr /> -->
+
+
     <h2 align="center" class="glow-on-hover">Professional Summary</h2>
     <!-- <h2 align="center" class="wave-hand">Hey 👋🏻<br></h2> -->
     <div class="intro-summary" style="text-align: justify; text-justify: inter-word; display: inline-block;">
@@ -57,22 +76,24 @@
         </p>
         <strong class="text-slider"></strong>
     </div>
-    <hr />
+    <!-- <hr /> -->
     <h2 align=" center" class="glow-on-hover">Github Statistics</h2>
-    <div style="display:flex; padding:0px 0px 15px 0px; text-align:center; position:relative;" id="github-stats">
-        <img style="cursor:pointer; width:33%; height:auto;"
+    <div style="display:flexbox; margin: auto; text-align:center; position:relative;" id="github-stats">
+        <img style="cursor:pointer; width:30%; height:auto;"
             src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true"
             alt="GitHub" class="streak-stats">
-        <img style="cursor:pointer; width:33%; height:auto; padding-left:8px;"
+        <img style="cursor:pointer; width:30%; height:auto; padding-left:7px;"
             src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true"
             alt="Shree Kumar Sharma Github Statistics">
-        <img style="cursor:pointer; width:33%; height:auto; padding-left:8px;"
+    </div>
+    <div class="github-language-stats" style="display:flexbox; margin: auto; text-align:center; position:relative;">
+        <img style="cursor:pointer; width:30%; height:100%; padding-left: 7px;"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&theme=dark&hide_border=true&text_bold=true"
             alt="Most Languages Used">
     </div>
-    <hr />
+    <!-- <hr /> -->
     <h2 align="center" class="glow-on-hover"> Skills and Technologies </h2>
-    <div class="skills">
+    <div class="skills" align="center">
         <img src="https://img.shields.io/badge/Typescript-grey?logo=Typescript&labelColor=000000&style=bold.svg">
         <img src="https://img.shields.io/badge/Javascript-grey?logo=JavaScript&labelColor=000000&style=bold.svg">
         <img src="https://img.shields.io/badge/Nodejs-grey?logo=node.js&labelColor=000000&style=bold.svg">
@@ -91,7 +112,7 @@
         <img src="https://img.shields.io/badge/AWS%20Cloud-grey?logo=AmazonAWS&labelColor=000000&style=bold.svg">
         <img src="https://img.shields.io/badge/Figma-grey?logo=Figma&labelColor=000000&style=bold.svg">
     </div>
-    <hr />
+    <!-- <hr /> -->
     <h2 align="center" class="glow-on-hover"> Interests </h2>
     <div style="align-items:center;">
         <div class="task-list">
@@ -104,48 +125,38 @@
             <span> <span class="task-icons">🦄</span> Computer System Architect <br></span>
         </div>
     </div>
-    <hr />
+    <!-- <hr /> -->
     <div>
         <h3 align="center">
-            <p class="glow-on-hover"
-                style="text-shadow:2px 2px 2px #CCCCCC; color:rgba(0, 0, 0, 0.711); font-size: 20px;"> To know more
+            <h2 align="center" class="glow-on-hover"> Contact Details </h2>
+            <p style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;" align="center"> To know more
                 about my experience, contact details and skills or for any collaboration / work
                 inquiry.<br> then please connect with me on the given social media links.<br>
             <div align="center"
                 style="display: flex; align-items: center; margin:auto; padding-left: 10px; position:relative; justify-content: center;">
                 <a href="https://bit.ly/3eOXjRZ" target="_blank">
-                    <img style="height:60px; width:60px;" src="Images/Social_Media-Icons/linkedin-color-logo.png">
+                    <img style="height:60px; width:60px;" src="./Images/Social_Media-Icons/linkedin-color-logo.png">
                 </a>
                 <a href="https://bit.ly/3gvGBI0" target="_blank">
                     <img style="height:60px; width:60px; cursor: pointer; margin-left: 10px;"
-                        src="Images/Social_Media-Icons/instagram.png">
+                        src="./Images/Social_Media-Icons/instagram.png">
                 </a>
                 <a href="mailto:shrikumarsharma1998@gmail.com">
-                    <img style="height:80px; width:80px; cursor: pointer;" src="Images/mail-box.png">
+                    <img style="height:80px; width:80px; cursor: pointer;" src="./Images/mail-box.png">
                 </a>
             </div>
             </p>
         </h3>
+
+        <!-- Bottom Skills Icons -->
         <hr />
-        <h3 align="center">
-            <p class="glow-on-hover" id="skills-icons">
-                <a
-                    href="https://skillicons.dev/icons?i=typescript,js,nodejs,express,html,css,git,mongodb,jenkins,figma,mysql,jquery,github,aws,prisma">
-                    <img src="https://skillicons.dev/icons?i=typescript,js,nodejs,express,html,css,git,mongodb,jenkins,figma,mysql,jquery,github,aws,prisma"
-                        alt="Skill Icon" />
-                </a>
-            </p>
-        </h3>
-        <!-- <div class="bitfox-logo">
-            <hr />
-            <p style="margin-top:5%;" class="glow-on-hover">
-                Founder and CEO @ Bitfox Inc.
-            </p>
-            <a href="https://github.com/Bitfox-Inc" target="_blank">
-                <img style="height:120px; width:120px; cursor: pointer; margin-top:15px;"
-                    src="Images/bitfox-logo-removebg-preview.png">
+        <p class="glow-on-hover" id="skills-icons" align="center">
+            <a
+                href="https://skillicons.dev/icons?i=typescript,js,nodejs,express,html,css,git,mongodb,jenkins,figma,mysql,jquery,github,aws,prisma">
+                <img src="https://skillicons.dev/icons?i=typescript,js,nodejs,express,html,css,git,mongodb,jenkins,figma,mysql,jquery,github,aws,prisma"
+                    alt="Skill Icon" />
             </a>
-        </div> -->
+        </p>
         <div align="center">
             <!-- <p><br>If you admire my dedication and hard work, you can buy me a coffee.<br><br> -->
             <a href="https://buymeacoffee.com/shreesharma07" target="_blank">
