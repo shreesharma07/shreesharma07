@@ -1,8 +1,15 @@
 
-[![Software Development Engineer](https://img.shields.io/badge/Shree-Kumar_Sharma-grey?labelColor=6600ff&style=bold.svg)](https://img.shields.io/badge/Shree-Kumar_Sharma-grey?labelColor=6600ff&style=bold.svg)
-[![Profile Views](https://komarev.com/ghpvc/?username=shreesharma07&color=green&label=Profile%20Views&style=bold)](https://komarev.com/ghpvc/?username=shreesharma07&color=green&label=Profile%20Views&style=bold)
-[![Followers](https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=bold)](https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=bold)
-[![Profile Stars](https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan)](https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan)
+<!-- Github Profile Stats Navigation Bar -->
+<p class="profile-stats" align="center">
+    <img src="https://img.shields.io/badge/Shree-Kumar_Sharma-grey?labelColor=6600ff&style=bold.svg"
+        alt="Software Development Engineer">
+    <img src="https://komarev.com/ghpvc/?username=shreesharma07&color=green&label=Profile%20Views&style=bold"
+        alt="Profile Views">
+    <img src="https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=bold"
+        alt="Followers">
+    <img src="https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan"
+        alt="Profile Stars">
+</p>
 
 <!-- Previos Icon -->
 <!-- <h1 align="center">
@@ -10,7 +17,7 @@
 </h1> -->
 
 <div style="style="display:inline-block; padding:0px 0px 15px 0px;" align="center">
-    <img src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/software-developer-web.png" style="cursor: grab; width:48%; height:auto; align-item: center;" >
+    <img src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/software-developer-web.png" style="cursor: grab; width:48%; height:auto; align-item: center; filter: drop-shadow(0.25rem 0.25rem 0.5rem #626262a3);" >
 </div>
 
 <h2 align="center" style"text-align: justify; text-justify: inter-word;">𝗔𝗯𝗼𝘂𝘁 𝗠𝗲</h2>
