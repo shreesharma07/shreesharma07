@@ -1,8 +1,8 @@
-<style>
+<!-- <style>
     @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
     @import url('https://fonts.googleapis.com/css?family=Fira%20Code');
     @import url('https://fonts.googleapis.com/css?family=Corinthia');
-</style>
+</style> -->
 
 <!-- Github Profile Stats Navigation Bar -->
 <p class="profile-stats" align="center">
