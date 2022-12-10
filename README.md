@@ -82,7 +82,7 @@
 
 <h3 align="center">
 
-<div class="glow-on-hover" id="skills-icons" align="center">
+<div class="glow-on-hover" id="skills-icons" align="center" style="image.pngtext-decoration: none;">
     <a href="https://skillicons.dev/icons?i=typescript" style="text-decoration: none;">
         <img src='https://skillicons.dev/icons?i=typescript'>
     </a>
@@ -143,7 +143,7 @@
 </h3> -->
 
 <p style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;" align="center"> To know more about my experience, contact details and skills or for any collaboration / work inquiry.<br> then please connect with me on the given social media links.<br>
-<div align="center" style="display: flex; align-items: center; margin:auto; padding-left: 10px; position:relative; justify-content: center;">
+<div align="center" style="display: flex; align-items: center; margin:auto; padding-left: 10px; position:relative; justify-content: center; text-decoration: none;">
     <a href="https://bit.ly/3eOXjRZ" style="text-decoration: none;">
         <img style="height:60px; width:60px;" src="./Images/Social_Media-Icons/linkedin-color-logo.png">
     </a>
