@@ -10,7 +10,7 @@
 </h1> -->
 
 <div style="style="display:inline-block; padding:0px 0px 15px 0px;" align="center">
-    <img src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/software-developer-web.png" style="cursor: grab; width:48%; height:auto; align-item: center;" >
+    <img src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/software-developer-web.png" style="cursor: grab; width:48%; height:auto; align-item: center; filter: drop-shadow(0.25rem 0.25rem 0.5rem #626262a3);" >
 </div>
 
 <h2 align="center" style"text-align: justify; text-justify: inter-word;">𝗔𝗯𝗼𝘂𝘁 𝗠𝗲</h2>
