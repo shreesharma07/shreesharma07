@@ -151,9 +151,9 @@
         <img style="height:60px; width:60px; cursor: pointer; margin-left: 10px;"
             src="./Images/Social_Media-Icons/instagram.png">
     </a>
-    <a href="mailto:shrikumarsharma1998@gmail.com">
+    <!-- <a href="mailto:shrikumarsharma1998@gmail.com">
         <img style="height:80px; width:80px; cursor: pointer;" src="./Images/mail-box.png">
-    </a>
+    </a> -->
 </div>
 
 ---
