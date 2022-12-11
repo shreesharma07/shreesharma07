@@ -1,9 +1,3 @@
-<!-- <style>
-    @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
-    @import url('https://fonts.googleapis.com/css?family=Fira%20Code');
-    @import url('https://fonts.googleapis.com/css?family=Corinthia');
-</style> -->
-
 <!-- Github Profile Stats Navigation Bar -->
 <p class="profile-stats" align="center">
     <img src="https://img.shields.io/badge/Shree-Kumar_Sharma-grey?labelColor=6600ff&style=bold.svg"
@@ -142,7 +136,7 @@
 <a href="mailto:shrikumarsharma1998@gmail.com" target="_blank"><img style="height:80px; width:80px; cursor: pointer; " src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/mail-box.png"></a>
 </h3> -->
 
-<h3 style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;" align="center"> To know more about my experience, contact details and skills or for any collaboration / work inquiry.<br> then please connect with me on the given social media links.<br></h3>
+<h3 style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;" align="center"> To know more about my experience, contact details and skills or for any collaboration / work inquiry.<br> Then please connect with me on the given social media links.</h3>
 <div align="center" style="display: flex; align-items: center; margin:auto; padding-left: 10px; position:relative; justify-content: center; text-decoration: none;">
     <a href="https://bit.ly/3eOXjRZ" style="text-decoration: none;">
         <img style="height:60px; width:60px;" src="./Images/Social_Media-Icons/linkedin-color-logo.png">
