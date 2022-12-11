@@ -153,14 +153,14 @@
 ---
 
 <h3 align="center">
-<p style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid; margin-top:5%;">𝐅𝐨𝐮𝐧𝐝𝐞𝐫 𝐚𝐧𝐝 𝐂𝐄𝐎 @ 𝐁𝐢𝐭𝐟𝐨𝐱 𝐈𝐧𝐜.</p>
+<p style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid; margin-top:5%;">Founder and CEO @ <a href="https://github.com/Bitfox-Inc" target="_blank" style="text-decoration:none; color: rgb(255, 128, 0); font-size:28px; font-weight:bold;">Bitfox Inc.</a></p>
 <a href="https://github.com/Bitfox-Inc" target="_blank"><img style="height:120px; width:120px; cursor: pointer; margin-top:15px;" src="https://github.com/shreesharma07/shreesharma07/blob/master/Images/bitfox-logo-removebg-preview.png"></a>
 </h3>
 
 ---
 
 <div align="center">
-<br><p style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝐈𝐟 𝐲𝐨𝐮 𝐚𝐝𝐦𝐢𝐫𝐞 𝐦𝐲 𝐝𝐞𝐝𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐡𝐚𝐫𝐝 𝐰𝐨𝐫𝐤, 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐛𝐮𝐲 𝐦𝐞 𝐚 𝐜𝐨𝐟𝐟𝐞𝐞.</p><br><br>
+<br><p style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">If you admire my dedication and hard work, you can buy me a coffee ☕</p><br><br>
  <a href="https://buymeacoffee.com/shreesharma07" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important; cursor: pointer; margin-top:15px;" ></a>
 </div>
 
