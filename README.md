@@ -160,7 +160,7 @@
 ---
 
 <div align="center">
-<br><p style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">If you admire my dedication and hard work, you can buy me a coffee ☕</p><br><br>
+<br><h3 style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">If you admire my dedication and hard work, you can buy me a coffee ☕</h3><br><br>
  <a href="https://buymeacoffee.com/shreesharma07" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important; cursor: pointer; margin-top:15px;" ></a>
 </div>
 
