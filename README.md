@@ -22,7 +22,7 @@
 </h1> -->
 
 <div style="style="display:inline-block; padding:0px 0px 15px 0px;" align="center">
-    <img src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/software-developer-web.png" style="cursor: grab; width:48%; height:auto; align-item: center; filter: drop-shadow(0.25rem 0.25rem 0.5rem #626262a3);" >
+    <img src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/software-developer-web.png" style="cursor: grab; width:48%; height:auto; align-item: center; " >
 </div>
 
 <h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝗔𝗯𝗼𝘂𝘁 𝗠𝗲</h2>
@@ -31,11 +31,11 @@
 ---
 
 <div style="display:inline-block; padding:0px 0px 15px 0px; text-align:center; position:relative;">
-    <img style="cursor: pointer; width:49%; height:auto%; filter: drop-shadow(0.25rem 0.25rem 0.5rem #626262a3);  border-radius:8px" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
-    <img style="cursor: pointer; width:49%; height:auto%; padding-left:10px; filter: drop-shadow(0.25rem 0.25rem 0.5rem #626262a3);  border-radius:8px" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics">
+    <img style="cursor: pointer; width:49%; height:auto%;   border-radius:8px" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
+    <img style="cursor: pointer; width:49%; height:auto%; padding-left:10px;   border-radius:8px" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics">
     <div style="margin:auto;" align="center">
         <!-- <img style="cursor: pointer;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&langs_count=5&theme=dark&show_icons=true&border=none" alt="Most Languages Used"> -->
-        <img style="cursor: pointer; width:49%; height:auto%; filter: drop-shadow(0.25rem 0.25rem 0.5rem #626262a3); border-radius:8px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&theme=dark&hide_border=true&text_bold=true" alt="Most Languages Used">
+        <img style="cursor: pointer; width:49%; height:auto%;  border-radius:8px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&theme=dark&hide_border=true&text_bold=true" alt="Most Languages Used">
     </div>
 </div>
 
@@ -137,9 +137,9 @@
 
 <!-- <div style="align-items:center; padding:0px 0px 15px 0px; align-items:center; margin:auto;">
 <h3 align="center">𝐓𝐨 𝐤𝐧𝐨𝐰 𝐦𝐨𝐫𝐞 𝐚𝐛𝐨𝐮𝐭 𝐦𝐲 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐚𝐧𝐝 𝐬𝐤𝐢𝐥𝐥𝐬 𝐨𝐫 𝐟𝐨𝐫 𝐚𝐧𝐲 𝐜𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐨𝐧 𝐢𝐧𝐪𝐮𝐢𝐫𝐲 𝐨𝐫 𝐰𝐨𝐫𝐤, 𝐭𝐡𝐞𝐧 𝐩𝐥𝐞𝐚𝐬𝐞 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 𝐰𝐢𝐭𝐡 𝐦𝐞 𝐨𝐧 𝐋𝐢𝐧𝐤𝐞𝐝𝐈𝐧 𝐚𝐧𝐝 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦.<br><br>
-<a href="https://bit.ly/3eOXjRZ" target="_blank"><img style="height:60px; width:60px; cursor: pointer; margin-top:15px; filter: drop-shadow(0.25rem 0.25rem 0.5rem #626262a3);" src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/Social_Media-Icons/linkedin-color-logo.png"></a>
-<a href="https://bit.ly/3gvGBI0" target="_blank"><img style="height:60px; width:60px; cursor: pointer; margin-top:15px; filter: drop-shadow(0.25rem 0.25rem 0.5rem #626262a3);" src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/Social_Media-Icons/instagram.png"></a><br>
-<a href="mailto:shrikumarsharma1998@gmail.com" target="_blank"><img style="height:80px; width:80px; cursor: pointer; filter: drop-shadow(0.25rem 0.25rem 0.5rem #626262a3);" src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/mail-box.png"></a>
+<a href="https://bit.ly/3eOXjRZ" target="_blank"><img style="height:60px; width:60px; cursor: pointer; margin-top:15px; " src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/Social_Media-Icons/linkedin-color-logo.png"></a>
+<a href="https://bit.ly/3gvGBI0" target="_blank"><img style="height:60px; width:60px; cursor: pointer; margin-top:15px; " src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/Social_Media-Icons/instagram.png"></a><br>
+<a href="mailto:shrikumarsharma1998@gmail.com" target="_blank"><img style="height:80px; width:80px; cursor: pointer; " src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/mail-box.png"></a>
 </h3> -->
 
 <p style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;" align="center"> To know more about my experience, contact details and skills or for any collaboration / work inquiry.<br> then please connect with me on the given social media links.<br>
