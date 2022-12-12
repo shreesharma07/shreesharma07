@@ -13,11 +13,14 @@ html {
 }
 
 body {
+    min-width: 500px;
+    min-height: 500px;
     height: 100vh;
     /* width: 100vh; */
     overflow: visible;
     font-weight: 400;
     font-size: 20px;
+    margin: auto;
     font-family: 'Open Sans';
     background: url('../Images/Background/winter-background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
