@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Corinthia');
 
 .root {
-    --font-family: 'Open Sans';
+    --font-family: 'Corinthia';
     --linkedin-color: #1a75ff;
 }
 
@@ -36,8 +36,8 @@ body {
 }
 
 .intro-summary {
-    font-family: 'Open Sans';
-    font-size: 20px;
+    font-family: 'Corinthia';
+    font-size: 34px;
     display: inline-block;
     justify-content: space-around;
     margin: 8px 5px 5px 5px;
@@ -128,11 +128,15 @@ body {
     padding: 0px 0px 15px 0px;
 }
 
-.skills img {
-    /* box-sizing: border-box; */
+.skills>img {
     width: auto;
     height: 38px;
-    /* border-radius: 19px; */
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem rgba(65, 65, 65, 0.842));
+    border-radius: 5px;
+}
+
+.skills>img:hover {
+    cursor: pointer;
 }
 
 .task-list {
@@ -182,21 +186,21 @@ body {
     background-color: rgba(255, 255, 255, 0);
     cursor: pointer;
     border-radius: 50px;
-    background-image: url("https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Icons/scroll-up.png");
+    background-image: url("../Icons/scroll-up.png");
     filter: grayscale(1);
     background-position: center;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
-    box-shadow: 0 2px 9px rgba(0, 0, 0, .3);
+    box-shadow: 0 2px 9px rgba(122, 122, 122, 0.738);
 }
 
 #myBtn:hover {
     background-color: rgba(255, 255, 255, 0.651);
     scale: 1;
     filter: grayscale(0);
-    transition: all ease-out 0.5s;
-    transform: scale(1.2);
+    transition: all ease-out 2s;
+    transform: scale(1.3);
 }
 
 .bitfox-logo {
@@ -264,9 +268,80 @@ body {
     cursor: pointer;
     justify-content: center;
     padding: auto;
-    transition: 15s all ease-in-out;
+    border-radius: 5px;
+    margin: auto;
+    margin-left: 15px;
+    animation: 100s linear 50s infinite alternate color-change;
 }
 
 #skills-icons>a>img:hover {
     transform: scale(1.5);
+    background-color: rgba(255, 255, 255, 0.877);
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem rgba(52, 52, 52, 0.696));
+    border-radius: 25px;
+    animation: 4s linear 0s infinite alternate color-change;
+}
+
+/* Color Change Animation Keyframes */
+@keyframes color-change {
+    0% {
+        filter: drop-shadow(0.25rem 0.25rem 0.5rem rgba(200, 200, 200, 0.842));
+    }
+
+    20% {
+        filter: drop-shadow(0.25rem 0.25rem 0.5rem #ff0000b8);
+    }
+
+    30% {
+        filter: drop-shadow(0.25rem 0.25rem 0.5rem #ff7300cd);
+    }
+
+    40% {
+        filter: drop-shadow(0.25rem 0.25rem 0.5rem #fffb00c8);
+    }
+
+    50% {
+        filter: drop-shadow(0.25rem 0.25rem 0.5rem #48ff00bb);
+
+    }
+
+    60% {
+        filter: drop-shadow(0.25rem 0.25rem 0.5rem #00ffd5c0);
+    }
+
+    70% {
+        filter: drop-shadow(0.25rem 0.25rem 0.5rem #002affc6);
+    }
+
+    80% {
+        filter: drop-shadow(0.25rem 0.25rem 0.5rem #7b00ffd6);
+    }
+
+    90% {
+        filter: drop-shadow(0.25rem 0.25rem 0.5rem #ff00c8cd);
+    }
+
+    100% {
+        filter: drop-shadow(0.25rem 0.25rem 0.5rem rgba(65, 65, 65, 0.842));
+    }
+
+    0% {
+        filter: drop-shadow(0.25rem 0.25rem 0.5rem rgba(255, 255, 255, 0.842));
+    }
+
+}
+
+.sponsor-card {
+    border-radius: 15px;
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem rgba(91, 91, 91, 0.69));
+}
+
+.task-list>span {
+    font-family: 'Corinthia';
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.contact-images>a>img {
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem rgba(91, 91, 91, 0.69));
 }
