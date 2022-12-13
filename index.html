@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Open%20Sans" rel="stylesheet" />
     <title class="emoji-icons">Shree Kumar Sharma : Portfolio Website</title>
-    <link rel="icon" href="Images/shreesharma07-logo-circle.png" type="image/x-icon">
+    <link rel="icon" class="titlebar-icon" href="Images/Memoji/Shree-Kumar-Sharma-Memoji-No-Background.png" type="image/x-icon">
     <link rel="stylesheet" href="./Style/style.css">
     <!-- <link rel="stylesheet" href="/Style/dark-mode.css"> -->
     <link rel="stylesheet" href="./Style/blade-effect.css">
@@ -138,33 +138,40 @@
                 about my experience, contact details and skills or for any collaboration / work
                 inquiry.<br> then please connect with me on the given social media links 🚂 <br>
             </p>
-            <div align="center" style="display: flex; align-items: center; justify-content: center;" class="contact-images">
-                <a href="https://bit.ly/3eOXjRZ" style="text-decoration: none;">
-                    <img style="height:60px; width:60px;" src="./Images/Social_Media-Icons/linkedin-color-logo.png">
+
+            <!-- Social Media and Contact Details -->
+            <div align="center" style="display: flex; align-items: center; justify-content: center;"
+                class="contact-images">
+                <a href="http://bit.ly/3HO1sCn" style="text-decoration: none;" target="_blank">
+                    <img style="height:60px; width:60px; cursor: pointer;" src="./Images/Social_Media-Icons/github.png"
+                        alt="Github">
+                    <!-- <span>Github</span> -->
                 </a>
-                <a href="https://bit.ly/3gvGBI0" style="text-decoration: none;">
+                <a href="https://bit.ly/3eOXjRZ" style="text-decoration: none;" target="_blank">
+                    <img style="height:60px; width:60px; margin-left: 10px;"
+                        src="./Images/Social_Media-Icons/linkedin-color-logo.png" alt="LinkedIn">
+                </a>
+                <a href="https://bit.ly/3gvGBI0" style="text-decoration: none;" target="_blank">
                     <img style="height:60px; width:60px; cursor: pointer; margin-left: 10px;"
-                        src="./Images/Social_Media-Icons/instagram.png">
+                        src="./Images/Social_Media-Icons/instagram.png" alt="Instagram">
                 </a>
-                <a href="mailto:shrikumarsharma1998@gmail.com">
-                    <img style="height:80px; width:80px; cursor: pointer;" src="./Images/mail-box.png">
+                <a href="mailto:shrikumarsharma1998@gmail.com" target="_blank">
+                    <img style="height:80px; width:80px; cursor: pointer;" src="./Images/mail-box.png" alt="Mailbox">
                 </a>
             </div>
         </h3>
 
         <!-- Bottom Skills Icons -->
-        <!-- <hr /> -->
-        <!-- <a href="https://skillicons.dev/icons?i=typescript,js,nodejs,express,html,css,git,mongodb,jenkins,figma,mysql,jquery,github,aws,prisma">
-                <img src="https://skillicons.dev/icons?i=typescript,js,nodejs,express,html,css,git,mongodb,jenkins,figma,mysql,jquery,github,aws,prisma"
-                    alt="Skill Icon" />
-            </a> -->
         <div align="center">
             <h2 align="center" class="glow-on-hover" id="support-me">
                 💟 Please Support Me, If you admire my work 🐼 </h2>
             <!-- <p><br>If you admire my dedication and hard work, you can buy me a coffee.<br><br> -->
             <iframe src="https://github.com/sponsors/shreesharma07/card" title="Sponsor shreesharma07" height="210"
                 width="590"
-                style="border: 0; border-radius: 7px; margin: auto; filter: drop-shadow(0.25rem 0.25rem 0.5rem #6c6c6cbb); cursor: pointer; position: relative;" class="sponsor-card"></iframe>
+                style="border: 0; border-radius: 7px; margin: auto; filter: drop-shadow(0.25rem 0.25rem 0.5rem #6c6c6cbb); cursor: pointer; position: relative;"
+                class="sponsor-card"></iframe>
+
+            <!-- (CARD) Buy me a coffee -->
             <!-- <a href="https://buymeacoffee.com/shreesharma07" style="text-decoration: none;">
                 <div>
                     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee"
@@ -230,21 +237,6 @@
     <script src="/Script/script.js"></script>
     <script>
 
-        // @ // Typing Text Animations //
-        // if ($(".text-slider").length == 1) {
-
-        //     var typed_strings =
-        //         $(".text-slider-items").text();
-
-        //     var typed = new Typed(".text-slider", {
-        //         strings: typed_strings.split(", "),
-        //         typeSpeed: 50,
-        //         loop: true,
-        //         backDelay: 900,
-        //         backSpeed: 30,
-        //     });
-        // }
-
         // @ // Hash Emoji Changing Functionality //
         try {
 
@@ -255,11 +247,28 @@
             setInterval(() => {
                 window.location.hash = emoji_set[Math.floor(Math.random() * emoji_set.length)]
             }, 180)
-            // window.onload = urlAnitmate()
 
         } catch (error) {
             console.log('Error: ', { cause: error });
         }
+
+        // // @ // Changing Title-Bar Icons Functionality //
+        // try {
+
+        //     // * // Icon Image Set //
+        //     const ICON_IMAGE_SET = ['Images/Memoji/Shree-Kumar-Sharma-Memoji-No-Background.png','Images/shreesharma07-logo-circle.png','Images/octocat-logo.png']
+
+        //     setInterval(() => {
+        //         $(document).ready(function () {
+        //             $(".titlebar-icon").remove();
+        //             $("head").append(`<link href="${ICON_IMAGE_SET[Math.floor(Math.random() * ICON_IMAGE_SET.length)]}" id="titlebar-icon" rel="shortcut icon">`);
+        //         });
+        //     }, 10000);
+
+        // } catch (error) {
+        //     // ! // Log Error //
+        //     console.log('Error: ', { cause: error });
+        // }
 
     </script>
 </body>
