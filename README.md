@@ -28,8 +28,7 @@
     <img style="cursor: pointer; width:49%; height:auto%; border-radius:8px" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
     <img style="cursor: pointer; width:49%; height:auto%; padding-left:10px;   border-radius:8px" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics">
     <div style="margin:auto;" align="center">
-        <!-- <img style="cursor: pointer;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&langs_count=5&theme=dark&show_icons=true&border=none&count_private=true" alt="Most Languages Used"> -->
-        <img style="cursor: pointer; width:49%; height:auto%;  border-radius:8px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&theme=dark&hide_border=true&text_bold=true" alt="Most Languages Used">
+        <img style="cursor: pointer; width:49%; height:auto%;  border-radius:8px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&theme=dark&hide_border=true&text_bold=true&count_private=true" alt="Most Languages Used">
     </div>
 </div>
 
