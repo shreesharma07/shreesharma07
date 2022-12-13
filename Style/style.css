@@ -13,7 +13,6 @@ html {
 }
 
 body {
-    pointer-events: none;
     min-width: 500px;
     min-height: 500px;
     height: 100vh;
