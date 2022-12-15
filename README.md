@@ -144,11 +144,8 @@
         <img style="height:60px; width:60px; cursor: pointer; margin-left:10px"
             src="./Images/Social_Media-Icons/Instagram/instagram.png">
     </a>
-    <a href="mailto:shrikumarsharma1998@gmail.com" target="_blank">
+    <!-- <a href="mailto:shrikumarsharma1998@gmail.com" target="_blank">
         <img style="height:80px; width:80px; cursor: pointer; margin-left:10px" src="./Images/Social_Media-Icons/Email/mail-box.png" alt="Mailbox" id="mailbox">
-    </a>
-    <!-- <a href="mailto:shrikumarsharma1998@gmail.com">
-        <img style="height:80px; width:80px; cursor: pointer;" src="./Images/mail-box.png">
     </a> -->
 </div>
 
