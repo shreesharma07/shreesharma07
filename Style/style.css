@@ -342,14 +342,14 @@ body {
     display: flex;
     background: none;
     animation: none;
-  
+
 }
 
 .contact-images>a {
     width: 80px;
     width: 80px;
     margin-left: 15px;
-    object-fit:contain;
+    object-fit: contain;
     /* margin: auto; */
 }
 
@@ -364,7 +364,8 @@ body {
 #mailbox,
 #instagram,
 #github,
-#linkedin {
+#linkedin,
+#hackerrank {
     /* content: icon; */
     padding: none;
     height: 60px;
