@@ -53,6 +53,7 @@
     <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/Bitbucket-grey?logo=Bitbucket&labelColor=000000&style=bold.svg">
     <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/Github-grey?logo=Github&labelColor=000000&style=bold.svg">
     <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/AWS%20Cloud-grey?logo=AmazonAWS&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/Docker-grey?logo=Docker&labelColor=000000&style=bold.svg">
     <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/Figma-grey?logo=Figma&labelColor=000000&style=bold.svg">
 </div>
 
