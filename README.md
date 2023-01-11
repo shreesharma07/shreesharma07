@@ -16,7 +16,7 @@
 </h1> -->
 
 <div style="style="display:inline-block; padding:0px 0px 15px 0px;" align="center">
-    <img src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/software-developer-web.png" style="cursor: grab; width:48%; height:auto; align-item: center; " >
+    <img src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/software-developer-web.png" style="cursor: grab; width:48%; height:auto; align-item: center; " >
 </div>
 
 <h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝗔𝗯𝗼𝘂𝘁 𝗠𝗲</h2>
