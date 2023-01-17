@@ -10,11 +10,6 @@
         alt="Profile Stars">
 </p>
 
-<!-- Previos Icon -->
-<!-- <h1 align="center">
-<img style="cursor: grab; width:100%;height:100%;" src="https://bit.ly/3sf7CSU">
-</h1> -->
-
 <div style="style="display:inline-block; padding:0px 0px 15px 0px;" align="center">
     <img src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/software-developer-web.png" style="cursor: grab; width:48%; height:auto; align-item: center; " >
 </div>
@@ -126,7 +121,6 @@
         <img src='https://skillicons.dev/icons?i=prisma'>
     </a>
 </div>
-<!-- [![Skill Icon](https://skillicons.dev/icons?i=typescript,js,nodejs,express,html,css,git,mongodb,jenkins,figma,mysql,jquery,github,aws,docker,prisma)](https://skillicons.dev/icons?i=typescript,js,nodejs,express,html,css,git,mongodb,jenkins,figma,mysql,jquery,github,aws,docker,prisma) -->
 
 </h3>
 
@@ -136,7 +130,7 @@
 To know more about my experience, contact details and skills or for any collaboration / work inquiry.<br> Then please connect with me on the given social media links.
 </h3>
                                                                                   
-<div align="center" style="display: flex; align-items: center; margin:auto; justify-content:center; text-decoration: none;">      
+<div align="center" style="display: flex; align-items: center; margin:auto; justify-content:center; text-decoration: none;">
     <a href="https://bit.ly/3eOXjRZ" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Linkedin-grey?logo=Linkedin&labelColor=000000&style=bold.svg"></a>
     <a href="https://bit.ly/3HO1sCn" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Github-grey?logo=Github&labelColor=000000&style=bold.svg"></a>
     <a href="https://bit.ly/3jeTPuk" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Hackerrank-grey?logo=Hackerrank&labelColor=000000&style=bold.svg"></a>
