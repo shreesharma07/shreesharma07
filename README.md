@@ -10,13 +10,8 @@
         alt="Profile Stars">
 </p>
 
-<!-- Previos Icon -->
-<!-- <h1 align="center">
-<img style="cursor: grab; width:100%;height:100%;" src="https://bit.ly/3sf7CSU">
-</h1> -->
-
 <div style="style="display:inline-block; padding:0px 0px 15px 0px;" align="center">
-    <img src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/software-developer-web.png" style="cursor: grab; width:48%; height:auto; align-item: center; " >
+    <img src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/software-developer-web.png" style="cursor: grab; width:48%; height:auto; align-item: center; " >
 </div>
 
 <h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝗔𝗯𝗼𝘂𝘁 𝗠𝗲</h2>
@@ -37,24 +32,24 @@
 <h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝗦𝗸𝗶𝗹𝗹𝘀 𝗮𝗻𝗱 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲𝘀</h2>
 
 <div class="skills" align="center">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/Typescript-grey?logo=Typescript&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/Javascript-grey?logo=JavaScript&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/Nodejs-grey?logo=node.js&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/Express-grey?logo=Express&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/HTML5-grey?logo=HTML5&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/CSS3-grey?logo=CSS3&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/Express-grey?logo=Express&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/Git-grey?logo=Git&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/MySQL-grey?logo=MySQL&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/MongoDB-grey?logo=MongoDB&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/Prisma-grey?logo=Prisma&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/JSON-grey?logo=JSON&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/Postman-grey?logo=Postman&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/Bitbucket-grey?logo=Bitbucket&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/Github-grey?logo=Github&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/AWS%20Cloud-grey?logo=AmazonAWS&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/Docker-grey?logo=Docker&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 38px;" src="https://img.shields.io/badge/Figma-grey?logo=Figma&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Typescript-grey?logo=Typescript&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Javascript-grey?logo=JavaScript&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Nodejs-grey?logo=node.js&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Express-grey?logo=Express&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/HTML5-grey?logo=HTML5&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/CSS3-grey?logo=CSS3&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Express-grey?logo=Express&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Git-grey?logo=Git&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/MySQL-grey?logo=MySQL&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/MongoDB-grey?logo=MongoDB&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Prisma-grey?logo=Prisma&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/JSON-grey?logo=JSON&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Postman-grey?logo=Postman&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Bitbucket-grey?logo=Bitbucket&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Github-grey?logo=Github&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/AWS%20Cloud-grey?logo=AmazonAWS&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Docker-grey?logo=Docker&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Figma-grey?logo=Figma&labelColor=000000&style=bold.svg">
 </div>
 
 ---
@@ -63,12 +58,12 @@
 
 <div style="align-items:center;">
 
-- [ ] 🐼 𝗛𝘆𝗯𝗿𝗶𝗱 𝗔𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 <br>
-- [ ] 🦊 𝗕𝗹𝗼𝗰𝗸𝗰𝗵𝗮𝗶𝗻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 <br>
-- [ ] 🐶 𝗗𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗲𝗱 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 <br>
-- [ ] 🐰 𝗖𝘆𝗯𝗲𝗿 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝗮𝗻𝗱 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗡𝗲𝘁𝘄𝗼𝗿𝗸𝗶𝗻𝗴 <br>
-- [ ] 🦁 𝗘𝘁𝗵𝗶𝗰𝗮𝗹 𝗛𝗮𝗰𝗸𝗶𝗻𝗴 <br>
-- [ ] 🐻‍❄️ 𝗖𝗹𝗼𝘂𝗱 𝗮𝗻𝗱 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁 <br>
+    🐼 𝗛𝘆𝗯𝗿𝗶𝗱 𝗔𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁
+    🦊 𝗕𝗹𝗼𝗰𝗸𝗰𝗵𝗮𝗶𝗻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁
+    🐶 𝗗𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗲𝗱 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁
+    🐰 𝗖𝘆𝗯𝗲𝗿 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝗮𝗻𝗱 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗡𝗲𝘁𝘄𝗼𝗿𝗸𝗶𝗻𝗴
+    🦁 𝗘𝘁𝗵𝗶𝗰𝗮𝗹 𝗛𝗮𝗰𝗸𝗶𝗻𝗴
+    🐻‍❄️ 𝗖𝗹𝗼𝘂𝗱 𝗮𝗻𝗱 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁
 
 </div>
 
@@ -119,35 +114,27 @@
     <a href="https://skillicons.dev/icons?i=aws" style="text-decoration: none;">
         <img src='https://skillicons.dev/icons?i=aws'>
     </a>
+    <a href="https://skillicons.dev/icons?i=docker" style="text-decoration: none;">
+        <img src='https://skillicons.dev/icons?i=docker'>
+    </a>
     <a href="https://skillicons.dev/icons?i=prisma" style="text-decoration: none;">
         <img src='https://skillicons.dev/icons?i=prisma'>
     </a>
 </div>
-<!-- [![Skill Icon](https://skillicons.dev/icons?i=typescript,js,nodejs,express,html,css,git,mongodb,jenkins,figma,mysql,jquery,github,aws,prisma)](https://skillicons.dev/icons?i=typescript,js,nodejs,express,html,css,git,mongodb,jenkins,figma,mysql,jquery,github,aws,prisma) -->
 
 </h3>
 
 ---
 
-<!-- <div style="align-items:center; padding:0px 0px 15px 0px; align-items:center; margin:auto;">
-<h3 align="center">𝐓𝐨 𝐤𝐧𝐨𝐰 𝐦𝐨𝐫𝐞 𝐚𝐛𝐨𝐮𝐭 𝐦𝐲 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐚𝐧𝐝 𝐬𝐤𝐢𝐥𝐥𝐬 𝐨𝐫 𝐟𝐨𝐫 𝐚𝐧𝐲 𝐜𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐨𝐧 𝐢𝐧𝐪𝐮𝐢𝐫𝐲 𝐨𝐫 𝐰𝐨𝐫𝐤, 𝐭𝐡𝐞𝐧 𝐩𝐥𝐞𝐚𝐬𝐞 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 𝐰𝐢𝐭𝐡 𝐦𝐞 𝐨𝐧 𝐋𝐢𝐧𝐤𝐞𝐝𝐈𝐧 𝐚𝐧𝐝 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦.<br><br>
-<a href="https://bit.ly/3eOXjRZ" target="_blank"><img style="height:60px; width:60px; cursor: pointer; margin-top:15px; " src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/Social_Media-Icons/linkedin-color-logo.png"></a>
-<a href="https://bit.ly/3gvGBI0" target="_blank"><img style="height:60px; width:60px; cursor: pointer; margin-top:15px; " src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/Social_Media-Icons/instagram.png"></a><br>
-<a href="mailto:shrikumarsharma1998@gmail.com" target="_blank"><img style="height:80px; width:80px; cursor: pointer; " src="https://github.com/shreesharma07/shreesharma07/blob/pre-prod/Images/mail-box.png"></a>
-</h3> -->
-
-<h3 style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;" align="center"> To know more about my experience, contact details and skills or for any collaboration / work inquiry.<br> Then please connect with me on the given social media links.</h3>
+<h3 style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;" align="center">
+To know more about my experience, contact details and skills or for any collaboration / work inquiry.<br> Then please connect with me on the given social media links.
+</h3>
+                                                                                  
 <div align="center" style="display: flex; align-items: center; margin:auto; justify-content:center; text-decoration: none;">
-    <a href="https://bit.ly/3eOXjRZ" style="text-decoration: none;" target="_blank">
-        <img style="height:60px; width:60px; margin-right:10px;" src="./Images/Social_Media-Icons/LinkedIn/linkedin-color-logo.png">
-    </a>
-    <a href="https://bit.ly/3gvGBI0" style="text-decoration: none;" target="_blank">
-        <img style="height:60px; width:60px; cursor: pointer; margin-left:10px"
-            src="./Images/Social_Media-Icons/Instagram/instagram.png">
-    </a>
-    <!-- <a href="mailto:shrikumarsharma1998@gmail.com" target="_blank">
-        <img style="height:80px; width:80px; cursor: pointer; margin-left:10px" src="./Images/Social_Media-Icons/Email/mail-box.png" alt="Mailbox" id="mailbox">
-    </a> -->
+    <a href="https://bit.ly/3eOXjRZ" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Linkedin-grey?logo=Linkedin&labelColor=000000&style=bold.svg"></a>
+    <a href="https://bit.ly/3HO1sCn" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Github-grey?logo=Github&labelColor=000000&style=bold.svg"></a>
+    <a href="https://bit.ly/3jeTPuk" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Hackerrank-grey?logo=Hackerrank&labelColor=000000&style=bold.svg"></a>
+    <a href="https://bit.ly/3gvGBI0" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Instagram-grey?logo=Instagram&labelColor=000000&style=bold.svg"></a>
 </div>
 
 ---
