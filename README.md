@@ -100,12 +100,12 @@ To know more about my experience, contact details and skills or for any collabor
 
 <h3 align="center">
 <p style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid; margin-top:5%;">Founder and CEO @ <a href="https://github.com/Bitfox-Inc" target="_blank" style="text-decoration:none; color: rgb(255, 128, 0); font-size:28px; font-weight:bold;">Bitfox Inc.</a></p>
-<a href="https://github.com/Bitfox-Inc" target="_blank"><img style="height:120px; width:120px; cursor: pointer; margin-top:15px;" src="https://github.com/shreesharma07/shreesharma07/blob/master/Images/bitfox-logo-removebg-preview.png"></a>
+<a href="https://github.com/Bitfox-Inc" target="_blank"><img style="height:120px; width:auto; cursor: pointer; margin-top:15px;" src="https://github.com/shreesharma07/shreesharma07/blob/master/Images/bitfox-logo-removebg-preview.png"></a>
 </h3>
 
 ---
 
 <div align="center">
     <h3 style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800;">If you admire my dedication and hard work, you can buy me a coffee ☕</h3><br>
-    <a href="https://buymeacoffee.com/shreesharma07" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important; cursor: pointer;" ></a>
+    <a href="https://buymeacoffee.com/shreesharma07" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: auto !important; cursor: pointer;" ></a>
 </div>
