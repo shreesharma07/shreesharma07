@@ -107,5 +107,5 @@ To know more about my experience, contact details and skills or for any collabor
 
 <div align="center">
     <h3 style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800;">If you admire my dedication and hard work, you can buy me a coffee ☕</h3><br>
-    <a href="https://buymeacoffee.com/shreesharma07" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important; cursor: pointer;" ></a>
+    <a href="https://buymeacoffee.com/shreesharma07" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: auto !important; cursor: pointer;" ></a>
 </div>
