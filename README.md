@@ -35,7 +35,6 @@
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Express-grey?logo=Express&labelColor=000000&style=bold.svg">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/HTML5-grey?logo=HTML5&labelColor=000000&style=bold.svg">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/CSS3-grey?logo=CSS3&labelColor=000000&style=bold.svg">
-    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Express-grey?logo=Express&labelColor=000000&style=bold.svg">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Git-grey?logo=Git&labelColor=000000&style=bold.svg">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/MySQL-grey?logo=MySQL&labelColor=000000&style=bold.svg">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/MongoDB-grey?logo=MongoDB&labelColor=000000&style=bold.svg">
