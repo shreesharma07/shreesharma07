@@ -45,6 +45,7 @@
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Github-grey?logo=Github&labelColor=000000&style=bold.svg">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/AWS%20Cloud-grey?logo=AmazonAWS&labelColor=000000&style=bold.svg">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Docker-grey?logo=Docker&labelColor=000000&style=bold.svg">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Gitlab-grey?logo=GitLab&labelColor=000000&style=bold.svg">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Figma-grey?logo=Figma&labelColor=000000&style=bold.svg">
 </div>
 
@@ -91,7 +92,11 @@ To know more about my experience, contact details and skills or for any collabor
 <div align="center" style="display: flex; align-items: center; margin:auto; justify-content:center; text-decoration: none;">
     <a href="https://bit.ly/3eOXjRZ" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Linkedin-grey?logo=Linkedin&labelColor=000000&style=bold.svg"></a>
     <a href="https://bit.ly/3HO1sCn" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Github-grey?logo=Github&labelColor=000000&style=bold.svg"></a>
+    <a href="https://bit.ly/40g3SAq" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/GitLab-grey?logo=GitLab&labelColor=000000&style=bold.svg"></a>
+    <a href="https://bit.ly/3Y1JQr9" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Github%20Sponsors-grey?logo=Github-Sponsors&labelColor=000000&style=bold.svg"></a>
+    <br>
     <a href="https://bit.ly/3jeTPuk" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Hackerrank-grey?logo=Hackerrank&labelColor=000000&style=bold.svg"></a>
+    <a href="http://bit.ly/3jekkQK" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Leetcode-grey?logo=Leetcode&labelColor=000000&style=bold.svg"></a>
     <a href="https://bit.ly/3gvGBI0" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Instagram-grey?logo=Instagram&labelColor=000000&style=bold.svg"></a>
 </div>
 
