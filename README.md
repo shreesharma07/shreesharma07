@@ -17,12 +17,12 @@
 ---
 
 <!-- Old Image Div Section -->
-<!-- <div style="display:inline-block; padding:0px 0px 15px 0px; text-align:center; align-items:center; justify-content:center; margin:auto; position:relative;">
-    <img style="cursor: pointer; width:auto; height:132px; padding-left:auto; margin-left:10px;" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
-    <img style="cursor: pointer; width:auto; height:132px; padding-left:auto;" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics">
-    <img style="cursor: pointer; width:auto; height:132px; padding-left:auto;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&theme=dark&hide_border=true&text_bold=true&count_private=true" alt="Most Languages Used">
-</div> -->
-<h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝐆𝐢𝐭𝐡𝐮𝐛 𝐒𝐭𝐚𝐭𝐢𝐬𝐭𝐢𝐜𝐬</h2>
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; padding:0px 0px 15px 0px; margin:auto;">
+    <img style="cursor: pointer; width:auto; height:132px; padding-left:auto; margin-left:5px; margin-top:5px;" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
+    <img style="cursor: pointer; width:auto; height:132px; padding-left:auto; margin-left:5px; margin-top:5px;" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics">
+    <img style="cursor: pointer; width:auto; height:132px; padding-left:auto; margin-left:5px; margin-top:5px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&theme=dark&hide_border=true&text_bold=true&count_private=true" alt="Most Languages Used">
+</div>
+<!-- <h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝐆𝐢𝐭𝐡𝐮𝐛 𝐒𝐭𝐚𝐭𝐢𝐬𝐭𝐢𝐜𝐬</h2>
 <br>
 <div class="grid-container" style=" display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
   <div class="grid-item" style="margin: 5px; text-align: center;">
@@ -34,9 +34,7 @@
   <div class="grid-item" style="margin: 5px; text-align: center;">
     <img style="height:132px; width:auto; display: inline-block;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&theme=dark&hide_border=true&text_bold=true&count_private=true" alt="Most Languages Used">
   </div>
-</div>
-
-
+</div> -->
 
 ---
 
