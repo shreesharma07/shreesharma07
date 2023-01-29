@@ -24,17 +24,19 @@
 </div> -->
 <h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝐆𝐢𝐭𝐡𝐮𝐛 𝐒𝐭𝐚𝐭𝐢𝐬𝐭𝐢𝐜𝐬</h2>
 <br>
-<div class="grid-container" style=" display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); grid-gap: 5px; align-items: center; justify-content: center; ">
-  <div class="grid-item" style="text-align: center;">
-    <img style="max-width: 40%; height: auto; display: block; margin: 0 auto;" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
+<div class="grid-container" style=" display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
+  <div class="grid-item" style="margin: 5px; text-align: center;">
+    <img style="height:132px; width:auto; display: inline-block;" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
   </div>
-  <div class="grid-item" style="text-align: center;">
-    <img style="max-width: 40%; height: auto; display: block; margin: 0 auto;" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics">
+  <div class="grid-item" style="margin: 5px; text-align: center;">
+    <img style="height:132px; width:auto; display: inline-block;" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics">
   </div>
-  <div class="grid-item" style="text-align: center;">
-    <img style="max-width: 40%; height: auto; display: block; margin: 0 auto;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&theme=dark&hide_border=true&text_bold=true&count_private=true" alt="Most Languages Used">
+  <div class="grid-item" style="margin: 5px; text-align: center;">
+    <img style="height:132px; width:auto; display: inline-block;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&theme=dark&hide_border=true&text_bold=true&count_private=true" alt="Most Languages Used">
   </div>
 </div>
+
+
 
 ---
 
