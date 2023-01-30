@@ -62,6 +62,30 @@
 
 ---
 
+<p style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;" align="center"><b>To know more about my experience, contact details and skills or for any collaboration / work inquiry.<br> Then please connect with me on the given social media links.</b></p>
+<br>
+
+<div align="center" style="display: flex; align-items: center; margin:auto; justify-content:center; text-decoration: none;">
+    <a href="https://bit.ly/3eOXjRZ" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Linkedin-grey?logo=Linkedin&labelColor=000000&style=bold.svg"></a>
+    <a href="https://bit.ly/3HO1sCn" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Github-grey?logo=Github&labelColor=000000&style=bold.svg"></a>
+    <a href="https://bit.ly/40g3SAq" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Gitlab-grey?logo=GitLab&labelColor=000000&style=bold.svg"></a>
+    <a href="https://bit.ly/3jeTPuk" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/HackerRank-grey?logo=Hackerrank&labelColor=000000&style=bold.svg"></a>
+    <a href="https://bit.ly/3WHjxpm" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/WakaTime-grey?logo=WakaTime&labelColor=000000&style=bold.svg"></a>
+    <br>
+    <a href="http://bit.ly/3jekkQK" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Leetcode-grey?logo=Leetcode&labelColor=000000&style=bold.svg"></a>
+    <a href="http://bit.ly/3HGArAj" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Hack%20the%20Box-grey?logo=hackthebox&labelColor=000000&style=bold.svg"></a>
+    <a href="https://bit.ly/3gvGBI0" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Instagram-grey?logo=Instagram&labelColor=000000&style=bold.svg"></a>
+</div>
+
+---
+
+<h3 align="center">
+<p style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid; margin-top:5px;">Founder and CEO @ <a href="https://github.com/Bitfox-Inc" target="_blank" style="text-decoration:none; color: rgb(255, 128, 0); font-size:28px; font-weight:bold;">Bitfox Inc.</a></p>
+<a href="https://github.com/Bitfox-Inc" target="_blank"><img style="cursor: grab; width:180px; height:180px; align-item: center; margin-top:15px;" src="https://github.com/shreesharma07/shreesharma07/blob/master/Images/bitfox-logo-removebg-preview.png"></a>
+</h3>
+
+---
+
 <div align="center" style="text-align: center; align-content: center; justify-content:center; margin-right:5px;">
     <img src='https://skillicons.dev/icons?i=typescript'>
     <img src='https://skillicons.dev/icons?i=js'>
@@ -81,37 +105,12 @@
     <img src='https://skillicons.dev/icons?i=prisma'>
 </div>
 
-</h3>
-
----
-
-<h3 style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;" align="center">
-To know more about my experience, contact details and skills or for any collaboration / work inquiry.<br> Then please connect with me on the given social media links.
-</h3>
-<br>
-
-<div align="center" style="display: flex; align-items: center; margin:auto; justify-content:center; text-decoration: none;">
-    <a href="https://bit.ly/3eOXjRZ" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Linkedin-grey?logo=Linkedin&labelColor=000000&style=bold.svg"></a>
-    <a href="https://bit.ly/3HO1sCn" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Github-grey?logo=Github&labelColor=000000&style=bold.svg"></a>
-    <a href="https://bit.ly/40g3SAq" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/GitLab-grey?logo=GitLab&labelColor=000000&style=bold.svg"></a>
-    <a href="https://bit.ly/3Y1JQr9" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Github%20Sponsors-grey?logo=Github-Sponsors&labelColor=000000&style=bold.svg"></a>
-    <br>
-    <a href="https://bit.ly/3jeTPuk" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Hackerrank-grey?logo=Hackerrank&labelColor=000000&style=bold.svg"></a>
-    <a href="http://bit.ly/3jekkQK" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Leetcode-grey?logo=Leetcode&labelColor=000000&style=bold.svg"></a>
-    <a href="http://bit.ly/3HGArAj" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Hack%20the%20Box-grey?logo=hackthebox&labelColor=000000&style=bold.svg"></a>
-    <a href="https://bit.ly/3gvGBI0" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Instagram-grey?logo=Instagram&labelColor=000000&style=bold.svg"></a>
-</div>
-
----
-
-<h3 align="center">
-<p style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid; margin-top:5px;">Founder and CEO @ <a href="https://github.com/Bitfox-Inc" target="_blank" style="text-decoration:none; color: rgb(255, 128, 0); font-size:28px; font-weight:bold;">Bitfox Inc.</a></p>
-<a href="https://github.com/Bitfox-Inc" target="_blank"><img style="cursor: grab; width:180px; height:180px; align-item: center; margin-top:15px;" src="https://github.com/shreesharma07/shreesharma07/blob/master/Images/bitfox-logo-removebg-preview.png"></a>
-</h3>
-
 ---
 
 <div align="center">
-    <h3 style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800;">If you admire my dedication and hard work, you can buy me a coffee ☕</h3><br>
-    <a href="https://buymeacoffee.com/shreesharma07" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: auto !important; cursor: pointer;" ></a>
+    <p style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800;"><b>If you admire my dedication and hard work, I would be honored if you could sponsor me or buy me a coffee☕.</b><br></p>
+    <a href="https://bit.ly/3HO1sCn" target="_blank" style="cursor: pointer; margin-top:15px;"><img src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Memoji/Shree-Kumar-Sharma-Memoji-No-Background.png" style="width:auto; height:200px;"></a><br>
+    <a href="https://bit.ly/3Y1JQr9" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Github%20Sponsor-grey?logo=Github-Sponsors&labelColor=000000&style=bold.svg"></a>
+    <a href="http://bit.ly/3HGtvD1" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee%20☕-grey?logo=Buy-Me-A-Coffee&labelColor=000000&style=bold.svg"></a>
+    <a href="http://bit.ly/3XZQA9m" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Sponsor%40Stripe-grey?logo=Stripe&labelColor=000000&style=bold.svg"></a>
 </div>
