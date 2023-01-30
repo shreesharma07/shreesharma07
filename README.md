@@ -2,6 +2,7 @@
 <p class="profile-stats" align="center">
     <img src="https://img.shields.io/badge/Shree-Kumar_Sharma-grey?labelColor=6600ff&style=bold.svg" alt="Software Development Engineer" style="width: auto; height: 27px;">
     <img src="https://komarev.com/ghpvc/?username=shreesharma07&color=green&label=Profile%20Views&style=bold" alt="Profile Views" style="width: auto; height: 27px;">
+    <img src="https://wakatime.com/badge/user/d4ee9b09-006e-483f-b384-7fdc23c8b1ad.svg" alt="WakaTime Statistics" style="width: auto; height: 27px;">
     <img src="https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=bold" alt="Followers" style="width: auto; height: 27px;">
     <img src="https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan" alt="Profile Stars" style="width: auto; height: 27px;">
 </p>
