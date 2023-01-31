@@ -113,4 +113,5 @@
     <a href="https://bit.ly/3Y1JQr9" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Github%20Sponsor-grey?logo=Github-Sponsors&labelColor=000000&style=bold.svg"></a>
     <a href="http://bit.ly/3HGtvD1" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee%20☕-grey?logo=Buy-Me-A-Coffee&labelColor=000000&style=bold.svg"></a>
     <a href="http://bit.ly/3XZQA9m" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Sponsor%40Stripe-grey?logo=Stripe&labelColor=000000&style=bold.svg"></a>
+    <a href="http://bit.ly/3JsrI5T" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Sponsor%40PayPal-grey?logo=Paypal&labelColor=000000&style=bold.svg"></a>
 </div>
