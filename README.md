@@ -1,16 +1,16 @@
 <!-- Github Profile Stats Navigation Bar -->
 <p class="profile-stats" align="center">
-    <img src="https://img.shields.io/badge/Shree-Kumar_Sharma-grey?labelColor=6600ff&**style=bold.svg**" alt="Software Development Engineer" style="width: auto; height: 27px;">
-    <img src="https://komarev.com/ghpvc/?username=shreesharma07&color=green&label=Profile%20Views&style=bold" alt="Profile Views" style="width: auto; height: 27px;">
-    <img src="https://wakatime.com/badge/user/d4ee9b09-006e-483f-b384-7fdc23c8b1ad.svg" alt="WakaTime Statistics" style="width: auto; height: 27px;">
-    <img src="https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=bold" alt="Followers" style="width: auto; height: 27px;">
-    <img src="https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan" alt="Profile Stars" style="width: auto; height: 27px;">
+    <img src="https://img.shields.io/badge/Shree-Kumar_Sharma-grey.svg?labelColor=6600ff&style=flat&logo=Sass&logoColor=FFFFFF" alt="Software Development Engineer" style="width: auto; height: 27px;">
+   <img src="https://komarev.com/ghpvc/?username=shreesharma07&color=green&label=Profile%20Views&style=flat&logo=ghostery&logoColor=FFFFFF" alt="Profile Views" style="width: auto; height: 27px;">
+    <img src="https://wakatime.com/badge/user/d4ee9b09-006e-483f-b384-7fdc23c8b1ad.svg?style=flat" alt="WakaTime Statistics" style="width: auto; height: 27px;">
+    <img src="https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=flat&logo=Handshake&logoColor=FFFFFF" alt="Followers" style="width: auto; height: 27px;">
+    <img src="https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan&logo=Apache%20Spark&logoColor=FFFFFF" alt="Profile Stars" style="width: auto; height: 27px;">
 </p>
 
 <div style="style="display:inline-block; padding:0px 0px 15px 0px;" align="center">
     <!---SDE-IMAGE->
     <!-- <img src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/software-developer-web.png" style="cursor: grab; width:48%; height:auto; align-item: center; " > -->
-    <!---SDE-IMAGE -->
+    <!---SDE-MEMOJI -->
     <a href="https://bit.ly/3HO1sCn" target="_blank" style="cursor: pointer; margin-top:15px;"><img src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Memoji/Shree-Kumar-Sharma-Memoji-No-Background.png" style="width:auto; height:200px;"></a><br>
 </div>
 
