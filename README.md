@@ -119,7 +119,7 @@
     <!-- <a href="https://bit.ly/3HO1sCn" target="_blank" style="cursor: pointer; margin-top:15px;"><img src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Memoji/Shree-Kumar-Sharma-Memoji-No-Background.png" style="width:auto; height:200px;"></a><br> -->
     <!---Thank-You-Image-->
     <a href="https://bit.ly/3HO1sCn" target="_blank" style="cursor: pointer; margin-top:15px;"><img src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Background/thanks-with-shadow.png" style="width:auto; height:200px;"></a><br><br>
-    <a href="https://bit.ly/3Y1JQr9" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Github%20Sponsor-grey?logo=Github-Sponsors&labelColor=000000&style=plastic"></a>
+    <a href="https://bit.ly/3Y1JQr9" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Sponsor%40Github-grey?logo=Github-Sponsors&labelColor=000000&style=plastic"></a>
     <a href="http://bit.ly/3HGtvD1" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee%20☕-grey?logo=Buy-Me-A-Coffee&labelColor=000000&style=plastic"></a>
     <a href="http://bit.ly/3XZQA9m" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Sponsor%40Stripe-grey?logo=Stripe&labelColor=000000&style=plastic"></a><br>
     <a href="http://bit.ly/3JsrI5T" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Sponsor%40PayPal-grey?logo=Paypal&labelColor=000000&style=plastic"></a>
