@@ -71,14 +71,13 @@
 <div align="center" style="display: flex; align-items: center; margin:auto; justify-content:center; text-decoration: none;">
     <a href="https://bit.ly/3eOXjRZ" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Linkedin-grey?logo=Linkedin&labelColor=000000&style=flat"></a>
     <a href="https://bit.ly/3HO1sCn" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Github-grey?logo=Github&labelColor=000000&style=flat"></a>
-    <a href="http://bit.ly/3jwDoKj" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Google%20Developer-grey?logo=Google&labelColor=000000&logoColor=FFFFFF&style=flat"></a>
     <a href="https://bit.ly/3jeTPuk" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/HackerRank-grey?logo=Hackerrank&labelColor=000000&logoColor=FFFFFF&style=flat"></a>
     <a href="https://bit.ly/3WHjxpm" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/WakaTime-grey?logo=WakaTime&labelColor=000000&style=flat"></a>
-    <br>
+    <a href="https://bit.ly/3gvGBI0" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Instagram-grey?logo=Instagram&labelColor=000000&style=flat"></a>
     <a href="https://bit.ly/40g3SAq" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Gitlab-grey?logo=GitLab&labelColor=000000&style=flat"></a>
     <a href="http://bit.ly/3jekkQK" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Leetcode-grey?logo=Leetcode&labelColor=000000&style=flat"></a>
     <a href="http://bit.ly/3HGArAj" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Hack%20the%20Box-grey?logo=hackthebox&labelColor=000000&style=flat"></a>
-    <a href="https://bit.ly/3gvGBI0" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Instagram-grey?logo=Instagram&labelColor=000000&style=flat"></a>
+    <a href="http://bit.ly/3jwDoKj" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Google%20Developer-grey?logo=Google&labelColor=000000&logoColor=FFFFFF&style=flat"></a>
 </div>
 
 ---
