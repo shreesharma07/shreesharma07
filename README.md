@@ -57,7 +57,7 @@
 <br>
 
 <div align="center" style="display: flex; align-items: center; margin:auto; justify-content:center; text-decoration: none;">
-    <a href="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Skills/technological-skills.png" target="_blank"><img style="height:200px; width:auto; cursor: pointer; margin-top:15px;" src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Skills/technological-skills.png"></a>
+    <a href="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Skills/technological-skills.png" target="_blank"><img style="height:200px; width:auto; cursor: pointer; margin-top:15px; border-radius:10px;" src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Skills/technological-skills.png"></a>
 </div>
 
 ---
