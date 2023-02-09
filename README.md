@@ -97,17 +97,22 @@
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=html'>
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=css'>
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=git'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=regex'>
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=mongodb'>
-    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=jenkins'>
-    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=figma'>
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=mysql'>
-    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=jquery'>
-    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=github'>
-    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=aws'>
-    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=docker'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=redis'>
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=prisma'>
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=firebase'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=jquery'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=md'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=github'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=gitlab'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=aws'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=docker'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=jenkins'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=figma'>
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=vscode'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=githubactions'>
 </div>
 
 ---
