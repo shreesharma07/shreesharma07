@@ -56,12 +56,13 @@
 <h2 align="center">𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐜𝐚𝐥 𝐈𝐧𝐭𝐞𝐫𝐞𝐬𝐭𝐬</h2>
 <br>
 
-- 🐼 𝗛𝘆𝗯𝗿𝗶𝗱 𝗔𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 <br>
-- 🦊 𝗕𝗹𝗼𝗰𝗸𝗰𝗵𝗮𝗶𝗻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 <br>
-- 🐶 𝗗𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗲𝗱 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 <br>
-- 🐰 𝗖𝘆𝗯𝗲𝗿 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝗮𝗻𝗱 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗡𝗲𝘁𝘄𝗼𝗿𝗸𝗶𝗻𝗴 <br>
-- 🦁 𝗘𝘁𝗵𝗶𝗰𝗮𝗹 𝗛𝗮𝗰𝗸𝗶𝗻𝗴 <br>
-- 🐻‍❄️ 𝗖𝗹𝗼𝘂𝗱 𝗮𝗻𝗱 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁 <br>
+|<div style="text-align: center;"><span style="align-items:center; justify-content:center; font-weight:bold;"><h3><b>Field Of Interests</b></h3></span></div>|<h3><b>Preferred Technology Options</b></h3>|
+|:--------|----------------------------|
+|<div style="text-align: center;"><span style="align-items:center; justify-content:center;">🐼 𝗛𝘆𝗯𝗿𝗶𝗱 𝗔𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁</span></div>|<div style="text-align:center; margin:auto; padding:auto;"><img style="border-radius:15%; margin:auto; width:40px; height:auto; border-radius:10px;" src='https://cdn.simpleicons.org/electron'>&nbsp;&nbsp;<img style="border-radius:15%; margin:auto; width:40px; height:auto; border-radius:10px;" src='https://cdn.simpleicons.org/ionic'>&nbsp;&nbsp;<img style="border-radius:15%; margin:auto; width:40px; height:auto; border-radius:10px;" src='https://cdn.simpleicons.org/react'></div>|
+|<div style="text-align: center;"><span style="align-items:center; justify-content:center;">🦊 𝗕𝗹𝗼𝗰𝗸𝗰𝗵𝗮𝗶𝗻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁</span></div>|<div style="text-align:center; margin:auto; padding:auto;"><img style="border-radius:15%; margin:auto; width:40px; height:auto; border-radius:10px;" src='https://cdn.simpleicons.org/solidity'>&nbsp;&nbsp;<img style="border-radius:15%; margin:auto; width:40px; height:auto; border-radius:10px;" src='https://cdn.simpleicons.org/Ethereum'></div>|
+|<div style="text-align: center;"><span style="align-items:center; justify-content:center;">🐶 𝗗𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗲𝗱 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁</span></div>|<div style="text-align:center; margin:auto; padding:auto;">-</div>|
+|<div style="text-align: center;"><span style="align-items:center; justify-content:center;">🐰 𝗖𝘆𝗯𝗲𝗿 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆 / 𝗘𝘁𝗵𝗶𝗰𝗮𝗹 𝗛𝗮𝗰𝗸𝗶𝗻𝗴 <b style="font">and</b> 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗡𝗲𝘁𝘄𝗼𝗿𝗸𝗶𝗻𝗴</span></div>|<div style="text-align:center; margin:auto; padding:auto;"><img style="border-radius:15%; margin:auto; width:40px; height:auto; border-radius:10px;" src='https://cdn.simpleicons.org/linux'>&nbsp;&nbsp;<img style="border-radius:15%; margin:auto; width:40px; height:auto; border-radius:10px;" src='https://cdn.simpleicons.org/Cisco'>&nbsp;&nbsp;<img style="border-radius:15%; margin:auto; width:40px; height:auto; border-radius:10px;" src='https://cdn.simpleicons.org/KaliLinux'>&nbsp;&nbsp;<img style="border-radius:15%; margin:auto; width:40px; height:auto; border-radius:10px;" src='https://cdn.simpleicons.org/JuniperNetworks'></div>|
+|<div style="text-align: center;"><span style="align-items:center; justify-content:center;">🐻‍❄️ 𝗖𝗹𝗼𝘂𝗱 <b style="font">and</b> 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁</span></div>|<div style="text-align:center; margin:auto; padding:auto;"><img style="border-radius:15%; margin:auto; width:40px; height:auto; border-radius:10px;" src='https://cdn.simpleicons.org/AmazonAws'>&nbsp;&nbsp;<img style="border-radius:15%; margin:auto; width:40px; height:auto; border-radius:10px;" src='https://cdn.simpleicons.org/Cloudflare'>&nbsp;&nbsp;<img style="border-radius:15%; margin:auto; width:40px; height:auto; border-radius:10px;" src='https://cdn.simpleicons.org/Linode'>&nbsp;&nbsp;<img style="border-radius:15%; margin:auto; width:40px; height:auto; border-radius:10px;" src='https://cdn.simpleicons.org/GoogleCloud'></div>|
 
 ---
 
