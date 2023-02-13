@@ -20,10 +20,10 @@
 
 ---
 
-<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; padding:0px 0px 15px 0px; margin:auto;">
-    <img style="cursor: pointer; width:auto; height:134px; padding-left:auto; margin-left:5px; margin-top:5px;" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
-    <img style="cursor: pointer; width:auto; height:134px; padding-left:auto; margin-left:5px; margin-top:5px;" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics">
-    <img style="cursor: pointer; width:auto; height:134px; padding-left:auto; margin-left:5px; margin-top:5px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&theme=dark&hide_border=true&text_bold=true&count_private=true" alt="Most Languages Used">
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    <img style="cursor: pointer; height:134px; width:auto; flex: 1 0 200px;" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
+    <img style="cursor: pointer; height:134px; width:auto; flex: 1 0 200px;" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics">
+    <img style="cursor: pointer; height:134px; width:auto; flex: 1 0 200px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&theme=dark&hide_border=true&text_bold=true&count_private=true" alt="Most Languages Used">
 </div>
 
 ---
