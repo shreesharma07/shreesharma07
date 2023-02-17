@@ -2,10 +2,13 @@
 <p class="profile-stats" align="center">
     <img src="https://img.shields.io/badge/Shree-Kumar_Sharma-grey.svg?labelColor=6600ff&style=flat&logo=Sass&logoColor=FFFFFF" alt="Software Development Engineer" style="width: auto; height: 27px;">
     <img src="https://komarev.com/ghpvc/?username=shreesharma07&color=green&label=Profile%20Views&style=flat&logo=ghostery&logoColor=FFFFFF" alt="Profile Views" style="width: auto; height: 27px;">
-    <img src="https://img.shields.io/badge/dynamic/json?query=$.data.text&style=flat&color=blue&label=WakaTime&logo=WakaTime&&url=https://wakatime.com/api/v1/users/shreesharma07/all_time_since_today" alt="WakaTime Statistics" style="width: auto; height: 27px;">
+    <img src="https://img.shields.io/badge/dynamic/json?query=$.data.text&style=flat&color=blue&label=WakaTime&logo=WakaTime&&url=https://wakatime.com/api/v1/users/shreesharma07/all_time_since_today?api_key={{WAKA_KEY}}" alt="WakaTime Statistics" style="width: auto; height: 27px;">
     <img src="https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=flat&logo=Handshake&logoColor=FFFFFF" alt="Followers" style="width: auto; height: 27px;">
     <img src="https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan&logo=Apache%20Spark&logoColor=FFFFFF" alt="Profile Stars" style="width: auto; height: 27px;">
 </p>
+
+My secret is {{WAKA_KEY}}.
+
 
 <div style="style="display:inline-block; padding:0px 0px 15px 0px;" align="center">
     <!---SDE-IMAGE->
