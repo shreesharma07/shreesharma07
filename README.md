@@ -1,6 +1,6 @@
 <!-- Github Profile Stats Navigation Bar -->
 <p class="profile-stats" align="center">
-    <img src="https://img.shields.io/badge/Shree-Kumar_Sharma-grey.svg?labelColor=6600ff&style=flat&logo=Sass&logoColor=FFFFFF" alt="Software Development Engineer" style="width: auto; height: 27px;">
+    <!--<img src="https://img.shields.io/badge/Shree-Kumar_Sharma-grey.svg?labelColor=6600ff&style=flat&logo=Sass&logoColor=FFFFFF" alt="Software Development Engineer" style="width: auto; height: 27px;">-->
     <img src="https://komarev.com/ghpvc/?username=shreesharma07&color=green&label=Profile%20Views&style=flat&logo=ghostery&logoColor=FFFFFF" alt="Profile Views" style="width: auto; height: 27px;">
     <img src="https://wakatime.com/badge/user/d4ee9b09-006e-483f-b384-7fdc23c8b1ad.svg" alt="WakaTime Statistics" style="width: auto; height: 27px;">
     <img src="https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=flat&logo=Handshake&logoColor=FFFFFF" alt="Followers" style="width: auto; height: 27px;">
