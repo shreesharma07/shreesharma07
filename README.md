@@ -1,8 +1,8 @@
 <!-- Github Profile Stats Navigation Bar -->
 <p class="profile-stats" align="center">
     <img src="https://img.shields.io/badge/Shree-Kumar_Sharma-grey.svg?labelColor=6600ff&style=flat&logo=Sass&logoColor=FFFFFF" alt="Software Development Engineer" style="width: auto; height: 27px;">
-   <img src="https://komarev.com/ghpvc/?username=shreesharma07&color=green&label=Profile%20Views&style=flat&logo=ghostery&logoColor=FFFFFF" alt="Profile Views" style="width: auto; height: 27px;">
-    <img src="https://wakatime.com/badge/user/d4ee9b09-006e-483f-b384-7fdc23c8b1ad.svg?style=flat" alt="WakaTime Statistics" style="width: auto; height: 27px;">
+    <img src="https://komarev.com/ghpvc/?username=shreesharma07&color=green&label=Profile%20Views&style=flat&logo=ghostery&logoColor=FFFFFF" alt="Profile Views" style="width: auto; height: 27px;">
+    <img src="https://img.shields.io/badge/dynamic/json?query=$.data.text&style=flat&color=blue&label=WakaTime&logo=WakaTime&&url=https://wakatime.com/api/v1/users/shreesharma07/all_time_since_today?api_key=waka_fd490bab-a519-4fe4-b145-f11a641cfa0e" alt="WakaTime Statistics" style="width: auto; height: 27px;">
     <img src="https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=flat&logo=Handshake&logoColor=FFFFFF" alt="Followers" style="width: auto; height: 27px;">
     <img src="https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan&logo=Apache%20Spark&logoColor=FFFFFF" alt="Profile Stars" style="width: auto; height: 27px;">
 </p>
@@ -57,7 +57,7 @@
 <br>
 
 <div align="center" style="display: flex; align-items: center; margin:auto; justify-content:center; text-decoration: none;">
-    <a href="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Skills/technological-skills.png" target="_blank"><img style="height:420px; width:auto; cursor: pointer; margin-top:15px; border-radius:10px; box-shadow: 20px 20px 10px #dbdbdb;" src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Skills/technological-skills.png"></a>
+    <a href="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Skills/technological-skills.png" target="_blank"><img style="height:420px; width:auto; cursor: pointer; margin-top:15px;" src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Skills/technological-skills.png"></a>
 </div>
 
 ---
