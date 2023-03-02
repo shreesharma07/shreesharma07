@@ -27,6 +27,7 @@
     <img style="cursor: pointer; height:134px; width:auto; flex: 1 0 200px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&theme=dark&hide_border=true&text_bold=true&count_private=true" alt="Most Languages Used">
 </div>
 
+
 ---
 
 <h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝐓𝐨𝐨𝐥𝐬 𝐚𝐧𝐝 𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐜𝐚𝐥 𝐒𝐤𝐢𝐥𝐥𝐬</h2>
@@ -53,12 +54,19 @@
 </div>
 
 ---
+                                                                                                                                 
+<h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝐖𝐚𝐤𝐚𝐭𝐢𝐦𝐞 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 𝐒𝐭𝐚𝐭𝐢𝐬𝐭𝐢𝐜𝐬</h2>
+<p align="center">
+    <img alt="Wakatime Language Statistics" src="https://wakatime.com/share/@shreesharma07/fcf6c83b-1dbc-456b-bff4-e0ead4e41e39.png" style="height:420px; width:auto;">
+</p>
+
+---
 
 <h2 align="center">𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐜𝐚𝐥 𝐈𝐧𝐭𝐞𝐫𝐞𝐬𝐭𝐬</h2>
 <br>
 
 <div align="center" style="display: flex; align-items: center; margin:auto; justify-content:center; text-decoration: none;">
-    <a href="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Skills/technological-skills.png" target="_blank"><img style="height:420px; width:auto; cursor: pointer; margin-top:15px;" src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Skills/technological-skills.png"></a>
+    <a href="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Skills/technological-skills.png" target="_blank"><img style="height:370px; width:auto; cursor: pointer; margin-top:15px;" src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Skills/technological-skills.png"></a>
 </div>
 
 ---
@@ -111,7 +119,9 @@
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=githubactions'>
 </div>
 
+
 ---
+
 
 <div align="center">
     <h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 28px; font: 'Fira Code'; font-weight: 800;"><b>𝐈𝐟 𝐲𝐨𝐮 𝐚𝐝𝐦𝐢𝐫𝐞 𝐦𝐲 𝐝𝐞𝐝𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐡𝐚𝐫𝐝 𝐰𝐨𝐫𝐤, 𝐈 𝐰𝐨𝐮𝐥𝐝 𝐛𝐞 𝐡𝐨𝐧𝐨𝐫𝐞𝐝 𝐢𝐟 𝐲𝐨𝐮 𝐜𝐨𝐮𝐥𝐝 𝐬𝐩𝐨𝐧𝐬𝐨𝐫 𝐦𝐞 𝐨𝐫 𝐛𝐮𝐲 𝐦𝐞 𝐚 𝐜𝐨𝐟𝐟𝐞𝐞☕.<br>
