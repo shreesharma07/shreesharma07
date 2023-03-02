@@ -21,7 +21,7 @@
 
 ---
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<div style="display: flex; flex-wrap: wrap; gap: 20px;" align="center">
     <img style="cursor: pointer; height:134px; width:auto; flex: 1 0 200px;" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
     <img style="cursor: pointer; height:134px; width:auto; flex: 1 0 200px;" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics">
     <img style="cursor: pointer; height:134px; width:auto; flex: 1 0 200px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&theme=dark&hide_border=true&text_bold=true&count_private=true" alt="Most Languages Used">
@@ -56,9 +56,10 @@
 ---
                                                                                                                                  
 <h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝐖𝐚𝐤𝐚𝐭𝐢𝐦𝐞 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 𝐒𝐭𝐚𝐭𝐢𝐬𝐭𝐢𝐜𝐬</h2>
-<p align="center">
-    <img alt="Wakatime Language Statistics" src="https://wakatime.com/share/@shreesharma07/fcf6c83b-1dbc-456b-bff4-e0ead4e41e39.png" style="height:420px; width:auto;">
-</p>
+<div style="display: flex; flex-wrap: wrap; gap: 30px;" align="center">
+    <img alt="Language-Statistics - Powered By @ Wakatime | Bar Graph" src="https://wakatime.com/share/@shreesharma07/fcf6c83b-1dbc-456b-bff4-e0ead4e41e39.png" style="cursor: pointer; flex: 1 0 200px; height:320px; width:auto;">
+    <img alt="Language-Statistics - Powered By @ Wakatime | Pie Chart" src="https://wakatime.com/share/@shreesharma07/e0ad4b50-231a-44cf-ad7b-a4653f66ed61.png" style=" cursor: pointer; flex: 1 0 200px; height:320px; width:auto;">
+</div>
 
 ---
 
