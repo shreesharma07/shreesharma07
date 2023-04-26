@@ -50,6 +50,7 @@
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Git-grey?logo=Git&labelColor=000000&style=flat">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/MySQL-grey?logo=MySQL&labelColor=000000&style=flat">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/MongoDB-grey?logo=MongoDB&labelColor=000000&style=flat">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Redis-grey?logo=Redis&labelColor=000000&style=flat">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Prisma-grey?logo=Prisma&labelColor=000000&style=flat">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/JSON-grey?logo=JSON&labelColor=000000&style=flat">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Postman-grey?logo=Postman&labelColor=000000&style=flat">
