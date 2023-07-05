@@ -29,6 +29,6 @@ We follow a responsible disclosure policy, which means that we will not take leg
 ---
 
 <div align="center" style="display: flex; align-items: center; margin:auto; justify-content:center; text-decoration: none;">
- <h2>Thank you for helping us keep our repository secure 🐼</h2>
+ <h2>Thank you for helping me keep my repository secure 🐼</h2>
     <a href="https://bit.ly/3HO1sCn" target="_blank" style="cursor: pointer; margin-top:15px;"><img src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Background/thank-you-no-bg.png" style="width:auto; height:200px;"></a><br><br>
 </div>
