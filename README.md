@@ -92,7 +92,7 @@
 <h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝐆𝐢𝐭𝐡𝐮𝐛 𝐂𝐨𝐧𝐭𝐫𝐢𝐛𝐮𝐭𝐢𝐨𝐧𝐬</h2>
 <div style="display: flex; flex-wrap: wrap; gap: 30px;" align="center">
 <!--     <img alt="Language-Statistics - Powered By @ Wakatime | Bar Graph" src="https://wakatime.com/share/@shreesharma07/fcf6c83b-1dbc-456b-bff4-e0ead4e41e39.png" style="cursor: pointer; flex: 1 0 200px; height:270px; width:auto;"> -->
-<img alt="Github Contributions Graph | Pie Chart" src="https://github-readme-activity-graph.vercel.app/graph?username=shreesharma07&theme=react-dark&custom_title=Shree%20Kumar%20Sharma%20%F0%9F%A5%B7%F0%9F%8F%BB%20Cloud%20Developer%20%F0%9F%90%BC" style=" cursor: pointer; flex: 1 0 200px; height:270px; width:auto;">
+<img alt="Github Contributions Graph | Pie Chart" src="https://github-readme-activity-graph.vercel.app/graph?username=shreesharma07&theme=github-compact&hide_title=true&radius=7&height=600" style=" cursor: pointer; flex: 1 0 200px; height:270px; width:auto;">
 </div>
 
 ---
