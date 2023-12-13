@@ -35,7 +35,6 @@
 <img alt="Language-Statistics - Powered By @ Wakatime | Pie Chart" src="https://wakatime.com/share/@shreesharma07/e0ad4b50-231a-44cf-ad7b-a4653f66ed61.png" style=" cursor: pointer; flex: 1 0 200px; height:270px; width:auto;">
 </div>
 
-
 ---
 
 <h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝐓𝐨𝐨𝐥𝐬 𝐚𝐧𝐝 𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐜𝐚𝐥 𝐒𝐤𝐢𝐥𝐥𝐬</h2>
@@ -88,10 +87,13 @@
     <a href="http://bit.ly/3jwDoKj" target="_blank"><img style="height:35px; width:auto; cursor: pointer; margin-top:15px;" src="https://img.shields.io/badge/Google%20Developer-grey?logo=Google&labelColor=000000&logoColor=FFFFFF&style=flat"></a>
 </div>
 
-<!--<h3 align="center">
-<p style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid; margin-top:5px;">Founder and CEO @ <a href="https://github.com/Bitfox-Inc" target="_blank" style="text-decoration:none; color: rgb(255, 128, 0); font-size:28px; font-weight:bold;">Bitfox Inc.</a></p>
-<a href="https://github.com/Bitfox-Inc" target="_blank"><img style="cursor: grab; width:180px; height:180px; align-item: center; margin-top:15px;" src="https://github.com/shreesharma07/shreesharma07/blob/master/Images/bitfox-logo-removebg-preview.png"></a>
-</h3>-->
+---
+
+<h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝐆𝐢𝐭𝐡𝐮𝐛 𝐂𝐨𝐧𝐭𝐫𝐢𝐛𝐮𝐭𝐢𝐨𝐧𝐬</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 30px;" align="center">
+<!--     <img alt="Language-Statistics - Powered By @ Wakatime | Bar Graph" src="https://wakatime.com/share/@shreesharma07/fcf6c83b-1dbc-456b-bff4-e0ead4e41e39.png" style="cursor: pointer; flex: 1 0 200px; height:270px; width:auto;"> -->
+<img alt="Github Contributions Graph | Pie Chart" src="https://github-readme-activity-graph.vercel.app/graph?username=shreesharma07&theme=react-dark&custom_title=Shree%20Kumar%20Sharma%20%F0%9F%A5%B7%F0%9F%8F%BB%20Cloud%20Developer%20%F0%9F%90%BC" style=" cursor: pointer; flex: 1 0 200px; height:270px; width:auto;">
+</div>
 
 ---
 
@@ -123,7 +125,6 @@
 
 
 ---
-
 
 <div align="center">
     <h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 28px; font: 'Fira Code'; font-weight: 800;"><b>𝐈𝐟 𝐲𝐨𝐮 𝐚𝐝𝐦𝐢𝐫𝐞 𝐦𝐲 𝐝𝐞𝐝𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐡𝐚𝐫𝐝 𝐰𝐨𝐫𝐤, 𝐈 𝐰𝐨𝐮𝐥𝐝 𝐛𝐞 𝐡𝐨𝐧𝐨𝐫𝐞𝐝 𝐢𝐟 𝐲𝐨𝐮 𝐜𝐨𝐮𝐥𝐝 𝐬𝐩𝐨𝐧𝐬𝐨𝐫 𝐦𝐞 𝐨𝐫 𝐛𝐮𝐲 𝐦𝐞 𝐚 𝐜𝐨𝐟𝐟𝐞𝐞☕.<br>
