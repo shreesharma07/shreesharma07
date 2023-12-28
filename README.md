@@ -63,7 +63,7 @@
 
 ---
 
-<h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝐂𝐨𝐝𝐢𝐧𝐠 𝐀𝐜𝐭𝐢𝐯𝐢𝐭𝐲 𝐁𝐲 @𝐰𝐚𝐤𝐚𝐭𝐢𝐦𝐞</h2>
+<h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝐂𝐨𝐝𝐢𝐧𝐠 𝐀𝐜𝐭𝐢𝐯𝐢𝐭𝐲 @ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 #𝐖𝐚𝐤𝐚𝐓𝐢𝐦𝐞</h2>
 <div style="display: flex; flex-wrap: wrap; gap: 30px;" align="center">
 <img alt="Coding Activity - Powered By @ Wakatime" src="https://wakatime.com/share/@shreesharma07/29db582f-a9d9-4742-926e-5d82787f1757.svg" style=" cursor: pointer; flex: 1 0 200px; height:auto; width:auto;">
 </div>
