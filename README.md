@@ -4,9 +4,11 @@
     <img src="https://komarev.com/ghpvc/?username=shreesharma07&color=green&label=Profile%20Views&style=flat&logo=ghostery&logoColor=FFFFFF" alt="Profile Views" style="width: auto; height: 27px;">
     <img src="https://wakatime.com/badge/user/d4ee9b09-006e-483f-b384-7fdc23c8b1ad.svg" alt="WakaTime Statistics" style="width: auto; height: 27px;">
     <img src="https://img.shields.io/github/followers/shreesharma07?labelColor=blue?color=grey&label=Followers&style=flat&logo=Handshake&logoColor=FFFFFF" alt="Followers" style="width: auto; height: 27px;">
-    <img src="https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan&logo=Apache%20Spark&logoColor=FFFFFF" alt="Profile Stars" style="width: auto; height: 27px;">
+    <img src="https://img.shields.io/github/stars/shreesharma07?label=Profile%20Stars&style=bold&color=cyan&logo=Apache%20Spark&logoColor=FFFFFF" alt="Profile Stars" style="width: auto; height: 27px;"><br>
+    <img src="https://awesome.re/badge.svg" alt="Awesome" style="width: auto; height: 27px;">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Cloud%20Backend%20Engineer-grey?logo=devbox&labelColor=000000&style=flat">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Associate%20Solutions%20Architect-grey?logo=arc&labelColor=000000&style=flat">
 </p>
-
 
 <div style="style="display:inline-block; padding:0px 0px 15px 0px;" align="center">
     <!---SDE-IMAGE->
@@ -28,7 +30,7 @@
 </div>
 
 ---
-                                                                                                                                 
+
 <h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝐖𝐚𝐤𝐚𝐭𝐢𝐦𝐞 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 𝐒𝐭𝐚𝐭𝐢𝐬𝐭𝐢𝐜𝐬</h2>
 <div style="display: flex; flex-wrap: wrap; gap: 30px;" align="center">
 <!--     <img alt="Language-Statistics - Powered By @ Wakatime | Bar Graph" src="https://wakatime.com/share/@shreesharma07/fcf6c83b-1dbc-456b-bff4-e0ead4e41e39.png" style="cursor: pointer; flex: 1 0 200px; height:270px; width:auto;"> -->
@@ -46,6 +48,11 @@
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Express-grey?logo=Express&labelColor=000000&style=flat">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/HTML5-grey?logo=HTML5&labelColor=000000&style=flat">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/CSS3-grey?logo=CSS3&labelColor=000000&style=flat">
+    <img src="https://img.shields.io/badge/NestJS-grey?logo=nestjs&logoColor=E0234E" alt="NestJS" style="width: auto; height: 27px;">
+    <img src="https://img.shields.io/badge/PostgreSQL-grey?logo=postgresql&logoColor=black" alt="PostgreSQL" style="width: auto; height: 27px;">
+    <img src="https://img.shields.io/badge/TypeORM-grey?logo=TypeORM" alt="TypeORM" style="width: auto; height: 27px;">
+    <img src="https://img.shields.io/badge/Apache_Kafka-grey?logo=apachekafka&logoColor=black" alt="Apache Kafka" style="width: auto; height: 27px;">
+    <img src="https://img.shields.io/badge/Google_Firebase-grey?logo=Firebase" alt="Google Firebase" style="width: auto; height: 27px;">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Git-grey?logo=Git&labelColor=000000&style=flat">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/MySQL-grey?logo=MySQL&labelColor=000000&style=flat">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/MongoDB-grey?logo=MongoDB&labelColor=000000&style=flat">
@@ -59,6 +66,7 @@
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Docker-grey?logo=Docker&labelColor=000000&style=flat">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Gitlab-grey?logo=GitLab&labelColor=000000&style=flat">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Figma-grey?logo=Figma&labelColor=000000&style=flat">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Linode%20|%20AWS-grey?logo=icloud&labelColor=000000&style=flat">
 </div>
 
 ---
@@ -129,7 +137,6 @@
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=vscode'>
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=githubactions'>
 </div>
-
 
 ---
 
