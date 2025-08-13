@@ -141,6 +141,9 @@
 
 ---
 
+[![An image of @shreesharma07's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/shreesharma07)](https://holopin.io/@shreesharma07)
+
+---
 <div align="center">
     <h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 28px; font: 'Fira Code'; font-weight: 800;"><b>𝐈𝐟 𝐲𝐨𝐮 𝐚𝐝𝐦𝐢𝐫𝐞 𝐦𝐲 𝐝𝐞𝐝𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐡𝐚𝐫𝐝 𝐰𝐨𝐫𝐤, 𝐈 𝐰𝐨𝐮𝐥𝐝 𝐛𝐞 𝐡𝐨𝐧𝐨𝐫𝐞𝐝 𝐢𝐟 𝐲𝐨𝐮 𝐜𝐨𝐮𝐥𝐝 𝐬𝐩𝐨𝐧𝐬𝐨𝐫 𝐦𝐞 𝐨𝐫 𝐛𝐮𝐲 𝐦𝐞 𝐚 𝐜𝐨𝐟𝐟𝐞𝐞☕.<br>
     </h2>
