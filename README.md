@@ -31,6 +31,11 @@
 
 ---
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+---
+
 <h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝐖𝐚𝐤𝐚𝐭𝐢𝐦𝐞 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 𝐒𝐭𝐚𝐭𝐢𝐬𝐭𝐢𝐜𝐬</h2>
 <div style="display: flex; flex-wrap: wrap; gap: 30px;" align="center">
 <!--     <img alt="Language-Statistics - Powered By @ Wakatime | Bar Graph" src="https://wakatime.com/share/@shreesharma07/fcf6c83b-1dbc-456b-bff4-e0ead4e41e39.png" style="cursor: pointer; flex: 1 0 200px; height:270px; width:auto;"> -->
