@@ -48,6 +48,7 @@
 <br>
 <div class="skills" align="center">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Typescript-grey?logo=Typescript&labelColor=000000&style=flat">
+    <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Socket-grey?logo=socket.io&labelColor=000000&style=flat">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Javascript-grey?logo=JavaScript&labelColor=000000&style=flat">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Nodejs-grey?logo=node.js&labelColor=000000&style=flat">
     <img style="width: auto; height: 27px;" src="https://img.shields.io/badge/Express-grey?logo=Express&labelColor=000000&style=flat">
