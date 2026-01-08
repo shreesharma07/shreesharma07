@@ -134,6 +134,13 @@
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=figma'>
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=vscode'>
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=githubactions'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=grafana'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=prometheus'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=nestjs'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=react'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=next'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=python'>
+    <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=java'>
 </div>
 
 ---
