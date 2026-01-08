@@ -84,15 +84,6 @@
 
 ---
 
-<h2 align="center">𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐜𝐚𝐥 𝐈𝐧𝐭𝐞𝐫𝐞𝐬𝐭𝐬</h2>
-<br>
-
-<div align="center" style="display: flex; align-items: center; margin:auto; justify-content:center; text-decoration: none;">
-    <a href="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Skills/technological-skills.png" target="_blank"><img style="height:370px; width:auto; cursor: pointer; margin-top:15px;" src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Skills/technological-skills.png"></a>
-</div>
-
----
-
 <p style="text-shadow:2px 2px 2px #535353; font: 'Times New Roman'; text-align: center; align-content: center; display: grid;" align="center"><b>To know more about my experience, contact details and skills or for any collaboration / work inquiry.<br> Then please connect with me on the given social media links.</b></p>
 <br>
 
