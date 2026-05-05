@@ -21,18 +21,15 @@
 <br>
 <p style="text-shadow:2px 2px 2px #626262a3; font-size: 14px; font: 'Fira Code'; font-weight: 800; text-align: justify; text-justify: inter-word;">I'm a <b><font color='#1a75ff'>Software Development Engineer</font></b> with a demonstrated history of working in the <b><font color='#4d4d4d'>Information Technology and Services Industry</font></b>. Skilled in RESTful API Development using <b>Nodejs</b> and <b>Express</b>. I have good exposure to <b>AWS</b> Cloud including <b>Lambda Functions</b>, <b>Microservices</b>, <b>Secret Manager</b> and <b>Cloudwatch</b>, etc. And my experience also includes the development of services along with the <b>SQL</b> databases like <b>MySQL</b>, <b>AWS RDS</b>, and <b>NoSQL</b> databases like <b>Apache Cassandra</b> and <b>MongoDB</b>. I also have hands-on experience with <b>Version Control Tools</b> like <b>Git</b> and <b>BitBucket</b>.</p>
 
-<!---
-
-<div style="display: flex; flex-wrap: wrap; gap: 20px;" align="center">
-    <img style="cursor: pointer; height:134px; width:auto; flex: 1 0 200px;" src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak">
-    <img style="cursor: pointer; height:134px; width:auto; flex: 1 0 200px;" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics">
-    <img style="cursor: pointer; height:134px; width:auto; flex: 1 0 200px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&theme=dark&hide_border=true&text_bold=true&count_private=true" alt="Most Languages Used">
-</div>
-
 ---
 
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+<div style="display: flex; flex-wrap: wrap; gap: 20px;" align="center">
+    <img align="center" style="cursor: pointer; height:134px; width:auto; flex: 1 0 200px;" src="https://streak-stats.demolab.com?user=shreesharma07&theme=dark&hide_border=true" alt="shreesharma07's GitHub Stats" />
+    <!-- < src="https://github-readme-streak-stats.herokuapp.com/?user=shreesharma07&theme=dark&hide_border=true&text_bold=true" alt="GitHub Streak"> -->
+    <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&theme=dark&show_icons=true&hide_border=true&layout=compact" alt="shreesharma07's GitHub Stats" /> -->
+    <!-- <img style="cursor: pointer; height:134px; width:auto; flex: 1 0 200px;" src="https://github-readme-stats.vercel.app/api/?username=shreesharma07&count_private=true&theme=dark&show_icons=true&text_bold=true&hide_border=true" alt="Shree Kumar Sharma Github Statistics">
+    <img style="cursor: pointer; height:134px; width:auto; flex: 1 0 200px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&theme=dark&hide_border=true&text_bold=true&count_private=true" alt="Most Languages Used"> -->
+</div>
 
 ---
 
