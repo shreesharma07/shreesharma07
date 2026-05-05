@@ -14,7 +14,7 @@
     <!---SDE-IMAGE->
     <!-- <img src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/software-developer-web.png" style="cursor: grab; width:48%; height:auto; align-item: center; " > -->
     <!---SDE-MEMOJI -->
-    <a href="https://bit.ly/3HO1sCn" target="_blank" style="cursor: pointer; margin-top:15px;"><img src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Memoji/LinkedIn-Profile-Memoji.png" style="width:auto; height:270px;"></a><br>
+    <a href="https://bit.ly/3HO1sCn" target="_blank" style="cursor: pointer; margin-top:15px;"><img src="https://res.cloudinary.com/dugeklkfi/image/upload/v1770050839/Portfolio-Logo_c8p9tk.png" style="width:auto; height:270px;"></a><br>
 </div>
 
 <h2 align="center" style="text-shadow:2px 2px 2px #535353; font-size: 20px; font: 'Fira Code'; font-weight: 800; text-align: center; align-content: center; display: grid;">𝐏𝐫𝐨𝐟𝐞𝐬𝐬𝐢𝐨𝐧𝐚𝐥 𝐒𝐮𝐦𝐦𝐚𝐫𝐲</h2>
@@ -141,6 +141,13 @@
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=next'>
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=python'>
     <img style="border-radius:15%; margin:auto;" src='https://skillicons.dev/icons?i=java'>
+</div>
+
+---
+
+<div align="center">
+    <a href="https://bit.ly/3HO1sCn" target="_blank"><img style="height:auto; width:auto; cursor: pointer; margin-top:15px;" src="https://github-profile-trophy.vercel.app/?username=shreesharma07&theme=gitdimmed&row=1&column=6&no-bg=true&no-frame=true"></a>
+    <!-- ![shreesharma07 trophies]() -->
 </div>
 
 ---
