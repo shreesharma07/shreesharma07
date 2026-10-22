@@ -1156,8 +1156,10 @@ async function fetchStats() {
   let prev = {};
   try { prev = JSON.parse(readFileSync(STATS_FILE, 'utf8')); } catch {}
   const gh = PROFILE.github, out = { ...prev };
-  const headers = { 'user-agent': 'profile-readme-builder', ...(process.env.GITHUB_TOKEN ? { authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {}) };
   const get = async (url, as = 'json') => {
+    // The token may only ever go to the GitHub API; WakaTime and komarev get a plain request.
+    const headers = { 'user-agent': 'profile-readme-builder' };
+    if (process.env.GITHUB_TOKEN && new URL(url).hostname === 'api.github.com') headers.authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
     const res = await fetch(url, { headers });
     if (!res.ok) throw new Error(`${url} ${res.status}`);
     return as === 'json' ? res.json() : res.text();
