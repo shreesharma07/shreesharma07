@@ -2,3 +2,5 @@ Temp/
 
 # Ignore Node Modules
 node_modules/
+# Profile builder download cache
+tools/.cache/
