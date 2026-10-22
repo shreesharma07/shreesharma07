@@ -27,10 +27,11 @@ jobs:
 
       # Fetches followers, stars, WakaTime total and profile views, then redraws assets/stats.svg.
       # Any value that fails to fetch keeps its last good value from assets/stats.json.
+      # No token on purpose: every number comes from a public endpoint, so the builder (and its
+      # npm dependencies) never holds this job's write-scoped GITHUB_TOKEN. The push below uses
+      # the credentials actions/checkout already configured for git.
       - name: Rebuild the stats strip
         working-directory: tools
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node build-profile.mjs --stats-only
 
       - name: Commit the refreshed strip
