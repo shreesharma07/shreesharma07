@@ -9,390 +9,35 @@
 </p>
 
 <p align="center">
-  <a href="https://www.shrikumarsharma.in/"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=1000&color=58A6FF&center=true&vCenter=true&width=720&lines=Backend+Engineer+(SDE-3)+%40+OneCX;Real-time+%C2%B7+event-driven+%C2%B7+search;NestJS+%C2%B7+PostgreSQL+%C2%B7+Kafka+%C2%B7+Redis;Next+up+%E2%86%92+Rust+%C2%B7+Go+%C2%B7+Spring+Boot+%C2%B7+DevOps+%C2%B7+SEO" alt="Backend Engineer (SDE-3) at OneCX"></a>
+  <a href="https://www.shrikumarsharma.in/"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=1000&color=58A6FF&center=true&vCenter=true&width=1200&height=56&lines=Backend+Engineer+(SDE-3)+%40+OneCX;Real-time+%C2%B7+event-driven+%C2%B7+search;NestJS+%C2%B7+PostgreSQL+%C2%B7+Kafka+%C2%B7+Redis;Next+up+%E2%86%92+Rust+%C2%B7+Go+%C2%B7+Spring+Boot+%C2%B7+DevOps+%C2%B7+SEO" alt="Backend Engineer (SDE-3) at OneCX" width="100%"></a>
 </p>
 
-<p align="center">
-  <a href="https://www.shrikumarsharma.in/"><img src="https://img.shields.io/badge/shrikumarsharma.in-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=FFFFFF" alt="Portfolio" height="30"></a>&nbsp;
-  <a href="https://blogs.shrikumarsharma.in/"><img src="https://img.shields.io/badge/Blog-8957e5?style=for-the-badge&logo=rss&logoColor=FFFFFF" alt="Blog" height="30"></a>&nbsp;
-  <a href="mailto:shrikumarsharma1998@gmail.com"><img src="https://img.shields.io/badge/Email-da3633?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email" height="30"></a>&nbsp;
-  <a href="https://www.linkedin.com/in/shreesharma07/"><img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjRkZGRkZGIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BTGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" height="30"></a>
-</p>
+<!-- Four buttons at 24.25% with three 1% gaps fill one row. -->
+<p align="center"><a href="https://www.shrikumarsharma.in/"><img src="assets/contact/website.svg" alt="Website: shrikumarsharma.in" width="24.25%"></a><img src="assets/gap.svg" alt="" width="1%"><a href="https://blogs.shrikumarsharma.in/"><img src="assets/contact/blog.svg" alt="Blog: blogs.shrikumarsharma.in" width="24.25%"></a><img src="assets/gap.svg" alt="" width="1%"><a href="mailto:shrikumarsharma1998@gmail.com"><img src="assets/contact/email.svg" alt="Email: say hello" width="24.25%"></a><img src="assets/gap.svg" alt="" width="1%"><a href="https://www.linkedin.com/in/shreesharma07/"><img src="assets/contact/linkedin.svg" alt="LinkedIn: in/shreesharma07" width="24.25%"></a></p>
 
-<p align="center">
-  <a href="https://stats.uptimerobot.com/NHUuWcHbD1?utm_source=status_badge&utm_medium=referral"><img src="https://badge.uptimerobot.com/psp/ac0ed1a5dc4eb81afa89938ca9cb4d2f.svg?style=logo&theme=dark" alt="Portfolio uptime"></a>&nbsp;
-  <a href="https://github.com/shreesharma07"><img src="https://komarev.com/ghpvc/?username=shreesharma07&color=1f6feb&label=profile+views&style=flat-square&abbreviated=true" alt="Profile views"></a>&nbsp;
-  <a href="https://wakatime.com/@shreesharma07"><img src="https://wakatime.com/badge/user/d4ee9b09-006e-483f-b384-7fdc23c8b1ad.svg?style=flat-square" alt="WakaTime total"></a>&nbsp;
-  <a href="https://github.com/shreesharma07?tab=followers"><img src="https://img.shields.io/github/followers/shreesharma07?style=flat-square&logo=github&logoColor=white&label=followers&labelColor=161b22&color=1f6feb" alt="Followers"></a>&nbsp;
-  <a href="https://github.com/shreesharma07?tab=repositories"><img src="https://img.shields.io/github/stars/shreesharma07?style=flat-square&logo=github&logoColor=white&label=stars&labelColor=161b22&color=e3b341" alt="Stars"></a>
-</p>
+<!-- Uptime badge, hidden for now:
+<p align="center"><a href="https://stats.uptimerobot.com/NHUuWcHbD1?utm_source=status_badge&utm_medium=referral"><img src="https://badge.uptimerobot.com/psp/ac0ed1a5dc4eb81afa89938ca9cb4d2f.svg?style=logo&theme=dark" alt="Portfolio uptime"></a></p>
+-->
+
+<!-- Stats strip: values refreshed daily by .github/workflows/profile-stats.yml (last good values in assets/stats.json). -->
+<p align="center"><a href="https://github.com/shreesharma07"><img src="assets/stats.svg" alt="Profile stats: 27.6K profile views, 3,012 hrs coding time, 33 followers, 15 stars" width="100%"></a></p>
 
 <a id="summary"></a>
-<p align="center"><img src="assets/headers/01-summary.svg" alt="Summary" width="100%"></p>
+<p align="center"><img src="assets/headers/01-summary.svg" alt="The Short Version" width="100%"></p>
 
 <p align="center"><img src="assets/summary.svg" alt="Senior backend engineer building real-time, event-driven systems that hold up in production. I design and run backends in Node.js, TypeScript and NestJS: PostgreSQL schemas and zero-downtime migrations, Kafka and RabbitMQ pipelines, Redis caching, Elasticsearch search and Socket.IO gateways. Today I own the backend of a multiplayer learning platform serving 200K+ concurrent sessions. Before that I built WhatsApp automation moving 1M+ messages a quarter, and EdTech services at PrepLadder." width="100%"></p>
 
-<p align="center">
-  <a href="https://github.com/shreesharma07/numsy"><img src="https://img.shields.io/badge/Featured%20repo%20%C2%B7%20numsy-TypeScript%20toolkit%20for%20Indian%20phone--number%20data-161b22?style=flat-square&labelColor=1f6feb&logo=github&logoColor=FFFFFF" alt="numsy: TypeScript toolkit for Indian phone-number data" height="24"></a>
-</p>
+<p align="center"><a href="https://github.com/shreesharma07/numsy"><img src="assets/featured.svg" alt="Featured repo shreesharma07/numsy: A lightweight TypeScript toolkit for validating, sanitising and processing Indian phone numbers from CSV and Excel datasets, with strong typing throughout." width="100%"></a></p>
 
 <p align="center"><img src="assets/principles.svg" alt="How I work: own the full backend, design with the client, prove it with a POC, write it down" width="100%"></p>
 
-<a id="impact"></a>
-<p align="center"><img src="assets/headers/02-impact.svg" alt="Impact in Production" width="100%"></p>
+<a id="primary"></a>
+<p align="center"><img src="assets/headers/02-primary.svg" alt="Daily Drivers" width="100%"></p>
 
-<p align="center"><img src="assets/impact.svg" alt="Impact: ~12M entries indexed, 40% lower search latency, 35% faster APIs, 50% faster incident detection, 99.9% uptime, 1M+ messages per quarter, 10x reach, 250K emails in under 10 minutes" width="100%"></p>
-
-<a id="timeline"></a>
-<p align="center"><img src="assets/headers/03-timeline.svg" alt="Career Timeline" width="100%"></p>
-
-<p align="center"><img src="assets/timeline.svg" alt="Career timeline from 2017 to present" width="100%"></p>
-
-<a id="milestones"></a>
-<p align="center"><img src="assets/headers/04-milestones.svg" alt="Milestones" width="100%"></p>
-
-<p align="center"><img src="assets/milestones.svg" alt="2020: Graduated, BCA from GGSIPU, New Delhi; MAY 2021: First backend role, Junior Node.js Developer at PrepLadder; Q2 2022: PrepStar award, Best backend performer of the quarter; NOV 2022: Joined OneCX, SDE-2 on INTERCOMM and BridgeQ; APR 2025: Promoted to SDE-3, Sole backend owner, multiplayer platform" width="100%"></p>
-
-<a id="experience"></a>
-<p align="center"><img src="assets/headers/05-experience.svg" alt="Experience" width="100%"></p>
-
-<p align="center"><a href="https://one-cx.com/"><img src="assets/experience/sde3.svg" alt="Software Development Engineer 3 at OneCX, Apr 2025 to Present" width="100%"></a></p>
-
-<table align="center">
-<tr>
-<td width="66%" valign="top">
-<ul>
-<li>Sole backend owner of a multiplayer language-learning platform, built as a modular <b>NestJS</b> service.</li>
-<li><b>Elasticsearch + Redis</b> search over <b>~12M</b> entries with <b>40%</b> lower latency.</li>
-<li><b>BullMQ</b> workers took power-ups off the request path: <b>~35%</b> faster APIs.</li>
-</ul>
-<details>
-<summary><sub>More highlights</sub></summary>
-<ul>
-<li><b>Socket.IO</b> gateway for live game state and matchmaking, with one consistent <code>${event}:error</code> contract.</li>
-<li>Zero-downtime <b>TypeORM</b> migrations on PostgreSQL: nullable → backfill → constrain.</li>
-<li><b>Prometheus + Grafana</b> cut incident detection time by <b>50%</b>; JWT, rate limiting, field-level encryption.</li>
-<li>Bulk email service reaching <b>250K</b> recipients in under 10 minutes.</li>
-</ul>
-</details>
-</td>
-<td width="34%" valign="top" align="center">
-<sub><b>STACK</b></sub><br><br>
-<a href="https://nestjs.com"><img src="https://img.shields.io/badge/NestJS-161b22?style=flat-square&logo=nestjs&logoColor=E0234E" alt="NestJS"></a>
-<a href="https://socket.io"><img src="https://img.shields.io/badge/Socket.IO-161b22?style=flat-square&logo=socketdotio&logoColor=FFFFFF" alt="Socket.IO"></a>
-<a href="https://www.elastic.co/elasticsearch"><img src="https://img.shields.io/badge/Elasticsearch-161b22?style=flat-square&logo=elasticsearch&logoColor=00BFB3" alt="Elasticsearch"></a>
-<a href="https://redis.io"><img src="https://img.shields.io/badge/Redis-161b22?style=flat-square&logo=redis&logoColor=FF4438" alt="Redis"></a>
-<a href="https://bullmq.io"><img src="https://img.shields.io/badge/BullMQ-161b22?style=flat-square&logo=redis&logoColor=E5484D" alt="BullMQ"></a>
-<a href="https://www.postgresql.org"><img src="https://img.shields.io/badge/PostgreSQL-161b22?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL"></a>
-<a href="https://typeorm.io"><img src="https://img.shields.io/badge/TypeORM-161b22?style=flat-square&logo=typeorm&logoColor=FE0803" alt="TypeORM"></a>
-<a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker"></a>
-<a href="https://prometheus.io"><img src="https://img.shields.io/badge/Prometheus-161b22?style=flat-square&logo=prometheus&logoColor=E6522C" alt="Prometheus"></a>
-<a href="https://grafana.com"><img src="https://img.shields.io/badge/Grafana-161b22?style=flat-square&logo=grafana&logoColor=F46800" alt="Grafana"></a>
-</td>
-</tr>
-</table>
-
-<p></p>
-
-<p align="center"><a href="https://one-cx.com/"><img src="assets/experience/sde2.svg" alt="Software Development Engineer 2 at OneCX, Nov 2022 to Mar 2025" width="100%"></a></p>
-
-<table align="center">
-<tr>
-<td width="66%" valign="top">
-<ul>
-<li>Only backend engineer on <b>INTERCOMM</b>, a WhatsApp Business API platform: <b>1M+</b> messages per quarter.</li>
-<li><b>~100K messages/day per bot</b> at <b>99.9%</b> uptime on Redis-backed queues.</li>
-<li><b>BridgeQ</b>: multi-channel messaging backbone on <b>Kafka</b> and <b>RabbitMQ</b>.</li>
-</ul>
-<details>
-<summary><sub>More highlights</sub></summary>
-<ul>
-<li><b>10×</b> client reach, <b>2×</b> sales revenue and <b>+45%</b> campaign ROI in year one.</li>
-<li>Provider-credential abstraction so new channels plug in without touching core logic.</li>
-<li>Owned the <b>GitHub Actions</b> pipelines, Git workflow standards and runbooks.</li>
-</ul>
-</details>
-</td>
-<td width="34%" valign="top" align="center">
-<sub><b>STACK</b></sub><br><br>
-<a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-161b22?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"></a>
-<a href="https://nestjs.com"><img src="https://img.shields.io/badge/NestJS-161b22?style=flat-square&logo=nestjs&logoColor=E0234E" alt="NestJS"></a>
-<a href="https://developers.facebook.com/docs/whatsapp"><img src="https://img.shields.io/badge/WhatsApp%20API-161b22?style=flat-square&logo=whatsapp&logoColor=25D366" alt="WhatsApp API"></a>
-<a href="https://kafka.apache.org"><img src="https://img.shields.io/badge/Kafka-161b22?style=flat-square&logo=apachekafka&logoColor=FFFFFF" alt="Kafka"></a>
-<a href="https://www.rabbitmq.com"><img src="https://img.shields.io/badge/RabbitMQ-161b22?style=flat-square&logo=rabbitmq&logoColor=FF6600" alt="RabbitMQ"></a>
-<a href="https://redis.io"><img src="https://img.shields.io/badge/Redis-161b22?style=flat-square&logo=redis&logoColor=FF4438" alt="Redis"></a>
-<a href="https://prometheus.io"><img src="https://img.shields.io/badge/Prometheus-161b22?style=flat-square&logo=prometheus&logoColor=E6522C" alt="Prometheus"></a>
-<a href="https://grafana.com"><img src="https://img.shields.io/badge/Grafana-161b22?style=flat-square&logo=grafana&logoColor=F46800" alt="Grafana"></a>
-<a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker"></a>
-<a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub%20Actions-161b22?style=flat-square&logo=githubactions&logoColor=2088FF" alt="GitHub Actions"></a>
-</td>
-</tr>
-</table>
-
-<p></p>
-
-<p align="center"><a href="https://www.prepladder.com"><img src="assets/experience/sde1.svg" alt="Software Engineer at PrepLadder (Unacademy), Aug 2022 to Oct 2022" width="100%"></a></p>
-
-<table align="center">
-<tr>
-<td width="66%" valign="top">
-<ul>
-<li>Push-notification scheduler with personalised payloads and send-time selection.</li>
-<li>Tuned <b>AWS RDS</b> and <b>Cassandra</b> for fast, highly available delivery.</li>
-</ul>
-</td>
-<td width="34%" valign="top" align="center">
-<sub><b>STACK</b></sub><br><br>
-<a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-161b22?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"></a>
-<a href="https://expressjs.com"><img src="https://img.shields.io/badge/Express.js-161b22?style=flat-square&logo=express&logoColor=FFFFFF" alt="Express.js"></a>
-<a href="https://aws.amazon.com/rds/"><img src="https://img.shields.io/badge/AWS%20RDS-161b22?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjNTI3RkZGIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BQW1hem9uIFJEUzwvdGl0bGU%2BPHBhdGggZD0iTTEuNDYzLjg1NyA1LjQ0NiA0Ljg0bC0uNjA2LjYwNkwuODU3IDEuNDYzdjMuMjUxSDBWLjQzQS40My40MyAwIDAgMSAuNDI5IDBoNC4yODV2Ljg1N1pNMjQgLjQzdjQuMjg1aC0uODU3di0zLjI1bC0zLjk4MyAzLjk4LS42MDYtLjYwNkwyMi41MzcuODU3aC0zLjI1MVYwaDQuMjg1Yy4yMzcgMCAuNDI5LjE5Mi40MjkuNDI5Wm0tLjg1NyAxOC44NTdIMjR2NC4yODVhLjQyOC40MjggMCAwIDEtLjQyOS40MjloLTQuMjg1di0uODU3aDMuMjVsLTMuOTgyLTMuOTgzLjYwNi0uNjA2IDMuOTgzIDMuOTgzWm0tLjIxNC03LjYyM2MwLTEuNDIzLTEuNjQzLTIuODI4LTQuMzkzLTMuNzZsLjI3NC0uODExYzMuMTYyIDEuMDcgNC45NzYgMi43MzYgNC45NzYgNC41NyAwIDEuODM2LTEuODE0IDMuNTAyLTQuOTc2IDQuNTcybC0uMjc1LS44MTJjMi43NTEtLjkzMSA0LjM5NC0yLjMzNiA0LjM5NC0zLjc2Wm0tMjEuODM0IDBjMCAxLjM2MyAxLjUzOCAyLjczIDQuMTEzIDMuNjZsLS4yOTEuODA2QzEuOTQ0IDE1LjA1Ny4yMzggMTMuNDMuMjM4IDExLjY2NFMxLjk0NCA4LjI3IDQuOTE3IDcuMTk3bC4yOTEuODA2Yy0yLjU3NS45My00LjExMyAyLjI5Ny00LjExMyAzLjY2Wm00LjM1IDcuNDk3LTMuOTgyIDMuOTgzaDMuMjUxVjI0SC40M2EuNDI4LjQyOCAwIDAgMS0uNDMtLjQyOXYtNC4yODVoLjg1N3YzLjI1bDMuOTgzLTMuOTgyWk0xMiA4LjI2NWMtMy4wNjMgMC00LjcxNC0uNzktNC43MTQtMS4xMTQgMC0uMzIzIDEuNjUxLTEuMTE0IDQuNzE0LTEuMTE0IDMuMDYyIDAgNC43MTQuNzkgNC43MTQgMS4xMTQgMCAuMzIzLTEuNjUyIDEuMTE0LTQuNzE0IDEuMTE0Wm0uMDEyIDMuMzJjLTIuOTMyIDAtNC43MjYtLjgwMS00LjcyNi0xLjIzN1Y4LjI2NWMxLjA1NS41ODIgMi45MjguODU4IDQuNzE0Ljg1OCAxLjc4NiAwIDMuNjU5LS4yNzYgNC43MTQtLjg1OHYyLjA4M2MwIC40MzYtMS43ODUgMS4yMzctNC43MDIgMS4yMzdabTAgMy4yNzJjLTIuOTMyIDAtNC43MjYtLjgtNC43MjYtMS4yMzd2LTIuMTA4YzEuMDQyLjYxMyAyLjg5LjkzIDQuNzI2LjkzIDEuODI3IDAgMy42NjQtLjMxNyA0LjcwMi0uOTI4djIuMTA2YzAgLjQzNy0xLjc4NSAxLjIzNy00LjcwMiAxLjIzN1pNMTIgMTcuNzkzYy0zLjA1IDAtNC43MTQtLjgyLTQuNzE0LTEuMjR2LTEuNzY4YzEuMDQyLjYxMiAyLjg5LjkzIDQuNzI2LjkzIDEuODI3IDAgMy42NjQtLjMxNyA0LjcwMi0uOTI4djEuNzY1YzAgLjQyMi0xLjY2NCAxLjI0MS00LjcxNCAxLjI0MVpNMTIgNS4xOGMtMi42ODMgMC01LjU3MS42MTYtNS41NzEgMS45NzF2OS40MDFjMCAxLjM3OCAyLjgwMiAyLjA5OSA1LjU3MSAyLjA5OSAyLjc2OSAwIDUuNTcxLS43MjEgNS41NzEtMi4wOTl2LTkuNGMwLTEuMzU2LTIuODg4LTEuOTcyLTUuNTcxLTEuOTcyWiIvPjwvc3ZnPg%3D%3D" alt="AWS RDS"></a>
-<a href="https://cassandra.apache.org"><img src="https://img.shields.io/badge/Cassandra-161b22?style=flat-square&logo=apachecassandra&logoColor=1287B1" alt="Cassandra"></a>
-<a href="https://redis.io"><img src="https://img.shields.io/badge/Redis-161b22?style=flat-square&logo=redis&logoColor=FF4438" alt="Redis"></a>
-</td>
-</tr>
-</table>
-
-<p></p>
-
-<p align="center"><a href="https://www.prepladder.com"><img src="assets/experience/jr.svg" alt="Junior Node.js Developer at PrepLadder (Unacademy), May 2021 to Jul 2022" width="100%"></a></p>
-
-<table align="center">
-<tr>
-<td width="66%" valign="top">
-<ul>
-<li>Course-content REST APIs serving thousands of students daily.</li>
-<li>Sole developer on <b>KYS</b>: encrypted APIs driven by database config, no deploy needed.</li>
-<li>★ <b>PrepStar of the Quarter</b>, Q2 2022.</li>
-</ul>
-</td>
-<td width="34%" valign="top" align="center">
-<sub><b>STACK</b></sub><br><br>
-<a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-161b22?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"></a>
-<a href="https://expressjs.com"><img src="https://img.shields.io/badge/Express.js-161b22?style=flat-square&logo=express&logoColor=FFFFFF" alt="Express.js"></a>
-<a href="https://aws.amazon.com/rds/"><img src="https://img.shields.io/badge/AWS%20RDS-161b22?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjNTI3RkZGIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BQW1hem9uIFJEUzwvdGl0bGU%2BPHBhdGggZD0iTTEuNDYzLjg1NyA1LjQ0NiA0Ljg0bC0uNjA2LjYwNkwuODU3IDEuNDYzdjMuMjUxSDBWLjQzQS40My40MyAwIDAgMSAuNDI5IDBoNC4yODV2Ljg1N1pNMjQgLjQzdjQuMjg1aC0uODU3di0zLjI1bC0zLjk4MyAzLjk4LS42MDYtLjYwNkwyMi41MzcuODU3aC0zLjI1MVYwaDQuMjg1Yy4yMzcgMCAuNDI5LjE5Mi40MjkuNDI5Wm0tLjg1NyAxOC44NTdIMjR2NC4yODVhLjQyOC40MjggMCAwIDEtLjQyOS40MjloLTQuMjg1di0uODU3aDMuMjVsLTMuOTgyLTMuOTgzLjYwNi0uNjA2IDMuOTgzIDMuOTgzWm0tLjIxNC03LjYyM2MwLTEuNDIzLTEuNjQzLTIuODI4LTQuMzkzLTMuNzZsLjI3NC0uODExYzMuMTYyIDEuMDcgNC45NzYgMi43MzYgNC45NzYgNC41NyAwIDEuODM2LTEuODE0IDMuNTAyLTQuOTc2IDQuNTcybC0uMjc1LS44MTJjMi43NTEtLjkzMSA0LjM5NC0yLjMzNiA0LjM5NC0zLjc2Wm0tMjEuODM0IDBjMCAxLjM2MyAxLjUzOCAyLjczIDQuMTEzIDMuNjZsLS4yOTEuODA2QzEuOTQ0IDE1LjA1Ny4yMzggMTMuNDMuMjM4IDExLjY2NFMxLjk0NCA4LjI3IDQuOTE3IDcuMTk3bC4yOTEuODA2Yy0yLjU3NS45My00LjExMyAyLjI5Ny00LjExMyAzLjY2Wm00LjM1IDcuNDk3LTMuOTgyIDMuOTgzaDMuMjUxVjI0SC40M2EuNDI4LjQyOCAwIDAgMS0uNDMtLjQyOXYtNC4yODVoLjg1N3YzLjI1bDMuOTgzLTMuOTgyWk0xMiA4LjI2NWMtMy4wNjMgMC00LjcxNC0uNzktNC43MTQtMS4xMTQgMC0uMzIzIDEuNjUxLTEuMTE0IDQuNzE0LTEuMTE0IDMuMDYyIDAgNC43MTQuNzkgNC43MTQgMS4xMTQgMCAuMzIzLTEuNjUyIDEuMTE0LTQuNzE0IDEuMTE0Wm0uMDEyIDMuMzJjLTIuOTMyIDAtNC43MjYtLjgwMS00LjcyNi0xLjIzN1Y4LjI2NWMxLjA1NS41ODIgMi45MjguODU4IDQuNzE0Ljg1OCAxLjc4NiAwIDMuNjU5LS4yNzYgNC43MTQtLjg1OHYyLjA4M2MwIC40MzYtMS43ODUgMS4yMzctNC43MDIgMS4yMzdabTAgMy4yNzJjLTIuOTMyIDAtNC43MjYtLjgtNC43MjYtMS4yMzd2LTIuMTA4YzEuMDQyLjYxMyAyLjg5LjkzIDQuNzI2LjkzIDEuODI3IDAgMy42NjQtLjMxNyA0LjcwMi0uOTI4djIuMTA2YzAgLjQzNy0xLjc4NSAxLjIzNy00LjcwMiAxLjIzN1pNMTIgMTcuNzkzYy0zLjA1IDAtNC43MTQtLjgyLTQuNzE0LTEuMjR2LTEuNzY4YzEuMDQyLjYxMiAyLjg5LjkzIDQuNzI2LjkzIDEuODI3IDAgMy42NjQtLjMxNyA0LjcwMi0uOTI4djEuNzY1YzAgLjQyMi0xLjY2NCAxLjI0MS00LjcxNCAxLjI0MVpNMTIgNS4xOGMtMi42ODMgMC01LjU3MS42MTYtNS41NzEgMS45NzF2OS40MDFjMCAxLjM3OCAyLjgwMiAyLjA5OSA1LjU3MSAyLjA5OSAyLjc2OSAwIDUuNTcxLS43MjEgNS41NzEtMi4wOTl2LTkuNGMwLTEuMzU2LTIuODg4LTEuOTcyLTUuNTcxLTEuOTcyWiIvPjwvc3ZnPg%3D%3D" alt="AWS RDS"></a>
-<a href="https://www.mysql.com"><img src="https://img.shields.io/badge/MySQL-161b22?style=flat-square&logo=mysql&logoColor=4479A1" alt="MySQL"></a>
-<a href="https://bitbucket.org"><img src="https://img.shields.io/badge/Bitbucket-161b22?style=flat-square&logo=bitbucket&logoColor=2684FF" alt="Bitbucket"></a>
-</td>
-</tr>
-</table>
-
-<a id="projects"></a>
-<p align="center"><img src="assets/headers/06-projects.svg" alt="Key Projects" width="100%"></p>
-
-<table align="center">
-<tr>
-<td width="50%" valign="top" align="center">
-<img src="assets/projects/engine.svg" alt="Real-Time Learning Engine: Multiplayer gameplay over WebSockets with ELO matchmaking and a multi-tenant admin dashboard." width="100%">
-<br><br>
-<a href="https://nestjs.com"><img src="https://img.shields.io/badge/NestJS-161b22?style=flat-square&logo=nestjs&logoColor=E0234E" alt="NestJS"></a>
-<a href="https://socket.io"><img src="https://img.shields.io/badge/Socket.IO-161b22?style=flat-square&logo=socketdotio&logoColor=FFFFFF" alt="Socket.IO"></a>
-<a href="https://redis.io"><img src="https://img.shields.io/badge/Redis-161b22?style=flat-square&logo=redis&logoColor=FF4438" alt="Redis"></a>
-<a href="https://www.elastic.co/elasticsearch"><img src="https://img.shields.io/badge/Elasticsearch-161b22?style=flat-square&logo=elasticsearch&logoColor=00BFB3" alt="Elasticsearch"></a>
-<a href="https://bullmq.io"><img src="https://img.shields.io/badge/BullMQ-161b22?style=flat-square&logo=redis&logoColor=E5484D" alt="BullMQ"></a>
-<br><br>
-</td>
-<td width="50%" valign="top" align="center">
-<img src="assets/projects/intercomm.svg" alt="INTERCOMM Automation: WhatsApp campaign builder, template creator, flow designer and analytics on an event-driven core." width="100%">
-<br><br>
-<a href="https://nestjs.com"><img src="https://img.shields.io/badge/NestJS-161b22?style=flat-square&logo=nestjs&logoColor=E0234E" alt="NestJS"></a>
-<a href="https://developers.facebook.com/docs/whatsapp"><img src="https://img.shields.io/badge/WhatsApp%20API-161b22?style=flat-square&logo=whatsapp&logoColor=25D366" alt="WhatsApp API"></a>
-<a href="https://kafka.apache.org"><img src="https://img.shields.io/badge/Kafka-161b22?style=flat-square&logo=apachekafka&logoColor=FFFFFF" alt="Kafka"></a>
-<a href="https://www.rabbitmq.com"><img src="https://img.shields.io/badge/RabbitMQ-161b22?style=flat-square&logo=rabbitmq&logoColor=FF6600" alt="RabbitMQ"></a>
-<a href="https://redis.io"><img src="https://img.shields.io/badge/Redis-161b22?style=flat-square&logo=redis&logoColor=FF4438" alt="Redis"></a>
-<br><br>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-<img src="assets/projects/pna.svg" alt="PNA Push Notifications: Personalised payloads and send-time selection that improved retention on a large EdTech platform." width="100%">
-<br><br>
-<a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-161b22?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"></a>
-<a href="https://expressjs.com"><img src="https://img.shields.io/badge/Express.js-161b22?style=flat-square&logo=express&logoColor=FFFFFF" alt="Express.js"></a>
-<a href="https://aws.amazon.com/rds/"><img src="https://img.shields.io/badge/AWS%20RDS-161b22?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjNTI3RkZGIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BQW1hem9uIFJEUzwvdGl0bGU%2BPHBhdGggZD0iTTEuNDYzLjg1NyA1LjQ0NiA0Ljg0bC0uNjA2LjYwNkwuODU3IDEuNDYzdjMuMjUxSDBWLjQzQS40My40MyAwIDAgMSAuNDI5IDBoNC4yODV2Ljg1N1pNMjQgLjQzdjQuMjg1aC0uODU3di0zLjI1bC0zLjk4MyAzLjk4LS42MDYtLjYwNkwyMi41MzcuODU3aC0zLjI1MVYwaDQuMjg1Yy4yMzcgMCAuNDI5LjE5Mi40MjkuNDI5Wm0tLjg1NyAxOC44NTdIMjR2NC4yODVhLjQyOC40MjggMCAwIDEtLjQyOS40MjloLTQuMjg1di0uODU3aDMuMjVsLTMuOTgyLTMuOTgzLjYwNi0uNjA2IDMuOTgzIDMuOTgzWm0tLjIxNC03LjYyM2MwLTEuNDIzLTEuNjQzLTIuODI4LTQuMzkzLTMuNzZsLjI3NC0uODExYzMuMTYyIDEuMDcgNC45NzYgMi43MzYgNC45NzYgNC41NyAwIDEuODM2LTEuODE0IDMuNTAyLTQuOTc2IDQuNTcybC0uMjc1LS44MTJjMi43NTEtLjkzMSA0LjM5NC0yLjMzNiA0LjM5NC0zLjc2Wm0tMjEuODM0IDBjMCAxLjM2MyAxLjUzOCAyLjczIDQuMTEzIDMuNjZsLS4yOTEuODA2QzEuOTQ0IDE1LjA1Ny4yMzggMTMuNDMuMjM4IDExLjY2NFMxLjk0NCA4LjI3IDQuOTE3IDcuMTk3bC4yOTEuODA2Yy0yLjU3NS45My00LjExMyAyLjI5Ny00LjExMyAzLjY2Wm00LjM1IDcuNDk3LTMuOTgyIDMuOTgzaDMuMjUxVjI0SC40M2EuNDI4LjQyOCAwIDAgMS0uNDMtLjQyOXYtNC4yODVoLjg1N3YzLjI1bDMuOTgzLTMuOTgyWk0xMiA4LjI2NWMtMy4wNjMgMC00LjcxNC0uNzktNC43MTQtMS4xMTQgMC0uMzIzIDEuNjUxLTEuMTE0IDQuNzE0LTEuMTE0IDMuMDYyIDAgNC43MTQuNzkgNC43MTQgMS4xMTQgMCAuMzIzLTEuNjUyIDEuMTE0LTQuNzE0IDEuMTE0Wm0uMDEyIDMuMzJjLTIuOTMyIDAtNC43MjYtLjgwMS00LjcyNi0xLjIzN1Y4LjI2NWMxLjA1NS41ODIgMi45MjguODU4IDQuNzE0Ljg1OCAxLjc4NiAwIDMuNjU5LS4yNzYgNC43MTQtLjg1OHYyLjA4M2MwIC40MzYtMS43ODUgMS4yMzctNC43MDIgMS4yMzdabTAgMy4yNzJjLTIuOTMyIDAtNC43MjYtLjgtNC43MjYtMS4yMzd2LTIuMTA4YzEuMDQyLjYxMyAyLjg5LjkzIDQuNzI2LjkzIDEuODI3IDAgMy42NjQtLjMxNyA0LjcwMi0uOTI4djIuMTA2YzAgLjQzNy0xLjc4NSAxLjIzNy00LjcwMiAxLjIzN1pNMTIgMTcuNzkzYy0zLjA1IDAtNC43MTQtLjgyLTQuNzE0LTEuMjR2LTEuNzY4YzEuMDQyLjYxMiAyLjg5LjkzIDQuNzI2LjkzIDEuODI3IDAgMy42NjQtLjMxNyA0LjcwMi0uOTI4djEuNzY1YzAgLjQyMi0xLjY2NCAxLjI0MS00LjcxNCAxLjI0MVpNMTIgNS4xOGMtMi42ODMgMC01LjU3MS42MTYtNS41NzEgMS45NzF2OS40MDFjMCAxLjM3OCAyLjgwMiAyLjA5OSA1LjU3MSAyLjA5OSAyLjc2OSAwIDUuNTcxLS43MjEgNS41NzEtMi4wOTl2LTkuNGMwLTEuMzU2LTIuODg4LTEuOTcyLTUuNTcxLTEuOTcyWiIvPjwvc3ZnPg%3D%3D" alt="AWS RDS"></a>
-<a href="https://cassandra.apache.org"><img src="https://img.shields.io/badge/Cassandra-161b22?style=flat-square&logo=apachecassandra&logoColor=1287B1" alt="Cassandra"></a>
-<a href="https://redis.io"><img src="https://img.shields.io/badge/Redis-161b22?style=flat-square&logo=redis&logoColor=FF4438" alt="Redis"></a>
-<br><br>
-</td>
-<td width="50%" valign="top" align="center">
-<img src="assets/projects/kys.svg" alt="KYS: Know Your Student: Encrypted APIs that drive pop-ups and forms from database config, so non-technical teams ship changes." width="100%">
-<br><br>
-<a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-161b22?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"></a>
-<a href="https://expressjs.com"><img src="https://img.shields.io/badge/Express.js-161b22?style=flat-square&logo=express&logoColor=FFFFFF" alt="Express.js"></a>
-<a href="https://aws.amazon.com/rds/"><img src="https://img.shields.io/badge/AWS%20RDS-161b22?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjNTI3RkZGIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BQW1hem9uIFJEUzwvdGl0bGU%2BPHBhdGggZD0iTTEuNDYzLjg1NyA1LjQ0NiA0Ljg0bC0uNjA2LjYwNkwuODU3IDEuNDYzdjMuMjUxSDBWLjQzQS40My40MyAwIDAgMSAuNDI5IDBoNC4yODV2Ljg1N1pNMjQgLjQzdjQuMjg1aC0uODU3di0zLjI1bC0zLjk4MyAzLjk4LS42MDYtLjYwNkwyMi41MzcuODU3aC0zLjI1MVYwaDQuMjg1Yy4yMzcgMCAuNDI5LjE5Mi40MjkuNDI5Wm0tLjg1NyAxOC44NTdIMjR2NC4yODVhLjQyOC40MjggMCAwIDEtLjQyOS40MjloLTQuMjg1di0uODU3aDMuMjVsLTMuOTgyLTMuOTgzLjYwNi0uNjA2IDMuOTgzIDMuOTgzWm0tLjIxNC03LjYyM2MwLTEuNDIzLTEuNjQzLTIuODI4LTQuMzkzLTMuNzZsLjI3NC0uODExYzMuMTYyIDEuMDcgNC45NzYgMi43MzYgNC45NzYgNC41NyAwIDEuODM2LTEuODE0IDMuNTAyLTQuOTc2IDQuNTcybC0uMjc1LS44MTJjMi43NTEtLjkzMSA0LjM5NC0yLjMzNiA0LjM5NC0zLjc2Wm0tMjEuODM0IDBjMCAxLjM2MyAxLjUzOCAyLjczIDQuMTEzIDMuNjZsLS4yOTEuODA2QzEuOTQ0IDE1LjA1Ny4yMzggMTMuNDMuMjM4IDExLjY2NFMxLjk0NCA4LjI3IDQuOTE3IDcuMTk3bC4yOTEuODA2Yy0yLjU3NS45My00LjExMyAyLjI5Ny00LjExMyAzLjY2Wm00LjM1IDcuNDk3LTMuOTgyIDMuOTgzaDMuMjUxVjI0SC40M2EuNDI4LjQyOCAwIDAgMS0uNDMtLjQyOXYtNC4yODVoLjg1N3YzLjI1bDMuOTgzLTMuOTgyWk0xMiA4LjI2NWMtMy4wNjMgMC00LjcxNC0uNzktNC43MTQtMS4xMTQgMC0uMzIzIDEuNjUxLTEuMTE0IDQuNzE0LTEuMTE0IDMuMDYyIDAgNC43MTQuNzkgNC43MTQgMS4xMTQgMCAuMzIzLTEuNjUyIDEuMTE0LTQuNzE0IDEuMTE0Wm0uMDEyIDMuMzJjLTIuOTMyIDAtNC43MjYtLjgwMS00LjcyNi0xLjIzN1Y4LjI2NWMxLjA1NS41ODIgMi45MjguODU4IDQuNzE0Ljg1OCAxLjc4NiAwIDMuNjU5LS4yNzYgNC43MTQtLjg1OHYyLjA4M2MwIC40MzYtMS43ODUgMS4yMzctNC43MDIgMS4yMzdabTAgMy4yNzJjLTIuOTMyIDAtNC43MjYtLjgtNC43MjYtMS4yMzd2LTIuMTA4YzEuMDQyLjYxMyAyLjg5LjkzIDQuNzI2LjkzIDEuODI3IDAgMy42NjQtLjMxNyA0LjcwMi0uOTI4djIuMTA2YzAgLjQzNy0xLjc4NSAxLjIzNy00LjcwMiAxLjIzN1pNMTIgMTcuNzkzYy0zLjA1IDAtNC43MTQtLjgyLTQuNzE0LTEuMjR2LTEuNzY4YzEuMDQyLjYxMiAyLjg5LjkzIDQuNzI2LjkzIDEuODI3IDAgMy42NjQtLjMxNyA0LjcwMi0uOTI4djEuNzY1YzAgLjQyMi0xLjY2NCAxLjI0MS00LjcxNCAxLjI0MVpNMTIgNS4xOGMtMi42ODMgMC01LjU3MS42MTYtNS41NzEgMS45NzF2OS40MDFjMCAxLjM3OCAyLjgwMiAyLjA5OSA1LjU3MSAyLjA5OSAyLjc2OSAwIDUuNTcxLS43MjEgNS41NzEtMi4wOTl2LTkuNGMwLTEuMzU2LTIuODg4LTEuOTcyLTUuNTcxLTEuOTcyWiIvPjwvc3ZnPg%3D%3D" alt="AWS RDS"></a>
-<a href="https://bitbucket.org"><img src="https://img.shields.io/badge/Bitbucket-161b22?style=flat-square&logo=bitbucket&logoColor=2684FF" alt="Bitbucket"></a>
-<br><br>
-</td>
-</tr>
-</table>
-
-<a id="stack"></a>
-<p align="center"><img src="assets/headers/07-stack.svg" alt="Tech Stack" width="100%"></p>
-
-<p align="center">
-  <a href="https://www.typescriptlang.org"><img src="https://skillicons.dev/icons?i=ts&theme=dark" alt="TypeScript" width="48" title="TypeScript"></a>&nbsp;
-  <a href="https://nodejs.org"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" alt="Node.js" width="48" title="Node.js"></a>&nbsp;
-  <a href="https://nestjs.com"><img src="https://skillicons.dev/icons?i=nestjs&theme=dark" alt="NestJS" width="48" title="NestJS"></a>&nbsp;
-  <a href="https://expressjs.com"><img src="https://skillicons.dev/icons?i=express&theme=dark" alt="Express.js" width="48" title="Express.js"></a>&nbsp;
-  <a href="https://graphql.org"><img src="https://skillicons.dev/icons?i=graphql&theme=dark" alt="GraphQL" width="48" title="GraphQL"></a>&nbsp;
-  <a href="https://www.postgresql.org"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" alt="PostgreSQL" width="48" title="PostgreSQL"></a>&nbsp;
-  <a href="https://www.mongodb.com"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" alt="MongoDB" width="48" title="MongoDB"></a>&nbsp;
-  <a href="https://redis.io"><img src="https://skillicons.dev/icons?i=redis&theme=dark" alt="Redis" width="48" title="Redis"></a>&nbsp;
-  <a href="https://kafka.apache.org"><img src="https://skillicons.dev/icons?i=kafka&theme=dark" alt="Kafka" width="48" title="Kafka"></a>&nbsp;
-  <a href="https://www.rabbitmq.com"><img src="https://skillicons.dev/icons?i=rabbitmq&theme=dark" alt="RabbitMQ" width="48" title="RabbitMQ"></a>
-</p>
-<p align="center">
-  <a href="https://www.elastic.co/elasticsearch"><img src="https://skillicons.dev/icons?i=elasticsearch&theme=dark" alt="Elasticsearch" width="48" title="Elasticsearch"></a>&nbsp;
-  <a href="https://www.prisma.io"><img src="https://skillicons.dev/icons?i=prisma&theme=dark" alt="Prisma" width="48" title="Prisma"></a>&nbsp;
-  <a href="https://aws.amazon.com"><img src="https://skillicons.dev/icons?i=aws&theme=dark" alt="AWS" width="48" title="AWS"></a>&nbsp;
-  <a href="https://www.cloudflare.com"><img src="https://skillicons.dev/icons?i=cloudflare&theme=dark" alt="Cloudflare" width="48" title="Cloudflare"></a>&nbsp;
-  <a href="https://www.docker.com"><img src="https://skillicons.dev/icons?i=docker&theme=dark" alt="Docker" width="48" title="Docker"></a>&nbsp;
-  <a href="https://github.com/features/actions"><img src="https://skillicons.dev/icons?i=githubactions&theme=dark" alt="GitHub Actions" width="48" title="GitHub Actions"></a>&nbsp;
-  <a href="https://prometheus.io"><img src="https://skillicons.dev/icons?i=prometheus&theme=dark" alt="Prometheus" width="48" title="Prometheus"></a>&nbsp;
-  <a href="https://grafana.com"><img src="https://skillicons.dev/icons?i=grafana&theme=dark" alt="Grafana" width="48" title="Grafana"></a>&nbsp;
-  <a href="https://vitest.dev"><img src="https://skillicons.dev/icons?i=vitest&theme=dark" alt="Vitest" width="48" title="Vitest"></a>&nbsp;
-  <a href="https://astro.build"><img src="https://skillicons.dev/icons?i=astro&theme=dark" alt="Astro" width="48" title="Astro"></a>
-</p>
-
-<p></p>
-
-<table align="center">
-<tr>
-<td align="center"><br><sub><b>BACKEND &AMP; APIS</b></sub><br><br>
-<a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-161b22?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"></a>
-<a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-161b22?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript"></a>
-<a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-161b22?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"></a>
-<a href="https://nestjs.com"><img src="https://img.shields.io/badge/NestJS-161b22?style=for-the-badge&logo=nestjs&logoColor=E0234E" alt="NestJS"></a>
-<a href="https://expressjs.com"><img src="https://img.shields.io/badge/Express.js-161b22?style=for-the-badge&logo=express&logoColor=FFFFFF" alt="Express.js"></a>
-<a href="https://graphql.org"><img src="https://img.shields.io/badge/GraphQL-161b22?style=for-the-badge&logo=graphql&logoColor=E10098" alt="GraphQL"></a>
-<a href="https://grpc.io"><img src="https://img.shields.io/badge/gRPC-161b22?style=for-the-badge" alt="gRPC"></a>
-<a href="https://socket.io"><img src="https://img.shields.io/badge/Socket.IO-161b22?style=for-the-badge&logo=socketdotio&logoColor=FFFFFF" alt="Socket.IO"></a>
-<a href="https://www.openapis.org"><img src="https://img.shields.io/badge/REST%20%C2%B7%20OpenAPI-161b22?style=for-the-badge&logo=openapiinitiative&logoColor=6BA539" alt="REST · OpenAPI"></a>
-<a href="https://developers.facebook.com/docs/whatsapp"><img src="https://img.shields.io/badge/WhatsApp%20API-161b22?style=for-the-badge&logo=whatsapp&logoColor=25D366" alt="WhatsApp API"></a>
-<a href="https://www.postman.com"><img src="https://img.shields.io/badge/Postman-161b22?style=for-the-badge&logo=postman&logoColor=FF6C37" alt="Postman"></a>
-<br><br>
-</td>
-</tr>
-<tr>
-<td align="center"><br><sub><b>DATABASES &AMP; ORMS</b></sub><br><br>
-<a href="https://www.postgresql.org"><img src="https://img.shields.io/badge/PostgreSQL-161b22?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL"></a>
-<a href="https://www.mysql.com"><img src="https://img.shields.io/badge/MySQL-161b22?style=for-the-badge&logo=mysql&logoColor=4479A1" alt="MySQL"></a>
-<a href="https://www.mongodb.com"><img src="https://img.shields.io/badge/MongoDB-161b22?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB"></a>
-<a href="https://www.sqlite.org"><img src="https://img.shields.io/badge/SQLite-161b22?style=for-the-badge&logo=sqlite&logoColor=4FA3D9" alt="SQLite"></a>
-<a href="https://cassandra.apache.org"><img src="https://img.shields.io/badge/Cassandra-161b22?style=for-the-badge&logo=apachecassandra&logoColor=1287B1" alt="Cassandra"></a>
-<a href="https://aws.amazon.com/rds/"><img src="https://img.shields.io/badge/AWS%20RDS-161b22?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjNTI3RkZGIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BQW1hem9uIFJEUzwvdGl0bGU%2BPHBhdGggZD0iTTEuNDYzLjg1NyA1LjQ0NiA0Ljg0bC0uNjA2LjYwNkwuODU3IDEuNDYzdjMuMjUxSDBWLjQzQS40My40MyAwIDAgMSAuNDI5IDBoNC4yODV2Ljg1N1pNMjQgLjQzdjQuMjg1aC0uODU3di0zLjI1bC0zLjk4MyAzLjk4LS42MDYtLjYwNkwyMi41MzcuODU3aC0zLjI1MVYwaDQuMjg1Yy4yMzcgMCAuNDI5LjE5Mi40MjkuNDI5Wm0tLjg1NyAxOC44NTdIMjR2NC4yODVhLjQyOC40MjggMCAwIDEtLjQyOS40MjloLTQuMjg1di0uODU3aDMuMjVsLTMuOTgyLTMuOTgzLjYwNi0uNjA2IDMuOTgzIDMuOTgzWm0tLjIxNC03LjYyM2MwLTEuNDIzLTEuNjQzLTIuODI4LTQuMzkzLTMuNzZsLjI3NC0uODExYzMuMTYyIDEuMDcgNC45NzYgMi43MzYgNC45NzYgNC41NyAwIDEuODM2LTEuODE0IDMuNTAyLTQuOTc2IDQuNTcybC0uMjc1LS44MTJjMi43NTEtLjkzMSA0LjM5NC0yLjMzNiA0LjM5NC0zLjc2Wm0tMjEuODM0IDBjMCAxLjM2MyAxLjUzOCAyLjczIDQuMTEzIDMuNjZsLS4yOTEuODA2QzEuOTQ0IDE1LjA1Ny4yMzggMTMuNDMuMjM4IDExLjY2NFMxLjk0NCA4LjI3IDQuOTE3IDcuMTk3bC4yOTEuODA2Yy0yLjU3NS45My00LjExMyAyLjI5Ny00LjExMyAzLjY2Wm00LjM1IDcuNDk3LTMuOTgyIDMuOTgzaDMuMjUxVjI0SC40M2EuNDI4LjQyOCAwIDAgMS0uNDMtLjQyOXYtNC4yODVoLjg1N3YzLjI1bDMuOTgzLTMuOTgyWk0xMiA4LjI2NWMtMy4wNjMgMC00LjcxNC0uNzktNC43MTQtMS4xMTQgMC0uMzIzIDEuNjUxLTEuMTE0IDQuNzE0LTEuMTE0IDMuMDYyIDAgNC43MTQuNzkgNC43MTQgMS4xMTQgMCAuMzIzLTEuNjUyIDEuMTE0LTQuNzE0IDEuMTE0Wm0uMDEyIDMuMzJjLTIuOTMyIDAtNC43MjYtLjgwMS00LjcyNi0xLjIzN1Y4LjI2NWMxLjA1NS41ODIgMi45MjguODU4IDQuNzE0Ljg1OCAxLjc4NiAwIDMuNjU5LS4yNzYgNC43MTQtLjg1OHYyLjA4M2MwIC40MzYtMS43ODUgMS4yMzctNC43MDIgMS4yMzdabTAgMy4yNzJjLTIuOTMyIDAtNC43MjYtLjgtNC43MjYtMS4yMzd2LTIuMTA4YzEuMDQyLjYxMyAyLjg5LjkzIDQuNzI2LjkzIDEuODI3IDAgMy42NjQtLjMxNyA0LjcwMi0uOTI4djIuMTA2YzAgLjQzNy0xLjc4NSAxLjIzNy00LjcwMiAxLjIzN1pNMTIgMTcuNzkzYy0zLjA1IDAtNC43MTQtLjgyLTQuNzE0LTEuMjR2LTEuNzY4YzEuMDQyLjYxMiAyLjg5LjkzIDQuNzI2LjkzIDEuODI3IDAgMy42NjQtLjMxNyA0LjcwMi0uOTI4djEuNzY1YzAgLjQyMi0xLjY2NCAxLjI0MS00LjcxNCAxLjI0MVpNMTIgNS4xOGMtMi42ODMgMC01LjU3MS42MTYtNS41NzEgMS45NzF2OS40MDFjMCAxLjM3OCAyLjgwMiAyLjA5OSA1LjU3MSAyLjA5OSAyLjc2OSAwIDUuNTcxLS43MjEgNS41NzEtMi4wOTl2LTkuNGMwLTEuMzU2LTIuODg4LTEuOTcyLTUuNTcxLTEuOTcyWiIvPjwvc3ZnPg%3D%3D" alt="AWS RDS"></a>
-<a href="https://aws.amazon.com/redshift/"><img src="https://img.shields.io/badge/Redshift-161b22?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjOEM0RkZGIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BQW1hem9uIFJlZHNoaWZ0PC90aXRsZT48cGF0aCBkPSJNMTYuNjM5IDkuOTMyYS44MjIuODIyIDAgMCAxLS44MjItLjgyLjgyMy44MjMgMCAwIDEgMS42NDUgMGMwIC40NTItLjM3LjgyLS44MjMuODJtLTIuMDg2IDQuOTk0YS44MjMuODIzIDAgMCAxLS44MjItLjgyMi44MjIuODIyIDAgMCAxIDEuNjQ1IDAgLjgyMi44MjIgMCAwIDEtLjgyMy44MjJtLTUuMDA0LS44MzNhLjgyMi44MjIgMCAxIDEgLjAwMi0xLjY0NC44MjIuODIyIDAgMCAxLS4wMDIgMS42NDRtLTIuMDgzIDQuNTc4YS44MjMuODIzIDAgMCAxLS44MjMtLjgyLjgyMy44MjMgMCAwIDEgMS42NDUgMGMwIC40NTItLjM3LjgyLS44MjIuODJtOS4xNzMtMTEuMjM2YTEuNjggMS42OCAwIDAgMC0xLjY4IDEuNjc2YzAgLjU2Ni4yODUgMS4wNjYuNzE4IDEuMzdsLS43ODIgMS45ODJhMS42NzQgMS42NzQgMCAwIDAtMS45MjMgMS4xMDRsLTEuNzUzLS4zOThhMS42NzUgMS42NzUgMCAwIDAtMy4zNDguMTAzYzAgLjQzMi4xNjkuODIzLjQzOCAxLjEybC0uNzY0IDEuNzljLS4wMjgtLjAwMS0uMDUzLS4wMDgtLjA4LS4wMDhhMS42OCAxLjY4IDAgMCAwLTEuNjggMS42NzYgMS42OCAxLjY4IDAgMCAwIDMuMzYgMGMwLS41OTMtLjMxMi0xLjExMi0uNzc4LTEuNDFsLjY3NC0xLjU3OWMuMTYxLjA1Mi4zMy4wODguNTA4LjA4OC42NjEgMCAxLjIyOC0uMzg2IDEuNTAyLS45NGwxLjg1Ni40MmExLjY4IDEuNjggMCAwIDAgMy4zMjctLjMyNWMwLS41LS4yMjQtLjk0My0uNTc0LTEuMjVsLjgyMi0yLjA4M2MuMDUzLjAwNS4xMDQuMDE2LjE1Ny4wMTZhMS42OCAxLjY4IDAgMCAwIDEuNjgtMS42NzYgMS42OCAxLjY4IDAgMCAwLTEuNjgtMS42NzZNMTIgMjMuMTQ1Yy00LjE3IDAtNy4yODYtMS4yNTItNy4yODYtMi4zN1Y0Ljc5QzYuMTQgNS45MzggOS4xMzEgNi41NDcgMTIgNi41NDdjMi44NjkgMCA1Ljg2LS42MDkgNy4yODYtMS43NTZ2MTUuOTgzYzAgMS4xMi0zLjExNiAyLjM3LTcuMjg2IDIuMzdNMTIgLjg1NmM0LjI5MyAwIDcuMjg2IDEuMjc0IDcuMjg2IDIuNDE5IDAgMS4xNDMtMi45OTMgMi40MTgtNy4yODYgMi40MTgtNC4yOTMgMC03LjI4Ni0xLjI3NS03LjI4Ni0yLjQxOEM0LjcxNCAyLjEyOSA3LjcwNy44NTUgMTIgLjg1NW04LjE0MyAyLjQxOUMyMC4xNDMgMS4xNDcgMTUuOTQ3IDAgMTIgMCA4LjA1MiAwIDMuODU3IDEuMTQ3IDMuODU3IDMuMjc0bC4wMDIuMDFoLS4wMDJ2MTcuNDlDMy44NTcgMjIuODcgOC4wNTIgMjQgMTIgMjRjMy45NDcgMCA4LjE0My0xLjEzIDguMTQzLTMuMjI2VjMuMjg0aC0uMDAybC4wMDItLjAxIi8%2BPC9zdmc%2B" alt="Redshift"></a>
-<a href="https://typeorm.io"><img src="https://img.shields.io/badge/TypeORM-161b22?style=for-the-badge&logo=typeorm&logoColor=FE0803" alt="TypeORM"></a>
-<a href="https://www.prisma.io"><img src="https://img.shields.io/badge/Prisma-161b22?style=for-the-badge&logo=prisma&logoColor=FFFFFF" alt="Prisma"></a>
-<a href="https://zod.dev"><img src="https://img.shields.io/badge/Zod-161b22?style=for-the-badge&logo=zod&logoColor=3E67B1" alt="Zod"></a>
-<a href="https://firebase.google.com"><img src="https://img.shields.io/badge/Firebase-161b22?style=for-the-badge&logo=firebase&logoColor=DD2C00" alt="Firebase"></a>
-<br><br>
-</td>
-</tr>
-<tr>
-<td align="center"><br><sub><b>MESSAGING &AMP; SEARCH</b></sub><br><br>
-<a href="https://kafka.apache.org"><img src="https://img.shields.io/badge/Kafka-161b22?style=for-the-badge&logo=apachekafka&logoColor=FFFFFF" alt="Kafka"></a>
-<a href="https://www.rabbitmq.com"><img src="https://img.shields.io/badge/RabbitMQ-161b22?style=for-the-badge&logo=rabbitmq&logoColor=FF6600" alt="RabbitMQ"></a>
-<a href="https://bullmq.io"><img src="https://img.shields.io/badge/BullMQ-161b22?style=for-the-badge&logo=redis&logoColor=E5484D" alt="BullMQ"></a>
-<a href="https://redis.io"><img src="https://img.shields.io/badge/Redis-161b22?style=for-the-badge&logo=redis&logoColor=FF4438" alt="Redis"></a>
-<a href="https://redis.io/docs/latest/develop/interact/pubsub/"><img src="https://img.shields.io/badge/Redis%20Pub%2FSub-161b22?style=for-the-badge&logo=redis&logoColor=DC382D" alt="Redis Pub/Sub"></a>
-<a href="https://www.elastic.co/elasticsearch"><img src="https://img.shields.io/badge/Elasticsearch-161b22?style=for-the-badge&logo=elasticsearch&logoColor=00BFB3" alt="Elasticsearch"></a>
-<a href="https://www.elastic.co/kibana"><img src="https://img.shields.io/badge/Kibana-161b22?style=for-the-badge&logo=kibana&logoColor=E8478B" alt="Kibana"></a>
-<br><br>
-</td>
-</tr>
-<tr>
-<td align="center"><br><sub><b>CLOUD &AMP; DELIVERY</b></sub><br><br>
-<a href="https://aws.amazon.com"><img src="https://img.shields.io/badge/AWS-161b22?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjRkY5OTAwIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BQW1hem9uIEFXUzwvdGl0bGU%2BPHBhdGggZD0iTTYuNzYzIDEwLjAzNmMwIC4yOTYuMDMyLjUzNS4wODguNzEuMDY0LjE3Ni4xNDQuMzY4LjI1Ni41NzYuMDQuMDYzLjA1Ni4xMjcuMDU2LjE4MyAwIC4wOC0uMDQ4LjE2LS4xNTIuMjRsLS41MDMuMzM1YS4zODMuMzgzIDAgMCAxLS4yMDguMDcyYy0uMDggMC0uMTYtLjA0LS4yMzktLjExMmEyLjQ3IDIuNDcgMCAwIDEtLjI4Ny0uMzc1IDYuMTggNi4xOCAwIDAgMS0uMjQ4LS40NzFjLS42MjIuNzM0LTEuNDA1IDEuMTAxLTIuMzQ3IDEuMTAxLS42NyAwLTEuMjA1LS4xOTEtMS41OTYtLjU3NC0uMzkxLS4zODQtLjU5LS44OTQtLjU5LTEuNTMzIDAtLjY3OC4yMzktMS4yMy43MjYtMS42NDQuNDg3LS40MTUgMS4xMzMtLjYyMyAxLjk1NS0uNjIzLjI3MiAwIC41NTEuMDI0Ljg0Ni4wNjQuMjk2LjA0LjYuMTA0LjkxOC4xNzZ2LS41ODNjMC0uNjA3LS4xMjctMS4wMy0uMzc1LTEuMjc3LS4yNTUtLjI0OC0uNjg2LS4zNjctMS4zLS4zNjctLjI4IDAtLjU2OC4wMzEtLjg2My4xMDMtLjI5NS4wNzItLjU4My4xNi0uODYyLjI3MmEyLjI4NyAyLjI4NyAwIDAgMS0uMjguMTA0LjQ4OC40ODggMCAwIDEtLjEyNy4wMjNjLS4xMTIgMC0uMTY4LS4wOC0uMTY4LS4yNDd2LS4zOTFjMC0uMTI4LjAxNi0uMjI0LjA1Ni0uMjhhLjU5Ny41OTcgMCAwIDEgLjIyNC0uMTY3Yy4yNzktLjE0NC42MTQtLjI2NCAxLjAwNS0uMzZhNC44NCA0Ljg0IDAgMCAxIDEuMjQ2LS4xNTFjLjk1IDAgMS42NDQuMjE2IDIuMDkxLjY0Ny40MzkuNDMuNjYyIDEuMDg1LjY2MiAxLjk2M3YyLjU4NnptLTMuMjQgMS4yMTRjLjI2MyAwIC41MzQtLjA0OC44MjItLjE0NC4yODctLjA5Ni41NDMtLjI3MS43NTgtLjUxLjEyOC0uMTUyLjIyNC0uMzIuMjcyLS41MTIuMDQ3LS4xOTEuMDgtLjQyMy4wOC0uNjk0di0uMzM1YTYuNjYgNi42NiAwIDAgMC0uNzM1LS4xMzYgNi4wMiA2LjAyIDAgMCAwLS43NS0uMDQ4Yy0uNTM1IDAtLjkyNi4xMDQtMS4xOS4zMi0uMjYzLjIxNS0uMzkuNTE4LS4zOS45MTcgMCAuMzc1LjA5NS42NTUuMjk1Ljg0Ni4xOTEuMi40Ny4yOTYuODM4LjI5NnptNi40MS44NjJjLS4xNDQgMC0uMjQtLjAyNC0uMzA0LS4wOC0uMDY0LS4wNDgtLjEyLS4xNi0uMTY4LS4zMTFMNy41ODYgNS41NWExLjM5OCAxLjM5OCAwIDAgMS0uMDcyLS4zMmMwLS4xMjguMDY0LS4yLjE5MS0uMmguNzgzYy4xNTEgMCAuMjU1LjAyNS4zMS4wOC4wNjUuMDQ4LjExMy4xNi4xNi4zMTJsMS4zNDIgNS4yODQgMS4yNDUtNS4yODRjLjA0LS4xNi4wODgtLjI2NC4xNTEtLjMxMmEuNTQ5LjU0OSAwIDAgMSAuMzItLjA4aC42MzhjLjE1MiAwIC4yNTYuMDI1LjMyLjA4LjA2My4wNDguMTIuMTYuMTUxLjMxMmwxLjI2MSA1LjM0OCAxLjM4MS01LjM0OGMuMDQ4LS4xNi4xMDQtLjI2NC4xNi0uMzEyYS41Mi41MiAwIDAgMSAuMzExLS4wOGguNzQzYy4xMjcgMCAuMi4wNjUuMi4yIDAgLjA0LS4wMDkuMDgtLjAxNy4xMjhhMS4xMzcgMS4xMzcgMCAwIDEtLjA1Ni4ybC0xLjkyMyA2LjE3Yy0uMDQ4LjE2LS4xMDQuMjYzLS4xNjguMzExYS41MS41MSAwIDAgMS0uMzAzLjA4aC0uNjg3Yy0uMTUxIDAtLjI1NS0uMDI0LS4zMi0uMDgtLjA2My0uMDU2LS4xMTktLjE2LS4xNS0uMzJsLTEuMjM4LTUuMTQ4LTEuMjMgNS4xNGMtLjA0LjE2LS4wODcuMjY0LS4xNS4zMi0uMDY1LjA1Ni0uMTc3LjA4LS4zMi4wOHptMTAuMjU2LjIxNWMtLjQxNSAwLS44My0uMDQ4LTEuMjI5LS4xNDMtLjM5OS0uMDk2LS43MS0uMi0uOTE4LS4zMi0uMTI4LS4wNzEtLjIxNS0uMTUxLS4yNDctLjIyM2EuNTYzLjU2MyAwIDAgMS0uMDQ4LS4yMjR2LS40MDdjMC0uMTY3LjA2NC0uMjQ3LjE4My0uMjQ3LjA0OCAwIC4wOTYuMDA4LjE0NC4wMjQuMDQ4LjAxNi4xMi4wNDguMi4wOC4yNzEuMTIuNTY2LjIxNS44NzguMjc5LjMxOS4wNjQuNjMuMDk2Ljk1LjA5Ni41MDIgMCAuODk0LS4wODggMS4xNjUtLjI2NGEuODYuODYgMCAwIDAgLjQxNS0uNzU4Ljc3Ny43NzcgMCAwIDAtLjIxNS0uNTU5Yy0uMTQ0LS4xNTEtLjQxNi0uMjg3LS44MDctLjQxNWwtMS4xNTctLjM2Yy0uNTgzLS4xODMtMS4wMTQtLjQ1NC0xLjI3Ny0uODEzYTEuOTAyIDEuOTAyIDAgMCAxLS40LTEuMTU4YzAtLjMzNS4wNzMtLjYzLjIxNi0uODg2LjE0NC0uMjU1LjMzNS0uNDc5LjU3NS0uNjU0LjI0LS4xODQuNTEtLjMyLjgzLS40MTUuMzItLjA5Ni42NTUtLjEzNiAxLjAwNi0uMTM2LjE3NSAwIC4zNTkuMDA4LjUzNS4wMzIuMTgzLjAyNC4zNS4wNTYuNTE4LjA4OC4xNi4wNC4zMTIuMDguNDU1LjEyNy4xNDQuMDQ4LjI1Ni4wOTYuMzM2LjE0NGEuNjkuNjkgMCAwIDEgLjI0LjIuNDMuNDMgMCAwIDEgLjA3MS4yNjN2LjM3NWMwIC4xNjgtLjA2NC4yNTYtLjE4NC4yNTZhLjgzLjgzIDAgMCAxLS4zMDMtLjA5NiAzLjY1MiAzLjY1MiAwIDAgMC0xLjUzMi0uMzExYy0uNDU1IDAtLjgxNS4wNzEtMS4wNjIuMjIzLS4yNDguMTUyLS4zNzUuMzgzLS4zNzUuNzEgMCAuMjI0LjA4LjQxNi4yNC41NjcuMTU5LjE1Mi40NTQuMzA0Ljg3Ny40NGwxLjEzNC4zNThjLjU3NC4xODQuOTkuNDQgMS4yMzcuNzY3LjI0Ny4zMjcuMzY3LjcwMi4zNjcgMS4xMTcgMCAuMzQzLS4wNzIuNjU1LS4yMDcuOTI2LS4xNDQuMjcyLS4zMzYuNTExLS41ODMuNzAzLS4yNDguMi0uNTQzLjM0My0uODg2LjQ0Ny0uMzYuMTExLS43MzQuMTY3LTEuMTQyLjE2N3pNMjEuNjk4IDE2LjIwN2MtMi42MjYgMS45NC02LjQ0MiAyLjk2OS05LjcyMiAyLjk2OS00LjU5OCAwLTguNzQtMS43LTExLjg3LTQuNTI2LS4yNDctLjIyMy0uMDI0LS41MjcuMjcyLS4zNTEgMy4zODQgMS45NjMgNy41NTkgMy4xNTMgMTEuODc3IDMuMTUzIDIuOTE0IDAgNi4xMTQtLjYwNyA5LjA2LTEuODUyLjQzOS0uMi44MTQuMjg3LjM4My42MDd6TTIyLjc5MiAxNC45NjFjLS4zMzYtLjQzLTIuMjItLjIwNy0zLjA3NC0uMTAzLS4yNTUuMDMyLS4yOTUtLjE5Mi0uMDYzLS4zNiAxLjUtMS4wNTMgMy45NjctLjc1IDQuMjU0LS4zOTkuMjg3LjM2LS4wOCAyLjgyNi0xLjQ4NSA0LjAwNy0uMjE1LjE4NC0uNDIzLjA4OC0uMzI3LS4xNTEuMzItLjc5IDEuMDMtMi41Ny42OTUtMi45OTR6Ii8%2BPC9zdmc%2B" alt="AWS"></a>
-<a href="https://aws.amazon.com/lambda/"><img src="https://img.shields.io/badge/Lambda-161b22?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjRkY5OTAwIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BQVdTIExhbWJkYTwvdGl0bGU%2BPHBhdGggZD0iTTQuOTg1NSAwYy0uMjk0MS4wMDMxLS41MzM1LjI0NjYtLjUzNC41NDgyTDQuNDQ2IDUuNDU2YzAgLjE0NTEuMDYuMjgzNS4xNTkuMzg5MWEuNTMyMi41MzIyIDAgMCAwIC4zODA2LjE1NjJoMy40MjgybDguMTk3IDE3LjY4MDVhLjUzNjUuNTM2NSAwIDAgMCAuNDg4NS4zMTgxaDUuODExYy4yOTY5IDAgLjU0MjYtLjI0NDguNTQyNi0uNTQ4MlYxOC41NDRjMC0uMzAzNS0uMjM5Mi0uNTQ4Mi0uNTQyNS0uNTQ4MmgtMi4wMTM4TDEyLjczOTQuMzE1M0MxMi42NDcuMTI0IDEyLjQ1NjQgMCAxMi4yNDUyIDBoLTcuMjU0Wm0uNTM5NyAxLjA5MDdoNi4zNjc4bDguMTYgMTcuNjgwNGEuNTM2NS41MzY1IDAgMCAwIC40ODg1LjMxODFoMS44MTc4djMuODE3M0gxNy40MzdMOS4yNDAyIDUuMjI2YS41MzYuNTM2IDAgMCAwLS40ODg1LS4zMThINS41MjIzWm0yLjAxMzcgOC4yMzY2Yy0uMjA5OC4wMDExLS4zOTM3LjExOTMtLjQ4NTcuMzA5NkwuNjAwMiAyMy4yMTMzYS41NTA2LjU1MDYgMCAwIDAgLjAzMTMuNTI4Mi41MzM0LjUzMzQgMCAwIDAgLjQ1NDQuMjVoNi4xNjlhLjU0NjguNTQ2OCAwIDAgMCAuNDk3LS4zMDk2bDMuMzgtNy4xNjZhLjU0MDUuNTQwNSAwIDAgMC0uMDAyOS0uNDY4Nkw4LjAzNiA5LjYzN2EuNTQ2OC41NDY4IDAgMCAwLS40OTQyLS4zMDk2Wm0uMDA1NyAxLjgwMzYgMi40ODggNS4xNTIyLTMuMTIxNCA2LjYyMDZIMS45NDY1WiIvPjwvc3ZnPg%3D%3D" alt="Lambda"></a>
-<a href="https://aws.amazon.com/cloudwatch/"><img src="https://img.shields.io/badge/CloudWatch-161b22?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjRkY0RjhCIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BQW1hem9uIENsb3VkV2F0Y2g8L3RpdGxlPjxwYXRoIGQ9Ik0xOC40NTQgMTQuOTA1YzAtMS42NzYtMS4zNzItMy4wMzktMy4wNTktMy4wMzktMS42ODYgMC0zLjA1OCAxLjM2My0zLjA1OCAzLjAzOSAwIDEuNjc1IDEuMzcyIDMuMDM4IDMuMDU4IDMuMDM4IDEuNjg3IDAgMy4wNTktMS4zNjMgMy4wNTktMy4wMzhabS44NjIgMGMwIDIuMTQ3LTEuNzU5IDMuODk0LTMuOTIgMy44OTQtMi4xNjIgMC0zLjkyLTEuNzQ3LTMuOTItMy44OTQgMC0yLjE0OCAxLjc1OC0zLjg5NSAzLjkyLTMuODk1IDIuMTYxIDAgMy45MiAxLjc0NyAzLjkyIDMuODk1Wm0zLjYxNyA1Ljg3LTMuMDA0LTIuNjg4Yy0uMjQyLjM0LS41MjMuNjQ5LS44MzQuOTI2bDIuOTk5IDIuNjg3Yy4yNTYuMjMuNjU0LjIwOC44ODUtLjA0NmEuNjIzLjYyMyAwIDAgMC0uMDQ2LS44OFptLTcuNTM4LTEuMjA2YzIuNTkgMCA0LjY5Ni0yLjA5MiA0LjY5Ni00LjY2NCAwLTIuNTczLTIuMTA2LTQuNjY1LTQuNjk2LTQuNjY1LTIuNTg5IDAtNC42OTYgMi4wOTItNC42OTYgNC42NjUgMCAyLjU3MiAyLjEwNyA0LjY2NCA0LjY5NiA0LjY2NFptOC4yMjQgMi42NThjLS4yOTMuMzIzLS43LjQ4Ny0xLjEwNy40ODdhMS40OSAxLjQ5IDAgMCAxLS45OTUtLjM3OEwxOC4zOTkgMTkuNTQyYTUuNTQzIDUuNTQzIDAgMCAxLTMuMDA0Ljg4M2MtMy4wNjQgMC01LjU1Ny0yLjQ3Ni01LjU1Ny01LjUyIDAtMy4wNDQgMi40OTMtNS41MjEgNS41NTctNS41MjEgMy4wNjUgMCA1LjU1OCAyLjQ3NyA1LjU1OCA1LjUyIDAgLjg3NC0uMjEgMS42OTctLjU3NiAyLjQzMmwzLjEzMyAyLjgwM2MuNjA4LjU0Ni42NTcgMS40ODIuMTEgMi4wODhaTTMuOTc3IDcuNDU0YzAgLjIyMi4wMTQuNDQ0LjA0LjY1OWEuNDI2LjQyNiAwIDAgMS0uMzUyLjQ3M0MyLjYwNSA4Ljg1OC44NjIgOS42ODEuODYyIDEyLjE0OGMwIDEuODYzIDEuMDM0IDIuODkyIDEuOTAyIDMuNDI3LjI5Ny4xODUuNjQ3LjI4NCAxLjAxNy4yODhsNS4xOTUuMDA1di44NTZsLTUuMi0uMDA1YTIuODE1IDIuODE1IDAgMCAxLTEuNDY5LS40MThDMS40NDcgMTUuNzcgMCAxNC41MjQgMCAxMi4xNDhjMC0yLjg2NCAxLjk3MS0zLjkyMyAzLjEyOS00LjI5N2E2LjA5MyA2LjA5MyAwIDAgMS0uMDEzLS4zOTdjMC0yLjM0IDEuNTk4LTQuNzY3IDMuNzE2LTUuNjQ1IDIuNDc4LTEuMDMxIDUuMTA0LS41MiA3LjAyMiAxLjM2N2E3LjA0OCA3LjA0OCAwIDAgMSAxLjQ1OSAyLjExNiAyLjc5IDIuNzkgMCAwIDEgMS43OC0uNjQ0YzEuMjg3IDAgMi43MzUuOTcgMi45OTMgMy4wOTIgMS4yMDUuMjc2IDMuNzUxIDEuMjQgMy43NTEgNC40NDEgMCAxLjI3OC0uNDAzIDIuMzMzLTEuMTk5IDMuMTM3bC0uNjE0LS42Yy42MzItLjYzOC45NTItMS40OTEuOTUyLTIuNTM3IDAtMi44LTIuMzYtMy40OTUtMy4zNzQtMy42NjRhLjQzLjQzIDAgMCAxLS4zNTMtLjQ5NmMtLjE0MS0xLjczOC0xLjE4LTIuNTE3LTIuMTU2LTIuNTE3LS42MTYgMC0xLjE5My4yOTgtMS41ODQuODE4YS40MzEuNDMxIDAgMCAxLS43NS0uMTExYy0uMzUzLS45NzEtLjg2MS0xLjc4OC0xLjUxMS0yLjQyNi0xLjY2My0xLjYzNi0zLjkzNi0yLjA3OS02LjA4NC0xLjE4Ni0xLjc4Ny43NC0zLjE4NyAyLjg3My0zLjE4NyA0Ljg1NVoiLz48L3N2Zz4%3D" alt="CloudWatch"></a>
-<a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-161b22?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker"></a>
-<a href="https://nginx.org"><img src="https://img.shields.io/badge/Nginx-161b22?style=for-the-badge&logo=nginx&logoColor=009639" alt="Nginx"></a>
-<a href="https://pm2.keymetrics.io"><img src="https://img.shields.io/badge/PM2-161b22?style=for-the-badge&logo=pm2&logoColor=FFFFFF" alt="PM2"></a>
-<a href="https://www.linode.com"><img src="https://img.shields.io/badge/Linode-161b22?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjMDBBOTVDIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BTGlub2RlPC90aXRsZT48cGF0aCBkPSJNMjIuMDA2IDEwLjY4NGEuMTUuMTUgMCAwIDAtLjA3LS4xNWwtMy4yNjEtMS44MjFhLjE0LjE0IDAgMCAwLS4xNCAwbC0yLjc3MSAxLjY5YS4xNy4xNyAwIDAgMC0uMDcuMTN2MS40NTFsLTEuMTMtLjc0YS4xNC4xNCAwIDAgMC0uMTUgMGwtMS42MiAxLS4wNzEtMS42NGEuMTkuMTkgMCAwIDAtLjA3LS4xMmwtMS42NS0xLjA5IDEuNTEtLjc4MWEuMTYuMTYgMCAwIDAgLjA4LS4xNGwtLjI3LTYuMjcyYS4xNi4xNiAwIDAgMC0uMDgtLjEzTDggMGgtLjFMMi4wOCAxLjgxQS4xNi4xNiAwIDAgMCAyIDJsMS4yNyA2LjIzM2EuMjIuMjIgMCAwIDAgMCAuMDhsMS44MyAxLjM4LTEuMjYuNmEuMTYuMTYgMCAwIDAtLjA4LjE3bDEgNC43MDJhLjE4LjE4IDAgMCAwIDAgLjA3TDYgMTYuMzc1bC0uOC40OWEuMTUuMTUgMCAwIDAtLjA2LjE2bC43NSAzLjY0MmEuMTEuMTEgMCAwIDAgMCAuMDdsMy4wMDIgMy4yMjFhLjE0LjE0IDAgMCAwIC4yIDBsMy45MjEtMy4xMjFhLjE2LjE2IDAgMCAwIC4wNi0uMTJsLS4wNy0yLjEyIDEuMzIgMS4xYS4xNC4xNCAwIDAgMCAuMTggMGwzLjE0Mi0yLjUxMWEuMjQuMjQgMCAwIDAgLjA2LS4xMWwuMDktMS41NyAxIC42N2EuMTQuMTQgMCAwIDAgLjE3IDBsMi41NzEtMi4wMDFhLjE0LjE0IDAgMCAwIC4wNS0uMXptLTkuNjIzLjE1bC4wNyAxLjU3LjEyIDIuNzgxLTQuMjMxIDIuODcxLS42Ni00LjUzMnptLS4zNS04LjQyM2wuMjUgNS45MTItNS4wMDIgMi41OS0uOS02LjMyMXpNMy41NCA4LjEyM0wyLjMzIDIuMjZsMy43NCAyLjMyLjkzMSA2LjIwMy0xLjU4LTEuMnpNNSAxNS4wNTVsLS44OC00LjI2MSAzLjI4MSAyLjc0LjYgNC4zODItMS42OC0xLjYyem0xLjE0IDUuNTEybC0uNjUtMy4xNDEgMi44OTIgMi44NS40NyAzLjE2MnptMy4wMDIgM2wtLjQ5LTMuMzMgNC4wMDEtMi44NzEuMTQgMy4yOHptMy44NjEtNS4zNnYtMS4wODFhLjE2LjE2IDAgMCAwLS4wNS0uMTFsLTEuMTMtLjkyIDEtLjdhLjE0LjE0IDAgMCAwIC4wNi0uMTJ2LS4yNjFsMS4zOSAxLjA2djMuMjExem00LjQ0Mi0xLjIwMWwtMi44NjEgMi4yOHYtMy4yMmwzLjA3LTIuMjAxem0xLjI5LTEuMjFsLS45LS42MzEuMDktMS41OWEuMTEuMTEgMCAwIDAgMC0uMDYuMS4xIDAgMCAwIDAtLjA1bC0xLjkzLTEuMjd2LTEuMzkxbDMgMS44OXptMi41NS0xLjg2MWwtMi4yOCAxLjgxLjI2LTMuMDYgMi40MzEtMS42ODF6Ii8%2BPC9zdmc%2B" alt="Linode"></a>
-<a href="https://vercel.com"><img src="https://img.shields.io/badge/Vercel-161b22?style=for-the-badge&logo=vercel&logoColor=FFFFFF" alt="Vercel"></a>
-<a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub%20Actions-161b22?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions"></a>
-<a href="https://circleci.com"><img src="https://img.shields.io/badge/CircleCI-161b22?style=for-the-badge&logo=circleci&logoColor=FFFFFF" alt="CircleCI"></a>
-<a href="https://azure.microsoft.com/products/devops"><img src="https://img.shields.io/badge/Azure%20DevOps-161b22?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjMDA3OEQ3IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BQXp1cmUgRGV2T3BzPC90aXRsZT48cGF0aCBkPSJNMCA4Ljg3N0wyLjI0NyA1LjkxbDguNDA1LTMuNDE2Vi4wMjJsNy4zNyA1LjM5M0wyLjk2NiA4LjMzOHY4LjIyNUwwIDE1LjcwN3ptMjQtNC40NXYxNC42NTFsLTUuNzUzIDQuOS05LjMwMy0zLjA1N3YzLjA1NmwtNS45NzgtNy40MTYgMTUuMDU3IDEuNzk4VjUuNDE1eiIvPjwvc3ZnPg%3D%3D" alt="Azure DevOps"></a>
-<a href="https://typicode.github.io/husky/"><img src="https://img.shields.io/badge/Husky-161b22?style=for-the-badge&logo=git&logoColor=F05032" alt="Husky"></a>
-<br><br>
-</td>
-</tr>
-<tr>
-<td align="center"><br><sub><b>OBSERVABILITY &AMP; TESTING</b></sub><br><br>
-<a href="https://prometheus.io"><img src="https://img.shields.io/badge/Prometheus-161b22?style=for-the-badge&logo=prometheus&logoColor=E6522C" alt="Prometheus"></a>
-<a href="https://grafana.com"><img src="https://img.shields.io/badge/Grafana-161b22?style=for-the-badge&logo=grafana&logoColor=F46800" alt="Grafana"></a>
-<a href="https://jestjs.io"><img src="https://img.shields.io/badge/Jest-161b22?style=for-the-badge&logo=jest&logoColor=C21325" alt="Jest"></a>
-<a href="https://vitest.dev"><img src="https://img.shields.io/badge/Vitest-161b22?style=for-the-badge&logo=vitest&logoColor=FCC72B" alt="Vitest"></a>
-<a href="https://playwright.dev"><img src="https://img.shields.io/badge/Playwright-161b22?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjMkVBRDMzIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BUGxheXdyaWdodDwvdGl0bGU%2BPHBhdGggZD0iTTIzLjk5NiA3LjQ2MmMtLjA1Ni44MzctLjI1NyAyLjEzNS0uNzE2IDMuODUtLjk5NSAzLjcxNS00LjI3IDEwLjg3NC0xMC40MiA5LjIyNy02LjE1LTEuNjUtNS40MDctOS40ODctNC40MTItMTMuMjAxLjQ2LTEuNzE2LjkzNC0yLjk0IDEuMzA1LTMuNjk0LjQyLS44NTMuODQ2LS4yODkgMS44MTUuNTIzLjY4NC41NzMgMi40MSAxLjc5MSA1LjAxMSAyLjQ4OCAyLjYwMS42OTcgNC43MDYuNTA2IDUuNTgzLjM1MiAxLjI0NS0uMjE5IDEuODk3LS40OTQgMS44MzQuNDU1Wm0tOS44MDcgMy44NjNzLS4xMjctMS44MTktMS43NzMtMi4yODZjLTEuNjQ0LS40NjctMi42MTMgMS4wNC0yLjYxMyAxLjA0Wm00LjA1OCA0LjUzOS03Ljc2OS0yLjE3MnMuNDQ2IDIuMzA2IDMuMzM4IDMuMTUzYzIuODYyLjgzNiA0LjQzLS45OCA0LjQzLS45ODFabTIuNzAxLTIuNTFzLS4xMy0xLjgxOC0xLjc3My0yLjI4NmMtMS42NDQtLjQ2OS0yLjYxMiAxLjAzOC0yLjYxMiAxLjAzOFpNOC41NyAxOC4yM2MtNC43NDkgMS4yNzktNy4yNjEtNC4yMjQtOC4wMjEtNy4wOEMuMTk3IDkuODMxLjA0NCA4LjgzMi4wMDMgOC4xODhjLS4wNDctLjczLjQ1NS0uNTIgMS40MTUtLjM1NC42NzcuMTE4IDIuMy4yNjEgNC4zMDgtLjI4YTExLjI4IDExLjI4IDAgMCAwIDIuNDEtLjk1NmMtLjA1OC4xOTctLjExNC40LS4xNy42MS0uNDMzIDEuNjE4LS44MjcgNC4wNTUtLjYzMiA2LjQyNi0xLjk3Ni43MzItMi4yNjcgMi40MjMtMi4yNjcgMi40MjNsMi41MjQtLjcxNWMuMjI3IDEuMDAyLjYgMS45ODcgMS4xNSAyLjgzOGE1LjkxNCA1LjkxNCAwIDAgMS0uMTcxLjA0OVptLTQuMTg4LTYuMjk4YzEuMjY1LS4zMzMgMS4zNjMtMS42MzEgMS4zNjMtMS42MzFsLTMuMzc0Ljg4OHMuNzQ1IDEuMDc2IDIuMDEuNzQzWiIvPjwvc3ZnPg%3D%3D" alt="Playwright"></a>
-<a href="https://jwt.io"><img src="https://img.shields.io/badge/JWT-161b22?style=for-the-badge&logo=jsonwebtokens&logoColor=FFFFFF" alt="JWT"></a>
-<a href="https://oauth.net/2/"><img src="https://img.shields.io/badge/OAuth%202.0-161b22?style=for-the-badge&logo=auth0&logoColor=EB5424" alt="OAuth 2.0"></a>
-<br><br>
-</td>
-</tr>
-<tr>
-<td align="center"><br><sub><b>TOOLING</b></sub><br><br>
-<a href="https://git-scm.com"><img src="https://img.shields.io/badge/Git-161b22?style=for-the-badge&logo=git&logoColor=F05032" alt="Git"></a>
-<a href="https://github.com"><img src="https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub"></a>
-<a href="https://gitlab.com"><img src="https://img.shields.io/badge/GitLab-161b22?style=for-the-badge&logo=gitlab&logoColor=FC6D26" alt="GitLab"></a>
-<a href="https://bitbucket.org"><img src="https://img.shields.io/badge/Bitbucket-161b22?style=for-the-badge&logo=bitbucket&logoColor=2684FF" alt="Bitbucket"></a>
-<a href="https://www.atlassian.com/software/jira"><img src="https://img.shields.io/badge/Jira-161b22?style=for-the-badge&logo=jira&logoColor=2684FF" alt="Jira"></a>
-<a href="https://mermaid.js.org"><img src="https://img.shields.io/badge/Mermaid-161b22?style=for-the-badge&logo=mermaid&logoColor=FF3670" alt="Mermaid"></a>
-<a href="https://www.figma.com"><img src="https://img.shields.io/badge/Figma-161b22?style=for-the-badge&logo=figma&logoColor=F24E1E" alt="Figma"></a>
-<br><br>
-</td>
-</tr>
-<tr>
-<td align="center"><br><sub><b>WEB, ANALYTICS &AMP; SEO</b></sub><br><br>
-<a href="https://astro.build"><img src="https://img.shields.io/badge/Astro-161b22?style=for-the-badge&logo=astro&logoColor=FF5D01" alt="Astro"></a>
-<a href="https://www.cloudflare.com"><img src="https://img.shields.io/badge/Cloudflare-161b22?style=for-the-badge&logo=cloudflare&logoColor=F38020" alt="Cloudflare"></a>
-<a href="https://marketingplatform.google.com/about/analytics/"><img src="https://img.shields.io/badge/Google%20Analytics-161b22?style=for-the-badge&logo=googleanalytics&logoColor=E37400" alt="Google Analytics"></a>
-<a href="https://posthog.com"><img src="https://img.shields.io/badge/PostHog-161b22?style=for-the-badge&logo=posthog&logoColor=F9BD2B" alt="PostHog"></a>
-<a href="https://search.google.com/search-console/about"><img src="https://img.shields.io/badge/Search%20Console-161b22?style=for-the-badge&logo=googlesearchconsole&logoColor=458CF5" alt="Search Console"></a>
-<br><br>
-</td>
-</tr>
-<tr>
-<td align="center"><br><sub><b>AI-ASSISTED</b></sub><br><br>
-<a href="https://claude.com/product/claude-code"><img src="https://img.shields.io/badge/Claude%20Code-161b22?style=for-the-badge&logo=claude&logoColor=D97757" alt="Claude Code"></a>
-<a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-161b22?style=for-the-badge&logo=modelcontextprotocol&logoColor=FFFFFF" alt="MCP"></a>
-<a href="https://github.com/features/copilot"><img src="https://img.shields.io/badge/Copilot-161b22?style=for-the-badge&logo=githubcopilot&logoColor=FFFFFF" alt="Copilot"></a>
-<a href="https://cursor.com"><img src="https://img.shields.io/badge/Cursor-161b22?style=for-the-badge&logo=cursor&logoColor=FFFFFF" alt="Cursor"></a>
-<br><br>
-</td>
-</tr>
-<tr>
-<td align="center"><br><sub><b>ALSO SHIPPED WITH</b></sub><br><br>
-<a href="https://react.dev"><img src="https://img.shields.io/badge/React-161b22?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"></a>
-<a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js-161b22?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js"></a>
-<a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/Tailwind-161b22?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind"></a>
-<a href="https://getbootstrap.com"><img src="https://img.shields.io/badge/Bootstrap-161b22?style=for-the-badge&logo=bootstrap&logoColor=7952B3" alt="Bootstrap"></a>
-<br><br>
-</td>
-</tr>
-</table>
-
-<a id="ambitions"></a>
-<p align="center"><img src="assets/headers/08-ambitions.svg" alt="Ambitions &amp; Roadmap" width="100%"></p>
-
-<p align="center"><img src="assets/roadmap.svg" alt="Roadmap: Rust, Go, Spring Boot, DevOps and SEO" width="100%"></p>
-
-<p align="center">
-  <a href="https://doc.rust-lang.org/book/"><img src="https://img.shields.io/badge/The%20Rust%20Book-161b22?style=flat-square&logo=rust&logoColor=FFFFFF" alt="The Rust Book"></a>&nbsp;
-  <a href="https://go.dev/tour/"><img src="https://img.shields.io/badge/A%20Tour%20of%20Go-161b22?style=flat-square&logo=go&logoColor=00ADD8" alt="A Tour of Go"></a>&nbsp;
-  <a href="https://spring.io/guides"><img src="https://img.shields.io/badge/Spring%20Guides-161b22?style=flat-square&logo=springboot&logoColor=6DB33F" alt="Spring Guides"></a>&nbsp;
-  <a href="https://kubernetes.io"><img src="https://img.shields.io/badge/Kubernetes-161b22?style=flat-square&logo=kubernetes&logoColor=326CE5" alt="Kubernetes"></a>&nbsp;
-  <a href="https://developer.hashicorp.com/terraform"><img src="https://img.shields.io/badge/Terraform-161b22?style=flat-square&logo=terraform&logoColor=844FBA" alt="Terraform"></a>&nbsp;
-  <a href="https://helm.sh"><img src="https://img.shields.io/badge/Helm-161b22?style=flat-square&logo=helm&logoColor=FFFFFF" alt="Helm"></a>
-</p>
-<p align="center">
-  <a href="https://argo-cd.readthedocs.io"><img src="https://img.shields.io/badge/Argo%20CD-161b22?style=flat-square&logo=argo&logoColor=EF7B4D" alt="Argo CD"></a>&nbsp;
-  <a href="https://web.dev/articles/vitals"><img src="https://img.shields.io/badge/Core%20Web%20Vitals-161b22?style=flat-square&logo=googlechrome&logoColor=4285F4" alt="Core Web Vitals"></a>&nbsp;
-  <a href="https://developer.chrome.com/docs/lighthouse/overview"><img src="https://img.shields.io/badge/Lighthouse-161b22?style=flat-square&logo=lighthouse&logoColor=F44B21" alt="Lighthouse"></a>&nbsp;
-  <a href="https://search.google.com/search-console/about"><img src="https://img.shields.io/badge/Search%20Console-161b22?style=flat-square&logo=googlesearchconsole&logoColor=458CF5" alt="Search Console"></a>
-</p>
+<p align="center"><img src="assets/primary-stack.svg" alt="Daily drivers: TypeScript, Node.js, NestJS, Express.js, GraphQL, PostgreSQL, MongoDB, Redis, Kafka, RabbitMQ, Elasticsearch, Prisma, AWS, Cloudflare, Docker, GitHub Actions, Prometheus, Grafana, Vitest, Astro" width="100%"></p>
 
 <a id="coding"></a>
-<p align="center"><img src="assets/headers/09-coding.svg" alt="Coding Profile" width="100%"></p>
+<p align="center"><img src="assets/headers/03-coding.svg" alt="Proof of Work" width="100%"></p>
 
 <!--
   Both cards render at exactly 490x165 (stats: hide=contribs + line_height=24; top-langs compact caps at 165),
@@ -409,7 +54,7 @@
   <a href="https://github.com/shreesharma07"><img src="profile-snake/snake-dark.svg" alt="Animated contribution snake" width="100%"></a>
 </p>
 
-<!-- 3D contribution calendar: .github/workflows/profile-3d.yml commits it to ./profile-3d-contrib. -->
+<!-- 3D contribution city: .github/workflows/profile-3d.yml commits it to ./profile-3d-contrib. -->
 <p align="center">
   <a href="https://github.com/shreesharma07"><img src="profile-3d-contrib/profile-city.svg" alt="3D contribution city" width="100%"></a>
 </p>
@@ -424,51 +69,92 @@
 </p>
 
 <a id="wakatime"></a>
-<p align="center"><img src="assets/headers/10-wakatime.svg" alt="WakaTime Insights" width="100%"></p>
+<p align="center"><img src="assets/headers/04-wakatime.svg" alt="Time at the Keyboard" width="100%"></p>
 
-<table align="center">
-<tr>
-<td colspan="2" align="center"><a href="https://wakatime.com/@shreesharma07"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=shreesharma07&layout=compact&langs_count=8&card_width=1000&custom_title=All-time+languages&theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=a371f7&text_color=c9d1d9&border_radius=16" alt="WakaTime all-time languages" width="100%"></a></td>
-</tr>
-<tr>
-<td width="50%" align="center" valign="top"><sub><b>LANGUAGES · SHARE</b></sub><br><br><a href="https://wakatime.com/@shreesharma07"><img src="https://wakatime.com/share/@shreesharma07/e0ad4b50-231a-44cf-ad7b-a4653f66ed61.png" alt="WakaTime languages pie chart" width="100%"></a></td>
-<td width="50%" align="center" valign="top"><sub><b>LANGUAGES · HOURS</b></sub><br><br><a href="https://wakatime.com/@shreesharma07"><img src="https://wakatime.com/share/@shreesharma07/fcf6c83b-1dbc-456b-bff4-e0ead4e41e39.png" alt="WakaTime languages bar chart" width="100%"></a></td>
-</tr>
-<tr>
-<td colspan="2" align="center"><sub><b>ALL TIME CODING ACTIVITY</b></sub><br><br><a href="https://wakatime.com/@shreesharma07"><img src="https://wakatime.com/share/@shreesharma07/29db582f-a9d9-4742-926e-5d82787f1757.svg" alt="WakaTime coding activity" width="100%"></a></td>
-</tr>
-</table>
+<!-- Plain image rows instead of a table: table cells add 13px padding and would inset every chart. -->
+<p align="center"><a href="https://wakatime.com/@shreesharma07"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=shreesharma07&layout=compact&langs_count=8&card_width=1000&custom_title=All-time+languages&theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=a371f7&text_color=c9d1d9&border_radius=16" alt="WakaTime all-time languages" width="100%"></a></p>
+
+<p align="center"><a href="https://wakatime.com/@shreesharma07"><img src="https://wakatime.com/share/@shreesharma07/e0ad4b50-231a-44cf-ad7b-a4653f66ed61.png" alt="WakaTime languages pie chart" width="49%"></a><img src="assets/gap.svg" alt="" width="2%"><a href="https://wakatime.com/@shreesharma07"><img src="https://wakatime.com/share/@shreesharma07/fcf6c83b-1dbc-456b-bff4-e0ead4e41e39.png" alt="WakaTime languages bar chart" width="49%"></a></p>
+
+<p align="center"><sub><b>ALL TIME CODING ACTIVITY</b></sub></p>
+
+<p align="center"><a href="https://wakatime.com/@shreesharma07"><img src="https://wakatime.com/share/@shreesharma07/29db582f-a9d9-4742-926e-5d82787f1757.svg" alt="WakaTime coding activity" width="100%"></a></p>
 <!-- More chart types (editors, OS, categories): https://wakatime.com/share/embed, then add each share URL as a new <td>. -->
 
-<a id="credentials"></a>
-<p align="center"><img src="assets/headers/11-credentials.svg" alt="Awards &amp; Certifications" width="100%"></p>
+<a id="connect"></a>
+<p align="center"><img src="assets/headers/05-connect.svg" alt="Open a Connection" width="100%"></p>
 
+<p align="center">Open to collaboration and work inquiries. Pick whichever channel suits you.</p>
+
+<!-- Seven tiles at 13.4% with six 1.03% gaps fill one row. -->
+<p align="center"><a href="https://www.shrikumarsharma.in/"><img src="assets/connect/portfolio.svg" alt="Portfolio: shrikumarsharma.in" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="https://blogs.shrikumarsharma.in/"><img src="assets/connect/blog.svg" alt="Blog: blogs.shrikumarsharma.in" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="mailto:shrikumarsharma1998@gmail.com"><img src="assets/connect/email.svg" alt="Email: say hello" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="https://www.linkedin.com/in/shreesharma07/"><img src="assets/connect/linkedin.svg" alt="LinkedIn: in/shreesharma07" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="https://github.com/shreesharma07"><img src="assets/connect/github.svg" alt="GitHub: @shreesharma07" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="https://wakatime.com/@shreesharma07"><img src="assets/connect/wakatime.svg" alt="WakaTime: @shreesharma07" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="https://www.instagram.com/shree_kumar_sharma/"><img src="assets/connect/instagram.svg" alt="Instagram: @shree_kumar_sharma" width="13.4%"></a></p>
+
+<p align="center"><img src="assets/separators/more.svg" alt="MORE ABOUT ME: experience · projects · skills · impact · timeline · credentials" width="100%"></p>
+
+<a id="experience"></a>
+<p align="center"><img src="assets/headers/06-experience.svg" alt="Where I've Shipped" width="100%"></p>
+
+<p align="center"><a href="https://one-cx.com/"><img src="assets/experience/sde3.svg" alt="Software Development Engineer 3 at OneCX, Apr 2025 to Present: Sole backend owner of a multiplayer language-learning platform, built as a modular NestJS service. Elasticsearch + Redis search over ~12M entries with 40% lower latency. BullMQ workers took power-ups off the request path: ~35% faster APIs. Socket.IO gateway for live game state and matchmaking, with one consistent ${event}:error contract. Zero-downtime TypeORM migrations on PostgreSQL: nullable → backfill → constrain. Prometheus + Grafana cut incident detection time by 50%; JWT, rate limiting, field-level encryption. Bulk email service reaching 250K recipients in under 10 minutes." width="100%"></a></p>
+
+<p align="center"><a href="https://one-cx.com/"><img src="assets/experience/sde2.svg" alt="Software Development Engineer 2 at OneCX, Nov 2022 to Mar 2025: Only backend engineer on INTERCOMM, a WhatsApp Business API platform: 1M+ messages per quarter. ~100K messages/day per bot at 99.9% uptime on Redis-backed queues. BridgeQ: multi-channel messaging backbone on Kafka and RabbitMQ. 10× client reach, 2× sales revenue and +45% campaign ROI in year one. Provider-credential abstraction so new channels plug in without touching core logic. Owned the GitHub Actions pipelines, Git workflow standards and runbooks." width="100%"></a></p>
+
+<p align="center"><a href="https://www.prepladder.com"><img src="assets/experience/sde1.svg" alt="Software Engineer at PrepLadder (Unacademy), Aug 2022 to Oct 2022: Push-notification scheduler with personalised payloads and send-time selection. Tuned AWS RDS and Cassandra for fast, highly available delivery." width="100%"></a></p>
+
+<p align="center"><a href="https://www.prepladder.com"><img src="assets/experience/jr.svg" alt="Junior Node.js Developer at PrepLadder (Unacademy), May 2021 to Jul 2022: Course-content REST APIs serving thousands of students daily. Sole developer on KYS: encrypted APIs driven by database config, no deploy needed. ★ PrepStar of the Quarter, Q2 2022." width="100%"></a></p>
+
+<a id="projects"></a>
+<p align="center"><img src="assets/headers/07-projects.svg" alt="Systems I've Built" width="100%"></p>
+
+<p align="center"><img src="assets/projects/engine.svg" alt="Real-Time Learning Engine: Multiplayer gameplay over WebSockets with ELO matchmaking and a multi-tenant admin dashboard. Stack: NestJS, Socket.IO, Redis, Elasticsearch, BullMQ" width="49%"><img src="assets/gap.svg" alt="" width="2%"><img src="assets/projects/intercomm.svg" alt="INTERCOMM Automation: WhatsApp campaign builder, template creator, flow designer and analytics on an event-driven core. Stack: NestJS, WhatsApp API, Kafka, RabbitMQ, Redis" width="49%"></p>
+
+<p align="center"><img src="assets/projects/pna.svg" alt="PNA Push Notifications: Personalised payloads and send-time selection that improved retention on a large EdTech platform. Stack: Node.js, Express.js, AWS RDS, Cassandra, Redis" width="49%"><img src="assets/gap.svg" alt="" width="2%"><img src="assets/projects/kys.svg" alt="KYS: Know Your Student: Encrypted APIs that drive pop-ups and forms from database config, so non-technical teams ship changes. Stack: Node.js, Express.js, AWS RDS, Bitbucket" width="49%"></p>
+
+<a id="skills"></a>
+<p align="center"><img src="assets/headers/08-skills.svg" alt="The Full Toolbox" width="100%"></p>
+
+<p align="center"><img src="assets/skills.svg" alt="Backend &amp; APIs: Node.js, TypeScript, JavaScript, NestJS, Express.js, GraphQL, gRPC, Socket.IO, REST · OpenAPI, WhatsApp API, Postman. Databases &amp; ORMs: PostgreSQL, MySQL, MongoDB, SQLite, Cassandra, AWS RDS, Redshift, TypeORM, Prisma, Zod, Firebase. Messaging &amp; search: Kafka, RabbitMQ, BullMQ, Redis, Redis Pub/Sub, Elasticsearch, Kibana. Cloud &amp; delivery: AWS, Lambda, CloudWatch, Docker, Nginx, PM2, Linode, Vercel, GitHub Actions, CircleCI, Azure DevOps, Husky. Observability &amp; testing: Prometheus, Grafana, Jest, Vitest, Playwright, JWT, OAuth 2.0. Web, analytics &amp; SEO: Astro, Cloudflare, Google Analytics, PostHog, Search Console. Tooling: Git, GitHub, GitLab, Bitbucket, Jira, Mermaid, Figma. AI-assisted: Claude Code, MCP, Copilot, Cursor. Also shipped with: React, Next.js, Tailwind, Bootstrap" width="100%"></p>
+
+<a id="ambitions"></a>
+<p align="center"><img src="assets/headers/09-ambitions.svg" alt="The Next Release" width="100%"></p>
+
+<p align="center"><img src="assets/roadmap.svg" alt="Roadmap: Rust, Go, Spring Boot, DevOps and SEO" width="100%"></p>
+
+<!-- Learning-resource chips, hidden for now:
 <p align="center">
-  <a href="https://www.linkedin.com/in/shreesharma07/details/experience/"><img src="https://img.shields.io/badge/PrepStar%20of%20the%20Quarter-Q2%202022%20%C2%B7%20PrepLadder-161b22?style=for-the-badge&labelColor=9e6a03&logo=starship&logoColor=FFFFFF" alt="PrepStar of the Quarter, Q2 2022" height="36"></a>
-  <br><sub>Best-performing individual in the backend engineering team for the quarter.</sub>
+  <a href="https://doc.rust-lang.org/book/"><img src="https://img.shields.io/badge/The%20Rust%20Book-161b22?style=flat-square&logo=rust&logoColor=FFFFFF" alt="The Rust Book"></a>&nbsp;
+  <a href="https://go.dev/tour/"><img src="https://img.shields.io/badge/A%20Tour%20of%20Go-161b22?style=flat-square&logo=go&logoColor=00ADD8" alt="A Tour of Go"></a>&nbsp;
+  <a href="https://spring.io/guides"><img src="https://img.shields.io/badge/Spring%20Guides-161b22?style=flat-square&logo=springboot&logoColor=6DB33F" alt="Spring Guides"></a>&nbsp;
+  <a href="https://kubernetes.io"><img src="https://img.shields.io/badge/Kubernetes-161b22?style=flat-square&logo=kubernetes&logoColor=326CE5" alt="Kubernetes"></a>&nbsp;
+  <a href="https://developer.hashicorp.com/terraform"><img src="https://img.shields.io/badge/Terraform-161b22?style=flat-square&logo=terraform&logoColor=844FBA" alt="Terraform"></a>&nbsp;
+  <a href="https://helm.sh"><img src="https://img.shields.io/badge/Helm-161b22?style=flat-square&logo=helm&logoColor=FFFFFF" alt="Helm"></a>
 </p>
+<p align="center">
+  <a href="https://argo-cd.readthedocs.io"><img src="https://img.shields.io/badge/Argo%20CD-161b22?style=flat-square&logo=argo&logoColor=EF7B4D" alt="Argo CD"></a>&nbsp;
+  <a href="https://web.dev/articles/vitals"><img src="https://img.shields.io/badge/Core%20Web%20Vitals-161b22?style=flat-square&logo=googlechrome&logoColor=4285F4" alt="Core Web Vitals"></a>&nbsp;
+  <a href="https://developer.chrome.com/docs/lighthouse/overview"><img src="https://img.shields.io/badge/Lighthouse-161b22?style=flat-square&logo=lighthouse&logoColor=F44B21" alt="Lighthouse"></a>&nbsp;
+  <a href="https://search.google.com/search-console/about"><img src="https://img.shields.io/badge/Search%20Console-161b22?style=flat-square&logo=googlesearchconsole&logoColor=458CF5" alt="Search Console"></a>
+</p>
+-->
 
-<table align="center">
-<tr>
-<td width="36%" align="center" valign="top"><sub><b>ANTHROPIC</b></sub><br><br>
-<a href="https://anthropic.skilljar.com"><img src="https://img.shields.io/badge/Claude%20with%20the%20Anthropic%20API-161b22?style=flat-square&logo=anthropic&logoColor=D97757" alt="Claude with the Anthropic API"></a><br>
-<a href="https://anthropic.skilljar.com"><img src="https://img.shields.io/badge/Claude%20Code%20in%20Action-161b22?style=flat-square&logo=anthropic&logoColor=D97757" alt="Claude Code in Action"></a><br>
-<a href="https://anthropic.skilljar.com"><img src="https://img.shields.io/badge/Introduction%20to%20Agent%20Skills-161b22?style=flat-square&logo=anthropic&logoColor=D97757" alt="Introduction to Agent Skills"></a><br>
-<a href="https://anthropic.skilljar.com"><img src="https://img.shields.io/badge/Introduction%20to%20MCP-161b22?style=flat-square&logo=anthropic&logoColor=D97757" alt="Introduction to MCP"></a>
-</td>
-<td width="32%" align="center" valign="top"><sub><b>HACKERRANK</b></sub><br><br>
-<a href="https://www.hackerrank.com/shreesharma07"><img src="https://img.shields.io/badge/SQL-Advanced-238636?style=flat-square&labelColor=161b22&logo=hackerrank&logoColor=FFFFFF" alt="SQL (Advanced)"></a><br>
-<a href="https://www.hackerrank.com/shreesharma07"><img src="https://img.shields.io/badge/REST%20API-Intermediate-238636?style=flat-square&labelColor=161b22&logo=hackerrank&logoColor=FFFFFF" alt="REST API (Intermediate)"></a><br>
-<a href="https://www.hackerrank.com/shreesharma07"><img src="https://img.shields.io/badge/JavaScript-Intermediate-238636?style=flat-square&labelColor=161b22&logo=hackerrank&logoColor=FFFFFF" alt="JavaScript (Intermediate)"></a><br>
-<a href="https://www.hackerrank.com/shreesharma07"><img src="https://img.shields.io/badge/Problem%20Solving-Intermediate-238636?style=flat-square&labelColor=161b22&logo=hackerrank&logoColor=FFFFFF" alt="Problem Solving (Intermediate)"></a>
-</td>
-<td width="32%" align="center" valign="top"><sub><b>OTHER</b></sub><br><br>
-<a href="https://www.udemy.com/certificate/UC-d7b054d4-41cc-4fc3-8abf-9bd2306078db/"><img src="https://img.shields.io/badge/Ethereum%20%26%20Solidity-161b22?style=flat-square&logo=udemy&logoColor=A435F0" alt="Ethereum and Solidity, Udemy"></a><br>
-<a href="https://www.atlassian.com/university"><img src="https://img.shields.io/badge/Jira%20Fundamentals-161b22?style=flat-square&logo=atlassian&logoColor=2684FF" alt="Jira Fundamentals, Atlassian"></a><br>
-<a href="https://www.atlassian.com/university"><img src="https://img.shields.io/badge/ITSM%20%C2%B7%20Jira%20Service%20Mgmt-161b22?style=flat-square&logo=jira&logoColor=2684FF" alt="ITSM in Jira Service Management, Atlassian"></a>
-</td>
-</tr>
-</table>
+<a id="impact"></a>
+<p align="center"><img src="assets/headers/10-impact.svg" alt="Numbers in Production" width="100%"></p>
+
+<p align="center"><img src="assets/impact.svg" alt="Impact: ~12M entries indexed, 40% lower search latency, 35% faster APIs, 50% faster incident detection, 99.9% uptime, 1M+ messages per quarter, 10x reach, 250K emails in under 10 minutes" width="100%"></p>
+
+<a id="timeline"></a>
+<p align="center"><img src="assets/headers/11-timeline.svg" alt="The Long Version" width="100%"></p>
+
+<p align="center"><img src="assets/timeline.svg" alt="Career timeline from 2017 to present" width="100%"></p>
+
+<a id="milestones"></a>
+<p align="center"><img src="assets/headers/12-milestones.svg" alt="Tagged Releases" width="100%"></p>
+
+<p align="center"><img src="assets/milestones.svg" alt="2020: Graduated, BCA from GGSIPU, New Delhi; MAY 2021: First backend role, Junior Node.js Developer at PrepLadder; Q2 2022: PrepStar award, Best backend performer of the quarter; NOV 2022: Joined OneCX, SDE-2 on INTERCOMM and BridgeQ; APR 2025: Promoted to SDE-3, Sole backend owner, multiplayer platform" width="100%"></p>
+
+<a id="credentials"></a>
+<p align="center"><img src="assets/headers/13-credentials.svg" alt="Recognition &amp; Certifications" width="100%"></p>
+
+<p align="center"><a href="https://www.linkedin.com/in/shreesharma07/details/certifications/"><img src="assets/credentials.svg" alt="PrepStar of the Quarter, Q2 2022 · PrepLadder (Unacademy). ANTHROPIC: Claude with the Anthropic API, Claude Code in Action, Introduction to Agent Skills, Introduction to MCP. HACKERRANK: SQL Advanced, REST API Intermediate, JavaScript Intermediate, Problem Solving Intermediate. OTHER: Ethereum &amp; Solidity Udemy, Jira Fundamentals Atlassian, ITSM · Jira Service Mgmt Atlassian" width="100%"></a></p>
 
 <!-- Holopin board, hidden for now:
 <p align="center">
@@ -477,28 +163,19 @@
 -->
 
 <a id="education"></a>
-<p align="center"><img src="assets/headers/12-education.svg" alt="Education" width="100%"></p>
+<p align="center"><img src="assets/headers/14-education.svg" alt="Where It Started" width="100%"></p>
 
-<p align="center">
-  <a href="https://www.ipu.ac.in"><img src="assets/education/bca.svg" alt="Bachelor of Computer Applications, Guru Gobind Singh Indraprastha University" width="49%"></a>
-  <a href="https://www.cbse.gov.in"><img src="assets/education/school.svg" alt="High School · Information Technology, Central Board of Secondary Education" width="49%"></a>
-</p>
+<p align="center"><a href="https://www.ipu.ac.in"><img src="assets/education/bca.svg" alt="Bachelor of Computer Applications, Guru Gobind Singh Indraprastha University" width="49%"></a><img src="assets/gap.svg" alt="" width="2%"><a href="https://www.cbse.gov.in"><img src="assets/education/school.svg" alt="High School · Information Technology, Central Board of Secondary Education" width="49%"></a></p>
 
 <a id="languages"></a>
-<p align="center"><img src="assets/headers/13-languages.svg" alt="Languages" width="100%"></p>
+<p align="center"><img src="assets/headers/15-languages.svg" alt="Human Languages" width="100%"></p>
 
 <p align="center"><img src="assets/languages.svg" alt="English: Professional working proficiency. Hindi: Native or bilingual proficiency" width="100%"></p>
 
-<a id="connect"></a>
-<p align="center"><img src="assets/headers/14-connect.svg" alt="Let's Connect" width="100%"></p>
-
-<p align="center">Open to collaboration and work inquiries. Pick whichever channel suits you.</p>
-
-<!-- Seven tiles at 13.4% with six 1.03% spacers fill one row; no whitespace between tags. -->
-<p align="center"><a href="https://www.shrikumarsharma.in/"><img src="assets/connect/portfolio.svg" alt="Portfolio: shrikumarsharma.in" width="13.4%"></a><img src="assets/spacer.svg" alt="" width="1.03%"><a href="https://blogs.shrikumarsharma.in/"><img src="assets/connect/blog.svg" alt="Blog: blogs.shrikumarsharma.in" width="13.4%"></a><img src="assets/spacer.svg" alt="" width="1.03%"><a href="mailto:shrikumarsharma1998@gmail.com"><img src="assets/connect/email.svg" alt="Email: say hello" width="13.4%"></a><img src="assets/spacer.svg" alt="" width="1.03%"><a href="https://www.linkedin.com/in/shreesharma07/"><img src="assets/connect/linkedin.svg" alt="LinkedIn: in/shreesharma07" width="13.4%"></a><img src="assets/spacer.svg" alt="" width="1.03%"><a href="https://github.com/shreesharma07"><img src="assets/connect/github.svg" alt="GitHub: @shreesharma07" width="13.4%"></a><img src="assets/spacer.svg" alt="" width="1.03%"><a href="https://wakatime.com/@shreesharma07"><img src="assets/connect/wakatime.svg" alt="WakaTime: @shreesharma07" width="13.4%"></a><img src="assets/spacer.svg" alt="" width="1.03%"><a href="https://www.instagram.com/shree_kumar_sharma/"><img src="assets/connect/instagram.svg" alt="Instagram: @shree_kumar_sharma" width="13.4%"></a></p>
+<p align="center"><img src="assets/separators/last.svg" alt="BEFORE YOU GO: thanks for reading this far" width="100%"></p>
 
 <a id="support"></a>
-<p align="center"><img src="assets/headers/15-support.svg" alt="Support My Work" width="100%"></p>
+<p align="center"><img src="assets/headers/16-support.svg" alt="Fuel the Build" width="100%"></p>
 
 <p align="center">If my work has helped you, sponsoring me or buying me a coffee keeps it going. Thank you!</p>
 
@@ -518,4 +195,4 @@
   <a href="https://www.shrikumarsharma.in/"><img src="assets/footer.svg" alt="Thanks for visiting" width="100%"></a>
 </p>
 
-<p align="center"><sub><a href="#top">↑ back to top</a></sub></p>
+<p align="center"><a href="#top"><img src="assets/back-to-top.svg" alt="Back to top" width="200"></a></p>

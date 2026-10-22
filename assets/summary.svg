@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="388" viewBox="0 0 1200 388" role="img" aria-label="Senior backend engineer building real-time, event-driven systems that hold up in production. I design and run backends in Node.js, TypeScript and NestJS: PostgreSQL schemas and zero-downtime migrations, Kafka and RabbitMQ pipelines, Redis caching, Elasticsearch search and Socket.IO gateways. Today I own the backend of a multiplayer learning platform serving 200K+ concurrent sessions. Before that I built WhatsApp automation moving 1M+ messages a quarter, and EdTech services at PrepLadder.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="344" viewBox="0 0 1200 344" role="img" aria-label="Senior backend engineer building real-time, event-driven systems that hold up in production. I design and run backends in Node.js, TypeScript and NestJS: PostgreSQL schemas and zero-downtime migrations, Kafka and RabbitMQ pipelines, Redis caching, Elasticsearch search and Socket.IO gateways. Today I own the backend of a multiplayer learning platform serving 200K+ concurrent sessions. Before that I built WhatsApp automation moving 1M+ messages a quarter, and EdTech services at PrepLadder.">
 <title>Senior backend engineer building real-time, event-driven systems that hold up in production. I design and run backends in Node.js, TypeScript and NestJS: PostgreSQL schemas and zero-downtime migrations, Kafka and RabbitMQ pipelines, Redis caching, Elasticsearch search and Socket.IO gateways. Today I own the backend of a multiplayer learning platform serving 200K+ concurrent sessions. Before that I built WhatsApp automation moving 1M+ messages a quarter, and EdTech services at PrepLadder.</title>
 <style>
 @font-face{font-family:'m6';src:url(data:font/woff2;base64,d09GMgABAAAAAATQABAAAAAACZgAAAR3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbHhxQBmA/U1RBVDYAXBEICodwhiULIAABNgIkAyAEIAWEMgcgDAcblQfInoNxmxwCoVEp25J7k7YJeC/EQ/x+387MuyvvrismGU+i1um0lbokGo1SRRM0Gh4KJfH//zz7+wplQLV+GclBlTlt+rHiDjBWchUK9z+AO+ypQ9X/bBzb5gQOBXEPyoNljQUUjuhsN8bK3ef1WFF7Xdz2O6I+JFlIfI9APyCF0CcEqnlB0PGiigaQKdD5H/QIttIRlLs87eWt4NKPiSNPes08yBA+LBCvV6rxfgMCLNIqedvIAjG5EdPBuZvjIegiByBpOfrhzrNHAXyGZY3Nn/83CS+MpDBAr57cAbldcB/LxAJSm3EIW+ue0QyPgJ8xNchVSA3ejGEAmO5mhrHdHFNETrsHV7q/27J8hYpVa+xIGeQC5AoNv+GOOuKw/XaHOCjE6IIhEMLFS8dAHAaIFwCgAMfqcL1J7k562zG5fNkpShLs4eEi81/u5+LS94joVDQpGtqJpuW3fWbeDCPEfc9vwdrNmwr09bvtaKpx76AxtxUGDG6A65VPxt++jYTrd+5oxn5nNXPGX4Vcu9bnJIYXEOIB/fyBxwVQVd14oK8IY3jHjUXLJuasWGomRDXW7zhSoS2KtkW3XNARejB/FaMRfDgPz8hFnWntNE24gYSLZ4trDKhljBNpZjBzcs9NGilifX0dv3ZcseTKzExwfeMyGmMGCQ1ho9ex4IHI0cuz9LwQWl89ABiqm3CkxNlfx++NHNqx995c7x9nWMLOs/E7s7wWKc/vcKtVq11rdkDtnwfsyP4WbWJJeaxWWlMXr65NzU7upLTFw/q4lNx0TObmpHA9rGG1WrNKbwR1W0jpk3ty8/KSuyl9YdGAIbkrjyfnYryWzMPrMJ6H+ZzkngEDtP/ZRmWdCaQCn2VRU8D6ivlk5Tjq+87cLuO0dzX+cVjTzJD5Z1Lx22X3lcr70wreTrpv/agV22UOhZGkOqxMR6GckvFiB/4IF/5MvdIYLKkTtkSypvzBy40JomphQ5QNEtvCAT0GpODuAUe/7ujOHbk1Rz/5MRRmcR7JYMyQeXgkfOKaf5hzkNgaefuAE0+QHdhgJgneacBuB9OXZOFEz1sBvs9Csht/a8kcdcKJeSJlV1zsZl2HssOH9/Q87RcxKpBQEgtcYc/HlPwsbb4uPyMlxTeoDm1pDx/oFpAfEBoYGIq/3Q0AArlPVHVivrTbNeOrTNj8g7/XV88H/L1/9ZPYzrfUCl6iW4LgQwjk7R6S2D4P0NgK2l5FrQrtKhhlqlRBo9IG2AogMGQ3Ie3tPFetEIrS4j38yEVh3kNRGvRN1DhiuqjYixJ1mVUh7LZbhErQbxIO4etfahgUuIpj0cuqFK+XGatfs0EsGoNXZhAvj00vlpVdJY4VR6nOIJqDWS+bJoNs7FgcqzA6Kjpa2vn+MKkjrHOGM11uK086eHdpcMD2fJwhI9mu6AzDbo2PwjTUwOAwR0Y1bHHcaFD/XJTLgeMMjm2UO25NxBsq1adRU6Oxvddz6KPSj2OhBlhUfd3rxhMCnUG625T7Gv23Mgk=) format('woff2');}
@@ -20,8 +20,8 @@
 @media (prefers-reduced-motion:reduce){*{animation:none!important;}}
 </style>
 <defs></defs>
-<rect x="0.5" y="0.5" width="779" height="387" rx="16" fill="#0d1117" stroke="#30363d"/>
-<rect x="800.5" y="0.5" width="399" height="387" rx="16" fill="#0d1117" stroke="#30363d"/>
+<rect x="0.5" y="0.5" width="779" height="343" rx="16" fill="#0d1117" stroke="#30363d"/>
+<rect x="800.5" y="0.5" width="399" height="343" rx="16" fill="#0d1117" stroke="#30363d"/>
 <text x="36" y="56" class="m6 " font-size="13" fill="#58a6ff" text-anchor="start">ABOUT ME</text>
 <text x="36" y="104" class="d7 " font-size="27" fill="#e6edf3" text-anchor="start">Senior backend engineer building real-time,</text>
 <text x="36" y="140" class="d7 " font-size="27" fill="#e6edf3" text-anchor="start">event-driven systems that hold up in production.</text>
@@ -31,21 +31,21 @@
 <text x="36" y="267.675" class="d5 " font-size="16.5" fill="#8b949e" text-anchor="start">platform serving 200K+ concurrent sessions. Before that I built WhatsApp automation</text>
 <text x="36" y="294.9" class="d5 " font-size="16.5" fill="#8b949e" text-anchor="start">moving 1M+ messages a quarter, and EdTech services at PrepLadder.</text>
 <text x="836" y="56" class="m6 " font-size="13" fill="#a371f7" text-anchor="start">AT A GLANCE</text>
-<text x="836" y="113" class="m4 " font-size="12" fill="#6e7681" text-anchor="start">ROLE</text>
-<text x="1164" y="114" class="d6 " font-size="14" fill="#e6edf3" text-anchor="end">Senior Backend Engineer, SDE-3</text>
-<path d="M836 130H1164" stroke="#21262d"/>
-<text x="836" y="159" class="m4 " font-size="12" fill="#6e7681" text-anchor="start">COMPANY</text>
-<text x="1164" y="160" class="d6 " font-size="16" fill="#e6edf3" text-anchor="end">OneCX</text>
-<path d="M836 176H1164" stroke="#21262d"/>
-<text x="836" y="205" class="m4 " font-size="12" fill="#6e7681" text-anchor="start">BASED IN</text>
-<text x="1164" y="206" class="d6 " font-size="16" fill="#e6edf3" text-anchor="end">Delhi NCR, India</text>
-<path d="M836 222H1164" stroke="#21262d"/>
-<text x="836" y="251" class="m4 " font-size="12" fill="#6e7681" text-anchor="start">EXPERIENCE</text>
-<text x="1164" y="252" class="d6 " font-size="16" fill="#e6edf3" text-anchor="end">5+ years in production</text>
-<path d="M836 268H1164" stroke="#21262d"/>
-<text x="836" y="297" class="m4 " font-size="12" fill="#6e7681" text-anchor="start">FOCUS</text>
-<text x="1164" y="298" class="d6 " font-size="16" fill="#e6edf3" text-anchor="end">Real-time, events, search</text>
-<path d="M836 314H1164" stroke="#21262d"/>
-<text x="836" y="343" class="m4 " font-size="12" fill="#6e7681" text-anchor="start">LEARNING</text>
-<text x="1164" y="344" class="d6 " font-size="16" fill="#e6edf3" text-anchor="end">Go, Rust, Spring Boot</text>
+<text x="836" y="100" class="m4 " font-size="12" fill="#6e7681" text-anchor="start">ROLE</text>
+<text x="1164" y="101.5" class="d6 " font-size="14" fill="#e6edf3" text-anchor="end">Senior Backend Engineer, SDE-3</text>
+<path d="M836 116H1164" stroke="#21262d"/>
+<text x="836" y="140" class="m4 " font-size="12" fill="#6e7681" text-anchor="start">COMPANY</text>
+<text x="1164" y="141.5" class="d6 " font-size="16" fill="#e6edf3" text-anchor="end">OneCX</text>
+<path d="M836 156H1164" stroke="#21262d"/>
+<text x="836" y="180" class="m4 " font-size="12" fill="#6e7681" text-anchor="start">BASED IN</text>
+<text x="1164" y="181.5" class="d6 " font-size="16" fill="#e6edf3" text-anchor="end">Delhi NCR, India</text>
+<path d="M836 196H1164" stroke="#21262d"/>
+<text x="836" y="220" class="m4 " font-size="12" fill="#6e7681" text-anchor="start">EXPERIENCE</text>
+<text x="1164" y="221.5" class="d6 " font-size="16" fill="#e6edf3" text-anchor="end">5+ years in production</text>
+<path d="M836 236H1164" stroke="#21262d"/>
+<text x="836" y="260" class="m4 " font-size="12" fill="#6e7681" text-anchor="start">FOCUS</text>
+<text x="1164" y="261.5" class="d6 " font-size="16" fill="#e6edf3" text-anchor="end">Real-time, events, search</text>
+<path d="M836 276H1164" stroke="#21262d"/>
+<text x="836" y="300" class="m4 " font-size="12" fill="#6e7681" text-anchor="start">LEARNING</text>
+<text x="1164" y="301.5" class="d6 " font-size="16" fill="#e6edf3" text-anchor="end">Go, Rust, Spring Boot</text>
 </svg>

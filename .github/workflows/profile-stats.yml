@@ -1,0 +1,44 @@
+name: Refresh profile stats
+
+on:
+  schedule:
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: tools/package-lock.json
+
+      - name: Install the builder
+        working-directory: tools
+        run: npm ci
+
+      # Fetches followers, stars, WakaTime total and profile views, then redraws assets/stats.svg.
+      # Any value that fails to fetch keeps its last good value from assets/stats.json.
+      - name: Rebuild the stats strip
+        working-directory: tools
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node build-profile.mjs --stats-only
+
+      - name: Commit the refreshed strip
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add assets/stats.svg assets/stats.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh profile stats"
+          git pull --rebase
+          git push
