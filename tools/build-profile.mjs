@@ -147,6 +147,11 @@ const TECH = {
   searchconsole: { label: 'Search Console', logo: 'googlesearchconsole', color: '458CF5', href: 'https://search.google.com/search-console/about' },
   lighthouse: { label: 'Lighthouse', logo: 'lighthouse', color: 'F44B21', href: 'https://developer.chrome.com/docs/lighthouse/overview' },
   cwv: { label: 'Core Web Vitals', logo: 'googlechrome', color: '4285F4', href: 'https://web.dev/articles/vitals' },
+  // web, analytics & seo
+  astro: { label: 'Astro', logo: 'astro', color: 'FF5D01', href: 'https://astro.build', icon: 'astro' },
+  cloudflare: { label: 'Cloudflare', logo: 'cloudflare', color: 'F38020', href: 'https://www.cloudflare.com', icon: 'cloudflare' },
+  analytics: { label: 'Google Analytics', logo: 'googleanalytics', color: 'E37400', href: 'https://marketingplatform.google.com/about/analytics/' },
+  posthog: { label: 'PostHog', logo: 'posthog', color: 'F9BD2B', href: 'https://posthog.com' },
 };
 
 const LEGACY_LOGOS = ['amazonaws', 'awslambda', 'amazonrds', 'amazonredshift', 'amazoncloudwatch', 'azuredevops', 'linkedin', 'linode', 'playwright'];
@@ -164,6 +169,7 @@ const SECTIONS = [
   { id: 'wakatime', title: 'WakaTime Insights', cmd: 'wakatime --today', accent: C.blue },
   { id: 'credentials', title: 'Awards & Certifications', cmd: 'cat credentials.json', accent: C.yellow },
   { id: 'education', title: 'Education', cmd: 'history | grep learn', accent: C.orange },
+  { id: 'languages', title: 'Languages', cmd: 'locale -a', accent: C.green },
   { id: 'connect', title: "Let's Connect", cmd: 'ping shri', accent: C.blue },
   { id: 'support', title: 'Support My Work', cmd: 'sudo make coffee', accent: C.pink },
 ];
@@ -189,11 +195,11 @@ const IMPACT = [
 /** Career periods as fractional years: May 2021 -> 2021 + 4/12. */
 const ym = (y, m) => y + (m - 1) / 12;
 const TIMELINE = [
-  { chip: 'EDU', title: 'Bachelor of Computer Applications', sub: 'GGSIPU · New Delhi', from: ym(2017, 7), to: ym(2020, 7), period: '2017 — 2020', span: '3 yrs', color: C.yellow },
-  { chip: 'JR', title: 'Junior Node.js Developer', sub: 'PrepLadder (Unacademy) · Chandigarh', from: ym(2021, 5), to: ym(2022, 8), period: 'May 2021 — Jul 2022', span: '1 yr 3 mo', color: C.green },
-  { chip: 'SDE-1', title: 'Software Engineer', sub: 'PrepLadder (Unacademy) · Chandigarh', from: ym(2022, 8), to: ym(2022, 11), period: 'Aug — Oct 2022', span: '3 mo', color: C.green },
-  { chip: 'SDE-2', title: 'Software Development Engineer 2', sub: 'OneCX · Gurugram', from: ym(2022, 11), to: ym(2025, 4), period: 'Nov 2022 — Mar 2025', span: '2 yr 5 mo', color: C.purple },
-  { chip: 'SDE-3', title: 'Software Development Engineer 3', sub: 'OneCX · Gurugram', from: ym(2025, 4), to: null, period: 'Apr 2025 — Present', span: 'current', color: C.blue },
+  { chip: 'EDU', title: 'Bachelor of Computer Applications', sub: 'GGSIPU · New Delhi', from: ym(2017, 7), to: ym(2020, 7), period: '2017 to 2020', span: '3 yrs', color: C.yellow },
+  { chip: 'JR', title: 'Junior Node.js Developer', sub: 'PrepLadder (Unacademy) · Chandigarh', from: ym(2021, 5), to: ym(2022, 8), period: 'May 2021 to Jul 2022', span: '1 yr 3 mo', color: C.green },
+  { chip: 'SDE-1', title: 'Software Engineer', sub: 'PrepLadder (Unacademy) · Chandigarh', from: ym(2022, 8), to: ym(2022, 11), period: 'Aug to Oct 2022', span: '3 mo', color: C.green },
+  { chip: 'SDE-2', title: 'Software Development Engineer 2', sub: 'OneCX · Gurugram', from: ym(2022, 11), to: ym(2025, 4), period: 'Nov 2022 to Mar 2025', span: '2 yr 5 mo', color: C.purple },
+  { chip: 'SDE-3', title: 'Software Development Engineer 3', sub: 'OneCX · Gurugram', from: ym(2025, 4), to: null, period: 'Apr 2025 to Present', span: 'current', color: C.blue },
 ];
 const MILESTONES = [
   { date: '2020', title: 'Graduated', sub: 'BCA from GGSIPU, New Delhi', color: C.yellow },
@@ -206,7 +212,7 @@ const MILESTONES = [
 const EXPERIENCE = [
   {
     id: 'sde3', abbr: 'SDE-3', title: 'Software Development Engineer 3', company: 'OneCX', location: 'Gurugram, HR',
-    period: 'Apr 2025 — Present', note: 'promoted from SDE-2', focus: 'Multiplayer learning platform · Bulk email service',
+    period: 'Apr 2025 to Present', note: 'promoted from SDE-2', focus: 'Multiplayer learning platform · Bulk email service',
     color: C.blue, href: PROFILE.onecx,
     highlights: [
       'Sole backend owner of a multiplayer language-learning platform, built as a modular <b>NestJS</b> service.',
@@ -223,7 +229,7 @@ const EXPERIENCE = [
   },
   {
     id: 'sde2', abbr: 'SDE-2', title: 'Software Development Engineer 2', company: 'OneCX', location: 'Gurugram, HR',
-    period: 'Nov 2022 — Mar 2025', note: '2 yr 5 mo', focus: 'INTERCOMM · BridgeQ messaging',
+    period: 'Nov 2022 to Mar 2025', note: '2 yr 5 mo', focus: 'INTERCOMM · BridgeQ messaging',
     color: C.purple, href: PROFILE.onecx,
     highlights: [
       'Only backend engineer on <b>INTERCOMM</b>, a WhatsApp Business API platform: <b>1M+</b> messages per quarter.',
@@ -239,7 +245,7 @@ const EXPERIENCE = [
   },
   {
     id: 'sde1', abbr: 'SDE-1', title: 'Software Engineer', company: 'PrepLadder (Unacademy)', location: 'Chandigarh',
-    period: 'Aug 2022 — Oct 2022', note: '3 mo', focus: 'Push notifications · retention',
+    period: 'Aug 2022 to Oct 2022', note: '3 mo', focus: 'Push notifications · retention',
     color: C.green, href: 'https://www.prepladder.com',
     highlights: [
       'Push-notification scheduler with personalised payloads and send-time selection.',
@@ -250,7 +256,7 @@ const EXPERIENCE = [
   },
   {
     id: 'jr', abbr: 'JR', title: 'Junior Node.js Developer', company: 'PrepLadder (Unacademy)', location: 'Chandigarh',
-    period: 'May 2021 — Jul 2022', note: '1 yr 3 mo', focus: 'Course APIs · Know Your Student',
+    period: 'May 2021 to Jul 2022', note: '1 yr 3 mo', focus: 'Course APIs · Know Your Student',
     color: C.yellow, href: 'https://www.prepladder.com',
     highlights: [
       'Course-content REST APIs serving thousands of students daily.',
@@ -282,7 +288,7 @@ const PROJECTS = [
     stack: ['nodejs', 'express', 'rds', 'cassandra', 'redis'],
   },
   {
-    id: 'kys', glyph: '</>', title: 'KYS — Know Your Student', context: 'PrepLadder · sole developer', color: C.purple,
+    id: 'kys', glyph: '</>', title: 'KYS: Know Your Student', context: 'PrepLadder · sole developer', color: C.purple,
     body: 'Encrypted APIs that drive pop-ups and forms from database config, so non-technical teams ship changes.',
     metrics: [['0', 'deploys per change'], ['Solo', 'ownership'], ['↑', 'onboarding']],
     stack: ['nodejs', 'express', 'rds', 'bitbucket'],
@@ -297,9 +303,46 @@ const ROADMAP = [
   { icon: null, name: 'SEO', status: 'Exploring', why: 'Make what I ship discoverable', goal: 'Web Vitals & schema', color: C.pink },
 ];
 
+/** Drawn from the GitHub bio, LinkedIn headline and the v5 resume. */
+const SUMMARY = {
+  eyebrow: 'ABOUT ME',
+  headline: 'Senior backend engineer building real-time, event-driven systems that hold up in production.',
+  body:
+    'I design and run backends in Node.js, TypeScript and NestJS: PostgreSQL schemas and zero-downtime migrations, ' +
+    'Kafka and RabbitMQ pipelines, Redis caching, Elasticsearch search and Socket.IO gateways. Today I own the backend ' +
+    'of a multiplayer learning platform serving 200K+ concurrent sessions. Before that I built WhatsApp automation ' +
+    'moving 1M+ messages a quarter, and EdTech services at PrepLadder.',
+  facts: [
+    ['ROLE', 'Senior Backend Engineer, SDE-3'],
+    ['COMPANY', 'OneCX'],
+    ['BASED IN', 'Delhi NCR, India'],
+    ['EXPERIENCE', '5+ years in production'],
+    ['FOCUS', 'Real-time, events, search'],
+    ['LEARNING', 'Go, Rust, Spring Boot'],
+  ],
+};
+
+const LANGUAGES = [
+  { code: 'EN', name: 'English', level: 'Professional working proficiency', score: 4, color: C.blue },
+  { code: 'HI', name: 'Hindi', level: 'Native or bilingual proficiency', score: 5, color: C.purple },
+];
+
+/** Connect tiles. `icon` is a current simple-icons slug, `legacy` a v9 one, `null` a drawn globe. */
+const CONNECT = [
+  { id: 'portfolio', label: 'Portfolio', handle: 'shrikumarsharma.in', icon: null, color: C.blue, href: PROFILE.website },
+  { id: 'blog', label: 'Blog', handle: 'blogs.shrikumarsharma.in', icon: 'rss', color: '#f78166', href: PROFILE.blog },
+  { id: 'email', label: 'Email', handle: 'say hello', icon: 'gmail', color: '#ea4335', href: `mailto:${PROFILE.email}` },
+  { id: 'linkedin', label: 'LinkedIn', handle: 'in/shreesharma07', legacy: 'linkedin', color: '#3b8fe8', href: PROFILE.linkedin },
+  { id: 'github', label: 'GitHub', handle: '@shreesharma07', icon: 'github', color: '#e6edf3', href: `https://github.com/${PROFILE.github}` },
+  { id: 'wakatime', label: 'WakaTime', handle: '@shreesharma07', icon: 'wakatime', color: '#e6edf3', href: `https://wakatime.com/@${PROFILE.github}` },
+  { id: 'instagram', label: 'Instagram', handle: '@shree_kumar_sharma', icon: 'instagram', color: '#e4405f', href: PROFILE.instagram },
+];
+
+const FEATURED_REPO = { name: 'numsy', blurb: 'TypeScript toolkit for Indian phone-number data', href: 'https://github.com/shreesharma07/numsy' };
+
 const EDUCATION = [
-  { id: 'bca', period: '2017 — 2020', degree: 'Bachelor of Computer Applications', school: 'Guru Gobind Singh Indraprastha University', place: 'New Delhi', color: C.yellow, href: 'https://www.ipu.ac.in' },
-  { id: 'school', period: '2014 — 2016', degree: 'High School · Information Technology', school: 'Central Board of Secondary Education', place: 'Delhi', color: C.orange, href: 'https://www.cbse.gov.in' },
+  { id: 'bca', period: '2017 to 2020', degree: 'Bachelor of Computer Applications', school: 'Guru Gobind Singh Indraprastha University', place: 'New Delhi', color: C.yellow, href: 'https://www.ipu.ac.in' },
+  { id: 'school', period: '2014 to 2016', degree: 'High School · Information Technology', school: 'Central Board of Secondary Education', place: 'Delhi', color: C.orange, href: 'https://www.cbse.gov.in' },
 ];
 
 // ═════════════════════════════ FONTS ═════════════════════════════
@@ -327,6 +370,7 @@ async function cached(path, url, binary = true) {
 const fontBuffers = {};
 const legacyLogo = {};
 const skillSvg = {};
+const brandSvg = {};
 async function loadResources() {
   for (const dir of ['fonts', 'icons', 'skillicons']) mkdirSync(join(CACHE, dir), { recursive: true });
   for (const [name, url] of Object.entries(FONT_SOURCES)) fontBuffers[name] = await cached(join(CACHE, 'fonts', `${name}.ttf`), url);
@@ -338,6 +382,9 @@ async function loadResources() {
         break;
       } catch {}
     }
+  }
+  for (const c of CONNECT.filter((c) => c.icon)) {
+    brandSvg[c.icon] = await cached(join(CACHE, 'icons', `si-${c.icon}.svg`), `https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/${c.icon}.svg`, false);
   }
   for (const r of ROADMAP.filter((r) => r.icon)) {
     skillSvg[r.icon] = await cached(join(CACHE, 'skillicons', `${r.icon}.svg`), `https://skillicons.dev/icons?i=${r.icon}&theme=dark`, false);
@@ -480,7 +527,7 @@ function inlineIcon(svgText, prefix, x, y, size) {
 // ═════════════════════════════ SVG RENDERERS ═════════════════════════════
 async function heroSvg() {
   const W = 1200, H = 380;
-  const s = new Svg(W, H, `${PROFILE.name} — ${PROFILE.role}`);
+  const s = new Svg(W, H, `${PROFILE.name}, ${PROFILE.role}`);
   s.css.push(
     '@keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(-60px,40px)}}',
     '@keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(70px,-30px)}}',
@@ -503,7 +550,7 @@ async function heroSvg() {
   s.raw(`<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="20" fill="none" stroke="${C.border}"/>`);
 
   ['#ff5f57', '#febc2e', '#28c840'].forEach((c, i) => s.raw(`<circle cx="${36 + i * 20}" cy="34" r="6" fill="${c}"/>`));
-  s.text('m4', '~/shrikumarsharma — zsh', { x: W / 2, y: 39, size: 13, fill: C.faint, anchor: 'middle' });
+  s.text('m4', 'shri@backend: ~', { x: W / 2, y: 39, size: 13, fill: C.faint, anchor: 'middle' });
 
   const X = 64;
   s.runs('m6', [['$ ', C.green], ['whoami', C.text]], { x: X, y: 104, size: 18, cls: 'rise' });
@@ -742,6 +789,79 @@ async function educationSvg(e) {
   return s.render();
 }
 
+/** Summary: headline and story on the left, an "at a glance" fact sheet on the right. */
+async function summarySvg() {
+  const W = 1200, gap = 20, rw = 400, lw = W - rw - gap, pad = 36;
+  const s = new Svg(W, 0, `${SUMMARY.headline} ${SUMMARY.body}`);
+
+  // left: eyebrow, headline, body
+  s.text('m6', SUMMARY.eyebrow, { x: pad, y: 56, size: 13, fill: C.blue });
+  const hl = wrap('d7', SUMMARY.headline, 27, lw - pad * 2);
+  hl.forEach((line, i) => s.text('d7', line, { x: pad, y: 104 + i * 36, size: 27, fill: C.text }));
+  const bodyTop = 104 + (hl.length - 1) * 36 + 46;
+  const bodyEnd = s.para('d5', SUMMARY.body, { x: pad, y: bodyTop, size: 16.5, max: lw - pad * 2, lead: 1.65 });
+
+  // right: fact sheet
+  const rx = lw + gap, rowH = 46, rowsTop = 84;
+  s.text('m6', 'AT A GLANCE', { x: rx + pad, y: 56, size: 13, fill: C.purple });
+  SUMMARY.facts.forEach(([k, v], i) => {
+    const y = rowsTop + i * rowH;
+    if (i) s.raw(`<path d="M${rx + pad} ${y}H${W - pad}" stroke="${C.hair}"/>`);
+    s.text('m4', k, { x: rx + pad, y: y + 29, size: 12, fill: C.faint });
+    s.text('d6', v, { x: W - pad, y: y + 30, size: fit('d6', v, 16, rw - pad * 2 - 110), fill: C.text, anchor: 'end' });
+  });
+
+  const H = Math.ceil(Math.max(bodyEnd + pad + 4, rowsTop + SUMMARY.facts.length * rowH + pad - 8));
+  s.h = H;
+  s.body.unshift(cardRect(0, 0, lw, H), cardRect(rx, 0, rw, H));
+  return s.render();
+}
+
+/** Spoken languages with a five-step proficiency meter. */
+async function languagesSvg() {
+  const W = 1200, gap = 20, cw = (W - gap) / 2, H = 150;
+  const s = new Svg(W, H, LANGUAGES.map((l) => `${l.name}: ${l.level}`).join('. '));
+  LANGUAGES.forEach((l, i) => {
+    const x = i * (cw + gap);
+    s.raw(`<g class="rise" style="animation-delay:${i * 0.12}s">`);
+    s.raw(cardRect(x, 0, cw, H));
+    s.pill(l.code, { x: x + 28, y: 26, color: l.color, size: 13, h: 28 });
+    s.text('d7', l.name, { x: x + 28, y: 96, size: 28, fill: C.text });
+    s.text('d5', l.level, { x: x + 28, y: 124, size: 15, fill: C.muted });
+    const segW = 30, segGap = 6, mx = x + cw - 28 - (5 * segW + 4 * segGap);
+    for (let k = 0; k < 5; k++) {
+      s.raw(`<rect x="${mx + k * (segW + segGap)}" y="36" width="${segW}" height="8" rx="4" fill="${k < l.score ? l.color : C.hair}"/>`);
+    }
+    s.text('m4', `${l.score} / 5`, { x: x + cw - 28, y: 72, size: 12.5, fill: C.faint, anchor: 'end' });
+    s.raw('</g>');
+  });
+  return s.render();
+}
+
+/** 24x24 simple-icons path, placed at (x, y) and scaled to `size`. */
+function brandIcon(svgText, x, y, size, color) {
+  const d = (svgText.match(/\sd="([^"]+)"/) || [])[1];
+  return `<g transform="translate(${x} ${y}) scale(${size / 24})"><path d="${d}" fill="${color}"/></g>`;
+}
+
+/** One large Connect tile; the README lays seven of them out in a single landscape row. */
+async function connectTileSvg(c) {
+  const W = 200, H = 224, size = 60;
+  const s = new Svg(W, H, `${c.label}: ${c.handle}`);
+  s.raw(cardRect(0, 0, W, H, { rx: 22 }));
+  s.raw(`<circle cx="${W / 2}" cy="82" r="50" fill="${c.color}" fill-opacity=".08"/>`);
+  const ix = W / 2 - size / 2, iy = 82 - size / 2;
+  if (c.icon) s.raw(brandIcon(brandSvg[c.icon], ix, iy, size, c.color));
+  else if (c.legacy) s.raw(brandIcon(legacyLogo[c.legacy], ix, iy, size, c.color));
+  else {
+    const cx = W / 2, cy = 82, r = 28;
+    s.raw(`<g fill="none" stroke="${c.color}" stroke-width="3.5"><circle cx="${cx}" cy="${cy}" r="${r}"/><ellipse cx="${cx}" cy="${cy}" rx="${r * 0.45}" ry="${r}"/><path d="M${cx - r} ${cy}H${cx + r}M${cx - r * 0.86} ${cy - r * 0.5}H${cx + r * 0.86}M${cx - r * 0.86} ${cy + r * 0.5}H${cx + r * 0.86}"/></g>`);
+  }
+  s.text('d7', c.label, { x: W / 2, y: 168, size: 21, fill: C.text, anchor: 'middle' });
+  s.text('m4', c.handle, { x: W / 2, y: 194, size: fit('m4', c.handle, 12.5, W - 28), fill: C.faint, anchor: 'middle' });
+  return s.render();
+}
+
 async function footerSvg() {
   const W = 1200, M = 40, CH = 112, H = M + CH;
   const s = new Svg(W, H, 'Thanks for visiting');
@@ -752,8 +872,8 @@ async function footerSvg() {
   );
   s.raw(cardRect(0, M, W, CH));
   s.raw(`<g clip-path="url(#fc)"><rect y="${H - 3}" width="300" height="3" fill="url(#fl)" style="animation:sweep 4s linear infinite"/></g>`);
-  const line = "// thanks for stopping by — let's build something reliable";
-  s.runs('m4', [['// ', C.faint], ['thanks for stopping by — ', C.muted], ["let's build something reliable", C.text]], {
+  const line = "// thanks for stopping by. let's build something reliable";
+  s.runs('m4', [['// ', C.faint], ['thanks for stopping by. ', C.muted], ["let's build something reliable", C.text]], {
     x: W / 2 - measure('m4', line, 16) / 2, y: M + 50, size: 16,
   });
   s.text('d6', 'shrikumarsharma.in', { x: W / 2, y: M + 82, size: 15, fill: C.blue, anchor: 'middle' });
@@ -808,7 +928,7 @@ function experienceBlock(r) {
   const more = r.more.length
     ? `\n<details>\n<summary><sub>More highlights</sub></summary>\n<ul>\n${r.more.map((m) => `<li>${m}</li>`).join('\n')}\n</ul>\n</details>`
     : '';
-  return `<p align="center">${link(r.href, img(`assets/experience/${r.id}.svg`, `${r.title} — ${r.company}, ${r.period}`, 'width="100%"'))}</p>
+  return `<p align="center">${link(r.href, img(`assets/experience/${r.id}.svg`, `${r.title} at ${r.company}, ${r.period}`, 'width="100%"'))}</p>
 
 <table align="center">
 <tr>
@@ -845,6 +965,7 @@ function readme() {
     ['Cloud & delivery', ['aws', 'lambda', 'cloudwatch', 'docker', 'nginx', 'pm2', 'linode', 'vercel', 'actions', 'circleci', 'ado', 'husky']],
     ['Observability & testing', ['prometheus', 'grafana', 'jest', 'vitest', 'playwright', 'jwt', 'oauth']],
     ['Tooling', ['git', 'github', 'gitlab', 'bitbucket', 'jira', 'mermaid', 'figma']],
+    ['Web, analytics & SEO', ['astro', 'cloudflare', 'analytics', 'posthog', 'searchconsole']],
     ['AI-assisted', ['claude', 'mcp', 'copilot', 'cursor']],
     ['Also shipped with', ['react', 'nextjs', 'tailwind', 'bootstrap']],
   ]
@@ -852,20 +973,20 @@ function readme() {
     .join('\n');
 
   const projectCell = (p) => `<td width="50%" valign="top" align="center">
-${img(`assets/projects/${p.id}.svg`, `${p.title} — ${p.body}`, 'width="100%"')}
+${img(`assets/projects/${p.id}.svg`, `${p.title}: ${p.body}`, 'width="100%"')}
 <br><br>
 ${techRow(p.stack, { style: 'flat-square' }, '\n')}
 <br><br>
 </td>`;
 
   return `<!--
-  Generated by tools/build-profile.mjs — edit the data there, then run:
+  Generated by tools/build-profile.mjs. Edit the data there, then run:
     cd tools && npm install && npm run build
 -->
 <a id="top"></a>
 
 <p align="center">
-  ${link(PROFILE.website, img('assets/hero.svg', `${PROFILE.name} — ${PROFILE.role}`, 'width="100%"'))}
+  ${link(PROFILE.website, img('assets/hero.svg', `${PROFILE.name}, ${PROFILE.role}`, 'width="100%"'))}
 </p>
 
 <p align="center">
@@ -874,7 +995,7 @@ ${techRow(p.stack, { style: 'flat-square' }, '\n')}
 
 <p align="center">
   ${link(PROFILE.website, img(badge({ label: 'shrikumarsharma.in', color: '1f6feb', logo: 'googlechrome' }), 'Portfolio', 'height="30"'))}&nbsp;
-  ${link(PROFILE.blog, img(badge({ label: 'Blog', color: '8957e5', logo: 'hashnode' }), 'Blog', 'height="30"'))}&nbsp;
+  ${link(PROFILE.blog, img(badge({ label: 'Blog', color: '8957e5', logo: 'rss' }), 'Blog', 'height="30"'))}&nbsp;
   ${link(`mailto:${PROFILE.email}`, img(badge({ label: 'Email', color: 'da3633', logo: 'gmail' }), 'Email', 'height="30"'))}&nbsp;
   ${link(PROFILE.linkedin, img(badge({ label: 'LinkedIn', color: '0a66c2', logo: 'linkedin' }), 'LinkedIn', 'height="30"'))}
 </p>
@@ -889,8 +1010,10 @@ ${techRow(p.stack, { style: 'flat-square' }, '\n')}
 
 ${H.summary}
 
+<p align="center">${img('assets/summary.svg', `${SUMMARY.headline} ${SUMMARY.body}`, 'width="100%"')}</p>
+
 <p align="center">
-Backend engineer with <b>5+ years</b> building REST APIs, event-driven services and real-time systems in <b>Node.js</b>, <b>TypeScript</b> and <b>NestJS</b>,<br>across EdTech, WhatsApp automation and multiplayer gaming.
+  ${link(FEATURED_REPO.href, img(badge({ label: `Featured repo · ${FEATURED_REPO.name}`, message: FEATURED_REPO.blurb, labelColor: '1f6feb', logo: 'github', style: 'flat-square' }), `${FEATURED_REPO.name}: ${FEATURED_REPO.blurb}`, 'height="24"'))}
 </p>
 
 <p align="center">${img('assets/principles.svg', 'How I work: own the full backend, design with the client, prove it with a POC, write it down', 'width="100%"')}</p>
@@ -927,10 +1050,10 @@ ${projectCell(PROJECTS[3])}
 ${H.stack}
 
 <p align="center">
-  ${skillRow(['typescript', 'nodejs', 'nestjs', 'express', 'graphql', 'postgres', 'mongodb', 'redis', 'kafka'])}
+  ${skillRow(['typescript', 'nodejs', 'nestjs', 'express', 'graphql', 'postgres', 'mongodb', 'redis', 'kafka', 'rabbitmq'])}
 </p>
 <p align="center">
-  ${skillRow(['rabbitmq', 'elasticsearch', 'prisma', 'aws', 'docker', 'actions', 'prometheus', 'grafana', 'vitest'])}
+  ${skillRow(['elasticsearch', 'prisma', 'aws', 'cloudflare', 'docker', 'actions', 'prometheus', 'grafana', 'vitest', 'astro'])}
 </p>
 
 ${gapRow}
@@ -972,7 +1095,7 @@ ${H.coding}
 
 <!-- 3D contribution calendar: .github/workflows/profile-3d.yml commits it to ./profile-3d-contrib. -->
 <p align="center">
-  ${link(`https://github.com/${gh}`, img('profile-3d-contrib/profile-night-rainbow.svg', '3D contribution calendar', 'width="100%"'))}
+  ${link(`https://github.com/${gh}`, img('profile-3d-contrib/profile-city.svg', '3D contribution city', 'width="100%"'))}
 </p>
 
 <p align="center">
@@ -995,7 +1118,7 @@ ${H.wakatime}
 <td width="50%" align="center" valign="top"><sub><b>LANGUAGES · HOURS</b></sub><br><br>${link(`https://wakatime.com/@${gh}`, img(PROFILE.wakatimeShares.bar, 'WakaTime languages bar chart', 'width="100%"'))}</td>
 </tr>
 <tr>
-<td colspan="2" align="center"><sub><b>CODING ACTIVITY · LAST 7 DAYS</b></sub><br><br>${link(`https://wakatime.com/@${gh}`, img(PROFILE.wakatimeShares.activity, 'WakaTime coding activity', 'width="100%"'))}</td>
+<td colspan="2" align="center"><sub><b>ALL TIME CODING ACTIVITY</b></sub><br><br>${link(`https://wakatime.com/@${gh}`, img(PROFILE.wakatimeShares.activity, 'WakaTime coding activity', 'width="100%"'))}</td>
 </tr>
 </table>
 <!-- More chart types (editors, OS, categories): https://wakatime.com/share/embed, then add each share URL as a new <td>. -->
@@ -1027,9 +1150,11 @@ ${link('https://www.atlassian.com/university', img(badge({ label: 'ITSM · Jira 
 </tr>
 </table>
 
+<!-- Holopin board, hidden for now:
 <p align="center">
   ${link(`https://holopin.io/@${gh}`, img(`https://holopin.me/${gh}`, 'Holopin badges', 'width="60%"'))}
 </p>
+-->
 
 ${H.education}
 
@@ -1037,26 +1162,16 @@ ${H.education}
   ${EDUCATION.map((e) => link(e.href, img(`assets/education/${e.id}.svg`, `${e.degree}, ${e.school}`, 'width="49%"'))).join('\n  ')}
 </p>
 
-<p align="center">
-  ${img(badge({ label: 'English', message: 'professional', labelColor: '161b22', color: '1f6feb', style: 'flat-square' }), 'English, professional proficiency')}&nbsp;
-  ${img(badge({ label: 'Hindi', message: 'native', labelColor: '161b22', color: '8957e5', style: 'flat-square' }), 'Hindi, native')}
-</p>
+${H.languages}
+
+<p align="center">${img('assets/languages.svg', LANGUAGES.map((l) => `${l.name}: ${l.level}`).join('. '), 'width="100%"')}</p>
 
 ${H.connect}
 
 <p align="center">Open to collaboration and work inquiries. Pick whichever channel suits you.</p>
 
-<p align="center">
-  ${brandChip('Portfolio', 'googlechrome', '58A6FF', PROFILE.website)}&nbsp;
-  ${brandChip('Blog', 'hashnode', '2962FF', PROFILE.blog)}&nbsp;
-  ${brandChip('Gmail', 'gmail', 'EA4335', `mailto:${PROFILE.email}`)}&nbsp;
-  ${brandChip('LinkedIn', 'linkedin', '0A66C2', PROFILE.linkedin)}
-</p>
-<p align="center">
-  ${brandChip('GitHub', 'github', 'FFFFFF', `https://github.com/${gh}`)}&nbsp;
-  ${brandChip('WakaTime', 'wakatime', 'FFFFFF', `https://wakatime.com/@${gh}`)}&nbsp;
-  ${brandChip('Instagram', 'instagram', 'E4405F', PROFILE.instagram)}
-</p>
+<!-- Seven tiles at 13.4% with six 1.03% spacers fill one row; no whitespace between tags. -->
+<p align="center">${CONNECT.map((c) => link(c.href, img(`assets/connect/${c.id}.svg`, `${c.label}: ${c.handle}`, 'width="13.4%"'))).join(img('assets/spacer.svg', '', 'width="1.03%"'))}</p>
 
 ${H.support}
 
@@ -1084,10 +1199,12 @@ ${H.support}
 
 // ═════════════════════════════ BUILD ═════════════════════════════
 await loadResources();
-for (const dir of ['headers', 'experience', 'projects', 'education']) mkdirSync(join(ASSETS, dir), { recursive: true });
+for (const dir of ['headers', 'experience', 'projects', 'education', 'connect']) mkdirSync(join(ASSETS, dir), { recursive: true });
 
 const outputs = {
   'hero.svg': await heroSvg(),
+  'summary.svg': await summarySvg(),
+  'languages.svg': await languagesSvg(),
   'principles.svg': await principlesSvg(),
   'impact.svg': await impactSvg(),
   'timeline.svg': await timelineSvg(),
@@ -1100,6 +1217,7 @@ for (const [i, sec] of SECTIONS.entries()) outputs[`headers/${String(i + 1).padS
 for (const r of EXPERIENCE) outputs[`experience/${r.id}.svg`] = await roleSvg(r);
 for (const p of PROJECTS) outputs[`projects/${p.id}.svg`] = await projectSvg(p);
 for (const e of EDUCATION) outputs[`education/${e.id}.svg`] = await educationSvg(e);
+for (const c of CONNECT) outputs[`connect/${c.id}.svg`] = await connectTileSvg(c);
 
 for (const [name, svg] of Object.entries(outputs)) {
   writeFileSync(join(ASSETS, name), svg);

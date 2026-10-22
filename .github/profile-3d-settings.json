@@ -1,0 +1,11 @@
+{
+  "type": "normal",
+  "fileName": "profile-city.svg",
+  "backgroundColor": "#0d1117",
+  "foregroundColor": "#e6edf3",
+  "strongColor": "#58a6ff",
+  "weakColor": "#8b949e",
+  "radarColor": "#a371f7",
+  "growingAnimation": true,
+  "contribColors": ["#161b22", "#1c3b70", "#1f6feb", "#6e7ff3", "#a371f7"]
+}
