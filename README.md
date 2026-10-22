@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.shrikumarsharma.in/"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=1000&color=58A6FF&center=true&vCenter=true&width=1200&height=56&lines=Backend+Engineer+(SDE-3)+%40+OneCX;Real-time+%C2%B7+event-driven+%C2%B7+search;NestJS+%C2%B7+PostgreSQL+%C2%B7+Kafka+%C2%B7+Redis;Next+up+%E2%86%92+Rust+%C2%B7+Go+%C2%B7+Spring+Boot+%C2%B7+DevOps+%C2%B7+SEO" alt="Backend Engineer (SDE-3) at OneCX" width="100%"></a>
+  <a href="https://www.shrikumarsharma.in/"><img src="assets/typing.svg" alt="Backend Engineer (SDE-3) @ OneCX, Real-time · event-driven · search, NestJS · PostgreSQL · Kafka · Redis, Next up → Rust · Go · Spring Boot · DevOps · SEO" width="100%"></a>
 </p>
 
 <!-- Four buttons at 24.25% with three 1% gaps fill one row. -->
