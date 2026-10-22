@@ -156,22 +156,49 @@ const TECH = {
 
 const LEGACY_LOGOS = ['amazonaws', 'awslambda', 'amazonrds', 'amazonredshift', 'amazoncloudwatch', 'azuredevops', 'linkedin', 'linode', 'playwright'];
 
+/** Page order. The coding-first block comes before the "more about me" resume block. */
 const SECTIONS = [
-  { id: 'summary', title: 'Summary', cmd: 'whoami --verbose', accent: C.blue },
-  { id: 'impact', title: 'Impact in Production', cmd: 'SELECT impact FROM prod;', accent: C.green },
-  { id: 'timeline', title: 'Career Timeline', cmd: 'git log --graph --career', accent: C.purple },
-  { id: 'milestones', title: 'Milestones', cmd: 'git tag --list', accent: C.yellow },
-  { id: 'experience', title: 'Experience', cmd: 'cat experience.md', accent: C.blue },
-  { id: 'projects', title: 'Key Projects', cmd: 'ls ~/projects --featured', accent: C.orange },
-  { id: 'stack', title: 'Tech Stack', cmd: 'pnpm ls --depth=0', accent: C.purple },
-  { id: 'ambitions', title: 'Ambitions & Roadmap', cmd: 'git checkout -b next', accent: C.pink },
-  { id: 'coding', title: 'Coding Profile', cmd: 'gh api users/shreesharma07', accent: C.green },
-  { id: 'wakatime', title: 'WakaTime Insights', cmd: 'wakatime --today', accent: C.blue },
-  { id: 'credentials', title: 'Awards & Certifications', cmd: 'cat credentials.json', accent: C.yellow },
-  { id: 'education', title: 'Education', cmd: 'history | grep learn', accent: C.orange },
-  { id: 'languages', title: 'Languages', cmd: 'locale -a', accent: C.green },
-  { id: 'connect', title: "Let's Connect", cmd: 'ping shri', accent: C.blue },
-  { id: 'support', title: 'Support My Work', cmd: 'sudo make coffee', accent: C.pink },
+  { id: 'summary', title: 'The Short Version', cmd: 'whoami --verbose', accent: C.blue },
+  { id: 'primary', title: 'Daily Drivers', cmd: 'cat package.json', accent: C.purple },
+  { id: 'coding', title: 'Proof of Work', cmd: 'gh api users/shreesharma07', accent: C.green },
+  { id: 'wakatime', title: 'Time at the Keyboard', cmd: 'wakatime --all-time', accent: C.blue },
+  { id: 'connect', title: 'Open a Connection', cmd: 'ping shri', accent: C.pink },
+  { id: 'experience', title: "Where I've Shipped", cmd: 'cat experience.md', accent: C.blue },
+  { id: 'projects', title: "Systems I've Built", cmd: 'ls ~/projects --featured', accent: C.orange },
+  { id: 'skills', title: 'The Full Toolbox', cmd: 'pnpm ls --depth=0', accent: C.purple },
+  { id: 'ambitions', title: 'The Next Release', cmd: 'git checkout -b next', accent: C.pink },
+  { id: 'impact', title: 'Numbers in Production', cmd: 'SELECT impact FROM prod;', accent: C.green },
+  { id: 'timeline', title: 'The Long Version', cmd: 'git log --graph --career', accent: C.purple },
+  { id: 'milestones', title: 'Tagged Releases', cmd: 'git tag --list', accent: C.yellow },
+  { id: 'credentials', title: 'Recognition & Certifications', cmd: 'cat credentials.json', accent: C.yellow },
+  { id: 'education', title: 'Where It Started', cmd: 'history | grep learn', accent: C.orange },
+  { id: 'languages', title: 'Human Languages', cmd: 'locale -a', accent: C.green },
+  { id: 'support', title: 'Fuel the Build', cmd: 'sudo make coffee', accent: C.pink },
+];
+
+/** Non-numbered banners between the page's three blocks. */
+const SEPARATORS = [
+  { id: 'more', eyebrow: 'MORE ABOUT ME', caption: 'experience · projects · skills · impact · timeline · credentials', accent: C.purple },
+  { id: 'last', eyebrow: 'BEFORE YOU GO', caption: 'thanks for reading this far', accent: C.pink },
+];
+
+/** Key Tech Stack: the daily drivers, shown as an icon grid (skillicons ids via TECH). */
+const PRIMARY_STACK = [
+  'typescript', 'nodejs', 'nestjs', 'express', 'graphql', 'postgres', 'mongodb', 'redis', 'kafka', 'rabbitmq',
+  'elasticsearch', 'prisma', 'aws', 'cloudflare', 'docker', 'actions', 'prometheus', 'grafana', 'vitest', 'astro',
+];
+
+/** Tech & Skills: the full listing, one card per group. */
+const SKILL_GROUPS = [
+  { title: 'Backend & APIs', color: C.blue, keys: ['nodejs', 'typescript', 'javascript', 'nestjs', 'express', 'graphql', 'grpc', 'socketio', 'openapi', 'whatsapp', 'postman'] },
+  { title: 'Databases & ORMs', color: C.green, keys: ['postgres', 'mysql', 'mongodb', 'sqlite', 'cassandra', 'rds', 'redshift', 'typeorm', 'prisma', 'zod', 'firebase'] },
+  { title: 'Messaging & search', color: C.orange, keys: ['kafka', 'rabbitmq', 'bullmq', 'redis', 'pubsub', 'elasticsearch', 'kibana'] },
+  { title: 'Cloud & delivery', color: C.purple, keys: ['aws', 'lambda', 'cloudwatch', 'docker', 'nginx', 'pm2', 'linode', 'vercel', 'actions', 'circleci', 'ado', 'husky'] },
+  { title: 'Observability & testing', color: C.pink, keys: ['prometheus', 'grafana', 'jest', 'vitest', 'playwright', 'jwt', 'oauth'] },
+  { title: 'Web, analytics & SEO', color: C.yellow, keys: ['astro', 'cloudflare', 'analytics', 'posthog', 'searchconsole'] },
+  { title: 'Tooling', color: C.blue, keys: ['git', 'github', 'gitlab', 'bitbucket', 'jira', 'mermaid', 'figma'] },
+  { title: 'AI-assisted', color: C.orange, keys: ['claude', 'mcp', 'copilot', 'cursor'] },
+  { title: 'Also shipped with', color: C.green, keys: ['react', 'nextjs', 'tailwind', 'bootstrap'] },
 ];
 
 const PRINCIPLES = [
@@ -338,7 +365,42 @@ const CONNECT = [
   { id: 'instagram', label: 'Instagram', handle: '@shree_kumar_sharma', icon: 'instagram', color: '#e4405f', href: PROFILE.instagram },
 ];
 
-const FEATURED_REPO = { name: 'numsy', blurb: 'TypeScript toolkit for Indian phone-number data', href: 'https://github.com/shreesharma07/numsy' };
+const FEATURED_REPO = {
+  owner: 'shreesharma07',
+  name: 'numsy',
+  description: 'A lightweight TypeScript toolkit for validating, sanitising and processing Indian phone numbers from CSV and Excel datasets, with strong typing throughout.',
+  language: { name: 'TypeScript', color: '#3178c6' },
+  license: 'MIT',
+  topics: ['typescript-library', 'csv-parser', 'nodejs'],
+  docs: 'shreesharma07.github.io/numsy',
+  href: 'https://github.com/shreesharma07/numsy',
+};
+
+/** Recognition & Certifications, drawn as one panel (award banner over three columns). */
+const CREDENTIALS = {
+  href: 'https://www.linkedin.com/in/shreesharma07/details/certifications/',
+  award: { title: 'PrepStar of the Quarter', meta: 'Q2 2022 · PrepLadder (Unacademy)', note: 'Best-performing individual in the backend engineering team for the quarter.' },
+  groups: [
+    { title: 'ANTHROPIC', color: '#d97757', logo: 'anthropic', items: [['Claude with the Anthropic API'], ['Claude Code in Action'], ['Introduction to Agent Skills'], ['Introduction to MCP']] },
+    { title: 'HACKERRANK', color: '#2ec866', logo: 'hackerrank', items: [['SQL', 'Advanced'], ['REST API', 'Intermediate'], ['JavaScript', 'Intermediate'], ['Problem Solving', 'Intermediate']] },
+    { title: 'OTHER', color: '#2684ff', items: [['Ethereum & Solidity', 'Udemy', 'udemy', '#a435f0'], ['Jira Fundamentals', 'Atlassian', 'atlassian', '#2684ff'], ['ITSM · Jira Service Mgmt', 'Atlassian', 'jira', '#2684ff']] },
+  ],
+};
+
+/**
+ * Profile stats strip. Values are fetched at build time (and daily by
+ * .github/workflows/profile-stats.yml); the last good values live in
+ * assets/stats.json so a failed fetch never blanks a tile.
+ */
+const STATS_FILE = join(ASSETS, 'stats.json');
+
+/** Animated contact buttons under the hero, in the brand colours of the old chip row. */
+const CONTACT = [
+  { id: 'website', label: 'Website', handle: 'shrikumarsharma.in', icon: null, color: '#1f6feb', href: PROFILE.website },
+  { id: 'blog', label: 'Blog', handle: 'blogs.shrikumarsharma.in', icon: 'rss', color: '#8957e5', href: PROFILE.blog },
+  { id: 'email', label: 'Email', handle: 'say hello', icon: 'gmail', color: '#da3633', href: `mailto:${PROFILE.email}` },
+  { id: 'linkedin', label: 'LinkedIn', handle: 'in/shreesharma07', legacy: 'linkedin', color: '#0a66c2', href: PROFILE.linkedin },
+];
 
 const EDUCATION = [
   { id: 'bca', period: '2017 to 2020', degree: 'Bachelor of Computer Applications', school: 'Guru Gobind Singh Indraprastha University', place: 'New Delhi', color: C.yellow, href: 'https://www.ipu.ac.in' },
@@ -383,11 +445,27 @@ async function loadResources() {
       } catch {}
     }
   }
-  for (const c of CONNECT.filter((c) => c.icon)) {
-    brandSvg[c.icon] = await cached(join(CACHE, 'icons', `si-${c.icon}.svg`), `https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/${c.icon}.svg`, false);
+  // brand marks for connect tiles, contact buttons, the featured repo and every Tech & Skills pill
+  const brands = new Set(['github', 'wakatime', ...CONNECT.map((c) => c.icon), ...CONTACT.map((c) => c.icon)]);
+  for (const g of CREDENTIALS.groups) {
+    brands.add(g.logo);
+    for (const it of g.items) brands.add(it[2]);
   }
-  for (const r of ROADMAP.filter((r) => r.icon)) {
-    skillSvg[r.icon] = await cached(join(CACHE, 'skillicons', `${r.icon}.svg`), `https://skillicons.dev/icons?i=${r.icon}&theme=dark`, false);
+  for (const r of EXPERIENCE) for (const k of r.stack) brands.add(TECH[k].logo);
+  for (const g of SKILL_GROUPS) for (const k of g.keys) brands.add(TECH[k].logo);
+  for (const slug of [...brands].filter((b) => b && !LEGACY_LOGOS.includes(b))) {
+    // newest first; a slug renamed or dropped in one release often survives in another
+    for (const v of ['16.35.0', '15.22.0', '13.21.0']) {
+      try {
+        brandSvg[slug] = await cached(join(CACHE, 'icons', `si-${slug}.svg`), `https://cdn.jsdelivr.net/npm/simple-icons@${v}/icons/${slug}.svg`, false);
+        break;
+      } catch {}
+    }
+    if (!brandSvg[slug]) console.warn(`no simple-icons mark for "${slug}"; the pill falls back to a dot`);
+  }
+  const skills = new Set([...ROADMAP.map((r) => r.icon), ...PRIMARY_STACK.map((k) => TECH[k].icon)]);
+  for (const id of [...skills].filter(Boolean)) {
+    skillSvg[id] = await cached(join(CACHE, 'skillicons', `${id}.svg`), `https://skillicons.dev/icons?i=${id}&theme=dark`, false);
   }
 }
 
@@ -697,61 +775,104 @@ async function timelineSvg() {
   return s.render();
 }
 
-/** Milestone stepper: a rail of dated dots, one card per milestone. */
+/**
+ * Milestone stepper, animated on a loop: a progress bar runs the rail from the
+ * first milestone to the last, lighting each dot and card as it arrives, holds,
+ * then fades out and starts again. Inactive milestones stay readable (dimmed),
+ * so a static render still shows everything.
+ */
 async function milestonesSvg() {
   const W = 1200, gap = 20, n = MILESTONES.length, cw = (W - gap * (n - 1)) / n, railY = 22, cardY = 56, ch = 176;
   const H = cardY + ch;
+  const T = 9, travel = 0.62, hold = 0.9; // cycle seconds; fraction spent travelling; fraction at which the reset begins
   const s = new Svg(W, H, `Milestones: ${MILESTONES.map((m) => `${m.title} (${m.date})`).join(', ')}`);
   const cx = (i) => i * (cw + gap) + cw / 2;
-  s.defs.push(`<linearGradient id="rail" x1="0" x2="1">${MILESTONES.map((m, i) => `<stop offset="${i / (n - 1)}" stop-color="${m.color}"/>`).join('')}</linearGradient>`);
-  s.raw(`<rect class="grow" x="${cx(0)}" y="${railY - 1.5}" width="${cx(n - 1) - cx(0)}" height="3" rx="1.5" fill="url(#rail)" opacity=".7"/>`);
+  const railLen = cx(n - 1) - cx(0);
+  const pct = (f) => `${(f * 100).toFixed(2)}%`;
+
+  s.css.push(
+    `@keyframes railrun{0%{transform:scaleX(0);opacity:1}${pct(travel)}{transform:scaleX(1);opacity:1}${pct(hold)}{transform:scaleX(1);opacity:1}100%{transform:scaleX(1);opacity:0}}`,
+    `@keyframes headrun{0%{transform:translateX(0);opacity:1}${pct(travel)}{transform:translateX(${railLen}px);opacity:1}${pct(travel + 0.04)}{opacity:0}100%{transform:translateX(${railLen}px);opacity:0}}`,
+    `.railrun{transform-box:fill-box;transform-origin:left center;animation:railrun ${T}s cubic-bezier(.45,0,.25,1) infinite}`,
+    `.headrun{animation:headrun ${T}s cubic-bezier(.45,0,.25,1) infinite}`,
+  );
+  MILESTONES.forEach((_, i) => {
+    const on = (travel * i) / (n - 1);
+    const a = Math.max(on - 0.005, 0);
+    s.css.push(
+      `@keyframes ms${i}{0%,${pct(a)}{opacity:.38}${pct(on + 0.02)},${pct(hold)}{opacity:1}100%{opacity:.38}}`,
+      `@keyframes mg${i}{0%,${pct(a)}{opacity:0}${pct(on + 0.02)},${pct(hold)}{opacity:1}100%{opacity:0}}`,
+      `.ms${i}{animation:ms${i} ${T}s linear infinite}.mg${i}{animation:mg${i} ${T}s linear infinite}`,
+    );
+  });
+
+  s.defs.push(
+    `<linearGradient id="rail" x1="0" x2="1">${MILESTONES.map((m, i) => `<stop offset="${i / (n - 1)}" stop-color="${m.color}"/>`).join('')}</linearGradient>`,
+    `<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4"/></filter>`,
+  );
+  s.raw(`<rect x="${cx(0)}" y="${railY - 1.5}" width="${railLen}" height="3" rx="1.5" fill="${C.hair}"/>`);
+  s.raw(`<rect class="railrun" x="${cx(0)}" y="${railY - 1.5}" width="${railLen}" height="3" rx="1.5" fill="url(#rail)"/>`);
+  s.raw(`<g class="headrun"><circle cx="${cx(0)}" cy="${railY}" r="9" fill="${C.text}" opacity=".35" filter="url(#glow)"/><circle cx="${cx(0)}" cy="${railY}" r="3" fill="${C.text}"/></g>`);
+
   MILESTONES.forEach((m, i) => {
-    const x = i * (cw + gap), delay = `animation-delay:${0.3 + i * 0.15}s`;
-    s.raw(`<g class="rise" style="${delay}">`);
+    const x = i * (cw + gap);
+    s.raw(`<g class="ms${i}">`);
     s.raw(`<circle cx="${cx(i)}" cy="${railY}" r="9" fill="${C.bg}" stroke="${m.color}" stroke-width="3"/><circle cx="${cx(i)}" cy="${railY}" r="3.5" fill="${m.color}"/>`);
-    s.raw(`<path d="M${cx(i)} ${railY + 10}V${cardY}" stroke="${m.color}" stroke-opacity=".4" stroke-dasharray="2 3"/>`);
+    s.raw(`<path d="M${cx(i)} ${railY + 10}V${cardY}" stroke="${m.color}" stroke-opacity=".5" stroke-dasharray="2 3"/>`);
     s.raw(cardRect(x, cardY, cw, ch));
     s.text('m6', m.date, { x: x + 24, y: cardY + 40, size: 13, fill: m.color });
     s.text('d7', m.title, { x: x + 24, y: cardY + 78, size: fit('d7', m.title, 20, cw - 48), fill: C.text });
     s.para('d5', m.sub, { x: x + 24, y: cardY + 110, size: 15, max: cw - 48, lead: 1.4 });
     s.raw('</g>');
+    // highlight ring that lights up while the milestone is "reached"
+    s.raw(`<g class="mg${i}"><rect x="${x + 1}" y="${cardY + 1}" width="${cw - 2}" height="${ch - 2}" rx="15.5" fill="none" stroke="${m.color}" stroke-opacity=".7" stroke-width="1.5"/><circle cx="${cx(i)}" cy="${railY}" r="14" fill="${m.color}" opacity=".25" filter="url(#glow)"/></g>`);
   });
   return s.render();
 }
 
-/** One experience header: role, company, period. Bullets stay in Markdown so they remain searchable. */
-async function roleSvg(r) {
-  const W = 1200, H = 120;
-  const s = new Svg(W, H, `${r.title} at ${r.company}, ${r.period}`);
-  s.raw(cardRect(0, 0, W, H));
-  s.raw(`<rect x="0" y="28" width="4" height="64" rx="2" fill="${r.color}"/>`);
-  const pw = s.pill(r.abbr, { x: 36, y: 26, color: r.color, size: 13, h: 28 });
-  const right = measure('m6', r.period, 16) + 40;
-  s.text('d7', r.title, { x: 36 + pw + 16, y: 48, size: fit('d7', r.title, 26, W - 36 - pw - 16 - right - 60), fill: C.text });
-  s.runs('d5', [[r.company, r.color], ['   ·   ', C.faint], [r.location, C.muted]], { x: 36, y: 90, size: 17 });
-  s.text('m6', r.period, { x: W - 36, y: 46, size: 16, fill: C.text, anchor: 'end' });
-  s.text('m4', r.focus, { x: W - 36, y: 88, size: 13, fill: C.faint, anchor: 'end' });
-  if (r.note) s.pill(r.note, { x: W - 36 - measure('m4', r.focus, 13) - 16, y: 70, color: r.color, key: 'm4', size: 12, h: 26, anchor: 'end' });
-  return s.render();
+const PROJECT_W = 590, PROJECT_PAD = 28;
+
+/** Stack pills for a project card, wrapped to the card width. */
+function projectPills(p) {
+  const max = PROJECT_W - PROJECT_PAD * 2, out = [];
+  let x = 0, y = 0;
+  for (const k of p.stack) {
+    const w = 12 + 14 + 8 + measure('d5', TECH[k].label, 14) + 14;
+    if (x && x + w > max) { x = 0; y += 38; }
+    out.push({ k, x, y });
+    x += w + 8;
+  }
+  return { items: out, h: y + 30 };
 }
 
-/** Project card. Transparent background: it sits inside a Markdown table cell. */
-async function projectSvg(p) {
-  const W = 560, H = 268, X = 8;
-  const s = new Svg(W, H, p.title);
-  s.raw(`<rect x="${X}" y="16" width="52" height="52" rx="14" fill="${p.color}" fill-opacity=".12" stroke="${p.color}" stroke-opacity=".5"/>`);
-  s.text('m6', p.glyph, { x: X + 26, y: 48, size: 17, fill: p.color, anchor: 'middle' });
-  s.text('d7', p.title, { x: X + 72, y: 40, size: fit('d7', p.title, 24, W - X - 80), fill: C.text });
-  s.text('m4', p.context, { x: X + 72, y: 64, size: 13, fill: C.faint });
-  s.para('d5', p.body, { x: X, y: 112, size: 17, max: W - X * 2 - 8, fill: C.muted, lead: 1.5 });
-  const mw = (W - X * 2 - 24) / 3;
+/** Height a project card needs; the README renders all four at the tallest one so rows line up. */
+function projectHeight(p) {
+  const P = PROJECT_PAD, bodyLines = wrap('d5', p.body, 17, PROJECT_W - P * 2).length;
+  return P + 52 + 28 + bodyLines * 25.5 + 24 + 80 + 20 + projectPills(p).h + P;
+}
+
+/** Project card: header, story, three metrics and the stack, all inside one card. */
+async function projectSvg(p, H) {
+  const W = PROJECT_W, P = PROJECT_PAD;
+  const s = new Svg(W, H, `${p.title}: ${p.body}`);
+  s.raw(cardRect(0, 0, W, H));
+  s.raw(`<rect x="${P}" y="${P}" width="52" height="52" rx="14" fill="${p.color}" fill-opacity=".12" stroke="${p.color}" stroke-opacity=".5"/>`);
+  s.text('m6', p.glyph, { x: P + 26, y: P + 32, size: 17, fill: p.color, anchor: 'middle' });
+  s.text('d7', p.title, { x: P + 68, y: P + 24, size: fit('d7', p.title, 23, W - P * 2 - 68), fill: C.text });
+  s.text('m4', p.context, { x: P + 68, y: P + 46, size: 13, fill: C.faint });
+  s.para('d5', p.body, { x: P, y: P + 52 + 40, size: 17, max: W - P * 2, fill: C.muted, lead: 1.5 });
+  // metrics and stack are pinned to the bottom so all four cards share one baseline grid
+  const pills = projectPills(p);
+  const stackY = H - P - pills.h, metricsY = stackY - 20 - 80;
+  const mw = (W - P * 2 - 24) / 3;
   p.metrics.forEach(([v, l], i) => {
-    const mx = X + i * (mw + 12);
-    s.raw(`<g class="rise" style="animation-delay:${0.1 + i * 0.1}s">${cardRect(mx, 176, mw, 80, { rx: 12, fill: 'none', stroke: C.border })}`);
-    s.text('d7', v, { x: mx + 18, y: 214, size: 26, fill: p.color });
-    s.text('m4', l, { x: mx + 18, y: 240, size: fit('m4', l, 12.5, mw - 30), fill: C.faint });
+    const mx = P + i * (mw + 12);
+    s.raw(`<g class="rise" style="animation-delay:${0.1 + i * 0.1}s">${cardRect(mx, metricsY, mw, 80, { rx: 12, fill: C.surface, stroke: C.border })}`);
+    s.text('d7', v, { x: mx + 18, y: metricsY + 38, size: 26, fill: p.color });
+    s.text('m4', l, { x: mx + 18, y: metricsY + 62, size: fit('m4', l, 12.5, mw - 30), fill: C.faint });
     s.raw('</g>');
   });
+  for (const it of pills.items) techPill(s, it.k, P + it.x, stackY + it.y, 30);
   return s.render();
 }
 
@@ -801,17 +922,18 @@ async function summarySvg() {
   const bodyTop = 104 + (hl.length - 1) * 36 + 46;
   const bodyEnd = s.para('d5', SUMMARY.body, { x: pad, y: bodyTop, size: 16.5, max: lw - pad * 2, lead: 1.65 });
 
-  // right: fact sheet
-  const rx = lw + gap, rowH = 46, rowsTop = 84;
+  // right: fact sheet, rows stretched so both cards end on the same line as the story
+  const rx = lw + gap, rowsTop = 76;
+  const H = Math.ceil(Math.max(bodyEnd + pad, rowsTop + SUMMARY.facts.length * 40 + pad - 8));
+  const rowH = (H - rowsTop - pad + 8) / SUMMARY.facts.length;
   s.text('m6', 'AT A GLANCE', { x: rx + pad, y: 56, size: 13, fill: C.purple });
   SUMMARY.facts.forEach(([k, v], i) => {
-    const y = rowsTop + i * rowH;
+    const y = rowsTop + i * rowH, mid = y + rowH / 2;
     if (i) s.raw(`<path d="M${rx + pad} ${y}H${W - pad}" stroke="${C.hair}"/>`);
-    s.text('m4', k, { x: rx + pad, y: y + 29, size: 12, fill: C.faint });
-    s.text('d6', v, { x: W - pad, y: y + 30, size: fit('d6', v, 16, rw - pad * 2 - 110), fill: C.text, anchor: 'end' });
+    s.text('m4', k, { x: rx + pad, y: mid + 4, size: 12, fill: C.faint });
+    s.text('d6', v, { x: W - pad, y: mid + 5.5, size: fit('d6', v, 16, rw - pad * 2 - 110), fill: C.text, anchor: 'end' });
   });
 
-  const H = Math.ceil(Math.max(bodyEnd + pad + 4, rowsTop + SUMMARY.facts.length * rowH + pad - 8));
   s.h = H;
   s.body.unshift(cardRect(0, 0, lw, H), cardRect(rx, 0, rw, H));
   return s.render();
@@ -862,6 +984,396 @@ async function connectTileSvg(c) {
   return s.render();
 }
 
+// ───────────── rich text: <b> and <code> runs, wrapped by measured width ─────────────
+const RICH = {
+  n: { key: 'd5', size: 16, fill: '#c9d1d9' },
+  b: { key: 'd7', size: 16, fill: C.text },
+  c: { key: 'm4', size: 14.5, fill: C.blue },
+};
+
+function richTokens(html) {
+  const out = [], re = /<(\/?)(b|code)>/g;
+  let style = 'n', last = 0, m;
+  const push = (txt, st) => { for (const w of txt.split(/(\s+)/)) if (w) out.push({ w, st }); };
+  while ((m = re.exec(html))) {
+    push(html.slice(last, m.index), style);
+    style = m[1] ? 'n' : m[2] === 'b' ? 'b' : 'c';
+    last = re.lastIndex;
+  }
+  push(html.slice(last), style);
+  return out;
+}
+
+function richWrap(html, max) {
+  const lines = [[]];
+  let width = 0;
+  for (const t of richTokens(html)) {
+    const f = RICH[t.st], w = measure(f.key, t.w, f.size), space = /^\s+$/.test(t.w);
+    if (!space && width + w > max && lines.at(-1).length) {
+      while (lines.at(-1).length && /^\s+$/.test(lines.at(-1).at(-1).w)) lines.at(-1).pop();
+      lines.push([]);
+      width = 0;
+    }
+    if (space && !lines.at(-1).length) continue;
+    lines.at(-1).push(t);
+    width += w;
+  }
+  return lines;
+}
+
+function richLine(s, tokens, x, y) {
+  const spans = tokens.map((t) => {
+    const f = RICH[t.st];
+    s.use(f.key, t.w);
+    return `<tspan class="${f.key}" font-size="${f.size}" fill="${f.fill}">${xml(t.w)}</tspan>`;
+  });
+  s.raw(`<text x="${x}" y="${y}" xml:space="preserve">${spans.join('')}</text>`);
+}
+
+/** Wrap a list of tech keys into pill rows; returns positions and total height. */
+function pillLayout(keys, max, h = 30, gap = 8) {
+  const items = [];
+  let x = 0, y = 0;
+  for (const k of keys) {
+    const w = 12 + 14 + 8 + measure('d5', TECH[k].label, 14) + 14;
+    if (x && x + w > max) { x = 0; y += h + gap; }
+    items.push({ k, x, y });
+    x += w + gap;
+  }
+  return { items, h: y + h };
+}
+
+/** Full experience card: role header, every highlight, and the stack, in one SVG. */
+async function experienceSvg(r) {
+  const W = 1200, P = 36, stackW = 340, colGap = 44, bodyTop = 158, lead = 25, bulletGap = 12;
+  const leftW = W - P * 2 - stackW - colGap;
+  const bullets = [...r.highlights, ...r.more].map((b) => richWrap(b, leftW - 22));
+  let y = bodyTop, bulletYs = [];
+  for (const lines of bullets) {
+    bulletYs.push(y);
+    y += lines.length * lead + bulletGap;
+  }
+  // last baseline sits 26px below its slot top; +6 covers descenders
+  const leftEnd = y - bulletGap + 7;
+  const pills = pillLayout(r.stack, stackW);
+  const rightEnd = bodyTop + 14 + pills.h;
+  const H = Math.ceil(Math.max(leftEnd, rightEnd) + P - 4);
+  const plain = [...r.highlights, ...r.more].map((b) => b.replace(/<[^>]+>/g, '')).join(' ');
+  const s = new Svg(W, H, `${r.title} at ${r.company}, ${r.period}. ${plain}`);
+
+  // header
+  s.raw(cardRect(0, 0, W, H));
+  s.raw(`<rect x="0" y="28" width="4" height="64" rx="2" fill="${r.color}"/>`);
+  const pw = s.pill(r.abbr, { x: P, y: 26, color: r.color, size: 13, h: 28 });
+  const right = measure('m6', r.period, 16) + 40;
+  s.text('d7', r.title, { x: P + pw + 16, y: 48, size: fit('d7', r.title, 26, W - P - pw - 16 - right - 60), fill: C.text });
+  s.runs('d5', [[r.company, r.color], ['   ·   ', C.faint], [r.location, C.muted]], { x: P, y: 90, size: 17 });
+  s.text('m6', r.period, { x: W - P, y: 46, size: 16, fill: C.text, anchor: 'end' });
+  s.text('m4', r.focus, { x: W - P, y: 88, size: 13, fill: C.faint, anchor: 'end' });
+  if (r.note) s.pill(r.note, { x: W - P - measure('m4', r.focus, 13) - 16, y: 70, color: r.color, key: 'm4', size: 12, h: 26, anchor: 'end' });
+  s.raw(`<path d="M${P} 120H${W - P}" stroke="${C.hair}"/>`);
+
+  // highlights
+  s.text('m6', 'HIGHLIGHTS', { x: P, y: bodyTop - 4, size: 12, fill: r.color });
+  bullets.forEach((lines, i) => {
+    const by = bulletYs[i] + 26;
+    s.raw(`<circle cx="${P + 5}" cy="${by - 5}" r="3" fill="${r.color}" class="rise" style="animation-delay:${(0.1 + i * 0.08).toFixed(2)}s"/>`);
+    lines.forEach((tokens, j) => richLine(s, tokens, P + 22, by + j * lead));
+  });
+
+  // stack
+  const sx = W - P - stackW;
+  s.raw(`<path d="M${sx - colGap / 2} 140V${H - 28}" stroke="${C.hair}"/>`);
+  s.text('m6', 'STACK', { x: sx, y: bodyTop - 4, size: 12, fill: r.color });
+  for (const it of pills.items) techPill(s, it.k, sx + it.x, bodyTop + 14 + it.y, 30);
+  return s.render();
+}
+
+/** Small drawn glyphs for the stats strip and award banner. */
+const GLYPH = {
+  star: (cx, cy, r, color) => {
+    const pts = [];
+    for (let i = 0; i < 10; i++) {
+      const a = -Math.PI / 2 + (i * Math.PI) / 5, rr = i % 2 ? r * 0.45 : r;
+      pts.push(`${(cx + rr * Math.cos(a)).toFixed(2)},${(cy + rr * Math.sin(a)).toFixed(2)}`);
+    }
+    return `<polygon points="${pts.join(' ')}" fill="${color}"/>`;
+  },
+  eye: (cx, cy, r, color) =>
+    `<g fill="none" stroke="${color}" stroke-width="2.4"><path d="M${cx - r} ${cy}Q${cx} ${cy - r * 0.95} ${cx + r} ${cy}Q${cx} ${cy + r * 0.95} ${cx - r} ${cy}Z"/><circle cx="${cx}" cy="${cy}" r="${r * 0.32}" fill="${color}"/></g>`,
+  people: (cx, cy, r, color) =>
+    `<g fill="${color}"><circle cx="${cx - r * 0.35}" cy="${cy - r * 0.35}" r="${r * 0.3}"/><path d="M${cx - r * 0.95} ${cy + r * 0.75}a${r * 0.6} ${r * 0.55} 0 0 1 ${r * 1.2} 0z"/><circle cx="${cx + r * 0.45}" cy="${cy - r * 0.2}" r="${r * 0.25}" opacity=".7"/><path d="M${cx + r * 0.05} ${cy + r * 0.75}a${r * 0.45} ${r * 0.45} 0 0 1 ${r * 0.9} 0z" opacity=".7"/></g>`,
+};
+
+/** Recognition & Certifications panel. */
+async function credentialsSvg() {
+  const W = 1200, P = 28, bannerH = 112, gap = 20, cols = CREDENTIALS.groups.length, cw = (W - gap * (cols - 1)) / cols, rowH = 46;
+  const rows = Math.max(...CREDENTIALS.groups.map((g) => g.items.length));
+  const colTop = bannerH + gap, colH = 66 + rows * rowH + 12, H = colTop + colH;
+  const a = CREDENTIALS.award;
+  const s = new Svg(W, H, `${a.title}, ${a.meta}. ${CREDENTIALS.groups.map((g) => `${g.title}: ${g.items.map((i) => i.slice(0, 2).join(' ')).join(', ')}`).join('. ')}`);
+  s.css.push('@keyframes sweep{0%{transform:translateX(-320px)}100%{transform:translateX(1220px)}}');
+
+  // award banner
+  s.defs.push(
+    `<clipPath id="ab"><rect width="${W}" height="${bannerH}" rx="16"/></clipPath>`,
+    `<linearGradient id="gold" x1="0" x2="1"><stop offset="0" stop-color="#9e6a03" stop-opacity=".35"/><stop offset="1" stop-color="#9e6a03" stop-opacity="0"/></linearGradient>`,
+    `<linearGradient id="gs" x1="0" x2="1"><stop offset="0" stop-color="${C.yellow}" stop-opacity="0"/><stop offset=".5" stop-color="${C.yellow}"/><stop offset="1" stop-color="${C.yellow}" stop-opacity="0"/></linearGradient>`,
+  );
+  s.raw(cardRect(0, 0, W, bannerH, { stroke: '#9e6a03' }));
+  s.raw(`<g clip-path="url(#ab)"><rect width="${W * 0.6}" height="${bannerH}" fill="url(#gold)"/><rect y="0" width="320" height="3" fill="url(#gs)" style="animation:sweep 5s linear infinite"/></g>`);
+  s.raw(`<circle cx="${P + 30}" cy="${bannerH / 2}" r="30" fill="#9e6a03" fill-opacity=".35" stroke="${C.yellow}" stroke-opacity=".6"/>`);
+  s.raw(`<g style="animation:pulse 2.4s ease-in-out infinite">${GLYPH.star(P + 30, bannerH / 2, 15, C.yellow)}</g>`);
+  s.text('m6', 'AWARD', { x: P + 80, y: 36, size: 12, fill: C.yellow });
+  s.text('d7', a.title, { x: P + 80, y: 66, size: 24, fill: C.text });
+  s.text('m4', a.meta, { x: P + 80, y: 90, size: 13, fill: C.muted });
+  s.para('d5', a.note, { x: W - P - 420, y: 52, size: 15, max: 420, fill: C.muted, lead: 1.5 });
+
+  // certification columns
+  CREDENTIALS.groups.forEach((g, i) => {
+    const x = i * (cw + gap), y = colTop;
+    s.raw(`<g class="rise" style="animation-delay:${(0.1 + i * 0.1).toFixed(2)}s">`);
+    s.raw(cardRect(x, y, cw, colH));
+    if (g.logo) s.raw(brandIcon(brandSvg[g.logo], x + P, y + 24, 18, g.color));
+    s.text('m6', g.title, { x: x + P + (g.logo ? 28 : 0), y: y + 38, size: 12.5, fill: g.color });
+    s.text('m4', String(g.items.length).padStart(2, '0'), { x: x + cw - P, y: y + 38, size: 12.5, fill: C.faint, anchor: 'end' });
+    g.items.forEach(([name, level, logo, color], j) => {
+      const ry = y + 66 + j * rowH;
+      if (j) s.raw(`<path d="M${x + P} ${ry}H${x + cw - P}" stroke="${C.hair}"/>`);
+      const mark = logo || g.logo, mcol = color || g.color;
+      s.raw(brandIcon(brandSvg[mark], x + P, ry + 15, 15, mcol));
+      const tagW = level ? measure('m4', level, 11.5) + 24 : 0;
+      s.text('d5', name, { x: x + P + 26, y: ry + 28, size: fit('d5', name, 15, cw - P * 2 - 26 - tagW - 10), fill: C.text });
+      if (level) s.pill(level, { x: x + cw - P, y: ry + 10, color: g.title === 'HACKERRANK' ? C.green : mcol, key: 'm4', size: 11.5, h: 24, anchor: 'end' });
+    });
+    s.raw('</g>');
+  });
+  return s.render();
+}
+
+/** Fetch the four profile numbers; on any failure keep the last good value. */
+async function fetchStats() {
+  let prev = {};
+  try { prev = JSON.parse(readFileSync(STATS_FILE, 'utf8')); } catch {}
+  const gh = PROFILE.github, out = { ...prev };
+  const headers = { 'user-agent': 'profile-readme-builder', ...(process.env.GITHUB_TOKEN ? { authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {}) };
+  const get = async (url, as = 'json') => {
+    const res = await fetch(url, { headers });
+    if (!res.ok) throw new Error(`${url} ${res.status}`);
+    return as === 'json' ? res.json() : res.text();
+  };
+  const svgTexts = (svg) => [...svg.matchAll(/<text[^>]*>([^<]+)<\/text>/g)].map((m) => m[1].trim());
+  try { out.followers = (await get(`https://api.github.com/users/${gh}`)).followers; } catch (e) { console.warn('followers:', e.message); }
+  try {
+    let stars = 0;
+    for (let page = 1; page < 10; page++) {
+      const repos = await get(`https://api.github.com/users/${gh}/repos?per_page=100&type=owner&page=${page}`);
+      stars += repos.filter((r) => !r.fork).reduce((sum, r) => sum + r.stargazers_count, 0);
+      if (repos.length < 100) break;
+    }
+    out.stars = stars;
+  } catch (e) { console.warn('stars:', e.message); }
+  try {
+    const t = svgTexts(await get(`https://wakatime.com/badge/user/${PROFILE.wakatimeId}.svg`, 'text')).find((x) => /\bhrs?\b/.test(x));
+    if (t) out.coding = t.replace(/\s+\d+\s+mins?$/, '');
+  } catch (e) { console.warn('wakatime:', e.message); }
+  try {
+    // note: komarev counts every request as a view, so each refresh adds one
+    const t = svgTexts(await get(`https://komarev.com/ghpvc/?username=${gh}&abbreviated=true`, 'text')).find((x) => /^[\d.,]+[KMB]?$/.test(x));
+    if (t) out.views = t;
+  } catch (e) { console.warn('views:', e.message); }
+  out.updated = new Date().toISOString().slice(0, 10);
+  mkdirSync(ASSETS, { recursive: true });
+  writeFileSync(STATS_FILE, `${JSON.stringify(out, null, 2)}\n`);
+  return out;
+}
+
+/** Four-tile stats strip: profile views, coding time, followers, stars. */
+async function statsSvg(st) {
+  const W = 1200, gap = 20, n = 4, tw = (W - gap * (n - 1)) / n, H = 108;
+  const tiles = [
+    { label: 'PROFILE VIEWS', value: st.views ?? '·', color: C.blue, icon: (cx, cy) => GLYPH.eye(cx, cy, 13, C.blue) },
+    { label: 'CODING TIME · ALL TIME', value: st.coding ?? '·', color: C.purple, icon: (cx, cy) => brandIcon(brandSvg.wakatime, cx - 11, cy - 11, 22, C.purple) },
+    { label: 'FOLLOWERS', value: st.followers ?? '·', color: C.green, icon: (cx, cy) => GLYPH.people(cx, cy, 13, C.green) },
+    { label: 'STARS EARNED', value: st.stars ?? '·', color: C.yellow, icon: (cx, cy) => GLYPH.star(cx, cy, 12, C.yellow) },
+  ];
+  const s = new Svg(W, H, `${tiles.map((t) => `${t.label.toLowerCase()}: ${t.value}`).join(', ')} (updated ${st.updated})`);
+  tiles.forEach((t, i) => {
+    const x = i * (tw + gap), icx = x + 24 + 24, icy = H / 2;
+    s.raw(`<g class="rise" style="animation-delay:${(i * 0.08).toFixed(2)}s">`);
+    s.raw(cardRect(x, 0, tw, H));
+    s.raw(`<rect x="${x + 24}" y="${icy - 24}" width="48" height="48" rx="13" fill="${t.color}" fill-opacity=".12" stroke="${t.color}" stroke-opacity=".45"/>`);
+    s.raw(t.icon(icx, icy));
+    const vx = x + 24 + 48 + 18;
+    s.text('d7', String(t.value), { x: vx, y: icy + 4, size: fit('d7', String(t.value), 28, tw - (vx - x) - 20), fill: C.text });
+    s.text('m4', t.label, { x: vx, y: icy + 28, size: fit('m4', t.label, 11.5, tw - (vx - x) - 20), fill: C.faint });
+    s.raw(`<circle cx="${x + tw - 18}" cy="18" r="3.5" fill="${t.color}" style="animation:pulse 2s ease-in-out ${(i * 0.4).toFixed(1)}s infinite"/>`);
+    s.raw('</g>');
+  });
+  return s.render();
+}
+
+/** "Back to top" button with a bobbing arrow. */
+async function backToTopSvg() {
+  const W = 220, H = 52;
+  const s = new Svg(W, H, 'Back to top');
+  s.css.push('@keyframes up{0%,100%{transform:translateY(2px)}50%{transform:translateY(-3px)}}', '.up{animation:up 1.6s ease-in-out infinite}');
+  s.raw(`<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="${(H - 1) / 2}" fill="${C.surface}" stroke="${C.blue}" stroke-opacity=".55"/>`);
+  s.raw(`<circle cx="30" cy="${H / 2}" r="14" fill="${C.blue}" fill-opacity=".15"/>`);
+  s.raw(`<g class="up"><path d="M30 ${H / 2 + 7}V${H / 2 - 6}M24 ${H / 2}l6-6 6 6" fill="none" stroke="${C.blue}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>`);
+  s.text('d6', 'Back to top', { x: 56, y: H / 2 + 6, size: 17, fill: C.text });
+  s.text('m4', '#top', { x: W - 22, y: H / 2 + 5, size: 12.5, fill: C.faint, anchor: 'end' });
+  return s.render();
+}
+
+/** Non-numbered banner between page blocks: a labelled pill on a flowing rule. */
+async function separatorSvg(sep) {
+  const W = 1200, H = 120, cy = 54;
+  const s = new Svg(W, H, `${sep.eyebrow}: ${sep.caption}`);
+  s.css.push('@keyframes flow{to{stroke-dashoffset:-48}}', '.flow{animation:flow 2.4s linear infinite}');
+  const pw = measure('m6', sep.eyebrow, 14) + 56, px = (W - pw) / 2;
+  s.defs.push(
+    `<linearGradient id="fl" x1="0" x2="1"><stop offset="0" stop-color="${sep.accent}" stop-opacity="0"/><stop offset="1" stop-color="${sep.accent}"/></linearGradient>`,
+    `<linearGradient id="fr" x1="0" x2="1"><stop offset="0" stop-color="${sep.accent}"/><stop offset="1" stop-color="${sep.accent}" stop-opacity="0"/></linearGradient>`,
+  );
+  s.raw(`<path class="flow" d="M0 ${cy}H${px - 20}" stroke="url(#fl)" stroke-width="2" stroke-dasharray="14 10"/>`);
+  s.raw(`<path class="flow" d="M${W} ${cy}H${px + pw + 20}" stroke="url(#fr)" stroke-width="2" stroke-dasharray="14 10"/>`);
+  s.raw(`<rect x="${px}" y="${cy - 21}" width="${pw}" height="42" rx="21" fill="${C.surface}" stroke="${sep.accent}" stroke-opacity=".6"/>`);
+  s.raw(`<circle cx="${px + 22}" cy="${cy}" r="4" fill="${sep.accent}" style="animation:pulse 1.8s ease-in-out infinite"/>`);
+  s.text('m6', sep.eyebrow, { x: px + 36, y: cy + 5, size: 14, fill: C.text });
+  s.text('m4', sep.caption, { x: W / 2, y: cy + 50, size: 13, fill: C.faint, anchor: 'middle' });
+  return s.render();
+}
+
+/** Featured repository card. */
+async function featuredSvg() {
+  const r = FEATURED_REPO, W = 1200, pad = 32, X = pad + 64 + 24, right = 300;
+  const s = new Svg(W, 0, `${r.owner}/${r.name}: ${r.description}`);
+  s.css.push('@keyframes sweep{0%{transform:translateX(-320px)}100%{transform:translateX(1220px)}}');
+  s.text('m6', 'FEATURED REPO', { x: X, y: 48, size: 12.5, fill: C.blue });
+  s.runs('d6', [[`${r.owner} / `, C.muted]], { x: X, y: 86, size: 24 });
+  s.text('d7', r.name, { x: X + measure('d6', `${r.owner} / `, 24), y: 86, size: 26, fill: C.text });
+  const descEnd = s.para('d5', r.description, { x: X, y: 120, size: 16, max: W - X - right - pad, lead: 1.55 });
+  // meta row: language, licence, topics
+  const my = descEnd + 26;
+  let mx = X;
+  s.raw(`<circle cx="${mx + 6}" cy="${my + 13}" r="6" fill="${r.language.color}"/>`);
+  s.text('m4', r.language.name, { x: mx + 18, y: my + 18, size: 13, fill: C.text });
+  mx += 18 + measure('m4', r.language.name, 13) + 18;
+  mx += s.pill(r.license, { x: mx, y: my, color: C.green, key: 'm4', size: 12, h: 26 }) + 10;
+  for (const t of r.topics) mx += s.pill(`#${t}`, { x: mx, y: my, color: C.purple, key: 'm4', size: 12, h: 26 }) + 10;
+  const H = Math.ceil(my + 26 + pad);
+  s.h = H;
+  s.defs.push(
+    `<clipPath id="fc"><rect width="${W}" height="${H}" rx="16"/></clipPath>`,
+    `<linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="${C.blue}" stop-opacity="0"/><stop offset=".5" stop-color="${C.blue}"/><stop offset="1" stop-color="${C.purple}" stop-opacity="0"/></linearGradient>`,
+  );
+  s.body.unshift(
+    cardRect(0, 0, W, H),
+    `<g clip-path="url(#fc)"><rect y="0" width="320" height="3" fill="url(#sw)" style="animation:sweep 5s linear infinite"/></g>`,
+    `<rect x="${pad}" y="${pad}" width="64" height="64" rx="16" fill="${C.surface}" stroke="${C.border}"/>`,
+    brandIcon(brandSvg.github, pad + 16, pad + 16, 32, C.text),
+  );
+  // docs link column
+  const dx = W - pad - right + 40;
+  s.raw(`<path d="M${dx - 20} ${pad}V${H - pad}" stroke="${C.hair}"/>`);
+  s.text('m6', 'DOCUMENTATION', { x: dx, y: 48, size: 12.5, fill: C.purple });
+  s.text('d6', r.docs, { x: dx, y: 84, size: fit('d6', r.docs, 16, right - 60), fill: C.text });
+  s.text('m4', 'view on GitHub →', { x: dx, y: 114, size: 13, fill: C.blue });
+  return s.render();
+}
+
+/** Daily drivers: a 10 x 2 grid of skill icons, each bobbing gently in a staggered wave. */
+async function primaryStackSvg() {
+  const W = 1200, pad = 28, cols = 10, rows = Math.ceil(PRIMARY_STACK.length / cols), cellW = (W - pad * 2) / cols, rowH = 116, icon = 56;
+  const H = pad * 2 + rows * rowH - 16;
+  const s = new Svg(W, H, `Daily drivers: ${PRIMARY_STACK.map((k) => TECH[k].label).join(', ')}`);
+  s.css.push(
+    '@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}',
+    '.bob{animation:bob 3.2s ease-in-out infinite}',
+  );
+  s.raw(cardRect(0, 0, W, H));
+  PRIMARY_STACK.forEach((k, i) => {
+    const t = TECH[k], c = i % cols, r = Math.floor(i / cols);
+    const cx = pad + c * cellW + cellW / 2, y = pad + r * rowH;
+    s.raw(`<g class="bob" style="animation-delay:${(i * 0.16).toFixed(2)}s">${inlineIcon(skillSvg[t.icon], `p${i}`, cx - icon / 2, y + 4, icon)}</g>`);
+    s.text('d5', t.label, { x: cx, y: y + icon + 30, size: fit('d5', t.label, 13.5, cellW - 12), fill: C.muted, anchor: 'middle' });
+  });
+  return s.render();
+}
+
+/** One Tech & Skills pill: brand mark plus label. Returns its width. */
+function techPill(s, key, x, y, h = 32) {
+  const t = TECH[key], label = t.label, size = 14;
+  const w = 12 + size + 8 + measure('d5', label, 14) + 14;
+  s.raw(`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="9" fill="${C.surface}" stroke="${C.border}"/>`);
+  const color = `#${t.color}`;
+  const mark = t.logo && (legacyLogo[t.logo] || brandSvg[t.logo]);
+  s.raw(mark ? brandIcon(mark, x + 12, y + (h - size) / 2, size, color) : `<circle cx="${x + 12 + size / 2}" cy="${y + h / 2}" r="4" fill="${color}"/>`);
+  s.text('d5', label, { x: x + 12 + size + 8, y: y + h / 2 + 5, size: 14, fill: C.text });
+  return w;
+}
+
+/** Tech & Skills: a 3 x 3 grid of group cards, each listing its tools as pills. */
+async function skillsSvg() {
+  const W = 1200, gap = 20, cols = 3, cw = (W - gap * (cols - 1)) / cols, pad = 24, pillH = 32, pillGap = 8, top = 64;
+  // lay out each group's pills first so row heights can be equalised
+  const layouts = SKILL_GROUPS.map((g) => {
+    const items = [];
+    let x = 0, y = 0;
+    for (const k of g.keys) {
+      const w = 12 + 14 + 8 + measure('d5', TECH[k].label, 14) + 14;
+      if (x && x + w > cw - pad * 2) { x = 0; y += pillH + pillGap; }
+      items.push({ k, x, y });
+      x += w + pillGap;
+    }
+    return { g, items, h: top + y + pillH + pad };
+  });
+  const rowHeights = [];
+  for (let r = 0; r < Math.ceil(layouts.length / cols); r++) rowHeights.push(Math.max(...layouts.slice(r * cols, r * cols + cols).map((l) => l.h)));
+  const H = rowHeights.reduce((a, b) => a + b, 0) + gap * (rowHeights.length - 1);
+  const s = new Svg(W, H, SKILL_GROUPS.map((g) => `${g.title}: ${g.keys.map((k) => TECH[k].label).join(', ')}`).join('. '));
+  layouts.forEach(({ g, items }, i) => {
+    const c = i % cols, r = Math.floor(i / cols);
+    const x = c * (cw + gap), y = rowHeights.slice(0, r).reduce((a, b) => a + b, 0) + r * gap, h = rowHeights[r];
+    s.raw(`<g class="rise" style="animation-delay:${(i * 0.07).toFixed(2)}s">`);
+    s.raw(cardRect(x, y, cw, h));
+    s.raw(`<rect x="${x + pad}" y="${y + 26}" width="24" height="4" rx="2" fill="${g.color}"/>`);
+    s.text('m6', g.title.toUpperCase(), { x: x + pad + 34, y: y + 32, size: 12.5, fill: C.text });
+    s.text('m4', String(g.keys.length).padStart(2, '0'), { x: x + cw - pad, y: y + 32, size: 12.5, fill: C.faint, anchor: 'end' });
+    for (const it of items) techPill(s, it.k, x + pad + it.x, y + top + it.y, pillH);
+    s.raw('</g>');
+  });
+  return s.render();
+}
+
+/** Animated contact button: brand fill, icon with a pulsing ring, and a light sweep. */
+async function contactButtonSvg(c, i) {
+  const W = 300, H = 72, rx = 14;
+  const s = new Svg(W, H, `${c.label}: ${c.handle}`);
+  s.css.push(
+    '@keyframes shine{0%{transform:translateX(-140px)}55%,100%{transform:translateX(440px)}}',
+    '@keyframes ring{0%{transform:scale(1);opacity:.55}100%{transform:scale(1.55);opacity:0}}',
+    `.shine{animation:shine 3.6s ease-in-out ${(i * 0.45).toFixed(2)}s infinite}`,
+    `.ring{transform-box:fill-box;transform-origin:center;animation:ring 2.2s ease-out ${(i * 0.3).toFixed(2)}s infinite}`,
+  );
+  s.defs.push(
+    `<clipPath id="bc"><rect width="${W}" height="${H}" rx="${rx}"/></clipPath>`,
+    `<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".16"/><stop offset="1" stop-color="#000000" stop-opacity=".18"/></linearGradient>`,
+    `<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset=".5" stop-color="#ffffff" stop-opacity=".28"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>`,
+  );
+  s.raw(`<g clip-path="url(#bc)"><rect width="${W}" height="${H}" fill="${c.color}"/><rect width="${W}" height="${H}" fill="url(#bg)"/><rect class="shine" x="0" y="-20" width="90" height="${H + 40}" fill="url(#sh)" transform="skewX(-18)"/></g>`);
+  const icx = 40, icy = H / 2;
+  s.raw(`<circle class="ring" cx="${icx}" cy="${icy}" r="21" fill="none" stroke="#ffffff" stroke-width="2"/>`);
+  s.raw(`<circle cx="${icx}" cy="${icy}" r="21" fill="#ffffff" fill-opacity=".16"/>`);
+  if (c.icon) s.raw(brandIcon(brandSvg[c.icon], icx - 11, icy - 11, 22, '#ffffff'));
+  else if (c.legacy) s.raw(brandIcon(legacyLogo[c.legacy], icx - 11, icy - 11, 22, '#ffffff'));
+  else s.raw(`<g fill="none" stroke="#ffffff" stroke-width="2"><circle cx="${icx}" cy="${icy}" r="10"/><ellipse cx="${icx}" cy="${icy}" rx="4.5" ry="10"/><path d="M${icx - 10} ${icy}H${icx + 10}"/></g>`);
+  s.text('d7', c.label, { x: 76, y: 33, size: 18, fill: '#ffffff' });
+  s.text('m4', c.handle, { x: 76, y: 53, size: fit('m4', c.handle, 12.5, W - 76 - 18), fill: '#ffffff', style: 'opacity:.82' });
+  return s.render();
+}
+
 async function footerSvg() {
   const W = 1200, M = 40, CH = 112, H = M + CH;
   const s = new Svg(W, H, 'Thanks for visiting');
@@ -909,10 +1421,6 @@ function tech(key, { style = 'for-the-badge', height } = {}) {
 }
 const techRow = (keys, opts, sep = '\n') => keys.map((k) => tech(k, opts)).join(sep);
 
-/** A linked skillicons.dev icon: one image per tech so each carries its own link. */
-const skill = (key, size = 48) => link(TECH[key].href, img(`https://skillicons.dev/icons?i=${TECH[key].icon}&theme=dark`, TECH[key].label, `width="${size}" title="${xml(TECH[key].label)}"`));
-const skillRow = (keys) => keys.map((k) => skill(k)).join('&nbsp;\n  ');
-
 const brandChip = (label, logo, logoColor, href, height = 32) =>
   link(href, img(badge({ label, color: '161b22', logo, logoColor }), label, `height="${height}"`));
 
@@ -921,35 +1429,13 @@ const sectionHeader = (sec) => {
   return `<a id="${sec.id}"></a>\n<p align="center">${img(`assets/headers/${String(i + 1).padStart(2, '0')}-${sec.id}.svg`, sec.title, 'width="100%"')}</p>`;
 };
 const H = Object.fromEntries(SECTIONS.map((s) => [s.id, sectionHeader(s)]));
-const gapRow = '<p></p>';
 
 // ═════════════════════════════ README ═════════════════════════════
-function experienceBlock(r) {
-  const more = r.more.length
-    ? `\n<details>\n<summary><sub>More highlights</sub></summary>\n<ul>\n${r.more.map((m) => `<li>${m}</li>`).join('\n')}\n</ul>\n</details>`
-    : '';
-  return `<p align="center">${link(r.href, img(`assets/experience/${r.id}.svg`, `${r.title} at ${r.company}, ${r.period}`, 'width="100%"'))}</p>
-
-<table align="center">
-<tr>
-<td width="66%" valign="top">
-<ul>
-${r.highlights.map((h) => `<li>${h}</li>`).join('\n')}
-</ul>${more}
-</td>
-<td width="34%" valign="top" align="center">
-<sub><b>STACK</b></sub><br><br>
-${techRow(r.stack, { style: 'flat-square' }, '\n')}
-</td>
-</tr>
-</table>`;
-}
-
 function readme() {
   const gh = PROFILE.github;
   const statsTheme = 'theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=a371f7&text_color=c9d1d9&border_radius=16';
   const typing =
-    'https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=1000&color=58A6FF&center=true&vCenter=true&width=720&lines=' +
+    'https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=1000&color=58A6FF&center=true&vCenter=true&width=1200&height=56&lines=' +
     [
       'Backend Engineer (SDE-3) @ OneCX',
       'Real-time · event-driven · search',
@@ -958,26 +1444,15 @@ function readme() {
     ]
       .map((l) => encodeURIComponent(l).replace(/%20/g, '+'))
       .join(';');
-  const stackTable = [
-    ['Backend & APIs', ['nodejs', 'typescript', 'javascript', 'nestjs', 'express', 'graphql', 'grpc', 'socketio', 'openapi', 'whatsapp', 'postman']],
-    ['Databases & ORMs', ['postgres', 'mysql', 'mongodb', 'sqlite', 'cassandra', 'rds', 'redshift', 'typeorm', 'prisma', 'zod', 'firebase']],
-    ['Messaging & search', ['kafka', 'rabbitmq', 'bullmq', 'redis', 'pubsub', 'elasticsearch', 'kibana']],
-    ['Cloud & delivery', ['aws', 'lambda', 'cloudwatch', 'docker', 'nginx', 'pm2', 'linode', 'vercel', 'actions', 'circleci', 'ado', 'husky']],
-    ['Observability & testing', ['prometheus', 'grafana', 'jest', 'vitest', 'playwright', 'jwt', 'oauth']],
-    ['Tooling', ['git', 'github', 'gitlab', 'bitbucket', 'jira', 'mermaid', 'figma']],
-    ['Web, analytics & SEO', ['astro', 'cloudflare', 'analytics', 'posthog', 'searchconsole']],
-    ['AI-assisted', ['claude', 'mcp', 'copilot', 'cursor']],
-    ['Also shipped with', ['react', 'nextjs', 'tailwind', 'bootstrap']],
-  ]
-    .map(([cat, keys]) => `<tr>\n<td align="center"><br><sub><b>${xml(cat).toUpperCase()}</b></sub><br><br>\n${techRow(keys, {}, '\n')}\n<br><br>\n</td>\n</tr>`)
-    .join('\n');
 
-  const projectCell = (p) => `<td width="50%" valign="top" align="center">
-${img(`assets/projects/${p.id}.svg`, `${p.title}: ${p.body}`, 'width="100%"')}
-<br><br>
-${techRow(p.stack, { style: 'flat-square' }, '\n')}
-<br><br>
-</td>`;
+  // Inline images with no whitespace between the tags, so percentage widths add up to exactly 100%.
+  const row = (items, width, gapWidth) => items.join(img('assets/gap.svg', '', `width="${gapWidth}"`));
+  const sep = (id) => {
+    const s = SEPARATORS.find((x) => x.id === id);
+    return `<p align="center">${img(`assets/separators/${s.id}.svg`, `${s.eyebrow}: ${s.caption}`, 'width="100%"')}</p>`;
+  };
+
+  const projectCard = (p) => img(`assets/projects/${p.id}.svg`, `${p.title}: ${p.body} Stack: ${p.stack.map((k) => TECH[k].label).join(', ')}`, 'width="49%"');
 
   return `<!--
   Generated by tools/build-profile.mjs. Edit the data there, then run:
@@ -990,91 +1465,30 @@ ${techRow(p.stack, { style: 'flat-square' }, '\n')}
 </p>
 
 <p align="center">
-  ${link(PROFILE.website, img(typing, 'Backend Engineer (SDE-3) at OneCX'))}
+  ${link(PROFILE.website, img(typing, 'Backend Engineer (SDE-3) at OneCX', 'width="100%"'))}
 </p>
 
-<p align="center">
-  ${link(PROFILE.website, img(badge({ label: 'shrikumarsharma.in', color: '1f6feb', logo: 'googlechrome' }), 'Portfolio', 'height="30"'))}&nbsp;
-  ${link(PROFILE.blog, img(badge({ label: 'Blog', color: '8957e5', logo: 'rss' }), 'Blog', 'height="30"'))}&nbsp;
-  ${link(`mailto:${PROFILE.email}`, img(badge({ label: 'Email', color: 'da3633', logo: 'gmail' }), 'Email', 'height="30"'))}&nbsp;
-  ${link(PROFILE.linkedin, img(badge({ label: 'LinkedIn', color: '0a66c2', logo: 'linkedin' }), 'LinkedIn', 'height="30"'))}
-</p>
+<!-- Four buttons at 24.25% with three 1% gaps fill one row. -->
+<p align="center">${row(CONTACT.map((c) => link(c.href, img(`assets/contact/${c.id}.svg`, `${c.label}: ${c.handle}`, 'width="24.25%"'))), '24.25%', '1%')}</p>
 
-<p align="center">
-  ${link(PROFILE.uptimePage, img(PROFILE.uptimeBadge, 'Portfolio uptime'))}&nbsp;
-  ${link(`https://github.com/${gh}`, img(`https://komarev.com/ghpvc/?username=${gh}&color=1f6feb&label=profile+views&style=flat-square&abbreviated=true`, 'Profile views'))}&nbsp;
-  ${link(`https://wakatime.com/@${gh}`, img(`https://wakatime.com/badge/user/${PROFILE.wakatimeId}.svg?style=flat-square`, 'WakaTime total'))}&nbsp;
-  ${link(`https://github.com/${gh}?tab=followers`, img(`https://img.shields.io/github/followers/${gh}?style=flat-square&logo=github&logoColor=white&label=followers&labelColor=161b22&color=1f6feb`, 'Followers'))}&nbsp;
-  ${link(`https://github.com/${gh}?tab=repositories`, img(`https://img.shields.io/github/stars/${gh}?style=flat-square&logo=github&logoColor=white&label=stars&labelColor=161b22&color=e3b341`, 'Stars'))}
-</p>
+<!-- Uptime badge, hidden for now:
+<p align="center">${link(PROFILE.uptimePage, img(PROFILE.uptimeBadge, 'Portfolio uptime'))}</p>
+-->
+
+<!-- Stats strip: values refreshed daily by .github/workflows/profile-stats.yml (last good values in assets/stats.json). -->
+<p align="center">${link(`https://github.com/${gh}`, img('assets/stats.svg', `Profile stats: ${STATS.views} profile views, ${STATS.coding} coding time, ${STATS.followers} followers, ${STATS.stars} stars`, 'width="100%"'))}</p>
 
 ${H.summary}
 
 <p align="center">${img('assets/summary.svg', `${SUMMARY.headline} ${SUMMARY.body}`, 'width="100%"')}</p>
 
-<p align="center">
-  ${link(FEATURED_REPO.href, img(badge({ label: `Featured repo · ${FEATURED_REPO.name}`, message: FEATURED_REPO.blurb, labelColor: '1f6feb', logo: 'github', style: 'flat-square' }), `${FEATURED_REPO.name}: ${FEATURED_REPO.blurb}`, 'height="24"'))}
-</p>
+<p align="center">${link(FEATURED_REPO.href, img('assets/featured.svg', `Featured repo ${FEATURED_REPO.owner}/${FEATURED_REPO.name}: ${FEATURED_REPO.description}`, 'width="100%"'))}</p>
 
 <p align="center">${img('assets/principles.svg', 'How I work: own the full backend, design with the client, prove it with a POC, write it down', 'width="100%"')}</p>
 
-${H.impact}
+${H.primary}
 
-<p align="center">${img('assets/impact.svg', 'Impact: ~12M entries indexed, 40% lower search latency, 35% faster APIs, 50% faster incident detection, 99.9% uptime, 1M+ messages per quarter, 10x reach, 250K emails in under 10 minutes', 'width="100%"')}</p>
-
-${H.timeline}
-
-<p align="center">${img('assets/timeline.svg', 'Career timeline from 2017 to present', 'width="100%"')}</p>
-
-${H.milestones}
-
-<p align="center">${img('assets/milestones.svg', MILESTONES.map((m) => `${m.date}: ${m.title}, ${m.sub}`).join('; '), 'width="100%"')}</p>
-
-${H.experience}
-
-${EXPERIENCE.map(experienceBlock).join(`\n\n${gapRow}\n\n`)}
-
-${H.projects}
-
-<table align="center">
-<tr>
-${projectCell(PROJECTS[0])}
-${projectCell(PROJECTS[1])}
-</tr>
-<tr>
-${projectCell(PROJECTS[2])}
-${projectCell(PROJECTS[3])}
-</tr>
-</table>
-
-${H.stack}
-
-<p align="center">
-  ${skillRow(['typescript', 'nodejs', 'nestjs', 'express', 'graphql', 'postgres', 'mongodb', 'redis', 'kafka', 'rabbitmq'])}
-</p>
-<p align="center">
-  ${skillRow(['elasticsearch', 'prisma', 'aws', 'cloudflare', 'docker', 'actions', 'prometheus', 'grafana', 'vitest', 'astro'])}
-</p>
-
-${gapRow}
-
-<table align="center">
-${stackTable}
-</table>
-
-${H.ambitions}
-
-<p align="center">${img('assets/roadmap.svg', 'Roadmap: Rust, Go, Spring Boot, DevOps and SEO', 'width="100%"')}</p>
-
-<p align="center">
-  ${link('https://doc.rust-lang.org/book/', img(badge({ label: 'The Rust Book', logo: 'rust', style: 'flat-square' }), 'The Rust Book'))}&nbsp;
-  ${link('https://go.dev/tour/', img(badge({ label: 'A Tour of Go', logo: 'go', logoColor: '00ADD8', style: 'flat-square' }), 'A Tour of Go'))}&nbsp;
-  ${link('https://spring.io/guides', img(badge({ label: 'Spring Guides', logo: 'springboot', logoColor: '6DB33F', style: 'flat-square' }), 'Spring Guides'))}&nbsp;
-  ${techRow(['kubernetes', 'terraform', 'helm'], { style: 'flat-square' }, '&nbsp;\n  ')}
-</p>
-<p align="center">
-  ${techRow(['argocd', 'cwv', 'lighthouse', 'searchconsole'], { style: 'flat-square' }, '&nbsp;\n  ')}
-</p>
+<p align="center">${img('assets/primary-stack.svg', `Daily drivers: ${PRIMARY_STACK.map((k) => TECH[k].label).join(', ')}`, 'width="100%"')}</p>
 
 ${H.coding}
 
@@ -1093,7 +1507,7 @@ ${H.coding}
   ${link(`https://github.com/${gh}`, img('profile-snake/snake-dark.svg', 'Animated contribution snake', 'width="100%"'))}
 </p>
 
-<!-- 3D contribution calendar: .github/workflows/profile-3d.yml commits it to ./profile-3d-contrib. -->
+<!-- 3D contribution city: .github/workflows/profile-3d.yml commits it to ./profile-3d-contrib. -->
 <p align="center">
   ${link(`https://github.com/${gh}`, img('profile-3d-contrib/profile-city.svg', '3D contribution city', 'width="100%"'))}
 </p>
@@ -1109,46 +1523,70 @@ ${H.coding}
 
 ${H.wakatime}
 
-<table align="center">
-<tr>
-<td colspan="2" align="center">${link(`https://wakatime.com/@${gh}`, img(`https://github-readme-stats.vercel.app/api/wakatime?username=${gh}&layout=compact&langs_count=8&card_width=1000&custom_title=All-time+languages&${statsTheme}`, 'WakaTime all-time languages', 'width="100%"'))}</td>
-</tr>
-<tr>
-<td width="50%" align="center" valign="top"><sub><b>LANGUAGES · SHARE</b></sub><br><br>${link(`https://wakatime.com/@${gh}`, img(PROFILE.wakatimeShares.pie, 'WakaTime languages pie chart', 'width="100%"'))}</td>
-<td width="50%" align="center" valign="top"><sub><b>LANGUAGES · HOURS</b></sub><br><br>${link(`https://wakatime.com/@${gh}`, img(PROFILE.wakatimeShares.bar, 'WakaTime languages bar chart', 'width="100%"'))}</td>
-</tr>
-<tr>
-<td colspan="2" align="center"><sub><b>ALL TIME CODING ACTIVITY</b></sub><br><br>${link(`https://wakatime.com/@${gh}`, img(PROFILE.wakatimeShares.activity, 'WakaTime coding activity', 'width="100%"'))}</td>
-</tr>
-</table>
+<!-- Plain image rows instead of a table: table cells add 13px padding and would inset every chart. -->
+<p align="center">${link(`https://wakatime.com/@${gh}`, img(`https://github-readme-stats.vercel.app/api/wakatime?username=${gh}&layout=compact&langs_count=8&card_width=1000&custom_title=All-time+languages&${statsTheme}`, 'WakaTime all-time languages', 'width="100%"'))}</p>
+
+<p align="center">${row([link(`https://wakatime.com/@${gh}`, img(PROFILE.wakatimeShares.pie, 'WakaTime languages pie chart', 'width="49%"')), link(`https://wakatime.com/@${gh}`, img(PROFILE.wakatimeShares.bar, 'WakaTime languages bar chart', 'width="49%"'))], '49%', '2%')}</p>
+
+<p align="center"><sub><b>ALL TIME CODING ACTIVITY</b></sub></p>
+
+<p align="center">${link(`https://wakatime.com/@${gh}`, img(PROFILE.wakatimeShares.activity, 'WakaTime coding activity', 'width="100%"'))}</p>
 <!-- More chart types (editors, OS, categories): https://wakatime.com/share/embed, then add each share URL as a new <td>. -->
+
+${H.connect}
+
+<p align="center">Open to collaboration and work inquiries. Pick whichever channel suits you.</p>
+
+<!-- Seven tiles at 13.4% with six 1.03% gaps fill one row. -->
+<p align="center">${row(CONNECT.map((c) => link(c.href, img(`assets/connect/${c.id}.svg`, `${c.label}: ${c.handle}`, 'width="13.4%"'))), '13.4%', '1.03%')}</p>
+
+${sep('more')}
+
+${H.experience}
+
+${EXPERIENCE.map((r) => `<p align="center">${link(r.href, img(`assets/experience/${r.id}.svg`, `${r.title} at ${r.company}, ${r.period}: ${[...r.highlights, ...r.more].map((b) => b.replace(/<[^>]+>/g, '')).join(' ')}`, 'width="100%"'))}</p>`).join('\n\n')}
+
+${H.projects}
+
+<p align="center">${row(PROJECTS.slice(0, 2).map(projectCard), '49%', '2%')}</p>
+
+<p align="center">${row(PROJECTS.slice(2, 4).map(projectCard), '49%', '2%')}</p>
+
+${H.skills}
+
+<p align="center">${img('assets/skills.svg', SKILL_GROUPS.map((g) => `${g.title}: ${g.keys.map((k) => TECH[k].label).join(', ')}`).join('. '), 'width="100%"')}</p>
+
+${H.ambitions}
+
+<p align="center">${img('assets/roadmap.svg', 'Roadmap: Rust, Go, Spring Boot, DevOps and SEO', 'width="100%"')}</p>
+
+<!-- Learning-resource chips, hidden for now:
+<p align="center">
+  ${link('https://doc.rust-lang.org/book/', img(badge({ label: 'The Rust Book', logo: 'rust', style: 'flat-square' }), 'The Rust Book'))}&nbsp;
+  ${link('https://go.dev/tour/', img(badge({ label: 'A Tour of Go', logo: 'go', logoColor: '00ADD8', style: 'flat-square' }), 'A Tour of Go'))}&nbsp;
+  ${link('https://spring.io/guides', img(badge({ label: 'Spring Guides', logo: 'springboot', logoColor: '6DB33F', style: 'flat-square' }), 'Spring Guides'))}&nbsp;
+  ${techRow(['kubernetes', 'terraform', 'helm'], { style: 'flat-square' }, '&nbsp;\n  ')}
+</p>
+<p align="center">
+  ${techRow(['argocd', 'cwv', 'lighthouse', 'searchconsole'], { style: 'flat-square' }, '&nbsp;\n  ')}
+</p>
+-->
+
+${H.impact}
+
+<p align="center">${img('assets/impact.svg', 'Impact: ~12M entries indexed, 40% lower search latency, 35% faster APIs, 50% faster incident detection, 99.9% uptime, 1M+ messages per quarter, 10x reach, 250K emails in under 10 minutes', 'width="100%"')}</p>
+
+${H.timeline}
+
+<p align="center">${img('assets/timeline.svg', 'Career timeline from 2017 to present', 'width="100%"')}</p>
+
+${H.milestones}
+
+<p align="center">${img('assets/milestones.svg', MILESTONES.map((m) => `${m.date}: ${m.title}, ${m.sub}`).join('; '), 'width="100%"')}</p>
 
 ${H.credentials}
 
-<p align="center">
-  ${link(PROFILE.experienceUrl, img(badge({ label: 'PrepStar of the Quarter', message: 'Q2 2022 · PrepLadder', labelColor: '9e6a03', logo: 'starship' }), 'PrepStar of the Quarter, Q2 2022', 'height="36"'))}
-  <br><sub>Best-performing individual in the backend engineering team for the quarter.</sub>
-</p>
-
-<table align="center">
-<tr>
-<td width="36%" align="center" valign="top"><sub><b>ANTHROPIC</b></sub><br><br>
-${['Claude with the Anthropic API', 'Claude Code in Action', 'Introduction to Agent Skills', 'Introduction to MCP']
-  .map((c) => link('https://anthropic.skilljar.com', img(badge({ label: c, logo: 'anthropic', logoColor: 'D97757', style: 'flat-square' }), c)))
-  .join('<br>\n')}
-</td>
-<td width="32%" align="center" valign="top"><sub><b>HACKERRANK</b></sub><br><br>
-${[['SQL', 'Advanced'], ['REST API', 'Intermediate'], ['JavaScript', 'Intermediate'], ['Problem Solving', 'Intermediate']]
-  .map(([c, l]) => link('https://www.hackerrank.com/shreesharma07', img(badge({ label: c, message: l, labelColor: '161b22', color: '238636', logo: 'hackerrank', style: 'flat-square' }), `${c} (${l})`)))
-  .join('<br>\n')}
-</td>
-<td width="32%" align="center" valign="top"><sub><b>OTHER</b></sub><br><br>
-${link(PROFILE.udemyCert, img(badge({ label: 'Ethereum & Solidity', logo: 'udemy', logoColor: 'A435F0', style: 'flat-square' }), 'Ethereum and Solidity, Udemy'))}<br>
-${link('https://www.atlassian.com/university', img(badge({ label: 'Jira Fundamentals', logo: 'atlassian', logoColor: '2684FF', style: 'flat-square' }), 'Jira Fundamentals, Atlassian'))}<br>
-${link('https://www.atlassian.com/university', img(badge({ label: 'ITSM · Jira Service Mgmt', logo: 'jira', logoColor: '2684FF', style: 'flat-square' }), 'ITSM in Jira Service Management, Atlassian'))}
-</td>
-</tr>
-</table>
+<p align="center">${link(CREDENTIALS.href, img('assets/credentials.svg', `${CREDENTIALS.award.title}, ${CREDENTIALS.award.meta}. ${CREDENTIALS.groups.map((g) => `${g.title}: ${g.items.map((i) => i.slice(0, 2).join(' ')).join(', ')}`).join('. ')}`, 'width="100%"'))}</p>
 
 <!-- Holopin board, hidden for now:
 <p align="center">
@@ -1158,20 +1596,13 @@ ${link('https://www.atlassian.com/university', img(badge({ label: 'ITSM · Jira 
 
 ${H.education}
 
-<p align="center">
-  ${EDUCATION.map((e) => link(e.href, img(`assets/education/${e.id}.svg`, `${e.degree}, ${e.school}`, 'width="49%"'))).join('\n  ')}
-</p>
+<p align="center">${row(EDUCATION.map((e) => link(e.href, img(`assets/education/${e.id}.svg`, `${e.degree}, ${e.school}`, 'width="49%"'))), '49%', '2%')}</p>
 
 ${H.languages}
 
 <p align="center">${img('assets/languages.svg', LANGUAGES.map((l) => `${l.name}: ${l.level}`).join('. '), 'width="100%"')}</p>
 
-${H.connect}
-
-<p align="center">Open to collaboration and work inquiries. Pick whichever channel suits you.</p>
-
-<!-- Seven tiles at 13.4% with six 1.03% spacers fill one row; no whitespace between tags. -->
-<p align="center">${CONNECT.map((c) => link(c.href, img(`assets/connect/${c.id}.svg`, `${c.label}: ${c.handle}`, 'width="13.4%"'))).join(img('assets/spacer.svg', '', 'width="1.03%"'))}</p>
+${sep('last')}
 
 ${H.support}
 
@@ -1193,17 +1624,31 @@ ${H.support}
   ${link(PROFILE.website, img('assets/footer.svg', 'Thanks for visiting', 'width="100%"'))}
 </p>
 
-<p align="center"><sub><a href="#top">↑ back to top</a></sub></p>
+<p align="center">${link('#top', img('assets/back-to-top.svg', 'Back to top', 'width="200"'))}</p>
 `;
 }
 
 // ═════════════════════════════ BUILD ═════════════════════════════
+// `--stats-only` is what the daily profile-stats workflow runs: refresh the numbers and the strip, nothing else.
+const statsOnly = process.argv.includes('--stats-only');
 await loadResources();
-for (const dir of ['headers', 'experience', 'projects', 'education', 'connect']) mkdirSync(join(ASSETS, dir), { recursive: true });
+const STATS = await fetchStats();
+if (statsOnly) {
+  writeFileSync(join(ASSETS, 'stats.svg'), await statsSvg(STATS));
+  console.log('assets/stats.svg refreshed', STATS);
+  process.exit(0);
+}
+for (const dir of ['headers', 'experience', 'projects', 'education', 'connect', 'contact', 'separators']) mkdirSync(join(ASSETS, dir), { recursive: true });
 
 const outputs = {
   'hero.svg': await heroSvg(),
+  'stats.svg': await statsSvg(STATS),
+  'credentials.svg': await credentialsSvg(),
+  'back-to-top.svg': await backToTopSvg(),
   'summary.svg': await summarySvg(),
+  'featured.svg': await featuredSvg(),
+  'primary-stack.svg': await primaryStackSvg(),
+  'skills.svg': await skillsSvg(),
   'languages.svg': await languagesSvg(),
   'principles.svg': await principlesSvg(),
   'impact.svg': await impactSvg(),
@@ -1212,12 +1657,17 @@ const outputs = {
   'roadmap.svg': await roadmapSvg(),
   'footer.svg': await footerSvg(),
   'spacer.svg': '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="165" viewBox="0 0 20 165"/>',
+  // 10x1 gap: adds horizontal space between inline images without adding row height
+  'gap.svg': '<svg xmlns="http://www.w3.org/2000/svg" width="10" height="1" viewBox="0 0 10 1"/>',
 };
 for (const [i, sec] of SECTIONS.entries()) outputs[`headers/${String(i + 1).padStart(2, '0')}-${sec.id}.svg`] = await headerSvg(sec, i);
-for (const r of EXPERIENCE) outputs[`experience/${r.id}.svg`] = await roleSvg(r);
-for (const p of PROJECTS) outputs[`projects/${p.id}.svg`] = await projectSvg(p);
+for (const r of EXPERIENCE) outputs[`experience/${r.id}.svg`] = await experienceSvg(r);
+const projectH = Math.ceil(Math.max(...PROJECTS.map(projectHeight)));
+for (const p of PROJECTS) outputs[`projects/${p.id}.svg`] = await projectSvg(p, projectH);
 for (const e of EDUCATION) outputs[`education/${e.id}.svg`] = await educationSvg(e);
 for (const c of CONNECT) outputs[`connect/${c.id}.svg`] = await connectTileSvg(c);
+for (const [i, c] of CONTACT.entries()) outputs[`contact/${c.id}.svg`] = await contactButtonSvg(c, i);
+for (const sep of SEPARATORS) outputs[`separators/${sep.id}.svg`] = await separatorSvg(sep);
 
 for (const [name, svg] of Object.entries(outputs)) {
   writeFileSync(join(ASSETS, name), svg);
