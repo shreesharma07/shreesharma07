@@ -1,0 +1,33 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate snake SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile-snake/snake-dark.svg?palette=github-dark&color_snake=#58a6ff
+
+      - name: Commit the generated SVG
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A profile-snake
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh contribution snake"
+          git pull --rebase
+          git push

@@ -1,0 +1,7 @@
+{
+  "name": "profile-readme-builder",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node build-profile.mjs" },
+  "dependencies": { "subset-font": "^2.4.0" }
+}
