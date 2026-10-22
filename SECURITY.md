@@ -1,34 +1,59 @@
 # Security Policy
 
-## Reporting a Vulnerability
-If you discover a security vulnerability in our repository, please report it to us as soon as possible. We take all security issues seriously and will respond to any reported vulnerabilities promptly.
+This repository holds my GitHub profile: the README, the SVG assets it shows, two GitHub Actions workflows that refresh the contribution graphics, and a small Node.js script in `tools/` that builds everything. It does not run a service or store anyone's data, so the attack surface is small. If you still spot a problem, I would like to hear about it.
 
-To report a vulnerability, please send an 📧 email to <a href="mailto:shrikumarsharma1998@gmail.com" style="color:purple; font-weight:bold"> Link </a> with the following information:
+## Supported versions
 
-- Description of the vulnerability
-- Steps to reproduce the vulnerability
-- Possible impact of the vulnerability
-- Any additional information that can help us understand and reproduce the issue
+Only the latest commit on the `production` branch is maintained. Older commits and other branches do not get fixes.
 
-We will investigate the reported vulnerability and provide a fix as soon as possible. If the vulnerability is valid, we will credit you for your discovery in our security advisory.
+## Reporting a vulnerability
 
-## Security Measures
-We take the security of our repository seriously and have implemented several measures to ensure the confidentiality, integrity, and availability of our code and data.
+Please do not open a public issue for a security problem. Use one of these instead:
 
-- ⭐ Code reviews: All code changes are reviewed by at least one team member before being merged into the main branch.
-- ⭐ Strong passwords: We use strong passwords and two-factor authentication for all our accounts.
-- ⭐ Regular backups: We regularly back up our code and data to prevent data loss in case of a security incident.
-- ⭐ Security updates: We keep our software and dependencies up to date with the latest security patches.
+1. **Private report on GitHub.** Open the **Security** tab of this repository and choose **Report a vulnerability**. This keeps the details private between us.
+2. **Email.** Write to [shrikumarsharma1998@gmail.com](mailto:shrikumarsharma1998@gmail.com) with "Security" in the subject line.
 
-## Bug Bounty Program
-We do not currently offer a bug bounty program for our repository. However, we welcome and appreciate any responsible disclosures of security vulnerabilities.
+A useful report includes:
 
-## Responsible Disclosure Policy
-We follow a responsible disclosure policy, which means that we will not take legal action against anyone who reports a security vulnerability to us in good faith. We also expect that you do not disclose the vulnerability to others until we have had a reasonable amount of time to investigate and provide a fix.
+- what you found and where (file, workflow, link or asset)
+- steps to reproduce it
+- the impact you expect
+- any logs, screenshots or proof of concept
+
+## What happens next
+
+I will reply within a few days to confirm I have your report, and I will keep you updated until it is resolved. If the issue is real, I will fix it and credit you in the commit or advisory, unless you would rather stay anonymous.
+
+## Scope
+
+In scope:
+
+- the workflows in `.github/workflows/`
+- the build script and its dependencies in `tools/`
+- links or embedded images in the README that point somewhere unsafe
+
+Out of scope:
+
+- third-party services the README embeds, such as shields.io, skillicons.dev, WakaTime, GitHub Readme Stats and Streak Stats. Please report those to their maintainers.
+- findings that need a compromised GitHub account or physical access to my machine
+
+## Safe harbour
+
+If you research in good faith, avoid privacy violations and data destruction, and give me reasonable time to fix an issue before you disclose it, I will not take legal action against you.
+
+## How this repository is protected
+
+- Two-factor authentication is on for my GitHub account.
+- Secret scanning is enabled for the repository.
+- `master` is a protected branch: changes need a pull request, an approving review, signed commits and linear history.
+- The workflows request only the permissions they need and use pinned action versions.
+
+There is no bug bounty programme, but every responsible report is appreciated.
 
 ---
 
-<div align="center" style="display: flex; align-items: center; margin:auto; justify-content:center; text-decoration: none;">
- <h2>Thank you for helping me keep my repository secure 🐼</h2>
-    <a href="https://bit.ly/3HO1sCn" target="_blank" style="cursor: pointer; margin-top:15px;"><img src="https://github.com/shreesharma07/shreesharma07/blob/production/Images/Background/thank-you-no-bg.png" style="width:auto; height:200px;"></a><br><br>
-</div>
+<p align="center">
+  <b>Thank you for helping keep this repository safe.</b>
+  <br><br>
+  <img src="Images/Background/thank-you-no-bg.png" alt="Thank you" height="150">
+</p>
