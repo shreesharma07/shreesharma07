@@ -236,6 +236,12 @@ const MILESTONES = [
   { date: 'APR 2025', title: 'Promoted to SDE-3', sub: 'Sole backend owner, multiplayer platform', color: C.blue },
 ];
 
+/** Company marks (the sites' own apple-touch-icons), embedded into the role cards as data URIs. */
+const COMPANY_LOGOS = {
+  OneCX: 'https://one-cx.com/apple-touch-icon.png',
+  'PrepLadder (Unacademy)': 'https://www.prepladder.com/static/images/apple-touch-icon.png?v=1.0',
+};
+
 const EXPERIENCE = [
   {
     id: 'sde3', abbr: 'SDE-3', title: 'Software Development Engineer 3', company: 'OneCX', location: 'Gurugram, HR',
@@ -433,8 +439,13 @@ const fontBuffers = {};
 const legacyLogo = {};
 const skillSvg = {};
 const brandSvg = {};
+const logoData = {};
 async function loadResources() {
-  for (const dir of ['fonts', 'icons', 'skillicons']) mkdirSync(join(CACHE, dir), { recursive: true });
+  for (const dir of ['fonts', 'icons', 'skillicons', 'logos']) mkdirSync(join(CACHE, dir), { recursive: true });
+  for (const [company, url] of Object.entries(COMPANY_LOGOS)) {
+    const file = join(CACHE, 'logos', `${company.split(' ')[0].toLowerCase()}.png`);
+    logoData[company] = `data:image/png;base64,${(await cached(file, url)).toString('base64')}`;
+  }
   for (const [name, url] of Object.entries(FONT_SOURCES)) fontBuffers[name] = await cached(join(CACHE, 'fonts', `${name}.ttf`), url);
   for (const slug of LEGACY_LOGOS) {
     const path = join(CACHE, 'icons', `${slug}.svg`);
@@ -1045,7 +1056,7 @@ function pillLayout(keys, max, h = 30, gap = 8) {
 
 /** Full experience card: role header, every highlight, and the stack, in one SVG. */
 async function experienceSvg(r) {
-  const W = 1200, P = 36, stackW = 340, colGap = 44, bodyTop = 158, lead = 25, bulletGap = 12;
+  const W = 1200, P = 36, stackW = 340, colGap = 44, headH = 136, bodyTop = headH + 38, lead = 25, bulletGap = 12;
   const leftW = W - P * 2 - stackW - colGap;
   const bullets = [...r.highlights, ...r.more].map((b) => richWrap(b, leftW - 22));
   let y = bodyTop, bulletYs = [];
@@ -1061,17 +1072,30 @@ async function experienceSvg(r) {
   const plain = [...r.highlights, ...r.more].map((b) => b.replace(/<[^>]+>/g, '')).join(' ');
   const s = new Svg(W, H, `${r.title} at ${r.company}, ${r.period}. ${plain}`);
 
-  // header
+  // header: company logo tile | designation + level, company + location | timeline, tenure, focus
+  const logo = 76, ly = (headH - logo) / 2, tx = P + logo + 24;
   s.raw(cardRect(0, 0, W, H));
-  s.raw(`<rect x="0" y="28" width="4" height="64" rx="2" fill="${r.color}"/>`);
-  const pw = s.pill(r.abbr, { x: P, y: 26, color: r.color, size: 13, h: 28 });
-  const right = measure('m6', r.period, 16) + 40;
-  s.text('d7', r.title, { x: P + pw + 16, y: 48, size: fit('d7', r.title, 26, W - P - pw - 16 - right - 60), fill: C.text });
-  s.runs('d5', [[r.company, r.color], ['   ·   ', C.faint], [r.location, C.muted]], { x: P, y: 90, size: 17 });
-  s.text('m6', r.period, { x: W - P, y: 46, size: 16, fill: C.text, anchor: 'end' });
-  s.text('m4', r.focus, { x: W - P, y: 88, size: 13, fill: C.faint, anchor: 'end' });
-  if (r.note) s.pill(r.note, { x: W - P - measure('m4', r.focus, 13) - 16, y: 70, color: r.color, key: 'm4', size: 12, h: 26, anchor: 'end' });
-  s.raw(`<path d="M${P} 120H${W - P}" stroke="${C.hair}"/>`);
+  s.raw(`<rect x="0" y="${ly}" width="4" height="${logo}" rx="2" fill="${r.color}"/>`);
+  s.defs.push(`<clipPath id="logo"><rect x="${P}" y="${ly}" width="${logo}" height="${logo}" rx="18"/></clipPath>`);
+  s.raw(`<image href="${logoData[r.company]}" x="${P}" y="${ly}" width="${logo}" height="${logo}" clip-path="url(#logo)" preserveAspectRatio="xMidYMid slice"/>`);
+  s.raw(`<rect x="${P + 0.5}" y="${ly + 0.5}" width="${logo - 1}" height="${logo - 1}" rx="18" fill="none" stroke="${C.border}"/>`);
+
+  const periodW = measure('m6', r.period, 17);
+  const pillW = measure('m6', r.abbr, 13) + 24;
+  const titleSize = fit('d7', r.title, 26, W - P - tx - periodW - pillW - 80);
+  s.text('d7', r.title, { x: tx, y: 60, size: titleSize, fill: C.text });
+  s.pill(r.abbr, { x: tx + measure('d7', r.title, titleSize) + 14, y: 39, color: r.color, size: 13, h: 28 });
+
+  const companyRuns = COMPANY_RUNS[r.company] || [[r.company, r.color]];
+  s.runs('d6', companyRuns, { x: tx, y: 98, size: 19 });
+  const lx = tx + measure('d6', companyRuns.map(([t]) => t).join(''), 19) + 22;
+  s.raw(`<g fill="none" stroke="${C.muted}" stroke-width="1.8"><path d="M${lx + 6} ${99}c-4.5-5.2-6.5-8.6-6.5-11.2a6.5 6.5 0 0 1 13 0c0 2.6-2 6-6.5 11.2z"/><circle cx="${lx + 6}" cy="${87.6}" r="2.2"/></g>`);
+  s.text('d5', r.location, { x: lx + 20, y: 98, size: 16, fill: C.muted });
+
+  s.text('m6', r.period, { x: W - P, y: 58, size: 17, fill: C.text, anchor: 'end' });
+  s.text('m4', r.focus, { x: W - P, y: 97, size: 13, fill: C.faint, anchor: 'end' });
+  if (r.note) s.pill(r.note, { x: W - P - measure('m4', r.focus, 13) - 16, y: 79, color: r.color, key: 'm4', size: 12, h: 26, anchor: 'end' });
+  s.raw(`<path d="M${P} ${headH}H${W - P}" stroke="${C.hair}"/>`);
 
   // highlights
   s.text('m6', 'HIGHLIGHTS', { x: P, y: bodyTop - 4, size: 12, fill: r.color });
@@ -1083,7 +1107,7 @@ async function experienceSvg(r) {
 
   // stack
   const sx = W - P - stackW;
-  s.raw(`<path d="M${sx - colGap / 2} 140V${H - 28}" stroke="${C.hair}"/>`);
+  s.raw(`<path d="M${sx - colGap / 2} ${headH + 20}V${H - 28}" stroke="${C.hair}"/>`);
   s.text('m6', 'STACK', { x: sx, y: bodyTop - 4, size: 12, fill: r.color });
   for (const it of pills.items) techPill(s, it.k, sx + it.x, bodyTop + 14 + it.y, 30);
   return s.render();
@@ -1210,6 +1234,75 @@ async function statsSvg(st) {
     s.text('d7', String(t.value), { x: vx, y: icy + 4, size: fit('d7', String(t.value), 28, tw - (vx - x) - 20), fill: C.text });
     s.text('m4', t.label, { x: vx, y: icy + 28, size: fit('m4', t.label, 11.5, tw - (vx - x) - 20), fill: C.faint });
     s.raw(`<circle cx="${x + tw - 18}" cy="18" r="3.5" fill="${t.color}" style="animation:pulse 2s ease-in-out ${(i * 0.4).toFixed(1)}s infinite"/>`);
+    s.raw('</g>');
+  });
+  return s.render();
+}
+
+/** Brand colours for the company names wherever they are drawn. */
+const ONECX_GREEN = '#9fed6b';
+const COMPANY_RUNS = {
+  OneCX: [['One', '#ffffff'], ['CX', ONECX_GREEN]],
+  'PrepLadder (Unacademy)': [['PrepLadder', '#4db8f0'], [' (Unacademy)', C.muted]],
+};
+
+/**
+ * Typing banner. Every line is a list of [text, colour] runs: role words,
+ * company, concepts and each tech in its own colour, joiners muted.
+ * `caret` is the line's accent.
+ */
+const SEP = [' · ', C.faint];
+const TYPING_LINES = [
+  { caret: ONECX_GREEN, runs: [['Backend Engineer', '#79c0ff'], [' (', C.faint], ['SDE-3', '#d2a8ff'], [') @ ', C.faint], ...COMPANY_RUNS.OneCX] },
+  { caret: '#ffa657', runs: [['Real-time', '#ff7b72'], SEP, ['event-driven', '#ffa657'], SEP, ['search', '#e3b341']] },
+  { caret: '#6b9cf0', runs: [['NestJS', '#f0506e'], SEP, ['PostgreSQL', '#6b9cf0'], SEP, ['Kafka', '#e6edf3'], SEP, ['Redis', '#ff6b5b']] },
+  { caret: C.purple, runs: [['Next up', C.muted], [' → ', C.faint], ['Rust', '#dea584'], SEP, ['Go', '#00add8'], SEP, ['Spring Boot', '#6db33f'], SEP, ['DevOps', C.purple], SEP, ['SEO', C.pink]] },
+];
+const lineText = (l) => l.runs.map(([t]) => t).join('');
+
+/**
+ * Full-width terminal bar that types each line, holds it, deletes it from the
+ * end and moves on, forever. Each line lives in its own group that is only
+ * visible during its slot; inside it a cover rect (card colour) shrinks in
+ * character-sized steps to reveal the text and grows back to delete it, and
+ * the caret moves with the same steps. With motion reduced (or animations off)
+ * the base styles show the first line in full.
+ */
+async function typingSvg() {
+  const W = 1200, H = 96, size = 22, cy = H / 2 + size * 0.36, key = 'm6';
+  const n = TYPING_LINES.length, T = 4.2 * n, slot = 1 / n;
+  const type = 0.36, hold = 0.38, del = 0.18; // fractions of a slot
+  const pct = (f) => `${(Math.min(Math.max(f, 0), 1) * 100).toFixed(3)}%`;
+  const s = new Svg(W, H, TYPING_LINES.map(lineText).join(' · '));
+  s.css.push('@keyframes caretblink{0%,49%{opacity:1}50%,100%{opacity:0}}', '.cb{animation:caretblink 0.9s steps(1) infinite}');
+
+  s.raw(cardRect(0, 0, W, H));
+  ['#ff5f57', '#febc2e', '#28c840'].forEach((c, i) => s.raw(`<circle cx="${36 + i * 18}" cy="${H / 2}" r="5" fill="${c}" opacity=".85"/>`));
+  s.runs('m4', [['shri@backend', C.green], [':', C.faint], ['~', C.blue], ['$', C.faint]], { x: 100, y: H / 2 + 5, size: 14 });
+  s.text('m4', `${n} lines · loop`, { x: W - 36, y: H / 2 + 5, size: 13, fill: C.faint, anchor: 'end' });
+
+  TYPING_LINES.forEach((l, i) => {
+    const text = lineText(l), w = measure(key, text, size), x0 = (W - w) / 2, chars = [...text].length;
+    const st = i * slot, t1 = st + slot * type, t2 = t1 + slot * hold, t3 = t2 + slot * del, end = st + slot;
+    const stepsIn = `animation-timing-function:steps(${chars},end)`;
+    // visibility window for the whole line
+    const vis = i === 0
+      ? `0%{opacity:1}${pct(end - 0.0005)}{opacity:1}${pct(end)}{opacity:0}100%{opacity:0}`
+      : `0%{opacity:0}${pct(st - 0.0005)}{opacity:0}${pct(st)}{opacity:1}${pct(end - 0.0005)}{opacity:1}${pct(end)}{opacity:0}100%{opacity:0}`;
+    s.css.push(
+      `@keyframes tv${i}{${vis}}`,
+      // cover anchored on the right: scaleX 1 hides the line, 0 shows it
+      `@keyframes tc${i}{0%{transform:scaleX(1)}${pct(st)}{transform:scaleX(1);${stepsIn}}${pct(t1)}{transform:scaleX(0)}${pct(t2)}{transform:scaleX(0);${stepsIn}}${pct(t3)}{transform:scaleX(1)}100%{transform:scaleX(1)}}`,
+      `@keyframes tk${i}{0%{transform:translateX(0)}${pct(st)}{transform:translateX(0);${stepsIn}}${pct(t1)}{transform:translateX(${w.toFixed(1)}px)}${pct(t2)}{transform:translateX(${w.toFixed(1)}px);${stepsIn}}${pct(t3)}{transform:translateX(0)}100%{transform:translateX(0)}}`,
+      `.tv${i}{animation:tv${i} ${T}s linear infinite}`,
+      `.tc${i}{transform-box:fill-box;transform-origin:right center;animation:tc${i} ${T}s linear infinite}`,
+      `.tk${i}{animation:tk${i} ${T}s linear infinite}`,
+    );
+    // base styles = the static frame: line 0 fully shown, the rest hidden
+    s.raw(`<g class="tv${i}" style="opacity:${i === 0 ? 1 : 0}">`);
+    s.runs(key, l.runs, { x: x0, y: cy, size });
+    s.raw(`<rect class="tc${i}" x="${(x0 - 1).toFixed(1)}" y="${cy - size}" width="${(w + 4).toFixed(1)}" height="${size * 1.4}" fill="${C.bg}" style="transform:${i === 0 ? 'scaleX(0)' : 'scaleX(1)'}"/>`);
+    s.raw(`<g class="tk${i}" style="transform:translateX(${i === 0 ? w.toFixed(1) : 0}px)"><rect class="cb" x="${(x0 + 2).toFixed(1)}" y="${cy - size + 2}" width="11" height="${size + 2}" rx="2" fill="${l.caret}"/></g>`);
     s.raw('</g>');
   });
   return s.render();
@@ -1436,17 +1529,6 @@ const H = Object.fromEntries(SECTIONS.map((s) => [s.id, sectionHeader(s)]));
 function readme() {
   const gh = PROFILE.github;
   const statsTheme = 'theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=a371f7&text_color=c9d1d9&border_radius=16';
-  const typing =
-    'https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=1000&color=58A6FF&center=true&vCenter=true&width=1200&height=56&lines=' +
-    [
-      'Backend Engineer (SDE-3) @ OneCX',
-      'Real-time · event-driven · search',
-      'NestJS · PostgreSQL · Kafka · Redis',
-      'Next up → Rust · Go · Spring Boot · DevOps · SEO',
-    ]
-      .map((l) => encodeURIComponent(l).replace(/%20/g, '+'))
-      .join(';');
-
   // Inline images with no whitespace between the tags, so percentage widths add up to exactly 100%.
   const row = (items, width, gapWidth) => items.join(img('assets/gap.svg', '', `width="${gapWidth}"`));
   const sep = (id) => {
@@ -1467,7 +1549,7 @@ function readme() {
 </p>
 
 <p align="center">
-  ${link(PROFILE.website, img(typing, 'Backend Engineer (SDE-3) at OneCX', 'width="100%"'))}
+  ${link(PROFILE.website, img('assets/typing.svg', TYPING_LINES.map(lineText).join(', '), 'width="100%"'))}
 </p>
 
 <!-- Four buttons at 24.25% with three 1% gaps fill one row. -->
@@ -1647,6 +1729,7 @@ const outputs = {
   'stats.svg': await statsSvg(STATS),
   'credentials.svg': await credentialsSvg(),
   'back-to-top.svg': await backToTopSvg(),
+  'typing.svg': await typingSvg(),
   'summary.svg': await summarySvg(),
   'featured.svg': await featuredSvg(),
   'primary-stack.svg': await primaryStackSvg(),
