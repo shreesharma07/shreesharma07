@@ -22,6 +22,8 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, '..');
 const ASSETS = join(ROOT, 'assets');
 const CACHE = join(HERE, '.cache');
+/** The second page: résumé header plus every detail section the README links out to. */
+const MORE_PAGE = 'ShriKumarSharma-Resume.md';
 
 // ───────────────────────────── palette (GitHub Primer dark) ─────────────────────────────
 const C = {
@@ -40,6 +42,7 @@ const PROFILE = {
   blog: 'https://blogs.shrikumarsharma.in/',
   email: 'shrikumarsharma1998@gmail.com',
   linkedin: 'https://www.linkedin.com/in/shreesharma07/',
+  resume: 'https://res.cloudinary.com/dlm7asyya/image/upload/v1792392565/ShriKumarSharma_BackendEngineer_SDE3_Resume_v5_feungf.pdf',
   experienceUrl: 'https://www.linkedin.com/in/shreesharma07/details/experience/',
   onecx: 'https://one-cx.com/',
   udemyCert: 'https://www.udemy.com/certificate/UC-d7b054d4-41cc-4fc3-8abf-9bd2306078db/',
@@ -157,7 +160,7 @@ const TECH = {
 const LEGACY_LOGOS = ['amazonaws', 'awslambda', 'amazonrds', 'amazonredshift', 'amazoncloudwatch', 'azuredevops', 'linkedin', 'linode', 'playwright'];
 
 /** Page order. The coding-first block comes before the "more about me" resume block. */
-/** `more` sections live on MORE_ABOUT_ME.md; each page numbers its own headers from 01. */
+/** `more` sections live on MORE_PAGE; each page numbers its own headers from 01. */
 const SECTIONS = [
   { id: 'summary', title: 'The Short Version', cmd: 'whoami --verbose', accent: C.blue },
   { id: 'primary', title: 'Daily Drivers', cmd: 'cat package.json', accent: C.purple },
@@ -180,10 +183,10 @@ const SECTIONS = [
 const sectionIndex = (sec) => SECTIONS.filter((s) => !!s.more === !!sec.more).indexOf(sec);
 const headerPath = (sec) => `headers/${sec.more ? 'more/' : ''}${String(sectionIndex(sec) + 1).padStart(2, '0')}-${sec.id}.svg`;
 
-/** Non-numbered banners between the page's three blocks. */
+/** Full-width banners: `more` closes the README and links to MORE_PAGE; `last` closes MORE_PAGE and links back to its top. */
 const SEPARATORS = [
-  { id: 'more', eyebrow: 'MORE ABOUT ME', caption: 'experience · projects · skills · impact · timeline · credentials', accent: C.purple },
-  { id: 'last', eyebrow: 'BEFORE YOU GO', caption: 'thanks for reading this far', accent: C.pink },
+  { id: 'more', eyebrow: 'MORE ABOUT ME', caption: 'experience · projects · skills · impact · timeline · credentials', accent: C.purple, render: moreBannerSvg },
+  { id: 'last', eyebrow: 'BEFORE YOU GO', caption: 'thanks for reading this far', accent: C.pink, top: true, render: lastBannerSvg },
 ];
 
 /** Key Tech Stack: the daily drivers, shown as an icon grid (skillicons ids via TECH). */
@@ -1312,39 +1315,62 @@ async function typingSvg() {
   return s.render();
 }
 
-/** "Back to top" button with a bobbing arrow. */
-async function backToTopSvg() {
-  const W = 220, H = 52;
-  const s = new Svg(W, H, 'Back to top');
-  s.css.push('@keyframes up{0%,100%{transform:translateY(2px)}50%{transform:translateY(-3px)}}', '.up{animation:up 1.6s ease-in-out infinite}');
-  s.raw(`<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="${(H - 1) / 2}" fill="${C.surface}" stroke="${C.blue}" stroke-opacity=".55"/>`);
-  s.raw(`<circle cx="30" cy="${H / 2}" r="14" fill="${C.blue}" fill-opacity=".15"/>`);
-  s.raw(`<g class="up"><path d="M30 ${H / 2 + 7}V${H / 2 - 6}M24 ${H / 2}l6-6 6 6" fill="none" stroke="${C.blue}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>`);
-  s.text('d6', 'Back to top', { x: 56, y: H / 2 + 6, size: 17, fill: C.text });
-  s.text('m4', '#top', { x: W - 22, y: H / 2 + 5, size: 12.5, fill: C.faint, anchor: 'end' });
-  return s.render();
-}
-
-/** Non-numbered banner between page blocks: a labelled pill on a flowing rule. */
-async function separatorSvg(sep) {
-  const W = 1200, H = 120, cy = 54;
-  const s = new Svg(W, H, `${sep.eyebrow}: ${sep.caption}`);
-  s.css.push('@keyframes flow{to{stroke-dashoffset:-48}}', '.flow{animation:flow 2.4s linear infinite}');
-  const pw = measure('m6', sep.eyebrow, 14) + 56, px = (W - pw) / 2;
-  s.defs.push(
-    `<linearGradient id="fl" x1="0" x2="1"><stop offset="0" stop-color="${sep.accent}" stop-opacity="0"/><stop offset="1" stop-color="${sep.accent}"/></linearGradient>`,
-    `<linearGradient id="fr" x1="0" x2="1"><stop offset="0" stop-color="${sep.accent}"/><stop offset="1" stop-color="${sep.accent}" stop-opacity="0"/></linearGradient>`,
+/** Full-width closing card for MORE_PAGE: a sign-off on the left, a back-to-top button on the right; the whole image links to #top. */
+async function lastBannerSvg(sep) {
+  const W = 1200, H = 260, P = 56, panelX = 860;
+  const s = new Svg(W, H, `${sep.eyebrow}: ${sep.caption}. Back to top`);
+  s.css.push(
+    '@keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(-50px,-30px)}}',
+    '@keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(60px,20px)}}',
+    '.o1{animation:drift1 16s ease-in-out infinite}.o2{animation:drift2 18s ease-in-out infinite}',
+    '@keyframes up{0%,100%{transform:translateY(3px)}50%{transform:translateY(-4px)}}',
+    '.up{animation:up 1.6s ease-in-out infinite}',
+    '@keyframes ring{0%{transform:scale(1);opacity:.6}100%{transform:scale(1.45);opacity:0}}',
+    '.ring{transform-box:fill-box;transform-origin:center;animation:ring 2.4s ease-out infinite}',
   );
-  s.raw(`<path class="flow" d="M0 ${cy}H${px - 20}" stroke="url(#fl)" stroke-width="2" stroke-dasharray="14 10"/>`);
-  s.raw(`<path class="flow" d="M${W} ${cy}H${px + pw + 20}" stroke="url(#fr)" stroke-width="2" stroke-dasharray="14 10"/>`);
-  s.raw(`<rect x="${px}" y="${cy - 21}" width="${pw}" height="42" rx="21" fill="${C.surface}" stroke="${sep.accent}" stroke-opacity=".6"/>`);
-  s.raw(`<circle cx="${px + 22}" cy="${cy}" r="4" fill="${sep.accent}" style="animation:pulse 1.8s ease-in-out infinite"/>`);
-  s.text('m6', sep.eyebrow, { x: px + 36, y: cy + 5, size: 14, fill: C.text });
-  s.text('m4', sep.caption, { x: W / 2, y: cy + 50, size: 13, fill: C.faint, anchor: 'middle' });
+  s.defs.push(
+    `<clipPath id="clip"><rect width="${W}" height="${H}" rx="20"/></clipPath>`,
+    `<radialGradient id="gk"><stop offset="0" stop-color="${sep.accent}" stop-opacity=".28"/><stop offset="1" stop-color="${sep.accent}" stop-opacity="0"/></radialGradient>`,
+    `<radialGradient id="gb"><stop offset="0" stop-color="${C.blueDeep}" stop-opacity=".35"/><stop offset="1" stop-color="${C.blueDeep}" stop-opacity="0"/></radialGradient>`,
+    `<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="${C.border}"/></pattern>`,
+    `<linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#ffadda"/><stop offset="1" stop-color="#d2a8ff"/></linearGradient>`,
+    `<linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="${C.blue}"/><stop offset=".5" stop-color="${C.purple}"/><stop offset="1" stop-color="${C.pink}"/></linearGradient>`,
+  );
+  s.raw('<g clip-path="url(#clip)">');
+  s.raw(`<rect width="${W}" height="${H}" fill="${C.bg}"/>`);
+  s.raw(`<rect width="${W}" height="${H}" fill="url(#dots)" opacity=".4"/>`);
+  s.raw(`<circle class="o1" cx="180" cy="${H}" r="280" fill="url(#gk)"/>`);
+  s.raw(`<circle class="o2" cx="1030" cy="40" r="260" fill="url(#gb)"/>`);
+  // the résumé header opens with this bar along its top edge; the page closes with it along the bottom
+  s.raw(`<rect y="${H - 5}" width="${W}" height="5" fill="url(#bar)"/>`);
+  s.raw('</g>');
+  s.raw(`<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="20" fill="none" stroke="${C.border}"/>`);
+
+  // left: the sign-off
+  const ew = measure('m6', sep.eyebrow, 14) + 56;
+  s.raw(`<rect x="${P}" y="44" width="${ew}" height="36" rx="18" fill="${C.surface}" stroke="${sep.accent}" stroke-opacity=".6"/>`);
+  s.raw(`<circle cx="${P + 22}" cy="62" r="4" fill="${sep.accent}" style="animation:pulse 1.8s ease-in-out infinite"/>`);
+  s.text('m6', sep.eyebrow, { x: P + 36, y: 67, size: 14, fill: C.text });
+  const headline = 'Thanks for reading this far';
+  s.raw(`<text x="${P}" y="136" class="d7 rise" font-size="42" fill="url(#hl)">${xml(headline)}</text>`);
+  s.use('d7', headline);
+  const maxW = panelX - P - 40;
+  s.text('d5', 'That is the long version. If any of it resonates, my inbox is always open.', { x: P, y: 172, size: fit('d5', 'That is the long version. If any of it resonates, my inbox is always open.', 18, maxW), fill: C.muted });
+  const recap = `${SECTIONS.filter((t) => t.more).length} sections  ·  ${EXPERIENCE.length} roles  ·  ${SUMMARY.facts.find(([k]) => k === 'EXPERIENCE')[1]}`;
+  s.runs('m4', [['$ ', sep.accent], ['echo EOF', C.text], [`   # ${recap}`, C.faint]], { x: P, y: 212, size: 13.5 });
+
+  // right: back to top
+  s.raw(`<path d="M${panelX} 44V${H - 44}" stroke="${C.hair}"/>`);
+  const cx = (panelX + W) / 2, cy = 100, r = 40;
+  s.raw(`<circle class="ring" cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${C.blue}" stroke-width="1.5"/>`);
+  s.raw(`<circle cx="${cx}" cy="${cy}" r="${r}" fill="${C.blue}" fill-opacity=".14" stroke="${C.blue}" stroke-opacity=".7"/>`);
+  s.raw(`<g class="up"><path d="M${cx} ${cy + 14}V${cy - 13}M${cx - 12} ${cy - 1}l12-12 12 12" fill="none" stroke="${C.blue}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>`);
+  s.text('d6', 'Back to top', { x: cx, y: cy + r + 38, size: 20, fill: C.text, anchor: 'middle' });
+  s.text('m4', 'cd ~  ·  #top', { x: cx, y: cy + r + 64, size: 12.5, fill: C.faint, anchor: 'middle' });
   return s.render();
 }
 
-/** Full-width landscape card that links the README to MORE_ABOUT_ME.md, with a chip per section on that page. */
+/** Full-width landscape card that links the README to MORE_PAGE, with a chip per section on that page. */
 async function moreBannerSvg(sep) {
   const W = 1200, H = 360, P = 56;
   const s = new Svg(W, H, `${sep.eyebrow}: ${sep.caption}`);
@@ -1380,7 +1406,7 @@ async function moreBannerSvg(sep) {
   s.use('d7', "There's more to the story");
   s.text('d5', 'Where I have shipped, what I have built, and the numbers behind it, on one page.', { x: P, y: 174, size: 18, fill: C.muted });
 
-  // one chip per MORE_ABOUT_ME section, numbered like its header
+  // one chip per MORE_PAGE section, numbered like its header
   let x = P, y = 204;
   for (const sec of SECTIONS.filter((t) => t.more)) {
     const label = `${String(sectionIndex(sec) + 1).padStart(2, '0')} · ${sec.id}`;
@@ -1391,11 +1417,67 @@ async function moreBannerSvg(sep) {
   }
 
   const fy = H - 52;
-  s.runs('m4', [['$ ', sep.accent], ['cat MORE_ABOUT_ME.md', C.faint]], { x: P, y: fy + 5, size: 14 });
+  s.runs('m4', [['$ ', sep.accent], [`cat ${MORE_PAGE}`, C.faint]], { x: P, y: fy + 5, size: 14 });
   const cta = 'Read the long version', cw = measure('d6', cta, 17) + 64, cx = W - P - cw;
   s.raw(`<rect x="${cx}" y="${fy - 22}" width="${cw}" height="44" rx="22" fill="${sep.accent}" fill-opacity=".16" stroke="${sep.accent}" stroke-opacity=".7"/>`);
   s.text('d6', cta, { x: cx + 24, y: fy + 6, size: 17, fill: C.text });
   s.raw(`<g class="nudge"><path d="M${cx + cw - 34} ${fy}h14M${cx + cw - 26} ${fy - 6}l6 6-6 6" fill="none" stroke="${sep.accent}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>`);
+  return s.render();
+}
+
+/** Résumé masthead for MORE_PAGE: name, role, facts and contacts on the left, a PDF download on the right. */
+async function resumeHeaderSvg() {
+  const W = 1200, H = 300, P = 56, panelX = 872;
+  const s = new Svg(W, H, `${PROFILE.name}, ${PROFILE.role}: download résumé (PDF)`);
+  s.css.push(
+    '@keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(-50px,30px)}}',
+    '.o1{animation:drift1 16s ease-in-out infinite}',
+    '@keyframes bob{0%,100%{transform:translateY(-2px)}50%{transform:translateY(3px)}}',
+    '.bob{animation:bob 1.6s ease-in-out infinite}',
+  );
+  s.defs.push(
+    `<clipPath id="clip"><rect width="${W}" height="${H}" rx="20"/></clipPath>`,
+    `<radialGradient id="gb"><stop offset="0" stop-color="${C.blueDeep}" stop-opacity=".4"/><stop offset="1" stop-color="${C.blueDeep}" stop-opacity="0"/></radialGradient>`,
+    `<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="${C.border}"/></pattern>`,
+    `<linearGradient id="name" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#a5d6ff"/><stop offset="1" stop-color="#d2a8ff"/></linearGradient>`,
+    `<linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="${C.blue}"/><stop offset=".5" stop-color="${C.purple}"/><stop offset="1" stop-color="${C.pink}"/></linearGradient>`,
+  );
+  s.raw('<g clip-path="url(#clip)">');
+  s.raw(`<rect width="${W}" height="${H}" fill="${C.bg}"/>`);
+  s.raw(`<rect width="${W}" height="${H}" fill="url(#dots)" opacity=".4"/>`);
+  s.raw(`<circle class="o1" cx="1000" cy="40" r="300" fill="url(#gb)"/>`);
+  s.raw(`<rect width="${W}" height="5" fill="url(#bar)"/>`);
+  s.raw('</g>');
+  s.raw(`<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="20" fill="none" stroke="${C.border}"/>`);
+
+  // left: who, what, where, how to reach
+  s.pill('RÉSUMÉ · CV', { x: P, y: 44, color: C.blue, size: 13, h: 30 });
+  s.raw(`<text x="${P}" y="134" class="d7 rise" font-size="50" fill="url(#name)">${xml(PROFILE.name)}</text>`);
+  s.use('d7', PROFILE.name);
+  const company = SUMMARY.facts.find(([k]) => k === 'COMPANY')[1];
+  s.runs('d6', [[PROFILE.role, C.text], ['  at  ', C.faint], [company, C.blue]], { x: P, y: 174, size: 21 });
+  const maxW = panelX - P - 40;
+  s.raw(`<path d="M${P} 198H${P + maxW}" stroke="${C.hair}"/>`);
+  const meta = ['BASED IN', 'EXPERIENCE', 'FOCUS'].map((k) => SUMMARY.facts.find(([f]) => f === k)[1]).join('  ·  ');
+  s.text('m4', meta, { x: P, y: 228, size: fit('m4', meta, 14, maxW), fill: C.muted });
+  const contacts = [PROFILE.website, PROFILE.email, PROFILE.linkedin, `https://github.com/${PROFILE.github}`]
+    .map((u) => u.replace(/^https:\/\/(www\.)?/, '').replace(/\/$/, ''))
+    .join('  ·  ');
+  s.text('m4', contacts, { x: P, y: 256, size: fit('m4', contacts, 13, maxW), fill: C.faint });
+
+  // right: a PDF page and the download button
+  s.raw(`<path d="M${panelX} 40V${H - 40}" stroke="${C.hair}"/>`);
+  const cx = (panelX + W) / 2, dw = 92, dh = 116, dx = cx - dw / 2, dy = 40;
+  s.raw(`<path d="M${dx + 8} ${dy}H${dx + dw - 24}L${dx + dw} ${dy + 24}V${dy + dh - 8}a8 8 0 0 1-8 8H${dx + 8}a8 8 0 0 1-8-8V${dy + 8}a8 8 0 0 1 8-8z" fill="${C.surface}" stroke="${C.border}"/>`);
+  s.raw(`<path d="M${dx + dw - 24} ${dy}V${dy + 18}a6 6 0 0 0 6 6H${dx + dw}" fill="none" stroke="${C.border}"/>`);
+  [0, 1, 2, 3].forEach((i) => s.raw(`<rect x="${dx + 14}" y="${dy + 34 + i * 12}" width="${[52, 62, 44, 58][i]}" height="4" rx="2" fill="${C.border}"/>`));
+  s.raw(`<rect x="${dx + 14}" y="${dy + dh - 30}" width="42" height="20" rx="5" fill="${C.red}" fill-opacity=".16" stroke="${C.red}" stroke-opacity=".6"/>`);
+  s.text('m6', 'PDF', { x: dx + 35, y: dy + dh - 15.5, size: 11, fill: C.red, anchor: 'middle' });
+  const label = 'Download résumé', bw = measure('d6', label, 17) + 70, bx = cx - bw / 2, by = 180;
+  s.raw(`<rect x="${bx}" y="${by}" width="${bw}" height="46" rx="23" fill="${C.blue}" fill-opacity=".16" stroke="${C.blue}" stroke-opacity=".7"/>`);
+  s.raw(`<g class="bob"><path d="M${bx + 28} ${by + 14}v15M${bx + 22} ${by + 23}l6 6 6-6" fill="none" stroke="${C.blue}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>`);
+  s.text('d6', label, { x: bx + 46, y: by + 29, size: 17, fill: C.text });
+  s.text('m4', 'PDF · latest version', { x: cx, y: by + 72, size: 12.5, fill: C.faint, anchor: 'middle' });
   return s.render();
 }
 
@@ -1585,9 +1667,8 @@ const H = Object.fromEntries(SECTIONS.map((s) => [s.id, sectionHeader(s)]));
 const row = (items, width, gapWidth) => items.join(img('assets/gap.svg', '', `width="${gapWidth}"`));
 const sepImg = (id) => {
   const s = SEPARATORS.find((x) => x.id === id);
-  return img(`assets/separators/${s.id}.svg`, `${s.eyebrow}: ${s.caption}`, 'width="100%"');
+  return img(`assets/separators/${s.id}.svg`, `${s.eyebrow}: ${s.caption}${s.top ? '. Back to top' : ''}`, 'width="100%"');
 };
-const sep = (id) => `<p align="center">${sepImg(id)}</p>`;
 
 // ═════════════════════════════ README ═════════════════════════════
 function readme() {
@@ -1700,7 +1781,7 @@ ${H.support}
   ${link(PROFILE.website, img('assets/footer.svg', 'Thanks for visiting', 'width="100%"'))}
 </p>
 
-<p align="center">${link('MORE_ABOUT_ME.md', sepImg('more'))}</p>
+<p align="center">${link(MORE_PAGE, sepImg('more'))}</p>
 `;
 }
 
@@ -1714,6 +1795,7 @@ function moreAboutMe() {
     cd tools && npm install && npm run build
 -->
 <a id="top"></a>
+<p align="center">${link(PROFILE.resume, img('assets/resume.svg', `${PROFILE.name}, ${PROFILE.role}: download résumé (PDF)`, 'width="100%"'))}</p>
 
 ${H.experience}
 
@@ -1775,9 +1857,7 @@ ${H.languages}
 
 <p align="center">${img('assets/languages.svg', LANGUAGES.map((l) => `${l.name}: ${l.level}`).join('. '), 'width="100%"')}</p>
 
-${sep('last')}
-
-<p align="center">${link('#top', img('assets/back-to-top.svg', 'Back to top', 'width="200"'))}</p>
+<p align="center">${link('#top', sepImg('last'))}</p>
 `;
 }
 
@@ -1797,7 +1877,7 @@ const outputs = {
   'hero.svg': await heroSvg(),
   'stats.svg': await statsSvg(STATS),
   'credentials.svg': await credentialsSvg(),
-  'back-to-top.svg': await backToTopSvg(),
+  'resume.svg': await resumeHeaderSvg(),
   'typing.svg': await typingSvg(),
   'summary.svg': await summarySvg(),
   'featured.svg': await featuredSvg(),
@@ -1821,12 +1901,12 @@ for (const p of PROJECTS) outputs[`projects/${p.id}.svg`] = await projectSvg(p, 
 for (const e of EDUCATION) outputs[`education/${e.id}.svg`] = await educationSvg(e);
 for (const c of CONNECT) outputs[`connect/${c.id}.svg`] = await connectTileSvg(c);
 for (const [i, c] of CONTACT.entries()) outputs[`contact/${c.id}.svg`] = await contactButtonSvg(c, i);
-for (const sep of SEPARATORS) outputs[`separators/${sep.id}.svg`] = sep.id === 'more' ? await moreBannerSvg(sep) : await separatorSvg(sep);
+for (const sep of SEPARATORS) outputs[`separators/${sep.id}.svg`] = await sep.render(sep);
 
 for (const [name, svg] of Object.entries(outputs)) {
   writeFileSync(join(ASSETS, name), svg);
   console.log(`assets/${name}`.padEnd(36), `${(svg.length / 1024).toFixed(1)} KB`);
 }
 writeFileSync(join(ROOT, 'README.md'), readme());
-writeFileSync(join(ROOT, 'MORE_ABOUT_ME.md'), moreAboutMe());
-console.log('README.md and MORE_ABOUT_ME.md written');
+writeFileSync(join(ROOT, MORE_PAGE), moreAboutMe());
+console.log(`README.md and ${MORE_PAGE} written`);

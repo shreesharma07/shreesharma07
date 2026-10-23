@@ -110,4 +110,4 @@
   <a href="https://www.shrikumarsharma.in/"><img src="assets/footer.svg" alt="Thanks for visiting" width="100%"></a>
 </p>
 
-<p align="center"><a href="MORE_ABOUT_ME.md"><img src="assets/separators/more.svg" alt="MORE ABOUT ME: experience · projects · skills · impact · timeline · credentials" width="100%"></a></p>
+<p align="center"><a href="ShriKumarSharma-Resume.md"><img src="assets/separators/more.svg" alt="MORE ABOUT ME: experience · projects · skills · impact · timeline · credentials" width="100%"></a></p>

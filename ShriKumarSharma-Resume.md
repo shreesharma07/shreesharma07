@@ -3,6 +3,7 @@
     cd tools && npm install && npm run build
 -->
 <a id="top"></a>
+<p align="center"><a href="https://res.cloudinary.com/dlm7asyya/image/upload/v1792392565/ShriKumarSharma_BackendEngineer_SDE3_Resume_v5_feungf.pdf"><img src="assets/resume.svg" alt="Shri Kumar Sharma, Backend Engineer · SDE-3: download résumé (PDF)" width="100%"></a></p>
 
 <a id="experience"></a>
 <p align="center"><img src="assets/headers/more/01-experience.svg" alt="Where I've Shipped" width="100%"></p>
@@ -85,6 +86,4 @@
 
 <p align="center"><img src="assets/languages.svg" alt="English: Professional working proficiency. Hindi: Native or bilingual proficiency" width="100%"></p>
 
-<p align="center"><img src="assets/separators/last.svg" alt="BEFORE YOU GO: thanks for reading this far" width="100%"></p>
-
-<p align="center"><a href="#top"><img src="assets/back-to-top.svg" alt="Back to top" width="200"></a></p>
+<p align="center"><a href="#top"><img src="assets/separators/last.svg" alt="BEFORE YOU GO: thanks for reading this far. Back to top" width="100%"></a></p>
