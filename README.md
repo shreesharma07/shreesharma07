@@ -89,8 +89,6 @@
 <!-- Seven tiles at 13.4% with six 1.03% gaps fill one row. -->
 <p align="center"><a href="https://www.shrikumarsharma.in/"><img src="assets/connect/portfolio.svg" alt="Portfolio: shrikumarsharma.in" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="https://blogs.shrikumarsharma.in/"><img src="assets/connect/blog.svg" alt="Blog: blogs.shrikumarsharma.in" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="mailto:shrikumarsharma1998@gmail.com"><img src="assets/connect/email.svg" alt="Email: say hello" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="https://www.linkedin.com/in/shreesharma07/"><img src="assets/connect/linkedin.svg" alt="LinkedIn: in/shreesharma07" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="https://github.com/shreesharma07"><img src="assets/connect/github.svg" alt="GitHub: @shreesharma07" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="https://wakatime.com/@shreesharma07"><img src="assets/connect/wakatime.svg" alt="WakaTime: @shreesharma07" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="https://www.instagram.com/shree_kumar_sharma/"><img src="assets/connect/instagram.svg" alt="Instagram: @shree_kumar_sharma" width="13.4%"></a></p>
 
-<p align="center"> <a href="MORE_ABOUT_ME.md"> <img src="assets/separators/more.svg" alt="MORE ABOUT ME: experience · projects · skills · impact · timeline · credentials" width="100%"></a></p>
-
 <a id="support"></a>
 <p align="center"><img src="assets/headers/06-support.svg" alt="Fuel the Build" width="100%"></p>
 
@@ -112,4 +110,4 @@
   <a href="https://www.shrikumarsharma.in/"><img src="assets/footer.svg" alt="Thanks for visiting" width="100%"></a>
 </p>
 
-<p align="center"><a href="#top"><img src="assets/back-to-top.svg" alt="Back to top" width="200"></a></p>
+<p align="center"><a href="MORE_ABOUT_ME.md"><img src="assets/separators/more.svg" alt="MORE ABOUT ME: experience · projects · skills · impact · timeline · credentials" width="100%"></a></p>

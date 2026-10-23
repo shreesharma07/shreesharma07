@@ -157,24 +157,28 @@ const TECH = {
 const LEGACY_LOGOS = ['amazonaws', 'awslambda', 'amazonrds', 'amazonredshift', 'amazoncloudwatch', 'azuredevops', 'linkedin', 'linode', 'playwright'];
 
 /** Page order. The coding-first block comes before the "more about me" resume block. */
+/** `more` sections live on MORE_ABOUT_ME.md; each page numbers its own headers from 01. */
 const SECTIONS = [
   { id: 'summary', title: 'The Short Version', cmd: 'whoami --verbose', accent: C.blue },
   { id: 'primary', title: 'Daily Drivers', cmd: 'cat package.json', accent: C.purple },
   { id: 'coding', title: 'Proof of Work', cmd: 'gh api users/shreesharma07', accent: C.green },
   { id: 'wakatime', title: 'Time at the Keyboard', cmd: 'wakatime --all-time', accent: C.blue },
   { id: 'connect', title: 'Open a Connection', cmd: 'ping shri', accent: C.pink },
-  { id: 'experience', title: "Where I've Shipped", cmd: 'cat experience.md', accent: C.blue },
-  { id: 'projects', title: "Systems I've Built", cmd: 'ls ~/projects --featured', accent: C.orange },
-  { id: 'skills', title: 'The Full Toolbox', cmd: 'pnpm ls --depth=0', accent: C.purple },
-  { id: 'ambitions', title: 'The Next Release', cmd: 'git checkout -b next', accent: C.pink },
-  { id: 'impact', title: 'Numbers in Production', cmd: 'SELECT impact FROM prod;', accent: C.green },
-  { id: 'timeline', title: 'The Long Version', cmd: 'git log --graph --career', accent: C.purple },
-  { id: 'milestones', title: 'Tagged Releases', cmd: 'git tag --list', accent: C.yellow },
-  { id: 'credentials', title: 'Recognition & Certifications', cmd: 'cat credentials.json', accent: C.yellow },
-  { id: 'education', title: 'Where It Started', cmd: 'history | grep learn', accent: C.orange },
-  { id: 'languages', title: 'Human Languages', cmd: 'locale -a', accent: C.green },
+  { id: 'experience', title: "Where I've Shipped", cmd: 'cat experience.md', accent: C.blue, more: true },
+  { id: 'projects', title: "Systems I've Built", cmd: 'ls ~/projects --featured', accent: C.orange, more: true },
+  { id: 'skills', title: 'The Full Toolbox', cmd: 'pnpm ls --depth=0', accent: C.purple, more: true },
+  { id: 'ambitions', title: 'The Next Release', cmd: 'git checkout -b next', accent: C.pink, more: true },
+  { id: 'impact', title: 'Numbers in Production', cmd: 'SELECT impact FROM prod;', accent: C.green, more: true },
+  { id: 'timeline', title: 'The Long Version', cmd: 'git log --graph --career', accent: C.purple, more: true },
+  { id: 'milestones', title: 'Tagged Releases', cmd: 'git tag --list', accent: C.yellow, more: true },
+  { id: 'credentials', title: 'Recognition & Certifications', cmd: 'cat credentials.json', accent: C.yellow, more: true },
+  { id: 'education', title: 'Where It Started', cmd: 'history | grep learn', accent: C.orange, more: true },
+  { id: 'languages', title: 'Human Languages', cmd: 'locale -a', accent: C.green, more: true },
   { id: 'support', title: 'Fuel the Build', cmd: 'sudo make coffee', accent: C.pink },
 ];
+/** Zero-based position of a section among the headers on its own page. */
+const sectionIndex = (sec) => SECTIONS.filter((s) => !!s.more === !!sec.more).indexOf(sec);
+const headerPath = (sec) => `headers/${sec.more ? 'more/' : ''}${String(sectionIndex(sec) + 1).padStart(2, '0')}-${sec.id}.svg`;
 
 /** Non-numbered banners between the page's three blocks. */
 const SEPARATORS = [
@@ -1340,6 +1344,61 @@ async function separatorSvg(sep) {
   return s.render();
 }
 
+/** Full-width landscape card that links the README to MORE_ABOUT_ME.md, with a chip per section on that page. */
+async function moreBannerSvg(sep) {
+  const W = 1200, H = 360, P = 56;
+  const s = new Svg(W, H, `${sep.eyebrow}: ${sep.caption}`);
+  s.css.push(
+    '@keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(-60px,30px)}}',
+    '@keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(60px,-30px)}}',
+    '.o1{animation:drift1 14s ease-in-out infinite}.o2{animation:drift2 18s ease-in-out infinite}',
+    '@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}',
+    '.nudge{animation:nudge 1.6s ease-in-out infinite}',
+  );
+  s.defs.push(
+    `<clipPath id="clip"><rect width="${W}" height="${H}" rx="20"/></clipPath>`,
+    `<radialGradient id="gp"><stop offset="0" stop-color="${C.purpleDeep}" stop-opacity=".45"/><stop offset="1" stop-color="${C.purpleDeep}" stop-opacity="0"/></radialGradient>`,
+    `<radialGradient id="gb"><stop offset="0" stop-color="${C.blueDeep}" stop-opacity=".35"/><stop offset="1" stop-color="${C.blueDeep}" stop-opacity="0"/></radialGradient>`,
+    `<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="${C.border}"/></pattern>`,
+    `<linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#d2a8ff"/><stop offset="1" stop-color="#a5d6ff"/></linearGradient>`,
+  );
+  s.raw('<g clip-path="url(#clip)">');
+  s.raw(`<rect width="${W}" height="${H}" fill="${C.bg}"/>`);
+  s.raw(`<rect width="${W}" height="${H}" fill="url(#dots)" opacity=".4"/>`);
+  s.raw(`<circle class="o1" cx="1040" cy="60" r="300" fill="url(#gp)"/>`);
+  s.raw(`<circle class="o2" cx="160" cy="360" r="280" fill="url(#gb)"/>`);
+  s.raw('</g>');
+  s.raw(`<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="20" fill="none" stroke="${C.border}"/>`);
+
+  // eyebrow pill
+  const ew = measure('m6', sep.eyebrow, 14) + 56;
+  s.raw(`<rect x="${P}" y="40" width="${ew}" height="36" rx="18" fill="${C.surface}" stroke="${sep.accent}" stroke-opacity=".6"/>`);
+  s.raw(`<circle cx="${P + 22}" cy="58" r="4" fill="${sep.accent}" style="animation:pulse 1.8s ease-in-out infinite"/>`);
+  s.text('m6', sep.eyebrow, { x: P + 36, y: 63, size: 14, fill: C.text });
+
+  s.raw(`<text x="${P}" y="136" class="d7 rise" font-size="46" fill="url(#hl)">${xml("There's more to the story")}</text>`);
+  s.use('d7', "There's more to the story");
+  s.text('d5', 'Where I have shipped, what I have built, and the numbers behind it, on one page.', { x: P, y: 174, size: 18, fill: C.muted });
+
+  // one chip per MORE_ABOUT_ME section, numbered like its header
+  let x = P, y = 204;
+  for (const sec of SECTIONS.filter((t) => t.more)) {
+    const label = `${String(sectionIndex(sec) + 1).padStart(2, '0')} · ${sec.id}`;
+    const w = measure('m4', label, 13) + 24;
+    if (x + w > W - P) { x = P; y += 40; }
+    s.pill(label, { x, y, color: sec.accent, key: 'm4', size: 13, h: 30 });
+    x += w + 10;
+  }
+
+  const fy = H - 52;
+  s.runs('m4', [['$ ', sep.accent], ['cat MORE_ABOUT_ME.md', C.faint]], { x: P, y: fy + 5, size: 14 });
+  const cta = 'Read the long version', cw = measure('d6', cta, 17) + 64, cx = W - P - cw;
+  s.raw(`<rect x="${cx}" y="${fy - 22}" width="${cw}" height="44" rx="22" fill="${sep.accent}" fill-opacity=".16" stroke="${sep.accent}" stroke-opacity=".7"/>`);
+  s.text('d6', cta, { x: cx + 24, y: fy + 6, size: 17, fill: C.text });
+  s.raw(`<g class="nudge"><path d="M${cx + cw - 34} ${fy}h14M${cx + cw - 26} ${fy - 6}l6 6-6 6" fill="none" stroke="${sep.accent}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>`);
+  return s.render();
+}
+
 /** Featured repository card. */
 async function featuredSvg() {
   const r = FEATURED_REPO, W = 1200, pad = 32, X = pad + 64 + 24, right = 300;
@@ -1519,24 +1578,21 @@ const techRow = (keys, opts, sep = '\n') => keys.map((k) => tech(k, opts)).join(
 const brandChip = (label, logo, logoColor, href, height = 32) =>
   link(href, img(badge({ label, color: '161b22', logo, logoColor }), label, `height="${height}"`));
 
-const sectionHeader = (sec) => {
-  const i = SECTIONS.indexOf(sec);
-  return `<a id="${sec.id}"></a>\n<p align="center">${img(`assets/headers/${String(i + 1).padStart(2, '0')}-${sec.id}.svg`, sec.title, 'width="100%"')}</p>`;
-};
+const sectionHeader = (sec) => `<a id="${sec.id}"></a>\n<p align="center">${img(`assets/${headerPath(sec)}`, sec.title, 'width="100%"')}</p>`;
 const H = Object.fromEntries(SECTIONS.map((s) => [s.id, sectionHeader(s)]));
+
+// Inline images with no whitespace between the tags, so percentage widths add up to exactly 100%.
+const row = (items, width, gapWidth) => items.join(img('assets/gap.svg', '', `width="${gapWidth}"`));
+const sepImg = (id) => {
+  const s = SEPARATORS.find((x) => x.id === id);
+  return img(`assets/separators/${s.id}.svg`, `${s.eyebrow}: ${s.caption}`, 'width="100%"');
+};
+const sep = (id) => `<p align="center">${sepImg(id)}</p>`;
 
 // ═════════════════════════════ README ═════════════════════════════
 function readme() {
   const gh = PROFILE.github;
   const statsTheme = 'theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=a371f7&text_color=c9d1d9&border_radius=16';
-  // Inline images with no whitespace between the tags, so percentage widths add up to exactly 100%.
-  const row = (items, width, gapWidth) => items.join(img('assets/gap.svg', '', `width="${gapWidth}"`));
-  const sep = (id) => {
-    const s = SEPARATORS.find((x) => x.id === id);
-    return `<p align="center">${img(`assets/separators/${s.id}.svg`, `${s.eyebrow}: ${s.caption}`, 'width="100%"')}</p>`;
-  };
-
-  const projectCard = (p) => img(`assets/projects/${p.id}.svg`, `${p.title}: ${p.body} Stack: ${p.stack.map((k) => TECH[k].label).join(', ')}`, 'width="49%"');
 
   return `<!--
   Generated by tools/build-profile.mjs. Edit the data there, then run:
@@ -1624,7 +1680,40 @@ ${H.connect}
 <!-- Seven tiles at 13.4% with six 1.03% gaps fill one row. -->
 <p align="center">${row(CONNECT.map((c) => link(c.href, img(`assets/connect/${c.id}.svg`, `${c.label}: ${c.handle}`, 'width="13.4%"'))), '13.4%', '1.03%')}</p>
 
-${sep('more')}
+${H.support}
+
+<p align="center">If my work has helped you, sponsoring me or buying me a coffee keeps it going. Thank you!</p>
+
+<p align="center">
+  ${link(`https://github.com/sponsors/${gh}`, img('Images/Background/thank-you-no-bg.png', 'Thank you', 'height="150"'))}
+</p>
+
+<p align="center">
+  ${brandChip('GitHub Sponsors', 'githubsponsors', 'EA4AAA', `https://github.com/sponsors/${gh}`)}&nbsp;
+  ${brandChip('Buy Me a Coffee', 'buymeacoffee', 'FFDD00', `https://buymeacoffee.com/${gh}`)}&nbsp;
+  ${brandChip('Stripe', 'stripe', '635BFF', 'https://buy.stripe.com/8wMeVU5GUg7G5Jm3cc')}&nbsp;
+  ${brandChip('PayPal', 'paypal', '009CDE', 'https://www.paypal.com/paypalme/ShreeKumarSharma')}&nbsp;
+  ${brandChip('Patreon', 'patreon', 'FFFFFF', `https://www.patreon.com/${gh}`)}
+</p>
+
+<p align="center">
+  ${link(PROFILE.website, img('assets/footer.svg', 'Thanks for visiting', 'width="100%"'))}
+</p>
+
+<p align="center">${link('MORE_ABOUT_ME.md', sepImg('more'))}</p>
+`;
+}
+
+// ═════════════════════════════ MORE ABOUT ME ═════════════════════════════
+function moreAboutMe() {
+  const gh = PROFILE.github;
+  const projectCard = (p) => img(`assets/projects/${p.id}.svg`, `${p.title}: ${p.body} Stack: ${p.stack.map((k) => TECH[k].label).join(', ')}`, 'width="49%"');
+
+  return `<!--
+  Generated by tools/build-profile.mjs. Edit the data there, then run:
+    cd tools && npm install && npm run build
+-->
+<a id="top"></a>
 
 ${H.experience}
 
@@ -1688,26 +1777,6 @@ ${H.languages}
 
 ${sep('last')}
 
-${H.support}
-
-<p align="center">If my work has helped you, sponsoring me or buying me a coffee keeps it going. Thank you!</p>
-
-<p align="center">
-  ${link(`https://github.com/sponsors/${gh}`, img('Images/Background/thank-you-no-bg.png', 'Thank you', 'height="150"'))}
-</p>
-
-<p align="center">
-  ${brandChip('GitHub Sponsors', 'githubsponsors', 'EA4AAA', `https://github.com/sponsors/${gh}`)}&nbsp;
-  ${brandChip('Buy Me a Coffee', 'buymeacoffee', 'FFDD00', `https://buymeacoffee.com/${gh}`)}&nbsp;
-  ${brandChip('Stripe', 'stripe', '635BFF', 'https://buy.stripe.com/8wMeVU5GUg7G5Jm3cc')}&nbsp;
-  ${brandChip('PayPal', 'paypal', '009CDE', 'https://www.paypal.com/paypalme/ShreeKumarSharma')}&nbsp;
-  ${brandChip('Patreon', 'patreon', 'FFFFFF', `https://www.patreon.com/${gh}`)}
-</p>
-
-<p align="center">
-  ${link(PROFILE.website, img('assets/footer.svg', 'Thanks for visiting', 'width="100%"'))}
-</p>
-
 <p align="center">${link('#top', img('assets/back-to-top.svg', 'Back to top', 'width="200"'))}</p>
 `;
 }
@@ -1722,7 +1791,7 @@ if (statsOnly) {
   console.log('assets/stats.svg refreshed', STATS);
   process.exit(0);
 }
-for (const dir of ['headers', 'experience', 'projects', 'education', 'connect', 'contact', 'separators']) mkdirSync(join(ASSETS, dir), { recursive: true });
+for (const dir of ['headers', 'headers/more', 'experience', 'projects', 'education', 'connect', 'contact', 'separators']) mkdirSync(join(ASSETS, dir), { recursive: true });
 
 const outputs = {
   'hero.svg': await heroSvg(),
@@ -1745,18 +1814,19 @@ const outputs = {
   // 10x1 gap: adds horizontal space between inline images without adding row height
   'gap.svg': '<svg xmlns="http://www.w3.org/2000/svg" width="10" height="1" viewBox="0 0 10 1"/>',
 };
-for (const [i, sec] of SECTIONS.entries()) outputs[`headers/${String(i + 1).padStart(2, '0')}-${sec.id}.svg`] = await headerSvg(sec, i);
+for (const sec of SECTIONS) outputs[headerPath(sec)] = await headerSvg(sec, sectionIndex(sec));
 for (const r of EXPERIENCE) outputs[`experience/${r.id}.svg`] = await experienceSvg(r);
 const projectH = Math.ceil(Math.max(...PROJECTS.map(projectHeight)));
 for (const p of PROJECTS) outputs[`projects/${p.id}.svg`] = await projectSvg(p, projectH);
 for (const e of EDUCATION) outputs[`education/${e.id}.svg`] = await educationSvg(e);
 for (const c of CONNECT) outputs[`connect/${c.id}.svg`] = await connectTileSvg(c);
 for (const [i, c] of CONTACT.entries()) outputs[`contact/${c.id}.svg`] = await contactButtonSvg(c, i);
-for (const sep of SEPARATORS) outputs[`separators/${sep.id}.svg`] = await separatorSvg(sep);
+for (const sep of SEPARATORS) outputs[`separators/${sep.id}.svg`] = sep.id === 'more' ? await moreBannerSvg(sep) : await separatorSvg(sep);
 
 for (const [name, svg] of Object.entries(outputs)) {
   writeFileSync(join(ASSETS, name), svg);
   console.log(`assets/${name}`.padEnd(36), `${(svg.length / 1024).toFixed(1)} KB`);
 }
 writeFileSync(join(ROOT, 'README.md'), readme());
-console.log('README.md written');
+writeFileSync(join(ROOT, 'MORE_ABOUT_ME.md'), moreAboutMe());
+console.log('README.md and MORE_ABOUT_ME.md written');
