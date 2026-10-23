@@ -89,93 +89,10 @@
 <!-- Seven tiles at 13.4% with six 1.03% gaps fill one row. -->
 <p align="center"><a href="https://www.shrikumarsharma.in/"><img src="assets/connect/portfolio.svg" alt="Portfolio: shrikumarsharma.in" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="https://blogs.shrikumarsharma.in/"><img src="assets/connect/blog.svg" alt="Blog: blogs.shrikumarsharma.in" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="mailto:shrikumarsharma1998@gmail.com"><img src="assets/connect/email.svg" alt="Email: say hello" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="https://www.linkedin.com/in/shreesharma07/"><img src="assets/connect/linkedin.svg" alt="LinkedIn: in/shreesharma07" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="https://github.com/shreesharma07"><img src="assets/connect/github.svg" alt="GitHub: @shreesharma07" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="https://wakatime.com/@shreesharma07"><img src="assets/connect/wakatime.svg" alt="WakaTime: @shreesharma07" width="13.4%"></a><img src="assets/gap.svg" alt="" width="1.03%"><a href="https://www.instagram.com/shree_kumar_sharma/"><img src="assets/connect/instagram.svg" alt="Instagram: @shree_kumar_sharma" width="13.4%"></a></p>
 
-<p align="center"><img src="assets/separators/more.svg" alt="MORE ABOUT ME: experience · projects · skills · impact · timeline · credentials" width="100%"></p>
-
-<a id="experience"></a>
-<p align="center"><img src="assets/headers/06-experience.svg" alt="Where I've Shipped" width="100%"></p>
-
-<p align="center"><a href="https://one-cx.com/"><img src="assets/experience/sde3.svg" alt="Software Development Engineer 3 at OneCX, Apr 2025 to Present: Sole backend owner of a multiplayer language-learning platform, built as a modular NestJS service. Elasticsearch + Redis search over ~12M entries with 40% lower latency. BullMQ workers took power-ups off the request path: ~35% faster APIs. Socket.IO gateway for live game state and matchmaking, with one consistent ${event}:error contract. Zero-downtime TypeORM migrations on PostgreSQL: nullable → backfill → constrain. Prometheus + Grafana cut incident detection time by 50%; JWT, rate limiting, field-level encryption. Bulk email service reaching 250K recipients in under 10 minutes." width="100%"></a></p>
-
-<p align="center"><a href="https://one-cx.com/"><img src="assets/experience/sde2.svg" alt="Software Development Engineer 2 at OneCX, Nov 2022 to Mar 2025: Only backend engineer on INTERCOMM, a WhatsApp Business API platform: 1M+ messages per quarter. ~100K messages/day per bot at 99.9% uptime on Redis-backed queues. BridgeQ: multi-channel messaging backbone on Kafka and RabbitMQ. 10× client reach, 2× sales revenue and +45% campaign ROI in year one. Provider-credential abstraction so new channels plug in without touching core logic. Owned the GitHub Actions pipelines, Git workflow standards and runbooks." width="100%"></a></p>
-
-<p align="center"><a href="https://www.prepladder.com"><img src="assets/experience/sde1.svg" alt="Software Engineer at PrepLadder (Unacademy), Aug 2022 to Oct 2022: Push-notification scheduler with personalised payloads and send-time selection. Tuned AWS RDS and Cassandra for fast, highly available delivery." width="100%"></a></p>
-
-<p align="center"><a href="https://www.prepladder.com"><img src="assets/experience/jr.svg" alt="Junior Node.js Developer at PrepLadder (Unacademy), May 2021 to Jul 2022: Course-content REST APIs serving thousands of students daily. Sole developer on KYS: encrypted APIs driven by database config, no deploy needed. ★ PrepStar of the Quarter, Q2 2022." width="100%"></a></p>
-
-<a id="projects"></a>
-<p align="center"><img src="assets/headers/07-projects.svg" alt="Systems I've Built" width="100%"></p>
-
-<p align="center"><img src="assets/projects/engine.svg" alt="Real-Time Learning Engine: Multiplayer gameplay over WebSockets with ELO matchmaking and a multi-tenant admin dashboard. Stack: NestJS, Socket.IO, Redis, Elasticsearch, BullMQ" width="49%"><img src="assets/gap.svg" alt="" width="2%"><img src="assets/projects/intercomm.svg" alt="INTERCOMM Automation: WhatsApp campaign builder, template creator, flow designer and analytics on an event-driven core. Stack: NestJS, WhatsApp API, Kafka, RabbitMQ, Redis" width="49%"></p>
-
-<p align="center"><img src="assets/projects/pna.svg" alt="PNA Push Notifications: Personalised payloads and send-time selection that improved retention on a large EdTech platform. Stack: Node.js, Express.js, AWS RDS, Cassandra, Redis" width="49%"><img src="assets/gap.svg" alt="" width="2%"><img src="assets/projects/kys.svg" alt="KYS: Know Your Student: Encrypted APIs that drive pop-ups and forms from database config, so non-technical teams ship changes. Stack: Node.js, Express.js, AWS RDS, Bitbucket" width="49%"></p>
-
-<a id="skills"></a>
-<p align="center"><img src="assets/headers/08-skills.svg" alt="The Full Toolbox" width="100%"></p>
-
-<p align="center"><img src="assets/skills.svg" alt="Backend &amp; APIs: Node.js, TypeScript, JavaScript, NestJS, Express.js, GraphQL, gRPC, Socket.IO, REST · OpenAPI, WhatsApp API, Postman. Databases &amp; ORMs: PostgreSQL, MySQL, MongoDB, SQLite, Cassandra, AWS RDS, Redshift, TypeORM, Prisma, Zod, Firebase. Messaging &amp; search: Kafka, RabbitMQ, BullMQ, Redis, Redis Pub/Sub, Elasticsearch, Kibana. Cloud &amp; delivery: AWS, Lambda, CloudWatch, Docker, Nginx, PM2, Linode, Vercel, GitHub Actions, CircleCI, Azure DevOps, Husky. Observability &amp; testing: Prometheus, Grafana, Jest, Vitest, Playwright, JWT, OAuth 2.0. Web, analytics &amp; SEO: Astro, Cloudflare, Google Analytics, PostHog, Search Console. Tooling: Git, GitHub, GitLab, Bitbucket, Jira, Mermaid, Figma. AI-assisted: Claude Code, MCP, Copilot, Cursor. Also shipped with: React, Next.js, Tailwind, Bootstrap" width="100%"></p>
-
-<a id="ambitions"></a>
-<p align="center"><img src="assets/headers/09-ambitions.svg" alt="The Next Release" width="100%"></p>
-
-<p align="center"><img src="assets/roadmap.svg" alt="Roadmap: Rust, Go, Spring Boot, DevOps and SEO" width="100%"></p>
-
-<!-- Learning-resource chips, hidden for now:
-<p align="center">
-  <a href="https://doc.rust-lang.org/book/"><img src="https://img.shields.io/badge/The%20Rust%20Book-161b22?style=flat-square&logo=rust&logoColor=FFFFFF" alt="The Rust Book"></a>&nbsp;
-  <a href="https://go.dev/tour/"><img src="https://img.shields.io/badge/A%20Tour%20of%20Go-161b22?style=flat-square&logo=go&logoColor=00ADD8" alt="A Tour of Go"></a>&nbsp;
-  <a href="https://spring.io/guides"><img src="https://img.shields.io/badge/Spring%20Guides-161b22?style=flat-square&logo=springboot&logoColor=6DB33F" alt="Spring Guides"></a>&nbsp;
-  <a href="https://kubernetes.io"><img src="https://img.shields.io/badge/Kubernetes-161b22?style=flat-square&logo=kubernetes&logoColor=326CE5" alt="Kubernetes"></a>&nbsp;
-  <a href="https://developer.hashicorp.com/terraform"><img src="https://img.shields.io/badge/Terraform-161b22?style=flat-square&logo=terraform&logoColor=844FBA" alt="Terraform"></a>&nbsp;
-  <a href="https://helm.sh"><img src="https://img.shields.io/badge/Helm-161b22?style=flat-square&logo=helm&logoColor=FFFFFF" alt="Helm"></a>
-</p>
-<p align="center">
-  <a href="https://argo-cd.readthedocs.io"><img src="https://img.shields.io/badge/Argo%20CD-161b22?style=flat-square&logo=argo&logoColor=EF7B4D" alt="Argo CD"></a>&nbsp;
-  <a href="https://web.dev/articles/vitals"><img src="https://img.shields.io/badge/Core%20Web%20Vitals-161b22?style=flat-square&logo=googlechrome&logoColor=4285F4" alt="Core Web Vitals"></a>&nbsp;
-  <a href="https://developer.chrome.com/docs/lighthouse/overview"><img src="https://img.shields.io/badge/Lighthouse-161b22?style=flat-square&logo=lighthouse&logoColor=F44B21" alt="Lighthouse"></a>&nbsp;
-  <a href="https://search.google.com/search-console/about"><img src="https://img.shields.io/badge/Search%20Console-161b22?style=flat-square&logo=googlesearchconsole&logoColor=458CF5" alt="Search Console"></a>
-</p>
--->
-
-<a id="impact"></a>
-<p align="center"><img src="assets/headers/10-impact.svg" alt="Numbers in Production" width="100%"></p>
-
-<p align="center"><img src="assets/impact.svg" alt="Impact: ~12M entries indexed, 40% lower search latency, 35% faster APIs, 50% faster incident detection, 99.9% uptime, 1M+ messages per quarter, 10x reach, 250K emails in under 10 minutes" width="100%"></p>
-
-<a id="timeline"></a>
-<p align="center"><img src="assets/headers/11-timeline.svg" alt="The Long Version" width="100%"></p>
-
-<p align="center"><img src="assets/timeline.svg" alt="Career timeline from 2017 to present" width="100%"></p>
-
-<a id="milestones"></a>
-<p align="center"><img src="assets/headers/12-milestones.svg" alt="Tagged Releases" width="100%"></p>
-
-<p align="center"><img src="assets/milestones.svg" alt="2020: Graduated, BCA from GGSIPU, New Delhi; MAY 2021: First backend role, Junior Node.js Developer at PrepLadder; Q2 2022: PrepStar award, Best backend performer of the quarter; NOV 2022: Joined OneCX, SDE-2 on INTERCOMM and BridgeQ; APR 2025: Promoted to SDE-3, Sole backend owner, multiplayer platform" width="100%"></p>
-
-<a id="credentials"></a>
-<p align="center"><img src="assets/headers/13-credentials.svg" alt="Recognition &amp; Certifications" width="100%"></p>
-
-<p align="center"><a href="https://www.linkedin.com/in/shreesharma07/details/certifications/"><img src="assets/credentials.svg" alt="PrepStar of the Quarter, Q2 2022 · PrepLadder (Unacademy). ANTHROPIC: Claude with the Anthropic API, Claude Code in Action, Introduction to Agent Skills, Introduction to MCP. HACKERRANK: SQL Advanced, REST API Intermediate, JavaScript Intermediate, Problem Solving Intermediate. OTHER: Ethereum &amp; Solidity Udemy, Jira Fundamentals Atlassian, ITSM · Jira Service Mgmt Atlassian" width="100%"></a></p>
-
-<!-- Holopin board, hidden for now:
-<p align="center">
-  <a href="https://holopin.io/@shreesharma07"><img src="https://holopin.me/shreesharma07" alt="Holopin badges" width="60%"></a>
-</p>
--->
-
-<a id="education"></a>
-<p align="center"><img src="assets/headers/14-education.svg" alt="Where It Started" width="100%"></p>
-
-<p align="center"><a href="https://www.ipu.ac.in"><img src="assets/education/bca.svg" alt="Bachelor of Computer Applications, Guru Gobind Singh Indraprastha University" width="49%"></a><img src="assets/gap.svg" alt="" width="2%"><a href="https://www.cbse.gov.in"><img src="assets/education/school.svg" alt="High School · Information Technology, Central Board of Secondary Education" width="49%"></a></p>
-
-<a id="languages"></a>
-<p align="center"><img src="assets/headers/15-languages.svg" alt="Human Languages" width="100%"></p>
-
-<p align="center"><img src="assets/languages.svg" alt="English: Professional working proficiency. Hindi: Native or bilingual proficiency" width="100%"></p>
-
-<p align="center"><img src="assets/separators/last.svg" alt="BEFORE YOU GO: thanks for reading this far" width="100%"></p>
+<p align="center"> <a href="MORE_ABOUT_ME.md"> <img src="assets/separators/more.svg" alt="MORE ABOUT ME: experience · projects · skills · impact · timeline · credentials" width="100%"></a></p>
 
 <a id="support"></a>
-<p align="center"><img src="assets/headers/16-support.svg" alt="Fuel the Build" width="100%"></p>
+<p align="center"><img src="assets/headers/06-support.svg" alt="Fuel the Build" width="100%"></p>
 
 <p align="center">If my work has helped you, sponsoring me or buying me a coffee keeps it going. Thank you!</p>
 

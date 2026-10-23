@@ -18,7 +18,7 @@
 </style>
 <defs><linearGradient id="u" x1="0" x2="1"><stop offset="0" stop-color="#f0883e"/><stop offset="1" stop-color="#f0883e" stop-opacity="0"/></linearGradient></defs>
 <rect x="0.5" y="44.5" width="1199" height="83" rx="14" fill="#0d1117" stroke="#21262d"/>
-<text x="36" y="93" class="m6 " font-size="18" fill="#f0883e" text-anchor="start">14</text>
+<text x="36" y="93" class="m6 " font-size="18" fill="#f0883e" text-anchor="start">09</text>
 <path d="M65.6 70v32" stroke="#30363d"/>
 <text x="83.6" y="94" class="d7 rise" font-size="30" fill="#e6edf3" text-anchor="start">Where It Started</text>
 <rect class="grow" x="83.6" y="106" width="238.89000000000001" height="2" rx="1" fill="url(#u)"/>
