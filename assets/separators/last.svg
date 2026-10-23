@@ -38,9 +38,9 @@
 <rect x="56" y="44" width="165.2" height="36" rx="18" fill="#161b22" stroke="#f778ba" stroke-opacity=".6"/>
 <circle cx="78" cy="62" r="4" fill="#f778ba" style="animation:pulse 1.8s ease-in-out infinite"/>
 <text x="92" y="67" class="m6 " font-size="14" fill="#e6edf3" text-anchor="start">BEFORE YOU GO</text>
-<text x="56" y="136" class="d7 rise" font-size="42" fill="url(#hl)">Thanks for reading this far</text>
-<text x="56" y="172" class="d5 " font-size="18" fill="#8b949e" text-anchor="start">That is the long version. If any of it resonates, my inbox is always open.</text>
-<text x="56" y="212" class="m4 " font-size="13.5" xml:space="preserve"><tspan fill="#f778ba">$ </tspan><tspan fill="#e6edf3">echo EOF</tspan><tspan fill="#6e7681">   # 10 sections  ·  4 roles  ·  5+ years in production</tspan></text>
+<text x="56" y="138" class="d7 rise" font-size="42" fill="url(#hl)">Thanks for reading this far</text>
+<text x="56" y="180" class="d5 " font-size="18" fill="#8b949e" text-anchor="start">That is the long version. If any of it resonates, my inbox is always open.</text>
+<text x="56" y="218" class="m4 " font-size="13.5" xml:space="preserve"><tspan fill="#f778ba">$ </tspan><tspan fill="#e6edf3">echo EOF</tspan><tspan fill="#6e7681">   # 10 sections  ·  4 roles  ·  5+ years in production</tspan></text>
 <path d="M860 44V216" stroke="#21262d"/>
 <circle class="ring" cx="1030" cy="100" r="40" fill="none" stroke="#58a6ff" stroke-width="1.5"/>
 <circle cx="1030" cy="100" r="40" fill="#58a6ff" fill-opacity=".14" stroke="#58a6ff" stroke-opacity=".7"/>

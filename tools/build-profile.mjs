@@ -1352,12 +1352,12 @@ async function lastBannerSvg(sep) {
   s.raw(`<circle cx="${P + 22}" cy="62" r="4" fill="${sep.accent}" style="animation:pulse 1.8s ease-in-out infinite"/>`);
   s.text('m6', sep.eyebrow, { x: P + 36, y: 67, size: 14, fill: C.text });
   const headline = 'Thanks for reading this far';
-  s.raw(`<text x="${P}" y="136" class="d7 rise" font-size="42" fill="url(#hl)">${xml(headline)}</text>`);
+  s.raw(`<text x="${P}" y="138" class="d7 rise" font-size="42" fill="url(#hl)">${xml(headline)}</text>`);
   s.use('d7', headline);
   const maxW = panelX - P - 40;
-  s.text('d5', 'That is the long version. If any of it resonates, my inbox is always open.', { x: P, y: 172, size: fit('d5', 'That is the long version. If any of it resonates, my inbox is always open.', 18, maxW), fill: C.muted });
+  s.text('d5', 'That is the long version. If any of it resonates, my inbox is always open.', { x: P, y: 180, size: fit('d5', 'That is the long version. If any of it resonates, my inbox is always open.', 18, maxW), fill: C.muted });
   const recap = `${SECTIONS.filter((t) => t.more).length} sections  ·  ${EXPERIENCE.length} roles  ·  ${SUMMARY.facts.find(([k]) => k === 'EXPERIENCE')[1]}`;
-  s.runs('m4', [['$ ', sep.accent], ['echo EOF', C.text], [`   # ${recap}`, C.faint]], { x: P, y: 212, size: 13.5 });
+  s.runs('m4', [['$ ', sep.accent], ['echo EOF', C.text], [`   # ${recap}`, C.faint]], { x: P, y: 218, size: 13.5 });
 
   // right: back to top
   s.raw(`<path d="M${panelX} 44V${H - 44}" stroke="${C.hair}"/>`);
