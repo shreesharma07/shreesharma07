@@ -2,6 +2,12 @@
   "name": "profile-readme-builder",
   "private": true,
   "type": "module",
-  "scripts": { "build": "node build-profile.mjs" },
-  "dependencies": { "subset-font": "^2.4.0" }
+  "scripts": {
+    "build": "node build-profile.mjs",
+    "graphics": "node refresh-graphics.mjs"
+  },
+  "dependencies": {
+    "generate-snake-animation": "3.5.0",
+    "subset-font": "^2.4.0"
+  }
 }
