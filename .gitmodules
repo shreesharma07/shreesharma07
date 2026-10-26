@@ -2,3 +2,4 @@
 	path = workers/gh-profile-worker
 	url = https://github.com/shreesharma07/gh-profile-worker.git
 	branch = main
+	ignore = all
