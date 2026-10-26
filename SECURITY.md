@@ -55,5 +55,5 @@ There is no bug bounty programme, but every responsible report is appreciated.
 <p align="center">
   <b>Thank you for helping keep this repository safe.</b>
   <br><br>
-  <img src="Images/Background/thank-you-no-bg.png" alt="Thank you" height="150">
+  <img src="image/thank-you-no-bg.png" alt="Thank you" height="150">
 </p>

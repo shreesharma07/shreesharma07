@@ -1766,7 +1766,7 @@ ${H.support}
 <p align="center">If my work has helped you, sponsoring me or buying me a coffee keeps it going. Thank you!</p>
 
 <p align="center">
-  ${link(`https://github.com/sponsors/${gh}`, img('Images/Background/thank-you-no-bg.png', 'Thank you', 'height="150"'))}
+  ${link(`https://github.com/sponsors/${gh}`, img('image/thank-you-no-bg.png', 'Thank you', 'height="150"'))}
 </p>
 
 <p align="center">

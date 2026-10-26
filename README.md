@@ -95,7 +95,7 @@
 <p align="center">If my work has helped you, sponsoring me or buying me a coffee keeps it going. Thank you!</p>
 
 <p align="center">
-  <a href="https://github.com/sponsors/shreesharma07"><img src="Images/Background/thank-you-no-bg.png" alt="Thank you" height="150"></a>
+  <a href="https://github.com/sponsors/shreesharma07"><img src="image/thank-you-no-bg.png" alt="Thank you" height="150"></a>
 </p>
 
 <p align="center">
