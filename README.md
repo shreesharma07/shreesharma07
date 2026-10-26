@@ -49,14 +49,14 @@
 
 <p align="center"><a href="https://github.com/shreesharma07"><img src="https://github-readme-stats.vercel.app/api?username=shreesharma07&show_icons=true&count_private=true&rank_icon=github&hide=contribs&line_height=24&card_width=490&theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=a371f7&text_color=c9d1d9&border_radius=16" alt="GitHub stats" width="49%"></a><img src="assets/spacer.svg" alt="" width="2%"><a href="https://github.com/shreesharma07?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreesharma07&layout=compact&langs_count=8&card_width=490&theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=a371f7&text_color=c9d1d9&border_radius=16" alt="Top languages" width="49%"></a></p>
 
-<!-- Animated contribution snake: .github/workflows/snake.yml refreshes ./profile-snake every 12 hours. -->
+<!-- Animated contribution snake: .github/workflows/snake.yml refreshes ./assets/profile-snake every 12 hours. -->
 <p align="center">
-  <a href="https://github.com/shreesharma07"><img src="profile-snake/snake-dark.svg" alt="Animated contribution snake" width="100%"></a>
+  <a href="https://github.com/shreesharma07"><img src="assets/profile-snake/snake-dark.svg" alt="Animated contribution snake" width="100%"></a>
 </p>
 
-<!-- 3D contribution city: .github/workflows/profile-3d.yml commits it to ./profile-3d-contrib. -->
+<!-- 3D contribution city: .github/workflows/profile-3d.yml commits it to ./assets/profile-3d-contrib. -->
 <p align="center">
-  <a href="https://github.com/shreesharma07"><img src="profile-3d-contrib/profile-city.svg" alt="3D contribution city" width="100%"></a>
+  <a href="https://github.com/shreesharma07"><img src="assets/profile-3d-contrib/profile-city.svg" alt="3D contribution city" width="100%"></a>
 </p>
 
 <p align="center">

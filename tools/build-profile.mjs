@@ -1723,14 +1723,14 @@ ${H.coding}
 
 <p align="center">${link(`https://github.com/${gh}`, img(`https://github-readme-stats.vercel.app/api?username=${gh}&show_icons=true&count_private=true&rank_icon=github&hide=contribs&line_height=24&card_width=490&${statsTheme}`, 'GitHub stats', 'width="49%"'))}${img('assets/spacer.svg', '', 'width="2%"')}${link(`https://github.com/${gh}?tab=repositories`, img(`https://github-readme-stats.vercel.app/api/top-langs/?username=${gh}&layout=compact&langs_count=8&card_width=490&${statsTheme}`, 'Top languages', 'width="49%"'))}</p>
 
-<!-- Animated contribution snake: .github/workflows/snake.yml refreshes ./profile-snake every 12 hours. -->
+<!-- Animated contribution snake: .github/workflows/snake.yml refreshes ./assets/profile-snake every 12 hours. -->
 <p align="center">
-  ${link(`https://github.com/${gh}`, img('profile-snake/snake-dark.svg', 'Animated contribution snake', 'width="100%"'))}
+  ${link(`https://github.com/${gh}`, img('assets/profile-snake/snake-dark.svg', 'Animated contribution snake', 'width="100%"'))}
 </p>
 
-<!-- 3D contribution city: .github/workflows/profile-3d.yml commits it to ./profile-3d-contrib. -->
+<!-- 3D contribution city: .github/workflows/profile-3d.yml commits it to ./assets/profile-3d-contrib. -->
 <p align="center">
-  ${link(`https://github.com/${gh}`, img('profile-3d-contrib/profile-city.svg', '3D contribution city', 'width="100%"'))}
+  ${link(`https://github.com/${gh}`, img('assets/profile-3d-contrib/profile-city.svg', '3D contribution city', 'width="100%"'))}
 </p>
 
 <p align="center">
