@@ -2,6 +2,8 @@
 
 `refresh-graphics.sh` regenerates the contribution snake and the 3D city, then commits and pushes them to `main`. It replaces `snake.yml` and `profile-3d.yml`. The stats strip is handled separately by [gh-profile-worker](../../workers/gh-profile-worker), which never touches these two files.
 
+> **Full walkthrough:** [WSL-SETUP.md](WSL-SETUP.md) gives every first-installation step with checks, plus follow-up maintenance and troubleshooting. This page is the short version.
+
 ```mermaid
 flowchart LR
     cron(["WSL cron"]) --> sh["tools/cron/refresh-graphics.sh"]
