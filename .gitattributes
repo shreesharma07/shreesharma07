@@ -1,0 +1,2 @@
+# Shell scripts run in WSL/Linux cron; CRLF would break them.
+*.sh text eol=lf
