@@ -20,7 +20,7 @@
 -->
 
 <!-- Stats strip: values refreshed daily by .github/workflows/profile-stats.yml (last good values in assets/stats.json). -->
-<p align="center"><a href="https://github.com/shreesharma07"><img src="assets/stats.svg" alt="Profile stats: 27.6K profile views, 3,012 hrs coding time, 33 followers, 15 stars" width="100%"></a></p>
+<p align="center"><a href="https://github.com/shreesharma07"><img src="assets/stats.svg" alt="Profile stats: 27.6K profile views, 3,029 hrs coding time, 34 followers, 15 stars" width="100%"></a></p>
 
 <a id="summary"></a>
 <p align="center"><img src="assets/headers/01-summary.svg" alt="The Short Version" width="100%"></p>
