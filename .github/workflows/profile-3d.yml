@@ -2,7 +2,7 @@ name: Generate 3D contribution calendar
 
 on:
   schedule:
-    - cron: "0 18 * * *"
+    - cron: "30 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,7 +18,7 @@ jobs:
       - name: Generate 3D contribution city
         uses: yoshi389111/github-profile-3d-contrib@v0.9.3
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACT_GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           # Three-colour palette (slate, blue, violet) matching the README theme
           SETTING_JSON: .github/profile-3d-settings.json
